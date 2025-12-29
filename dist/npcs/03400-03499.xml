@@ -1,0 +1,3395 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="3401" level="23" type="Monster" name="Greyclaw Kutus" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3402" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3403" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="4035175" sp="968" />
+		<equipment rhand="67" lhand="633" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="40330" hpRegen="17.5347470979605" mp="231" mpRegen="1.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="63" magical="4" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="287" magical="140" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4790" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="21" />
+			<height normal="43.5" />
+		</collision>
+	</npc><npc id="3402" level="22" type="Monster" name="Kutus' Escort" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4191" level="2" />
+			<skill name="Debuff_a" id="4198" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4185" hpRegen="17.1576881427546" mp="218" mpRegen="1.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="154" magical="26" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="139" magical="136" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="3403" level="22" type="Monster" name="Kutus' Pawn" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4727" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="123" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6247" hpRegen="17.1576881427546" mp="218" mpRegen="1.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="231" magical="58" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="139" magical="136" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="3404" level="23" type="RaidBoss" name="Tracker Captain Sharuk" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3405" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="3406" count="3" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4743" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="538023" sp="129" />
+		<equipment rhand="291" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="40330" hpRegen="17.5347470979605" mp="231" mpRegen="1.5" />
+			<speed>
+				<walk ground="52" />
+				<run ground="190" />
+			</speed>
+			<attack physical="63" magical="4" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="287" magical="140" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4929" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="468" min="1" max="1" chance="11.29" /> 
+				<item id="433" min="1" max="1" chance="5.967" /> 
+				<item id="434" min="1" max="1" chance="4.905" /> 
+				<item id="183" min="1" max="1" chance="4.652" /> 
+				<item id="181" min="1" max="1" chance="4.647" /> 
+				<item id="179" min="1" max="1" chance="4.644" /> 
+				<item id="86" min="1" max="1" chance="4.593" /> 
+				<item id="182" min="1" max="1" chance="4.568" /> 
+				<item id="180" min="1" max="1" chance="4.565" /> 
+				<item id="185" min="1" max="1" chance="4.533" /> 
+				<item id="184" min="1" max="1" chance="4.526" /> 
+				<item id="435" min="1" max="1" chance="4.296" /> 
+				<item id="466" min="1" max="1" chance="3.024" /> 
+				<item id="467" min="1" max="1" chance="1.782" /> 
+				<item id="955" min="1" max="1" chance="42.47" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3405" level="22" type="Monster" name="Sharuk's Tracker" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3123" hpRegen="17.1576881427546" mp="218" mpRegen="1.5" />
+			<speed>
+				<walk ground="43" />
+				<run ground="190" />
+			</speed>
+			<attack physical="116" magical="15" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="139" magical="136" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="3406" level="22" type="Monster" name="Sharuk's Marksman" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2507" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4185" hpRegen="17.1576881427546" mp="218" mpRegen="1.5" />
+			<speed>
+				<walk ground="43" />
+				<run ground="190" />
+			</speed>
+			<attack physical="116" magical="15" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="139" magical="136" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" grown="12" />
+			<height normal="22" grown="27" />
+		</collision>
+	</npc><npc id="3407" level="21" type="RaidBoss" name="Sukar Ratman Chief" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3408" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="3409" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="1452604" sp="348" />
+		<equipment rhand="216" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="37886" hpRegen="16.8269664693931" mp="205" mpRegen="1.5" />
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<attack physical="53" magical="3" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="269" magical="131" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4927" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="605" min="1" max="1" chance="8.073" /> 
+				<item id="1123" min="1" max="1" chance="3.751" /> 
+				<item id="222" min="1" max="1" chance="2.503" /> 
+				<item id="6387" min="4" max="12" chance="17.01" /> 
+				<item id="955" min="1" max="1" chance="12.93" /> 
+				<item id="956" min="7" max="21" chance="7.415" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3408" level="20" type="Monster" name="Sukar Ratman Escort" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4733" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="216" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="5895" hpRegen="16.5400323223535" mp="192" mpRegen="1.2" />
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<attack physical="195" magical="38" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="130" magical="127" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="18.7" />
+		</collision>
+	</npc><npc id="3409" level="20" type="Monster" name="Sukar Ratman Priest" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4783" level="2" />
+			<skill name="SelfRangeBuff_a" id="4211" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="179" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="5895" hpRegen="16.5400323223535" mp="192" mpRegen="1.2" />
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<attack physical="98" magical="10" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="130" magical="127" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="18.7" />
+		</collision>
+	</npc><npc id="3410" level="25" type="RaidBoss" name="Ikuntai" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3411" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="3412" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="2" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="2615583" sp="627" />
+		<equipment rhand="150" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="56644" hpRegen="24.0862326352072" mp="259" mpRegen="1.5" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<attack physical="138" magical="16" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="306" magical="149" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4853" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="39" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="880" min="1" max="1" chance="18.64" /> 
+				<item id="849" min="1" max="1" chance="12.9" /> 
+				<item id="912" min="1" max="1" chance="9.412" /> 
+				<item id="157" min="1" max="1" chance="0.75" /> 
+				<item id="186" min="1" max="1" chance="0.75" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3411" level="24" type="Monster" name="Ikuntai's Servitor" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4780" level="2" />
+			<skill name="SelfRangeBuff_a" id="4214" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8725" hpRegen="23.4374674791976" mp="245" mpRegen="1.5" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="254" magical="59" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="148" magical="144" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="189" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4780" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="3412" level="24" type="Monster" name="Ikuntai's Pawn" title="Follower of Destruction">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="299" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4362" hpRegen="23.4374674791976" mp="245" mpRegen="1.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="254" magical="59" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="148" magical="144" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" grown="12" />
+			<height normal="28" grown="33" />
+		</collision>
+	</npc><npc id="3413" level="25" type="RaidBoss" name="Zombie Lord Crowl" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3414" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3415" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="PhysicalSpecial_b" id="4741" level="2" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="2615583" sp="627" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="43316" hpRegen="18.4385313667577" mp="259" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="190" />
+			</speed>
+			<attack physical="74" magical="5" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="306" magical="149" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4846" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="21.25" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="144" min="1" max="1" chance="7.604" /> 
+				<item id="436" min="1" max="1" chance="5.908" /> 
+				<item id="124" min="1" max="1" chance="5.604" /> 
+				<item id="130" min="1" max="1" chance="5.594" /> 
+				<item id="127" min="1" max="1" chance="5.572" /> 
+				<item id="469" min="1" max="1" chance="1.996" /> 
+				<item id="83" min="1" max="1" chance="0.75" /> 
+				<item id="6576" min="1" max="1" chance="23.18" /> 
+				<item id="2026" min="120" max="360" chance="1.034" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3414" level="24" type="Monster" name="Evil Spirit Archer" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4756" level="2" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4475" hpRegen="17.9607701717791" mp="245" mpRegen="1.5" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<attack physical="137" magical="17" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="148" magical="144" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="3415" level="24" type="Monster" name="Evil Spirit Warrior" title="Follower of Destruction">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3340" hpRegen="17.9607701717791" mp="245" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="137" magical="17" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="148" magical="144" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc><npc id="3416" level="20" type="RaidBoss" name="Zombie Lord Ferkel" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3417" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="3418" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="2" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="1452604" sp="348" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="36847" hpRegen="16.5400323223535" mp="192" mpRegen="1.2" />
+			<speed>
+				<walk ground="15" />
+				<run ground="190" />
+			</speed>
+			<attack physical="49" magical="2" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="261" magical="127" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4899" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="347" min="1" max="1" chance="6.386" /> 
+				<item id="156" min="1" max="1" chance="3.213" /> 
+				<item id="167" min="1" max="1" chance="2.75" /> 
+				<item id="178" min="1" max="1" chance="2.501" /> 
+				<item id="376" min="1" max="1" chance="2.128" /> 
+				<item id="955" min="1" max="1" chance="14.27" /> 
+				<item id="6576" min="1" max="1" chance="6.907" /> 
+				<item id="6575" min="1" max="1" chance="0.75" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3417" level="19" type="Monster" name="Ferkel's Warrior" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4743" level="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="5747" hpRegen="16.2943663177076" mp="183" mpRegen="1.2" />
+			<speed>
+				<walk ground="15" />
+				<run ground="190" />
+			</speed>
+			<attack physical="179" magical="34" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="126" magical="123" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc><npc id="3418" level="19" type="Monster" name="Ferkel's Priest" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4783" level="1" />
+			<skill name="SelfRangeBuff_a" id="4213" level="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="5747" hpRegen="16.2943663177076" mp="183" mpRegen="1.2" />
+			<speed>
+				<walk ground="15" />
+				<run ground="190" />
+			</speed>
+			<attack physical="90" magical="8" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="126" magical="123" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc><npc id="3419" level="97" type="Monster" name="Execution Grounds Watchman Guillotine" title="Lord of Destruction">
+		
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="4" />
+			<skill name="SelfBuff_a" id="4175" level="4" />
+			<skill name="PhysicalSpecial_a" id="4726" level="4" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4736" level="4" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="96" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="138899" hpRegen="66.9859801832901" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="327" magical="52" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="410" magical="200" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4833" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="58" />
+		</collision>
+	</npc><npc id="3420" level="35" type="RaidBoss" name="Flame Lord Shadar" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3421" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="3422" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="DDMagic_a" id="4192" level="3" />
+			<skill name="SelfRangeDebuff_a" id="4182" level="3" />
+			<skill name="SelfRangeDebuffAnother_a" id="4186" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="5476117" sp="1314" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="69449" hpRegen="26.794392073316" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="164" magical="13" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="410" magical="200" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="189" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4847" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="28" />
+			<height normal="75" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="262" min="1" max="1" chance="8.308" /> 
+				<item id="438" min="1" max="1" chance="3.961" /> 
+				<item id="4594" min="1" max="1" chance="13" /> 
+				<item id="4595" min="1" max="1" chance="12.48" /> 
+				<item id="4596" min="1" max="1" chance="12.44" /> 
+				<item id="1953" min="105" max="315" chance="8.808" /> 
+				<item id="2053" min="108" max="324" chance="2.247" /> 
+				<item id="6574" min="1" max="1" chance="2.222" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3421" level="34" type="Monster" name="Claws of Shadar" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4731" level="3" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="10526" hpRegen="25.6128307622386" mp="387" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="607" magical="193" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="199" magical="195" />
+			<attribute>
+				<defence fire="20" water="20" wind="53" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="3422" level="34" type="Monster" name="Whip of Shadar" title="Follower of Destruction">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="5263" hpRegen="25.6128307622386" mp="387" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="303" magical="48" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="199" magical="195" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="189" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="3423" level="35" type="Monster" name="Soul Collector Acheron" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3424" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3425" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeHold_a" id="4197" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="2868590" sp="688" />
+		<equipment rhand="192" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="69449" hpRegen="26.794392073316" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="70" />
+				<run ground="160" />
+			</speed>
+			<attack physical="164" magical="13" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="410" magical="200" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-83" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4869" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="63" />
+		</collision>
+	</npc><npc id="3424" level="34" type="Monster" name="Soul Slasher" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4196" level="3" />
+			<skill name="Debuff_a" id="4203" level="3" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7052" hpRegen="25.6128307622386" mp="387" mpRegen="1.8" />
+			<speed>
+				<walk ground="100" />
+				<run ground="140" />
+			</speed>
+			<attack physical="405" magical="86" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="199" magical="195" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" grown="42" />
+		</collision>
+	</npc><npc id="3425" level="34" type="Monster" name="Soul Strainer" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4727" level="3" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="10526" hpRegen="25.6128307622386" mp="387" mpRegen="1.8" />
+			<speed>
+				<walk ground="15" />
+				<run ground="155" />
+			</speed>
+			<attack physical="607" magical="193" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="199" magical="195" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" grown="15.5" />
+			<height normal="40" grown="48.5" />
+		</collision>
+	</npc><npc id="3426" level="60" type="Monster" name="Lord Ishka" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3427" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="3428" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeHold_a" id="4197" level="6" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="4102548" sp="984" />
+		<equipment rhand="1472" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="221100" hpRegen="72.9643823396131" mp="1036" mpRegen="2.4" />
+			<speed>
+				<walk ground="100" />
+				<run ground="190" />
+			</speed>
+			<attack physical="785" magical="134" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="743" magical="362" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4947" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="22" />
+			<height normal="67" />
+		</collision>
+	</npc><npc id="3427" level="59" type="Monster" name="Ishka's Elite Officer" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4733" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="34433" hpRegen="71.371053660127" mp="1007" mpRegen="2.4" />
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<attack physical="2995" magical="1962" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="364" magical="355" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="3428" level="59" type="Monster" name="Ishka's Elite Soldier" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4743" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="150" lhand="103" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="34433" hpRegen="71.371053660127" mp="1007" mpRegen="2.4" />
+			<speed>
+				<walk ground="40" />
+				<run ground="190" />
+			</speed>
+			<attack physical="2995" magical="1962" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="364" magical="355" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="30.5" />
+		</collision>
+	</npc><npc id="3429" level="59" type="RaidBoss" name="Demon Kuri" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3430" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="3431" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="5" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="1342137" sp="322" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="215207" hpRegen="71.371053660127" mp="1007" mpRegen="2.4" />
+			<speed>
+				<walk ground="37" />
+				<run ground="200" />
+			</speed>
+			<attack physical="749" magical="123" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="728" magical="355" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="189" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4859" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="50" />
+			<height normal="180" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="5291" min="1" max="1" chance="5.372" /> 
+				<item id="5295" min="1" max="1" chance="4.054" /> 
+				<item id="5296" min="1" max="1" chance="3.205" /> 
+				<item id="5290" min="1" max="1" chance="1.385" /> 
+				<item id="80" min="1" max="1" chance="1.003" /> 
+				<item id="150" min="1" max="1" chance="0.993" /> 
+				<item id="6570" min="1" max="1" chance="1.63" /> 
+				<item id="729" min="1" max="1" chance="1.61" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3430" level="58" type="Monster" name="Kuri's Wife" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4786" level="5" />
+			<skill name="SelfRangeBuff_a" id="4213" level="5" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="33456" hpRegen="69.6906910362243" mp="977" mpRegen="2.4" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1426" magical="460" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="357" magical="348" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="189" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="3431" level="58" type="Monster" name="Devil Blader of Chaos" title="Follower of Destruction">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="16728" hpRegen="69.6906910362243" mp="977" mpRegen="2.4" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1426" magical="460" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="357" magical="348" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc><npc id="3432" level="60" type="Monster" name="Ancient Weird Drake" title="Lord of Destruction">
+		
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="6" />
+			<skill name="SelfBuff_a" id="4175" level="6" />
+			<skill name="PhysicalSpecial_a" id="4731" level="6" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="6" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<acquire exp="4102548" sp="984" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="442200" hpRegen="182.410955849033" mp="1036" mpRegen="2.4" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1570" magical="534" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="743" magical="362" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4874" level="1" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="4276" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="45" />
+			<height normal="150" />
+		</collision>
+	</npc><npc id="3433" level="50" type="RaidBoss" name="Slaughter Lord Gato" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3434" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3435" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4741" level="5" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="7064466" sp="1695" />
+		<equipment rhand="71" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="155046" hpRegen="53.8546339421093" mp="747" mpRegen="2.1" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="458" magical="57" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="601" magical="293" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4840" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="57" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="2406" min="1" max="1" chance="7.267" /> 
+				<item id="2397" min="1" max="1" chance="3.868" /> 
+				<item id="2402" min="1" max="1" chance="2.344" /> 
+				<item id="92" min="1" max="1" chance="2.07" /> 
+				<item id="91" min="1" max="1" chance="2.053" /> 
+				<item id="4611" min="1" max="1" chance="13.47" /> 
+				<item id="4612" min="1" max="1" chance="13.21" /> 
+				<item id="4610" min="1" max="1" chance="12.68" /> 
+				<item id="6574" min="1" max="1" chance="3.414" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3434" level="49" type="Monster" name="Gato's Sniper" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4761" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="273" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15873" hpRegen="51.7193112926872" mp="720" mpRegen="2.1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="863" magical="208" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="293" magical="286" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="3435" level="49" type="Monster" name="Gato's Troop Captain" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="69" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="11846" hpRegen="51.7193112926872" mp="720" mpRegen="2.1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="863" magical="208" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="293" magical="286" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" grown="16" />
+			<height normal="27" grown="32" />
+		</collision>
+	</npc><npc id="3436" level="49" type="RaidBoss" name="Ketra's Commander Atis" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3437" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3438" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4746" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="6829345" sp="1639" />
+		<equipment rhand="84" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="148076" hpRegen="51.7193112926872" mp="720" mpRegen="2.1" />
+			<speed>
+				<walk ground="33" />
+				<run ground="170" />
+			</speed>
+			<attack physical="431" magical="52" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="587" magical="286" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4799" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="886" min="1" max="1" chance="8.21" /> 
+				<item id="286" min="1" max="1" chance="3.797" /> 
+				<item id="855" min="1" max="1" chance="3.016" /> 
+				<item id="119" min="1" max="1" chance="1.542" /> 
+				<item id="4608" min="1" max="1" chance="13.16" /> 
+				<item id="4609" min="1" max="1" chance="12.86" /> 
+				<item id="4607" min="1" max="1" chance="12.75" /> 
+				<item id="6573" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3437" level="48" type="Monster" name="Ketra Marksman" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4761" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="279" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15133" hpRegen="49.5883641293912" mp="692" mpRegen="2.1" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<attack physical="810" magical="191" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="287" magical="280" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="3438" level="48" type="Monster" name="Ketra Raider" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="128" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="11293" hpRegen="49.5883641293912" mp="692" mpRegen="2.1" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<attack physical="810" magical="191" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="287" magical="280" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="24" grown="28.8" />
+		</collision>
+	</npc><npc id="3439" level="45" type="RaidBoss" name="Beacon of Blue Sky" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3440" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3441" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="PhysicalSpecial_b" id="4742" level="4" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="5918766" sp="1420" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="121183" hpRegen="43.342559280568" mp="610" mpRegen="2.1" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="334" magical="36" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="533" magical="260" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4810" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="50" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="608" min="1" max="1" chance="5.507" /> 
+				<item id="231" min="1" max="1" chance="4.594" /> 
+				<item id="233" min="1" max="1" chance="4.591" /> 
+				<item id="64" min="1" max="1" chance="1.719" /> 
+				<item id="4604" min="1" max="1" chance="15.7" /> 
+				<item id="4605" min="1" max="1" chance="15.28" /> 
+				<item id="4606" min="1" max="1" chance="14.7" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3440" level="44" type="Monster" name="Beacon's Shooter" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4757" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="279" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="12313" hpRegen="41.3470424277186" mp="584" mpRegen="2.1" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<attack physical="624" magical="131" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="260" magical="254" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="3441" level="44" type="Monster" name="Beacon's Warrior" title="Follower of Destruction">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="150" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="9189" hpRegen="41.3470424277186" mp="584" mpRegen="2.1" />
+			<speed>
+				<walk ground="40" />
+				<run ground="160" />
+			</speed>
+			<attack physical="624" magical="131" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="260" magical="254" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="3442" level="43" type="RaidBoss" name="Earth Protector Panathen" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3443" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="3444" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="DDMagic_a" id="4191" level="4" />
+			<skill name="SelfRangeDebuff_a" id="4183" level="4" />
+			<skill name="SelfRangeDebuffAnother_a" id="4189" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="3818045" sp="916" />
+		<equipment rhand="183" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="108760" hpRegen="39.4112754681274" mp="557" mpRegen="2.1" />
+			<speed>
+				<walk ground="15" />
+				<run ground="170" />
+			</speed>
+			<attack physical="292" magical="30" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="507" magical="248" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4863" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="16" />
+			<height normal="31" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="325" min="1" max="1" chance="30.59" /> 
+				<item id="440" min="1" max="1" chance="14" /> 
+				<item id="1970" min="3" max="27" chance="34.31" /> 
+				<item id="2088" min="3" max="27" chance="11.25" /> 
+				<item id="6574" min="1" max="1" chance="9.94" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3443" level="42" type="Monster" name="Panathen's Knight" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4721" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="5130" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="16462" hpRegen="37.543530210746" mp="531" mpRegen="2.1" />
+			<speed>
+				<walk ground="18" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1088" magical="433" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="247" magical="241" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="26" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="3444" level="42" type="Monster" name="Panathen's Protectors" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="5127" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8231" hpRegen="37.543530210746" mp="531" mpRegen="2.1" />
+			<speed>
+				<walk ground="18" />
+				<run ground="170" />
+			</speed>
+			<attack physical="544" magical="108" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="247" magical="241" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="28" />
+		</collision>
+	</npc><npc id="3445" level="25" type="RaidBoss" name="Betrayer of Urutu Freki" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3446" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="3447" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="RangeHold_a" id="4197" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="2615583" sp="627" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="43316" hpRegen="18.4385313667577" mp="259" mpRegen="1.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+			<attack physical="74" magical="5" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="306" magical="149" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4954" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="29.7" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="278" min="1" max="1" chance="11.32" /> 
+				<item id="628" min="1" max="1" chance="7.324" /> 
+				<item id="47" min="1" max="1" chance="3.604" /> 
+				<item id="956" min="12" max="36" chance="14.99" /> 
+				<item id="2029" min="162" max="486" chance="1.541" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3446" level="24" type="Monster" name="Freki's Vampire Bat" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4743" level="2" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6680" hpRegen="17.9607701717791" mp="245" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="190" />
+			</speed>
+			<attack physical="273" magical="69" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="148" magical="144" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="33.5" />
+		</collision>
+	</npc><npc id="3447" level="24" type="Monster" name="Freki's Wild Bear" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4728" level="2" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6680" hpRegen="17.9607701717791" mp="245" mpRegen="1.5" />
+			<speed>
+				<walk ground="40" />
+				<run ground="190" />
+			</speed>
+			<attack physical="273" magical="69" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="148" magical="144" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="3448" level="39" type="RaidBoss" name="Nellis' Vengeful Spirit" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3449" count="3" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeHold_a" id="4197" level="3" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="5476117" sp="1314" />
+		<equipment rhand="8532" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="86871" hpRegen="32.4117473308651" mp="463" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+			<attack physical="220" magical="17" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="457" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="80" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5026" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="28.1" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="2454" min="1" max="1" chance="43.28" /> 
+				<item id="62" min="1" max="1" chance="22.96" /> 
+				<item id="2429" min="1" max="1" chance="14.7" /> 
+				<item id="2430" min="1" max="1" chance="11.12" /> 
+				<item id="2431" min="1" max="1" chance="8.868" /> 
+				<item id="2432" min="1" max="1" chance="7.279" /> 
+				<item id="2433" min="1" max="1" chance="6.331" /> 
+				<item id="2452" min="1" max="1" chance="5.496" /> 
+				<item id="2453" min="1" max="1" chance="4.855" /> 
+				<item id="298" min="1" max="1" chance="2.482" /> 
+				<item id="302" min="1" max="1" chance="2.448" /> 
+				<item id="96" min="1" max="1" chance="2.406" /> 
+				<item id="952" min="1" max="3" chance="39.26" /> 
+				<item id="951" min="1" max="1" chance="10.48" /> 
+				<item id="6573" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3449" level="38" type="Monster" name="Nellis' Follower" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4723" level="3" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="13134" hpRegen="30.8726873073006" mp="447" mpRegen="1.8" />
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<attack physical="818" magical="258" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="223" magical="217" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="103" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="16.5" />
+		</collision>
+	</npc><npc id="3450" level="37" type="RaidBoss" name="Rayito the Looter" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3451" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="3452" count="3" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="RangeHold_a" id="4197" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="5476117" sp="1314" />
+		<equipment rhand="67" lhand="633" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="77592" hpRegen="29.4232868171158" mp="432" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+			<attack physical="190" magical="15" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="433" magical="211" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5027" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="16" />
+			<height normal="33.2" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="281" min="1" max="1" chance="8.87" /> 
+				<item id="397" min="1" max="1" chance="3.61" /> 
+				<item id="2387" min="1" max="1" chance="1.753" /> 
+				<item id="6574" min="1" max="1" chance="9.087" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3451" level="36" type="Monster" name="Rayito's Guard Captain" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4728" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="123" lhand="19" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="11740" hpRegen="28.0640450927111" mp="417" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="190" />
+			</speed>
+			<attack physical="706" magical="225" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="211" magical="206" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14.5" />
+			<height normal="28" />
+		</collision>
+	</npc><npc id="3452" level="36" type="Monster" name="Rayito's Henchman" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4194" level="3" />
+			<skill name="Debuff_a" id="4202" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="66" lhand="102" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7866" hpRegen="28.0640450927111" mp="417" mpRegen="1.8" />
+			<speed>
+				<walk ground="30" />
+				<run ground="190" />
+			</speed>
+			<attack physical="471" magical="100" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="211" magical="206" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="6" />
+			<height normal="16.6" />
+		</collision>
+	</npc><npc id="3453" level="80" type="RaidBoss" name="Ketra's Hero Hekaton" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3454" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3455" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4746" level="9" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="1670060147" sp="400814" />
+		<equipment rhand="6719" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="300327" hpRegen="92.3387631310317" mp="1674" mpRegen="3" />
+			<speed>
+				<walk ground="24" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1445" magical="281" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="1024" magical="500" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4903" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="6" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="17" />
+			<height normal="46.2" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6680" min="1" max="1" chance="1.604" /> 
+				<item id="6367" min="1" max="1" chance="0.75" /> 
+				<item id="3936" min="1" max="1" chance="17.67" /> 
+				<item id="6707" min="15" max="45" chance="8.904" /> 
+				<item id="6691" min="12" max="36" chance="3.987" /> 
+				<item id="6578" min="1" max="1" chance="1.611" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3454" level="79" type="Monster" name="Hekaton's Scout" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="288" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="31866" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="190" />
+			</speed>
+			<attack physical="2849" magical="1106" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="506" magical="493" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="3455" level="79" type="Monster" name="Hekaton's Servant" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="79" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="23781" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="190" />
+			</speed>
+			<attack physical="2849" magical="1106" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="506" magical="493" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="29" />
+		</collision>
+	</npc><npc id="3456" level="80" type="RaidBoss" name="Varka's Hero Shadith" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3457" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="3458" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="DDMagic_a" id="4195" level="9" />
+			<skill name="SelfRangeDebuff_a" id="4184" level="9" />
+			<skill name="SelfRangeDebuffAnother_a" id="4188" level="9" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="1670060147" sp="400814" />
+		<equipment rhand="6716" /> 
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="300327" hpRegen="92.3387631310317" mp="1674" mpRegen="3" />
+			<speed>
+				<walk ground="36" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1445" magical="281" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="45" />
+			<defence physical="1024" magical="500" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4907" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="6" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="17" />
+			<height normal="47.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="6675" min="1" max="1" chance="2.052" /> 
+				<item id="6674" min="1" max="1" chance="1.246" /> 
+				<item id="6367" min="1" max="1" chance="0.3" /> 
+				<item id="960" min="1" max="1" chance="9.301" /> 
+				<item id="6702" min="28" max="84" chance="6.176" /> 
+				<item id="6701" min="60" max="180" chance="1.837" /> 
+				<item id="6691" min="27" max="81" chance="1.132" /> 
+				<item id="959" min="1" max="1" chance="0.75" /> 
+				<item id="6577" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3457" level="79" type="Monster" name="Shadith' Escort Captain" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4741" level="8" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="142" lhand="6918" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="47562" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="34" />
+				<run ground="190" />
+			</speed>
+			<attack physical="5698" magical="4424" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="506" magical="493" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="16" />
+			<height normal="41" />
+		</collision>
+	</npc><npc id="3458" level="79" type="Monster" name="Shadith' Sentinel" title="Follower of Destruction">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2504" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="23781" hpRegen="91.4930863014358" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="44" />
+				<run ground="190" />
+			</speed>
+			<attack physical="2849" magical="1106" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="506" magical="493" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="16" />
+			<height normal="38" />
+		</collision>
+	</npc><npc id="3459" level="72" type="RaidBoss" name="Doom Blade Thanatos" title="Lord of Destruction">
+		
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<param name="doSummonNPC" value="1" />
+			<skill name="SelfRangeCancel_a" id="4177" level="7" />
+			<skill name="SelfBuff_a" id="4175" level="7" />
+			<skill name="PhysicalSpecial_a" id="4720" level="7" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4735" level="7" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="244058947" sp="58574" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="766919" hpRegen="299.92321639468" mp="1410" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="4561" magical="3255" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="916" magical="447" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-83" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4880" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="32.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="5312" min="1" max="1" chance="6.909" /> 
+				<item id="5317" min="1" max="1" chance="5.212" /> 
+				<item id="5315" min="1" max="1" chance="2.995" /> 
+				<item id="236" min="1" max="1" chance="2.058" /> 
+				<item id="6578" min="1" max="1" chance="2.512" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3460" level="75" type="Monster" name="Kernon" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3461" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="3462" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="DDMagic_a" id="4195" level="8" />
+			<skill name="SelfRangeDebuff_a" id="4182" level="8" />
+			<skill name="SelfRangeDebuffAnother_a" id="4190" level="8" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="7846722" sp="1883" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="397437" hpRegen="123.216289543832" mp="1507" mpRegen="3" />
+			<speed>
+				<walk ground="37" />
+				<run ground="170" />
+			</speed>
+			<attack physical="2451" magical="869" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="958" magical="467" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="189" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4809" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="24" grown="29" />
+			<height normal="40" grown="48" />
+		</collision>
+	</npc><npc id="3461" level="74" type="Monster" name="Taliadon" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4168" level="7" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="62863" hpRegen="122.142751323234" mp="1475" mpRegen="3" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="9588" magical="13630" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="472" magical="460" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc><npc id="3462" level="74" type="Monster" name="Vemsk" title="Follower of Destruction">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="142" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="31431" hpRegen="122.142751323234" mp="1475" mpRegen="3" />
+			<speed>
+				<walk ground="27" />
+				<run ground="170" />
+			</speed>
+			<attack physical="4794" magical="3408" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="472" magical="460" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-32" dark="53" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" grown="14.5" />
+			<height normal="31" grown="36" />
+		</collision>
+	</npc><npc id="3463" level="70" type="Monster" name="Meanas Anor" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3464" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="3465" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="DDMagic_a" id="4195" level="7" />
+			<skill name="SelfRangeDebuff_a" id="4184" level="7" />
+			<skill name="SelfRangeDebuffAnother_a" id="4188" level="7" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="373386" hpRegen="117.68436242886" mp="1345" mpRegen="2.7" />
+			<speed>
+				<walk ground="70" />
+				<run ground="190" />
+			</speed>
+			<attack physical="2155" magical="717" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="888" magical="433" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4962" level="1" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="58" />
+			<height normal="108" />
+		</collision>
+	</npc><npc id="3464" level="69" type="Monster" name="Swamp Wyvern" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="DDMagic_a" id="4196" level="6" />
+			<skill name="Debuff_a" id="4204" level="6" />
+		</parameters>
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39454" hpRegen="116.468584127042" mp="1314" mpRegen="2.7" />
+			<speed>
+				<walk ground="70" />
+				<run ground="190" />
+			</speed>
+			<attack physical="5571" magical="4930" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="40" />
+			<defence physical="437" magical="426" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="29" />
+			<height normal="72" />
+		</collision>
+	</npc><npc id="3465" level="69" type="Monster" name="Swamp Succubus" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="HealMagic_a" id="4780" level="6" />
+			<skill name="SelfRangeBuff_a" id="4211" level="6" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="58887" hpRegen="116.468584127042" mp="1314" mpRegen="2.7" />
+			<speed>
+				<walk ground="60" />
+				<run ground="190" />
+			</speed>
+			<attack physical="4179" magical="2774" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="437" magical="426" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="189" />
+				<attack type="DARK" value="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="3466" level="25" type="RaidBoss" name="Mammon Collector Talos" title="Lord of Destruction">
+		
+		<parameters>
+			<minions name="Privates">
+				<npc id="3467" count="3" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeHold_a" id="4197" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="2615583" sp="627" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="43316" hpRegen="18.4385313667577" mp="259" mpRegen="1.5" />
+			<speed>
+				<walk ground="41" />
+				<run ground="190" />
+			</speed>
+			<attack physical="74" magical="5" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="306" magical="149" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="53" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4983" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4444" level="2" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="239" min="1" max="1" chance="5.694" /> 
+				<item id="241" min="1" max="1" chance="5.644" /> 
+				<item id="238" min="1" max="1" chance="5.632" /> 
+				<item id="223" min="1" max="1" chance="5.579" /> 
+				<item id="415" min="1" max="1" chance="4.796" /> 
+				<item id="416" min="1" max="1" chance="2.791" /> 
+				<item id="393" min="1" max="1" chance="1.051" /> 
+				<item id="394" min="1" max="1" chance="0.75" /> 
+				<item id="6575" min="1" max="1" chance="2.495" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3467" level="22" type="Monster" name="Talos' Pawn" title="Follower of Destruction">
+		
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4743" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6247" hpRegen="17.1576881427546" mp="218" mpRegen="1.5" />
+			<speed>
+				<walk ground="80" />
+				<run ground="190" />
+			</speed>
+			<attack physical="231" magical="58" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="40" />
+			<defence physical="139" magical="136" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="-13" dark="53" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="3" /> 
+			<skill id="4444" level="2" /> 
+			<skill id="4273" level="3" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="3468" level="88" type="Monster" name="Jermann" title="Weakened Ruler">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="134" />
+			<param name="MoveAroundSocial1" value="134" />
+			<skill name="Skill01_ID" id="14940" level="1" />
+			<skill name="Skill02_ID" id="14943" level="1" />
+			<skill name="Skill03_ID" id="23381" level="1" />
+			<skill name="Skill04_ID" id="23386" level="1" />
+			<skill name="Skill05_ID" id="23397" level="1" />
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="50000" hpRegen="0.5" mp="1846" mpRegen="0.5" />
+			<speed>
+				<walk ground="34" />
+				<run ground="200" />
+			</speed>
+			<attack physical="4393" magical="1" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="30" accuracy="5" />
+			<defence physical="440" magical="244" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>NPC_TO_PC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="35" />
+			<height normal="74" />
+		</collision>
+	</npc><npc id="3469" level="93" type="Monster" name="Jermann" title="Weakened Ruler">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="134" />
+			<param name="MoveAroundSocial1" value="134" />
+			<skill name="Skill01_ID" id="14941" level="1" />
+			<skill name="Skill02_ID" id="14944" level="1" />
+			<skill name="Skill03_ID" id="23381" level="2" />
+			<skill name="Skill04_ID" id="23386" level="2" />
+			<skill name="Skill05_ID" id="23397" level="1" />
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="60000" hpRegen="0.5" mp="2023" mpRegen="0.5" />
+			<speed>
+				<walk ground="34" />
+				<run ground="200" />
+			</speed>
+			<attack physical="5272" magical="1" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="30" accuracy="5" />
+			<defence physical="528" magical="293" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>NPC_TO_PC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="35" />
+			<height normal="74" />
+		</collision>
+	</npc><npc id="3470" level="98" type="Monster" name="Jermann" title="Weakened Ruler">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="134" />
+			<param name="MoveAroundSocial1" value="134" />
+			<skill name="Skill01_ID" id="14942" level="1" />
+			<skill name="Skill02_ID" id="23482" level="1" />
+			<skill name="Skill03_ID" id="23381" level="3" />
+			<skill name="Skill04_ID" id="23386" level="3" />
+			<skill name="Skill05_ID" id="23397" level="1" />
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="70000" hpRegen="0.5" mp="2205" mpRegen="0.5" />
+			<speed>
+				<walk ground="34" />
+				<run ground="200" />
+			</speed>
+			<attack physical="6326" magical="1" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="30" accuracy="5" />
+			<defence physical="633" magical="351" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>NPC_TO_PC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="35" />
+			<height normal="74" />
+		</collision>
+	</npc><npc id="3471" level="75" type="Monster" name="Jermann" title="35% Drop">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="134" />
+			<param name="MoveAroundSocial1" value="134" />
+			<skill name="Skill01_ID" id="14940" level="1" />
+			<skill name="Skill02_ID" id="14943" level="1" />
+			<skill name="Skill05_ID" id="14948" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="13886" hpRegen="0.5" mp="2023" mpRegen="0.5" />
+			<speed>
+				<walk ground="34" />
+				<run ground="200" />
+			</speed>
+			<attack physical="5272" magical="941" critical="5" attackSpeed="303.6" range="40" type="SWORD" distance="80" width="120" random="30" accuracy="6" />
+			<defence physical="528" magical="293" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>NPC_TO_PC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="35" />
+			<height normal="74" />
+		</collision>
+	</npc><npc id="3472" level="80" type="Monster" name="Jermann" title="50% Drop">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="134" />
+			<param name="MoveAroundSocial1" value="134" />
+			<skill name="Skill01_ID" id="14940" level="1" />
+			<skill name="Skill02_ID" id="14943" level="1" />
+			<skill name="Skill03_ID" id="23381" level="1" />
+			<skill name="Skill04_ID" id="23386" level="1" />
+			<skill name="Skill05_ID" id="23397" level="1" />
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="13886" hpRegen="0.5" mp="2023" mpRegen="0.5" />
+			<speed>
+				<walk ground="34" />
+				<run ground="200" />
+			</speed>
+			<attack physical="6326" magical="1130" critical="6" attackSpeed="364.32" range="40" type="SWORD" distance="80" width="120" random="30" accuracy="7.2" />
+			<defence physical="633" magical="351" />
+			<attribute>
+				<defence fire="100" water="100" wind="100" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>NPC_TO_PC</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="35" />
+			<height normal="74" />
+		</collision>
+	</npc><npc id="3473" level="96" type="RaidBoss" name="Omega Golem" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="3474" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="3475" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="3476" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<skill name="Skill01_ID" id="23561" level="1" />
+			<skill name="Skill02_ID" id="23562" level="1" />
+			<param name="Skill01_Probablity" value="400" />
+			<param name="Skill02_Probablity" value="300" />
+			<param name="MoveArounding" value="0" />
+			<param name="Party_Type" value="2" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="207470592" sp="49792" raidPoints="30" />
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="35459535" hpRegen="23103.5" mp="44856" mpRegen="30" />
+			<attack physical="214684" magical="34104" random="10" critical="4" accuracy="76" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="17685" magical="10155" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="30.0" />
+			<height normal="27.5" />
+		</collision>
+		<skillList>
+			<skill id="15413" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>OMEGA_GOLEM</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="17409" min="1" max="1" chance="1.07" /> 
+				<item id="17404" min="1" max="1" chance="1.009" /> 
+				<item id="17398" min="1" max="1" chance="0.966" /> 
+				<item id="17408" min="1" max="1" chance="0.75" /> 
+				<item id="17403" min="1" max="1" chance="0.75" /> 
+				<item id="17397" min="1" max="1" chance="0.75" /> 
+				<item id="17392" min="1" max="1" chance="0.3" /> 
+				<item id="17391" min="1" max="1" chance="0.3" /> 
+				<item id="17390" min="1" max="1" chance="0.3" /> 
+				<item id="17389" min="1" max="1" chance="0.3" /> 
+				<item id="17388" min="1" max="1" chance="0.3" /> 
+				<item id="17387" min="1" max="1" chance="0.3" /> 
+				<item id="17386" min="1" max="1" chance="0.3" /> 
+				<item id="17385" min="1" max="1" chance="0.3" /> 
+				<item id="17384" min="1" max="1" chance="0.3" /> 
+				<item id="17383" min="1" max="1" chance="0.3" /> 
+				<item id="17382" min="1" max="1" chance="0.3" /> 
+				<item id="17526" min="1" max="1" chance="1.554" /> 
+				<item id="35434" min="1" max="1" chance="0.75" /> 
+				<item id="35435" min="1" max="1" chance="0.75" /> 
+				<item id="35436" min="1" max="1" chance="0.75" /> 
+				<item id="35437" min="1" max="1" chance="0.75" /> 
+				<item id="35440" min="1" max="1" chance="0.75" /> 
+				<item id="35441" min="1" max="1" chance="0.75" /> 
+				<item id="35442" min="1" max="1" chance="0.75" /> 
+				<item id="35445" min="1" max="1" chance="0.75" /> 
+				<item id="35446" min="1" max="1" chance="0.75" /> 
+				<item id="35447" min="1" max="1" chance="0.75" /> 
+				<item id="35431" min="1" max="1" chance="0.75" /> 
+				<item id="35450" min="1" max="1" chance="0.75" /> 
+				<item id="35423" min="1" max="1" chance="0.3" /> 
+				<item id="35443" min="1" max="1" chance="0.3" /> 
+				<item id="35444" min="1" max="1" chance="0.3" /> 
+				<item id="35422" min="1" max="1" chance="0.3" /> 
+				<item id="35421" min="1" max="1" chance="0.3" /> 
+				<item id="35420" min="1" max="1" chance="0.3" /> 
+				<item id="35448" min="1" max="1" chance="0.3" /> 
+				<item id="35449" min="1" max="1" chance="0.3" /> 
+				<item id="35424" min="1" max="1" chance="0.3" /> 
+				<item id="35425" min="1" max="1" chance="0.3" /> 
+				<item id="35432" min="1" max="1" chance="0.3" /> 
+				<item id="35433" min="1" max="1" chance="0.3" /> 
+				<item id="35429" min="1" max="1" chance="0.3" /> 
+				<item id="35428" min="1" max="1" chance="0.3" /> 
+				<item id="35427" min="1" max="1" chance="0.3" /> 
+				<item id="35426" min="1" max="1" chance="0.3" /> 
+				<item id="35438" min="1" max="1" chance="0.3" /> 
+				<item id="35439" min="1" max="1" chance="0.3" /> 
+				<item id="35430" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3474" level="95" type="Monster" name="Super Kat the Cat">
+		
+		<parameters>
+			<param name="Party_Type" value="1" />
+			<skill name="Skill01_ID" id="23545" level="2" />
+			<skill name="Skill02_ID" id="23546" level="2" />
+			<param name="Skill01_Probablity" value="300" />
+			<param name="Skill02_Probablity" value="300" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="643841" hpRegen="8.5" mp="22058" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="300" />
+			</speed>
+			<attack physical="42937" magical="4605" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="486" magical="276" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>OMEGA_GOLEM</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="3475" level="95" type="Monster" name="Super Feline Queen">
+		
+		<parameters>
+			<param name="Party_Type" value="1" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="643841" hpRegen="8.5" mp="33087" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="300" />
+			</speed>
+			<attack physical="42937" magical="9365" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="389" magical="276" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>OMEGA_GOLEM</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="3476" level="95" type="Monster" name="Super Mew the Cat">
+		
+		<parameters>
+			<param name="Party_Type" value="1" />
+			<skill name="Skill01_ID" id="23555" level="2" />
+			<skill name="Skill02_ID" id="23557" level="2" />
+			<param name="Skill01_Probablity" value="300" />
+			<param name="Skill02_Probablity" value="300" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="643841" hpRegen="8.5" mp="22058" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="300" />
+			</speed>
+			<attack physical="42937" magical="4605" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="486" magical="276" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>OMEGA_GOLEM</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="3477" level="88" type="RaidBoss" name="Reinforced Super Kat the Cat" title="Raid Boss">
+		<parameters>
+			<param name="Party_Type" value="2" />
+			<minions name="Privates">
+				<npc id="3478" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<skill name="Skill01_ID" id="23543" level="1" />
+			<skill name="Skill02_ID" id="23544" level="1" />
+			<skill name="Skill03_ID" id="23545" level="1" />
+			<skill name="Skill04_ID" id="23546" level="1" />
+			<param name="Skill01_Probablity" value="300" />
+			<param name="Skill02_Probablity" value="300" />
+			<param name="Skill03_Probablity" value="200" />
+			<param name="Skill04_Probablity" value="200" />
+			<param name="Attack_BoostValue" value="6550" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="47164" /> 
+		<acquire exp="159805184" sp="38353" raidPoints="30" />
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="19240799" hpRegen="9827.1" mp="39048" mpRegen="30" />
+			<attack physical="108740" magical="18876" random="10" critical="4" accuracy="76" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="19211" magical="9371" />
+			<speed>
+				<walk ground="70" />
+				<run ground="140" />
+			</speed>
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="150" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="22.5" />
+			<height normal="37.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SUPER_CAT_BOSS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="17318" min="1" max="1" chance="24.43" /> 
+				<item id="17308" min="1" max="1" chance="23" /> 
+				<item id="17304" min="1" max="1" chance="15.48" /> 
+				<item id="17310" min="1" max="1" chance="15.41" /> 
+				<item id="17313" min="1" max="3" chance="11.41" /> 
+				<item id="17319" min="2" max="4" chance="7.964" /> 
+				<item id="17296" min="1" max="1" chance="1.591" /> 
+				<item id="17300" min="1" max="1" chance="1.582" /> 
+				<item id="17290" min="1" max="1" chance="1.569" /> 
+				<item id="17291" min="1" max="1" chance="1.518" /> 
+				<item id="17527" min="1" max="1" chance="46.3" /> 
+				<item id="17526" min="1" max="1" chance="3.569" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3478" level="87" type="Monster" name="Reinforced Kat the Cat">
+		
+		<parameters>
+			<param name="Party_Type" value="1" />
+			<skill name="Skill01_ID" id="23547" level="1" />
+			<param name="Skill01_Probablity" value="300" />
+			<param name="Attack_BoostValue" value="6450" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="287094" hpRegen="8.5" mp="19170" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="300" />
+			</speed>
+			<attack physical="18418" magical="3189" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="415" magical="227" />
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="150" holy="200" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SUPER_CAT_BOSS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="3479" level="92" type="RaidBoss" name="Darkened Super Feline Queen" title="Raid Boss">
+		<parameters>
+			<param name="Skill01_Probablity" value="400" />
+			<param name="Skill02_Probablity" value="300" />
+			<param name="Party_Type" value="2" />
+			<minions name="Privates">
+				<npc id="3480" count="4" respawnTime="180" weightPoint="1" />
+			</minions>
+			<param name="MoveArounding" value="0" />
+			<skill name="Skill01_ID" id="23549" level="1" />
+			<skill name="Skill02_ID" id="23550" level="1" />
+			<param name="Attack_BoostValue" value="6950" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="183127104" sp="43950" raidPoints="30" />
+		<mpReward value="53" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="21357837" hpRegen="10667.3" mp="41920" mpRegen="30" />
+			<attack physical="110573" magical="20640" random="10" critical="4" accuracy="76" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="21005" magical="10246" />
+			<speed>
+				<walk ground="70" />
+				<run ground="140" />
+			</speed>
+			<attribute>
+				<defence fire="200" water="200" wind="200" earth="200" holy="150" dark="200" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>QUEEN_CAT_BOSS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="37.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17343" min="1" max="1" chance="65.27" /> 
+				<item id="17350" min="1" max="1" chance="16.98" /> 
+				<item id="17339" min="1" max="1" chance="16.9" /> 
+				<item id="17325" min="1" max="1" chance="0.75" /> 
+				<item id="17330" min="1" max="1" chance="0.75" /> 
+				<item id="17527" min="1" max="1" chance="47.23" /> 
+				<item id="17526" min="1" max="1" chance="3.654" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3480" level="91" type="Monster" name="Mind-controlling Feline Queen">
+		
+		<parameters>
+			<param name="Party_Type" value="1" />
+			<skill name="Skill01_ID" id="23553" level="1" />
+			<param name="Skill01_Probablity" value="300" />
+			<param name="Attack_BoostValue" value="6850" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="304019" hpRegen="8.5" mp="30897" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="300" />
+			</speed>
+			<attack physical="22115" magical="7740" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="359" magical="250" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="280" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>QUEEN_CAT_BOSS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="3481" level="94" type="RaidBoss" name="Control-crazed Mew the Cat" title="Raid Boss">
+		<parameters>
+			<param name="Skill01_Probablity" value="300" />
+			<param name="Skill02_Probablity" value="300" />
+			<param name="Party_Type" value="2" />
+			<minions name="Privates">
+				<npc id="3482" count="4" respawnTime="180" weightPoint="1" />
+			</minions>
+			<param name="MoveArounding" value="0" />
+			<skill name="Skill01_ID" id="23555" level="1" />
+			<skill name="Skill02_ID" id="23556" level="1" />
+			<param name="Attack_BoostValue" value="7100" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="198916032" sp="47739" raidPoints="30" />
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="15744949" hpRegen="10704.9" mp="43380" mpRegen="30" />
+			<attack physical="185921" magical="32951" random="10" critical="4" accuracy="76" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="21930" magical="10696" />
+			<speed>
+				<walk ground="70" />
+				<run ground="140" />
+			</speed>
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>MU_CAT_BOSS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22.5" />
+			<height normal="37.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17352" min="1" max="1" chance="91.51" /> 
+				<item id="17347" min="1" max="1" chance="18.29" /> 
+				<item id="17330" min="1" max="1" chance="7.518" /> 
+				<item id="17334" min="1" max="1" chance="1.515" /> 
+				<item id="17526" min="1" max="1" chance="37.98" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="3482" level="93" type="Monster" name="Traitorous Mew the Cat">
+		
+		<parameters>
+			<param name="Party_Type" value="1" />
+			<skill name="Skill01_ID" id="23559" level="1" />
+			<param name="Skill01_Probablity" value="400" />
+			<param name="Attack_BoostValue" value="7000" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="312844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="300" />
+			</speed>
+			<attack physical="25813" magical="4198" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="467" magical="263" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>MU_CAT_BOSS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="6" />
+			<height normal="16" />
+		</collision>
+	</npc></list>

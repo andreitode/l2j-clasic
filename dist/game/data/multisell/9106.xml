@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<!-- Tattoos -->
+
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/multisell.xsd">
+
+  <!-- Tatoo of Absolute -->
+  <item>
+    <ingredient id="5962" count="100"/>
+    <production id="491" count="1"/>
+  </item>
+
+</list>

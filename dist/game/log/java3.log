@@ -1,0 +1,290 @@
+2025.11.21 17:01:03,690	INFO	1	org.classiclude.commons.util.IXmlReader	Network Config: ipconfig.xml doesn't exist using automatic configuration...
+2025.11.21 17:01:03,893	INFO	1	org.classiclude.commons.util.IXmlReader	Network Config: Adding new subnet: 127.0.0.0/8 address: 127.0.0.1
+2025.11.21 17:01:03,897	INFO	1	org.classiclude.commons.util.IXmlReader	Network Config: Adding new subnet: 192.168.1.0/24 address: 192.168.1.117
+2025.11.21 17:01:03,899	INFO	1	org.classiclude.commons.util.IXmlReader	Network Config: Adding new subnet: 0.0.0.0/0 address: 185.190.179.125
+2025.11.21 17:01:03,968	INFO	1	org.classiclude.Config	Loaded 6 Filter Words.
+2025.11.21 17:01:04,025	INFO	1	org.classiclude.gameserver.GameServer	------------------------------------------------=[ Database ]
+2025.11.21 17:01:04,367	INFO	1	org.classiclude.commons.database.DatabaseFactory	Database: HikariCP pool initialized successfully.
+2025.11.21 17:01:04,843	INFO	1	org.classiclude.commons.database.DatabaseFactory	Database: Initialized with a valid connection.
+2025.11.21 17:01:04,860	INFO	1	org.classiclude.gameserver.GameServer	----------------------------------------------=[ ThreadPool ]
+2025.11.21 17:01:04,866	INFO	1	org.classiclude.commons.threads.ThreadPool	ThreadPool: Initialized
+2025.11.21 17:01:04,867	INFO	1	org.classiclude.commons.threads.ThreadPool	...scheduled pool executor with 8 high priority threads.
+2025.11.21 17:01:04,895	INFO	1	org.classiclude.commons.threads.ThreadPool	...scheduled pool executor with 32 total threads.
+2025.11.21 17:01:04,896	INFO	1	org.classiclude.commons.threads.ThreadPool	...instant pool executor with 16 total threads.
+2025.11.21 17:01:04,903	INFO	1	org.classiclude.gameserver.GameServer	-----------------------------------------------=[ IdManager ]
+2025.11.21 17:01:04,942	INFO	1	org.classiclude.gameserver.instancemanager.IdManager	Updated characters online status.
+2025.11.21 17:01:06,008	WARNING	1	org.classiclude.gameserver.instancemanager.IdManager	IdManager: Could not clean up database: java.sql.SQLSyntaxErrorException: Unknown column 'side' in 'field list'
+2025.11.21 17:01:06,024	INFO	1	org.classiclude.gameserver.instancemanager.IdManager	IdManager: Cleaned 0 expired timestamps from database.
+2025.11.21 17:01:06,055	INFO	1	org.classiclude.gameserver.instancemanager.IdManager	IdManager: 102912 id's available.
+2025.11.21 17:01:06,055	INFO	1	org.classiclude.gameserver.GameServer	----------------------------------------=[ Scripting Engine ]
+2025.11.21 17:01:06,500	INFO	1	org.classiclude.gameserver.scripting.ScriptEngineManager	Loaded 821 files to exclude.
+2025.11.21 17:01:06,501	INFO	1	org.classiclude.gameserver.GameServer	--------------------------------------------------=[ Skills ]
+2025.11.21 17:01:09,438	INFO	1	handlers.EffectMasterHandler	EffectMasterHandler: Loaded 377 effect handlers.
+2025.11.21 17:01:09,588	INFO	1	org.classiclude.gameserver.data.xml.EnchantSkillGroupsData	EnchantSkillGroupsData: Loaded 30 enchant routes, max enchant set to 30.
+2025.11.21 17:01:17,170	INFO	1	org.classiclude.gameserver.data.xml.SkillData	SkillData: Loaded 126695 Skills.
+2025.11.21 17:01:18,143	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 13708 Class skills for 89 class skill trees.
+2025.11.21 17:01:18,144	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 sub-class skills.
+2025.11.21 17:01:18,144	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 dual-class skills.
+2025.11.21 17:01:18,145	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 transfer skills for 0 transfer skill trees.
+2025.11.21 17:01:18,145	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 race skills for 0 race skill trees.
+2025.11.21 17:01:18,145	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 117 fishing skills, 8 Dwarven only fishing skills.
+2025.11.21 17:01:18,145	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 collect skills.
+2025.11.21 17:01:18,153	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 64 clan skills, 64 for clan and 0 residential.
+2025.11.21 17:01:18,153	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 18 sub-pledge skills.
+2025.11.21 17:01:18,153	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 32 transform skills.
+2025.11.21 17:01:18,154	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 8 noble skills.
+2025.11.21 17:01:18,154	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 5 hero skills.
+2025.11.21 17:01:18,154	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 34 game master skills.
+2025.11.21 17:01:18,155	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 1 game master aura skills.
+2025.11.21 17:01:18,155	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 ability skills.
+2025.11.21 17:01:18,155	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 alchemy skills.
+2025.11.21 17:01:18,155	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 class awaken save skills.
+2025.11.21 17:01:18,156	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 0 Revelation skills.
+2025.11.21 17:01:18,156	INFO	1	org.classiclude.gameserver.data.xml.SkillTreeData	SkillTreeData: Loaded 16 common skills.
+2025.11.21 17:01:18,200	INFO	1	org.classiclude.gameserver.data.xml.PetSkillData	PetSkillData: Loaded 1046 skills.
+2025.11.21 17:01:18,201	INFO	1	org.classiclude.gameserver.GameServer	---------------------------------------------------=[ World ]
+2025.11.21 17:01:18,383	INFO	1	org.classiclude.gameserver.instancemanager.MapRegionManager	MapRegionManager: Loaded 57 map regions.
+2025.11.21 17:01:18,395	INFO	1	org.classiclude.gameserver.instancemanager.ZoneManager	ZoneManager 19 by 18 Zone Region Grid set up.
+2025.11.21 17:01:18,673	WARNING	1	org.classiclude.gameserver.data.xml.ItemData	Dir C:\Users\elcam\Desktop\Classic Lude\Server Source\ClassicLude\dist\game\data\stats\items\custom does not exist.
+2025.11.21 17:01:21,848	INFO	1	org.classiclude.gameserver.data.xml.ItemData	ItemData: Highest item id used: 90726
+2025.11.21 17:01:21,861	INFO	1	org.classiclude.gameserver.data.xml.ItemData	ItemData: Loaded 21745 Etc Items
+2025.11.21 17:01:21,862	INFO	1	org.classiclude.gameserver.data.xml.ItemData	ItemData: Loaded 11226 Armor Items
+2025.11.21 17:01:21,862	INFO	1	org.classiclude.gameserver.data.xml.ItemData	ItemData: Loaded 8662 Weapon Items
+2025.11.21 17:01:21,862	INFO	1	org.classiclude.gameserver.data.xml.ItemData	ItemData: Loaded 41633 Items in total.
+2025.11.21 17:01:27,825	INFO	1	org.classiclude.gameserver.data.xml.NpcData	NpcData: Loaded 15173 NPCs.
+2025.11.21 17:01:27,881	INFO	1	org.classiclude.gameserver.data.xml.NpcData	NpcData: Loaded 18 custom NPCs.
+2025.11.21 17:01:27,888	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Gigantic Chaos Golem(25512) status is 0.
+2025.11.21 17:01:27,888	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Queen Ant(29001) status is 0.
+2025.11.21 17:01:27,888	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Core(29006) status is 0.
+2025.11.21 17:01:27,889	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Orfen(29014) status is 0.
+2025.11.21 17:01:27,889	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Baium(29020) status is 0.
+2025.11.21 17:01:27,889	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Zaken(29022) status is 0.
+2025.11.21 17:01:27,890	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Valakas(29028) status is 0.
+2025.11.21 17:01:27,890	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Frintezza(29045) status is 0.
+2025.11.21 17:01:27,890	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Antharas(29068) status is 0.
+2025.11.21 17:01:27,891	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Loaded 9 Instances
+2025.11.21 17:01:27,897	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12003, Name: null
+2025.11.21 17:01:27,898	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12004, Name: null
+2025.11.21 17:01:27,898	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12005, Name: null
+2025.11.21 17:01:27,898	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12006, Name: null
+2025.11.21 17:01:27,899	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12007, Name: null
+2025.11.21 17:01:27,899	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12008, Name: null
+2025.11.21 17:01:27,899	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12009, Name: null
+2025.11.21 17:01:27,899	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12010, Name: null
+2025.11.21 17:01:27,900	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12011, Name: null
+2025.11.21 17:01:27,900	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12012, Name: null
+2025.11.21 17:01:27,900	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12014, Name: null
+2025.11.21 17:01:27,900	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12015, Name: null
+2025.11.21 17:01:27,901	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	Adding BossZone with ID: 12016, Name: null
+2025.11.21 17:01:28,326	INFO	1	org.classiclude.gameserver.instancemanager.ZoneManager	ZoneManager: Loaded 34 zone classes and 2789 zones.
+2025.11.21 17:01:28,331	INFO	1	org.classiclude.gameserver.instancemanager.ZoneManager	ZoneManager: Last static id 200224.
+2025.11.21 17:01:28,333	INFO	1	org.classiclude.gameserver.instancemanager.GrandBossManager	GrandBossManager: Initialized 13 Grand Boss Zones
+2025.11.21 17:01:28,640	INFO	1	org.classiclude.gameserver.data.xml.DoorData	DoorData: Loaded 1180 doors.
+2025.11.21 17:01:28,655	INFO	1	FenceData	FenceData: Loaded 1 fences.
+2025.11.21 17:01:28,683	INFO	1	org.classiclude.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Loaded 8 variables.
+2025.11.21 17:01:28,683	INFO	1	org.classiclude.gameserver.GameServer	----------------------------------------------------=[ Data ]
+2025.11.21 17:01:28,698	INFO	1	org.classiclude.gameserver.data.xml.ActionData	ActionData: Loaded 242 player actions.
+2025.11.21 17:01:28,730	INFO	1	org.classiclude.gameserver.data.xml.CategoryData	CategoryData: Loaded 215 categories.
+2025.11.21 17:01:28,745	INFO	1	org.classiclude.gameserver.data.xml.SecondaryAuthData	SecondaryAuthData: Loaded 328 forbidden passwords.
+2025.11.21 17:01:28,784	INFO	1	org.classiclude.gameserver.data.xml.CombinationItemsData	CombinationItemsData: Loaded 855 combinations.
+2025.11.21 17:01:28,793	INFO	1	org.classiclude.gameserver.data.xml.SayuneData	SayuneData: Loaded 0 maps.
+2025.11.21 17:01:28,992	INFO	1	handlers.DailyMissionMasterHandler	DailyMissionMasterHandler: Loaded 9 handlers.
+2025.11.21 17:01:29,022	INFO	1	org.classiclude.gameserver.data.xml.DailyMissionData	DailyMissionData: Loaded 87 one day rewards.
+2025.11.21 17:01:29,043	INFO	1	org.classiclude.gameserver.GameServer	---------------------------------------------=[ Vote System ]
+2025.11.21 17:01:29,052	INFO	1	org.classiclude.gameserver.data.xml.VoteSiteData	Loaded 11 reward sites
+2025.11.21 17:01:29,061	INFO	1	org.classiclude.gameserver.GameServer	---------------------------------------------------=[ Items ]
+2025.11.21 17:01:29,212	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 4 item group templates.
+2025.11.21 17:01:29,212	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Loaded 1 scroll group templates.
+2025.11.21 17:01:29,212	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Max weapon enchant is set to 30.
+2025.11.21 17:01:29,212	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Max armor enchant is set to 30.
+2025.11.21 17:01:29,213	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemGroupsData	EnchantItemGroupsData: Max accessory enchant is set to 30.
+2025.11.21 17:01:29,232	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 247 enchant scrolls.
+2025.11.21 17:01:29,233	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemData	EnchantItemData: Loaded 100 support items.
+2025.11.21 17:01:31,311	INFO	1	org.classiclude.gameserver.data.xml.OptionData	OptionData: Loaded 34053 options.
+2025.11.21 17:01:31,339	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemOptionsData	EnchantItemOptionsData: Loaded 60 items and 1491 options.
+2025.11.21 17:01:31,349	INFO	1	org.classiclude.commons.util.IXmlReader	ElementalAttributeData: Loaded 0 elemental attribute items.
+2025.11.21 17:01:31,355	INFO	1	org.classiclude.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 12 crystallization templates.
+2025.11.21 17:01:31,355	INFO	1	org.classiclude.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Loaded 0 pre-defined crystallizable items.
+2025.11.21 17:01:31,368	INFO	1	org.classiclude.gameserver.data.xml.ItemCrystallizationData	ItemCrystallizationData: Generated 0 crystallizable items from templates.
+2025.11.21 17:01:31,508	INFO	1	VariationData	VariationData: Loaded 120 variations.
+2025.11.21 17:01:31,508	INFO	1	VariationData	VariationData: Loaded 4717 fees.
+2025.11.21 17:01:31,515	INFO	1	org.classiclude.gameserver.data.xml.EnchantItemHPBonusData	EnchantItemHPBonusData: Loaded 11 enchant HP bonuses.
+2025.11.21 17:01:34,033	INFO	1	org.classiclude.gameserver.data.xml.BuyListData	BuyListData: Loaded 842 buyLists.
+2025.11.21 17:01:34,875	INFO	1	org.classiclude.gameserver.data.xml.MultisellData	MultisellData: Loaded 189 multisell lists.
+2025.11.21 17:01:34,954	INFO	1	org.classiclude.gameserver.data.xml.RecipeData	RecipeData: Loaded 870 recipes.
+2025.11.21 17:01:35,021	INFO	1	org.classiclude.gameserver.data.xml.ArmorSetData	ArmorSetData: Loaded 317 armor sets.
+2025.11.21 17:01:35,041	INFO	1	org.classiclude.commons.util.IXmlReader	FishData: Loaded 278 fishes.
+2025.11.21 17:01:35,048	INFO	1	org.classiclude.commons.util.IXmlReader	FishingMonstersData: Loaded 8 fishing monsters.
+2025.11.21 17:01:35,054	INFO	1	org.classiclude.commons.util.IXmlReader	FishingRodsData: Loaded 6 fishing rods.
+2025.11.21 17:01:35,126	INFO	1	org.classiclude.gameserver.data.xml.HennaData	HennaData: Loaded 372 henna data.
+2025.11.21 17:01:35,136	INFO	1	org.classiclude.gameserver.data.xml.PrimeShopData	PrimeShopData: Loaded 6 items.
+2025.11.21 17:01:35,193	INFO	1	org.classiclude.gameserver.data.xml.AppearanceItemData	AppearanceItemData: Loaded 1216 stones.
+2025.11.21 17:01:35,209	INFO	1	org.classiclude.gameserver.data.xml.AttendanceRewardData	AttendanceRewardData: Disabled.
+2025.11.21 17:01:35,218	INFO	1	org.classiclude.gameserver.data.xml.VipData	VipData: Loaded 8 vips.
+2025.11.21 17:01:35,221	INFO	1	org.classiclude.gameserver.GameServer	----------------------------------------------=[ Characters ]
+2025.11.21 17:01:35,232	INFO	1	org.classiclude.gameserver.data.xml.ClassListData	ClassListData: Loaded 153 class data.
+2025.11.21 17:01:35,242	INFO	1	org.classiclude.gameserver.data.xml.InitialEquipmentData	InitialEquipmentData: Loaded 9 initial equipment data.
+2025.11.21 17:01:35,253	INFO	1	org.classiclude.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 5 initial global shortcuts data.
+2025.11.21 17:01:35,253	INFO	1	org.classiclude.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 4 initial shortcuts data.
+2025.11.21 17:01:35,253	INFO	1	org.classiclude.gameserver.data.xml.InitialShortcutData	InitialShortcutData: Loaded 0 macro presets.
+2025.11.21 17:01:35,261	INFO	1	org.classiclude.gameserver.data.xml.ExperienceData	ExperienceData: Loaded 81 levels.
+2025.11.21 17:01:35,262	INFO	1	org.classiclude.gameserver.data.xml.ExperienceData	ExperienceData: Max Player Level is 80.
+2025.11.21 17:01:35,262	INFO	1	org.classiclude.gameserver.data.xml.ExperienceData	ExperienceData: Max Pet Level is 80.
+2025.11.21 17:01:35,278	INFO	1	org.classiclude.gameserver.data.xml.KarmaData	KarmaData: Loaded 80 karma modifiers.
+2025.11.21 17:01:35,284	INFO	1	org.classiclude.gameserver.data.xml.HitConditionBonusData	HitConditionBonusData: Loaded hit condition bonuses.
+2025.11.21 17:01:35,891	INFO	1	org.classiclude.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 89 character templates.
+2025.11.21 17:01:35,891	INFO	1	org.classiclude.gameserver.data.xml.PlayerTemplateData	PlayerTemplateData: Loaded 42720 level up gain records.
+2025.11.21 17:01:35,898	INFO	1	org.classiclude.gameserver.data.sql.CharInfoTable	CharInfoTable: Loaded 10 char names.
+2025.11.21 17:01:35,903	INFO	1	org.classiclude.gameserver.data.sql.PartyMatchingHistoryTable	PartyMatchingHistoryTable: Loaded 0 party matching history data.
+2025.11.21 17:01:35,913	INFO	1	org.classiclude.gameserver.data.xml.AdminData	AdminData: Loaded 10 access levels.
+2025.11.21 17:01:35,923	INFO	1	org.classiclude.gameserver.data.xml.AdminData	AdminData: Loaded 460 access commands.
+2025.11.21 17:01:36,912	INFO	1	org.classiclude.gameserver.data.xml.PetDataTable	PetDataTable: Loaded 56 pets.
+2025.11.21 17:01:36,985	INFO	1	org.classiclude.gameserver.data.xml.CubicData	CubicData: Loaded 21 cubics.
+2025.11.21 17:01:37,956	INFO	1	org.classiclude.gameserver.instancemanager.CaptchaManager	CaptchaManager: Enabled.
+2025.11.21 17:01:37,987	INFO	1	org.classiclude.gameserver.GameServer	---------------------------------------------------=[ Clans ]
+2025.11.21 17:01:38,010	INFO	1	org.classiclude.gameserver.communitybbs.Manager.ForumsBBSManager	ForumsBBSManager: Loaded 5 forums. Last forum id used: 5
+2025.11.21 17:01:38,035	INFO	1	org.classiclude.gameserver.data.sql.ClanTable	ClanTable: Restored 1 clans from the database.
+2025.11.21 17:01:38,048	INFO	1	org.classiclude.gameserver.data.xml.ResidenceFunctionsData	ResidenceFunctionsData: Loaded 8 functions.
+2025.11.21 17:01:38,281	INFO	1	org.classiclude.gameserver.data.xml.ClanHallData	ClanHallData: Succesfully loaded 38 clan halls.
+2025.11.21 17:01:38,284	INFO	1	org.classiclude.gameserver.instancemanager.ClanHallAuctionManager	ClanHallAuctionManager: Clan Hall Auction has started!
+2025.11.21 17:01:38,318	INFO	1	org.classiclude.gameserver.GameServer	-------------------------------------------------=[ Geodata ]
+2025.11.21 17:01:40,094	INFO	1	org.classiclude.gameserver.geoengine.GeoEngine	GeoEngine: Loaded 166 regions.
+2025.11.21 17:01:40,095	INFO	1	org.classiclude.gameserver.GameServer	----------------------------------------------------=[ NPCs ]
+2025.11.21 17:01:40,126	INFO	1	org.classiclude.gameserver.data.xml.LevelUpCrystalData	Soul crystal data : Loaded 39
+2025.11.21 17:01:40,126	INFO	1	org.classiclude.gameserver.data.xml.LevelUpCrystalData	Npc leveling crystal data : Loaded 125
+2025.11.21 17:01:40,131	INFO	1	org.classiclude.gameserver.data.xml.FakePlayerData	FakePlayerData: Disabled.
+2025.11.21 17:01:40,135	INFO	1	org.classiclude.gameserver.instancemanager.FakePlayerChatManager	FakePlayerChatManager: Disabled.
+2025.11.21 17:01:41,427	INFO	1	org.classiclude.gameserver.data.xml.SpawnData	SpawnData: Loaded 23619 spawns
+2025.11.21 17:01:49,647	INFO	1	org.classiclude.gameserver.instancemanager.WalkingManager	WalkingManager: Loaded 13 walking routes.
+2025.11.21 17:01:49,668	INFO	1	org.classiclude.gameserver.data.xml.StaticObjectData	StaticObjectData: Loaded 86 static object templates.
+2025.11.21 17:01:49,671	INFO	1	org.classiclude.gameserver.instancemanager.ItemAuctionManager	ItemAuctionManager: Disabled.
+2025.11.21 17:01:49,692	INFO	1	org.classiclude.gameserver.instancemanager.CastleManager	CastleManager: Loaded 9 castles.
+2025.11.21 17:01:49,704	INFO	1	org.classiclude.gameserver.data.SchemeBufferTable	SchemeBufferTable: Loaded 1 players schemes and 60 available buffs.
+2025.11.21 17:01:49,706	INFO	1	org.classiclude.gameserver.GameServer	------------------------------------------------=[ Instance ]
+2025.11.21 17:01:49,717	INFO	1	org.classiclude.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 267 instance names.
+2025.11.21 17:01:49,773	INFO	1	org.classiclude.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded 7 instance templates.
+2025.11.21 17:01:49,774	INFO	1	org.classiclude.gameserver.instancemanager.InstanceManager	InstanceManager: Loaded instance reenter times for 0 players.
+2025.11.21 17:01:49,776	INFO	1	org.classiclude.gameserver.GameServer	------------------------------------------------=[ Olympiad ]
+2025.11.21 17:01:49,791	INFO	1	org.classiclude.gameserver.model.olympiad.Olympiad	Olympiad System: Loading....
+2025.11.21 17:01:49,791	INFO	1	org.classiclude.gameserver.model.olympiad.Olympiad	Olympiad System: Currently in Olympiad Period
+2025.11.21 17:01:49,791	INFO	1	org.classiclude.gameserver.model.olympiad.Olympiad	Olympiad System: 3 days, 18 hours and 58 mins until period ends.
+2025.11.21 17:01:49,791	INFO	1	org.classiclude.gameserver.model.olympiad.Olympiad	Olympiad System: Next weekly change is in 0 days, 10 hours and 30 mins.
+2025.11.21 17:01:49,791	INFO	1	org.classiclude.gameserver.model.olympiad.Olympiad	Olympiad System: Loaded 0 Nobles
+2025.11.21 17:01:49,802	INFO	1	org.classiclude.gameserver.model.olympiad.Olympiad	Olympiad System: Competition Period Starts in 0 days, 0 hours and 58 mins.
+2025.11.21 17:01:49,819	INFO	1	org.classiclude.gameserver.model.olympiad.Olympiad	Olympiad System: Event starts/started: Fri Nov 21 18:00:49 CET 2025
+2025.11.21 17:01:49,826	INFO	1	org.classiclude.gameserver.model.olympiad.Hero	Hero System: Loaded 0 Heroes.
+2025.11.21 17:01:49,827	INFO	1	org.classiclude.gameserver.model.olympiad.Hero	Hero System: Loaded 0 all time Heroes.
+2025.11.21 17:01:49,827	INFO	1	org.classiclude.gameserver.GameServer	---------------------------------------------------=[ Cache ]
+2025.11.21 17:01:49,830	INFO	1	org.classiclude.gameserver.cache.HtmCache	Html cache start...
+2025.11.21 17:02:01,474	INFO	1	org.classiclude.gameserver.cache.HtmCache	Cache[HTML]: 9,411 megabytes on 20405 files loaded.
+2025.11.21 17:02:01,479	INFO	1	org.classiclude.gameserver.data.sql.CrestTable	CrestTable: Loaded 0 Crests.
+2025.11.21 17:02:01,763	INFO	1	org.classiclude.gameserver.data.xml.TeleporterData	TeleporterData: Loaded 121 npc teleporters.
+2025.11.21 17:02:01,780	INFO	1	org.classiclude.gameserver.instancemanager.CursedWeaponsManager	CursedWeaponsManager: Loaded 2 cursed weapons.
+2025.11.21 17:02:02,648	INFO	1	org.classiclude.gameserver.data.xml.TransformData	TransformData: Loaded 174 transform templates.
+2025.11.21 17:02:02,666	INFO	1	org.classiclude.gameserver.data.BotReportTable	BotReportTable: Loaded 0 bot reports
+2025.11.21 17:02:02,667	INFO	1	org.classiclude.gameserver.GameServer	-------------------------------------------------=[ Scripts ]
+2025.11.21 17:02:02,680	INFO	1	org.classiclude.gameserver.instancemanager.AirShipManager	AirShipManager: Loaded 0 private airships
+2025.11.21 17:02:02,703	INFO	1	org.classiclude.gameserver.data.xml.ShuttleData	ShuttleData: Loaded 1 shuttles.
+2025.11.21 17:02:02,703	INFO	1	org.classiclude.gameserver.GameServer	GameServer: Loading server scripts:
+2025.11.21 17:02:04,064	INFO	1	handlers.MasterHandler	Loading Handlers...
+2025.11.21 17:02:04,261	INFO	1	handlers.MasterHandler	ActionHandler: Loaded 10 handlers.
+2025.11.21 17:02:04,261	INFO	1	handlers.MasterHandler	ActionShiftHandler: Loaded 6 handlers.
+2025.11.21 17:02:04,261	INFO	1	handlers.MasterHandler	AdminCommandHandler: Loaded 452 handlers.
+2025.11.21 17:02:04,261	INFO	1	handlers.MasterHandler	BypassHandler: Loaded 42 handlers.
+2025.11.21 17:02:04,261	INFO	1	handlers.MasterHandler	ChatHandler: Loaded 14 handlers.
+2025.11.21 17:02:04,261	INFO	1	handlers.MasterHandler	CommunityBoardHandler: Loaded 26 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	ItemHandler: Loaded 31 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	PunishmentHandler: Loaded 3 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	UserCommandHandler: Loaded 16 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	VoicedCommandHandler: Loaded 14 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	TargetHandler: Loaded 21 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	AffectObjectHandler: Loaded 11 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	AffectScopeHandler: Loaded 19 handlers.
+2025.11.21 17:02:04,262	INFO	1	handlers.MasterHandler	PlayerActionHandler: Loaded 24 handlers.
+2025.11.21 17:02:04,263	INFO	1	handlers.MasterHandler	Handlers Loaded...
+2025.11.21 17:02:33,464	INFO	1	ai.areas.ImperialTomb.FourSepulchers.FourSepulchers	[Four Sepulchers] Loaded 762 spawn zones data.
+2025.11.21 17:02:33,666	INFO	1	ai.others.ClassMaster.ClassMaster	ClassMaster: Loaded 1 class change options.
+2025.11.21 17:02:33,692	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSigns	SevenSigns: Currently in the Competition (Quest Event) period!
+2025.11.21 17:02:33,692	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Avarice remains unclaimed.
+2025.11.21 17:02:33,692	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Gnosis remains unclaimed.
+2025.11.21 17:02:33,692	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSigns	SevenSigns: The Seal of Strife remains unclaimed.
+2025.11.21 17:02:33,692	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSigns	SevenSigns: The competition, if the current trend continues, will end in a tie this week.
+2025.11.21 17:02:33,693	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period change set to Mon Nov 24 18:00:33 CET 2025
+2025.11.21 17:02:33,695	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSigns	SevenSigns: Next period begins in 3 days, 0 hours and 57 mins.
+2025.11.21 17:02:33,730	INFO	1	org.classiclude.commons.util.IXmlReader	NpcBuffersData: Loaded 10 buffers data.
+2025.11.21 17:02:33,779	INFO	1	org.classiclude.gameserver.instancemanager.QuestManager	Replaced script ToIVortex with a new version!
+2025.11.21 17:02:33,897	INFO	1	org.classiclude.gameserver.model.quest.Quest	Event Happy Hours has passed... Ignored 
+2025.11.21 17:02:33,905	INFO	1	org.classiclude.gameserver.model.quest.Quest	Event Merry Squashmas Event has passed... Ignored 
+2025.11.21 17:02:33,912	INFO	1	org.classiclude.gameserver.model.quest.Quest	Event Rudolphs Blessing has passed... Ignored 
+2025.11.21 17:02:33,920	INFO	1	org.classiclude.gameserver.model.quest.Quest	Event Squash Event has passed... Ignored 
+2025.11.21 17:02:33,926	INFO	1	org.classiclude.gameserver.model.quest.Quest	Event The Power Of Love has passed... Ignored 
+2025.11.21 17:02:33,936	INFO	1	org.classiclude.gameserver.model.quest.Quest	Event Watermelon Ninja has passed... Ignored 
+2025.11.21 17:02:34,663	INFO	1	org.classiclude.gameserver.data.xml.SpawnData	SpawnData: Initializing spawns...
+2025.11.21 17:02:35,358	INFO	1	org.classiclude.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Loaded 189 instances.
+2025.11.21 17:02:35,359	INFO	1	org.classiclude.gameserver.instancemanager.DBSpawnManager	DBSpawnManager: Scheduled 0 instances.
+2025.11.21 17:02:42,654	INFO	1	org.classiclude.gameserver.data.xml.SpawnData	SpawnData: All spawns has been initialized!
+2025.11.21 17:02:42,664	INFO	1	org.classiclude.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 7 room types with 56 rooms.
+2025.11.21 17:02:42,677	INFO	1	org.classiclude.gameserver.instancemanager.DimensionalRiftManager	DimensionalRiftManager: Loaded 462 dimensional rift spawns, 0 errors.
+2025.11.21 17:02:42,677	INFO	1	org.classiclude.gameserver.GameServer	---------------------------------------------------=[ Siege ]
+2025.11.21 17:02:42,696	INFO	1	org.classiclude.gameserver.data.xml.SiegeScheduleData	SiegeScheduleData: Loaded 9 siege schedulers.
+2025.11.21 17:02:42,697	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Gludio: Sun Nov 30 16:00:00 CET 2025
+2025.11.21 17:02:42,699	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Dion: Sun Nov 30 20:00:00 CET 2025
+2025.11.21 17:02:42,700	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Giran: Sun Nov 30 16:00:00 CET 2025
+2025.11.21 17:02:42,701	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Oren: Sun Nov 30 20:00:00 CET 2025
+2025.11.21 17:02:42,702	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Aden: Sun Nov 30 16:00:00 CET 2025
+2025.11.21 17:02:42,703	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Innadril: Sun Nov 30 20:00:00 CET 2025
+2025.11.21 17:02:42,704	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Goddard: Sun Nov 30 16:00:00 CET 2025
+2025.11.21 17:02:42,705	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Rune: Sun Nov 30 20:00:00 CET 2025
+2025.11.21 17:02:42,707	INFO	1	org.classiclude.gameserver.model.siege.Siege	Siege of Schuttgart: Sun Nov 30 16:00:00 CET 2025
+2025.11.21 17:02:42,731	INFO	1	org.classiclude.gameserver.instancemanager.CastleManorManager	CastleManorManager: Loaded 258 seeds.
+2025.11.21 17:02:42,741	INFO	1	org.classiclude.gameserver.instancemanager.CastleManorManager	CastleManorManager: Manor data loaded.
+2025.11.21 17:02:42,752	INFO	1	org.classiclude.gameserver.instancemanager.SiegeGuardManager	SiegeGuardManager: Loaded 0 siege guards tickets.
+2025.11.21 17:02:42,752	INFO	1	org.classiclude.gameserver.instancemanager.QuestManager	QuestManager: Loaded 340 quests.
+2025.11.21 17:02:42,752	INFO	1	org.classiclude.gameserver.instancemanager.QuestManager	QuestManager: Loaded 130 scripts.
+2025.11.21 17:02:42,762	INFO	1	org.classiclude.gameserver.instancemanager.games.MonsterRaceManager	MonsterRace: loaded 104 records, currently on race #105
+2025.11.21 17:02:42,789	INFO	1	org.classiclude.gameserver.taskmanager.TaskManager	TaskManager: Loaded 6 Tasks.
+2025.11.21 17:02:42,792	INFO	1	org.classiclude.gameserver.instancemanager.DailyResetManager	DailyResetManager: Next schedule at 22/11/2025 06:30:00.
+2025.11.21 17:02:42,875	INFO	1	org.classiclude.gameserver.model.sevensigns.SevenSignsFestival	SevenSignsFestival: The first Festival of Darkness cycle begins in 2 minute(s).
+2025.11.21 17:02:42,875	INFO	1	org.classiclude.gameserver.GameServer	AutoSpawnHandler: Loaded 121 handlers in total.
+2025.11.21 17:02:42,882	INFO	1	org.classiclude.gameserver.instancemanager.MailManager	MailManager: Loaded 0 messages.
+2025.11.21 17:02:42,890	INFO	1	org.classiclude.gameserver.instancemanager.PunishmentManager	PunishmentManager: Loaded 0 active and 0 expired punishments.
+2025.11.21 17:02:42,893	INFO	1	org.classiclude.gameserver.GameServer	IdManager: Free ObjectID's remaining: 1879006361
+2025.11.21 17:02:42,898	INFO	1	org.classiclude.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loading offline traders...
+2025.11.21 17:02:42,899	INFO	1	org.classiclude.gameserver.data.sql.OfflineTraderTable	OfflineTraderTable: Loaded 0 offline traders.
+2025.11.21 17:02:45,708	INFO	1	org.classiclude.gameserver.GameServer	GameServer: Started, using 2052 of 4088 MB total memory.
+2025.11.21 17:02:45,709	INFO	1	org.classiclude.gameserver.GameServer	GameServer: Maximum number of connected players is 2000.
+2025.11.21 17:02:45,709	INFO	1	org.classiclude.gameserver.GameServer	GameServer: Server loaded in 102 seconds.
+2025.11.21 17:02:45,784	INFO	132	org.classiclude.gameserver.LoginServerThread	LoginServerThread: Connecting to login on 127.0.0.1:9014
+2025.11.21 17:02:45,858	INFO	132	org.classiclude.gameserver.LoginServerThread	LoginServerThread: Registered on login as Server 1: Bartz
+2025.11.21 17:02:52,911	WARNING	83	org.classiclude.gameserver.model.actor.Creature	Master access level set for character Admin! Just a warning to be careful ;)
+2025.11.21 17:02:53,007	WARNING	83	org.classiclude.gameserver.model.itemcontainer.Inventory	Could not restore item 90728 for Player:Admin[268476140]
+2025.11.21 17:02:53,009	WARNING	83	org.classiclude.gameserver.model.itemcontainer.Inventory	Could not restore item 90727 for Player:Admin[268476140]
+2025.11.21 17:11:44,818	WARNING	37	org.classiclude.gameserver.Shutdown	Server scheduled restart issued shutdown command. Shutdown in 1 seconds!
+2025.11.21 17:11:45,821	WARNING	155	org.classiclude.gameserver.Shutdown	GM shutdown countdown is over. shutting down NOW!
+2025.11.21 17:11:45,841	INFO	155	org.classiclude.gameserver.Shutdown	All players disconnected and saved(19ms).
+2025.11.21 17:11:45,842	INFO	155	org.classiclude.gameserver.Shutdown	VipExpirationTaskManager: Tareas detenidas (1ms).
+2025.11.21 17:11:45,842	INFO	155	org.classiclude.gameserver.Shutdown	Game Time Task Manager: Thread interruped(0ms).
+2025.11.21 17:11:45,842	INFO	155	org.classiclude.commons.threads.ThreadPool	ThreadPool: Shutting down.
+2025.11.21 17:11:45,843	INFO	155	org.classiclude.gameserver.Shutdown	Thread Pool Manager: Manager has been shut down(1ms).
+2025.11.21 17:11:45,843	INFO	155	org.classiclude.gameserver.Shutdown	Login Server Thread: Thread interruped(0ms).
+2025.11.21 17:11:45,843	INFO	155	org.classiclude.gameserver.Shutdown	GM shutdown received. Shutting down NOW!
+2025.11.21 17:11:45,994	INFO	155	org.classiclude.gameserver.Shutdown	RaidBossSpawnManager: All raidboss info saved(150ms).
+2025.11.21 17:11:46,000	INFO	155	org.classiclude.gameserver.Shutdown	GrandBossManager: All Grand Boss info saved(7ms).
+2025.11.21 17:11:46,000	INFO	155	org.classiclude.gameserver.Shutdown	Item Auction Manager: All tasks stopped(0ms).
+2025.11.21 17:11:46,002	INFO	155	org.classiclude.gameserver.Shutdown	Olympiad System: Data saved(2ms).
+2025.11.21 17:11:46,003	INFO	155	org.classiclude.gameserver.Shutdown	Hero System: Data saved(1ms).
+2025.11.21 17:11:46,005	INFO	155	org.classiclude.gameserver.Shutdown	Clan System: Data saved(2ms).
+2025.11.21 17:11:46,008	INFO	155	org.classiclude.gameserver.Shutdown	Cursed Weapons Manager: Data saved(2ms).
+2025.11.21 17:11:46,010	INFO	155	org.classiclude.gameserver.Shutdown	Castle Manor Manager: Data saved(3ms).
+2025.11.21 17:11:46,011	INFO	155	org.classiclude.gameserver.Shutdown	Quest Manager: Data saved(1ms).
+2025.11.21 17:11:46,026	INFO	155	org.classiclude.gameserver.instancemanager.GlobalVariablesManager	GlobalVariablesManager: Stored 8 variables.
+2025.11.21 17:11:46,027	INFO	155	org.classiclude.gameserver.Shutdown	Global Variables Manager: Variables saved(16ms).
+2025.11.21 17:11:46,029	INFO	155	org.classiclude.gameserver.Shutdown	Party Matching History Table: Data saved(1ms).
+2025.11.21 17:11:46,051	INFO	155	org.classiclude.gameserver.Shutdown	SchemeBufferTable data has been saved.
+2025.11.21 17:11:46,053	INFO	155	org.classiclude.gameserver.Shutdown	Bot Report Table: Successfully saved reports to database!
+2025.11.21 17:11:46,058	INFO	155	org.classiclude.gameserver.Shutdown	Vote data has been saved
+2025.11.21 17:11:46,060	INFO	155	org.classiclude.gameserver.Shutdown	Fishing Championship data has been saved.
+2025.11.21 17:11:46,060	INFO	155	org.classiclude.gameserver.Shutdown	Vote data has been saved
+2025.11.21 17:11:51,067	INFO	155	org.classiclude.commons.database.DatabaseFactory	Database: HikariCP pool closed successfully.
+2025.11.21 17:11:51,068	INFO	155	org.classiclude.gameserver.Shutdown	Database Factory: Database connection has been shut down(5ms).
+2025.11.21 17:11:51,068	INFO	155	org.classiclude.gameserver.Shutdown	The server has been successfully shut down in 5seconds.

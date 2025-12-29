@@ -1,0 +1,3190 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="33500" level="85" type="Folk" name="Pruna" title="Mysterious Dye Merchant">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="33501" level="85" type="Folk" name="Source of Power">
+		
+		<parameters>
+			<skill name="s_give_skill" id="14625" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" flying="false" canMove="false" canBeSown="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="15" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="33502" level="85" type="Folk" name="Alejandro" title="Bronze Key Expedition Leader">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="132" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<equipment rhand="6365" /> 
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19.7" />
+		</collision>
+	</npc><npc id="33503" level="85" type="Folk" name="Dwarf Soldier">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="144" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<equipment rhand="7897" /> 
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" talkable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="33504" level="85" type="Folk" name="Dwarf Soldier">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" talkable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai type="CORPSE" clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="33505" level="85" type="Folk" name="Wooden Medic" title="Black Anvil Medic">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="80" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="21.3" />
+		</collision>
+	</npc><npc id="33506" level="85" type="Folk" name="Belenora" title="Shade of Chaos Troop Lieutenant">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="106" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33507" level="85" type="Folk" name="Dark Elf Soldier">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="74" /> 
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" talkable="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33508" level="85" type="Folk" name="Schunain" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="200" />
+			<param name="MoveAroundSocial1" value="200" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33509" level="85" type="Folk" name="Zenath" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="200" />
+			<param name="MoveAroundSocial1" value="200" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33510" level="85" type="Folk" name="Lef" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="200" />
+			<param name="MoveAroundSocial1" value="200" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33511" level="70" type="Folk" name="Priest of Mammon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<acquire exp="2376" sp="108" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444" hpRegen="7.5" mp="1346" mpRegen="2.7" />
+			<attack physical="689" magical="470" random="30" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="296" magical="217" evasion="50" shield="50" shieldRate="0" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>600</hitTime>
+		</stats>
+		<status attackable="false" undying="true" canBeSown="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<corpseTime>7</corpseTime>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="33512" level="85" type="Folk" name="Priest of Mammon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="80" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="5801" /> 
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="33513" level="85" type="Folk" name="Teleport Device">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="7" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="33514" level="85" type="Folk" name="Anthony" title="Proof Trading Master">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="6" />
+			<height normal="16.0055" />
+		</collision>
+	</npc><npc id="33515" level="85" type="Folk" name="Agent Georgio" title="Dusk">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33516" level="40" type="FriendlyNpc" name="Joel" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="200" />
+			<param name="MoveAroundSocial1" value="200" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="160" />
+			</speed>
+			<attack physical="0" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33517" level="40" type="FriendlyNpc" name="Schuazen" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="200" />
+			<param name="MoveAroundSocial1" value="200" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="160" />
+			</speed>
+			<attack physical="0" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33518" level="40" type="Folk" name="Selon" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="200" />
+			<param name="MoveAroundSocial1" value="200" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="160" />
+			</speed>
+			<attack physical="0" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33519" level="99" type="Folk" name="Amadeo Cadmus" title="Aden King">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33520" level="99" type="Folk" name="Astair van Halter" title="Elmore King">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="33521" level="85" type="Folk" name="Lykus" title="Enchanter">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="180" />
+		</parameters>
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="17" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33522" level="99" type="Folk" name="Entrance Portal to Crystal Caverns">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="33523" level="99" type="Folk" name="Crystal Prison Entrance Portal">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="33524" level="85" type="Folk" name="Renfad" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="200" />
+			<param name="MoveAroundSocial1" value="200" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33525" level="85" type="Folk" name="Earth Wyrm Trasken">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="500" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="33526" level="85" type="Folk" name="Central Device">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="35" />
+			<height normal="47.5" />
+		</collision>
+	</npc><npc id="33527" level="85" type="Folk" name="Exhaust">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="30" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33528" level="85" type="CommissionManager" name="Shurna" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33529" level="85" type="CommissionManager" name="Lanin" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33530" level="85" type="CommissionManager" name="Syranne" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33531" level="85" type="CommissionManager" name="Zeshen" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33532" level="85" type="CommissionManager" name="Elenyn" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33533" level="85" type="CommissionManager" name="Romina" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33534" level="85" type="CommissionManager" name="Jasnin" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33535" level="85" type="Folk" name="Sayune Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="70" />
+		</parameters>
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33536" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="156" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="33537" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="156" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="33538" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="124" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.3" />
+		</collision>
+	</npc><npc id="33539" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="124" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.3" />
+		</collision>
+	</npc><npc id="33540" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33541" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33542" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="107" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="33543" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="107" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="33544" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33545" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33546" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="106" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33547" level="85" type="Folk" name="Sacrificed Dark Elf">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="106" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33548" level="85" type="Folk" name="Seal Control Device">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="19" />
+			<height normal="28" />
+		</collision>
+	</npc><npc id="33549" level="85" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="50" />
+		<collision>
+			<radius normal="18" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="33550" level="85" type="Folk" name="">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" noSleepMode="true" canBeSown="true" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="18" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="33551" level="85" type="CommissionManager" name="Bunny" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33552" level="85" type="CommissionManager" name="Sarni" title="Auction House Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33553" level="85" type="Folk" name="">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="150" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="33554" level="85" type="Folk" name="Rake" title="One endowed with the power of fate">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33555" level="1" type="Folk" name="">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="8" magical="6" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="33556" level="85" type="Folk" name="Source of Power">
+		
+		<parameters>
+			<skill name="s_give_skill" id="14625" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" flying="false" canMove="false" canBeSown="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="15" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="33557" level="85" type="Folk" name="Source of Power">
+		
+		<parameters>
+			<skill name="s_give_skill" id="14625" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" talkable="false" flying="false" canMove="false" canBeSown="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="15" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="33558" level="1" type="Folk" name="">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="8" magical="6" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="33559" level="1" type="Folk" name="Gambolic" title="Treasure Chest Exchanger">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="104" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<speed>
+				<walk ground="20" />
+				<run ground="100" />
+			</speed>
+			<attack physical="8" magical="6" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33560" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33561" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33562" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33563" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33564" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33565" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33566" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33567" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33568" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33569" level="99" type="Folk" name="Hermuncus' Minion" title="Dimension Keeper">
+		
+		<race>KAMAEL</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33570" level="85" type="Folk" name="Remons">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" talkable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33571" level="85" type="Folk" name="Toma Junior">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" talkable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="6" />
+			<height normal="16.3" />
+		</collision>
+	</npc><npc id="33572" level="85" type="Folk" name="Galad">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" talkable="false" showName="false" />
+		<skillList>
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="16" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33573" level="85" type="Folk" name="Rouke">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" talkable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="33574" level="85" type="Folk" name="Lucicon">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" talkable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="18" />
+		</collision>
+	</npc><npc id="33575" level="85" type="Folk" name="Luderic">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="63" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" talkable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33576" level="85" type="Folk" name="Elphasia">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" showName="false" talkable="false" targetable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="25.3" />
+		</collision>
+	</npc><npc id="33577" level="85" type="Folk" name="Mephisto">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>KAMAEL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="80" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" showName="false" talkable="false" targetable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33578" level="85" type="Folk" name="">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="20" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="13" />
+		</collision>
+	</npc><npc id="33579" level="85" type="PetManager" name="Graman" title="Pet Manager">
+		
+		<parameters>
+			<param name="HavePet" value="1" />
+			<param name="silhouette" value="33580" />
+			<param name="item_baby_pet1" value="2375" />
+			<param name="item_grown_pet1" value="9882" />
+			<param name="id_grown_pet1" value="12" />
+			<param name="class_id_baby_pet1" value="12077" />
+			<param name="min_lv_pet1" value="55" />
+			<param name="check_min_lv_pet1" value="1" />
+			<param name="item_baby_pet2" value="6648" />
+			<param name="item_grown_pet2" value="10311" />
+			<param name="id_grown_pet2" value="18" />
+			<param name="class_id_baby_pet2" value="12780" />
+			<param name="min_lv_pet2" value="55" />
+			<param name="check_min_lv_pet2" value="1" />
+			<param name="item_baby_pet3" value="6650" />
+			<param name="item_grown_pet3" value="10313" />
+			<param name="id_grown_pet3" value="19" />
+			<param name="class_id_baby_pet3" value="12781" />
+			<param name="min_lv_pet3" value="55" />
+			<param name="check_min_lv_pet3" value="1" />
+			<param name="item_baby_pet4" value="6649" />
+			<param name="item_grown_pet4" value="10312" />
+			<param name="id_grown_pet4" value="20" />
+			<param name="class_id_baby_pet4" value="12782" />
+			<param name="min_lv_pet4" value="55" />
+			<param name="check_min_lv_pet4" value="1" />
+			<param name="item_baby_pet5" value="9882" />
+			<param name="item_grown_pet5" value="10426" />
+			<param name="id_grown_pet5" value="21" />
+			<param name="class_id_baby_pet5" value="16025" />
+			<param name="min_lv_pet5" value="70" />
+			<param name="check_min_lv_pet5" value="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="63" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33580" level="85" type="Folk" name="Strider">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="24" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="11.5" />
+		</collision>
+	</npc><npc id="33581" level="1" type="Folk" name="Eeny" title="Aden Reconstruction Society Member">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<speed>
+				<walk ground="20" />
+				<run ground="120" />
+			</speed>
+			<attack physical="8" magical="6" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33582" level="1" type="Folk" name="Meeny" title="Aden Reconstruction Society Leader">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<speed>
+				<walk ground="20" />
+				<run ground="120" />
+			</speed>
+			<attack physical="8" magical="6" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33583" level="1" type="Folk" name="Miny" title="Aden Reconstruction Society Member">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<speed>
+				<walk ground="20" />
+				<run ground="120" />
+			</speed>
+			<attack physical="8" magical="6" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33584" level="1" type="Folk" name="Moe" title="Aden Reconstruction Society Leader">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<speed>
+				<walk ground="20" />
+				<run ground="120" />
+			</speed>
+			<attack physical="8" magical="6" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33585" level="85" type="Folk" name="Conrad" title="Kingdom Mark Manager">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="33586" level="85" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="1" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="33587" level="85" type="Folk" name="Mentor Guide" title="Mentoring Manager">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33588" level="99" type="Folk" name="Cellphine">
+		
+		<parameters>
+			<param name="NoFnHi" value="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33589" level="99" type="Folk" name="Cellphine">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33590" level="85" type="Folk" name="Priest of Fate" title="Choice Returner">
+		
+		<race>KAMAEL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="28" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="25" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33591" level="85" type="Folk" name="Warehouse Keeper" title="Consultation Service">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="50" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="33592" level="40" type="Folk" name="Oska" title="Black Anvil">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="33593" level="40" type="Folk" name="Dwarf Corpse">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33594" level="40" type="Folk" name="Dwarf Corpse">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33595" level="40" type="Folk" name="Daemon Angma" title="Helpful">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="12.5" />
+		</collision>
+	</npc><npc id="33596" level="40" type="Folk" name="Daemon Angma" title="Aggressive">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="12.5" />
+		</collision>
+	</npc><npc id="33597" level="40" type="Folk" name="Daemon Angma" title="Distracted">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="12.5" />
+		</collision>
+	</npc><npc id="33598" level="40" type="Folk" name="Gon" title="Party Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="165" />
+			<param name="MoveAroundSocial1" value="165" />
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="22" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="21" />
+		</collision>
+	</npc><npc id="33599" level="40" type="Folk" name="Chau" title="Party Staff">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<equipment rhand="15280" /> 
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="79" int="74" dex="42" wit="65" con="75" men="72">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="10" />
+				<run ground="120" />
+			</speed>
+			<attack physical="176" magical="120" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="157" magical="115" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="19.5" />
+		</collision>
+	</npc></list>

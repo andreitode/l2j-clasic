@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/classiclude/java/org/classiclude/gameserver/GameServer.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
+        <listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_CLASSPATH_ONLY_JAR" value="false"/>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_USE_START_ON_FIRST_THREAD" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="org.classiclude.gameserver.GameServer"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="classiclude"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="classiclude"/>
+    <stringAttribute key="org.eclipse.jdt.launching.VM_ARGUMENTS" value="-server -Dfile.encoding=UTF-8 -Djava.util.logging.manager=org.classiclude.log.ServerLogManager -Dorg.slf4j.simpleLogger.log.com.zaxxer.hikari=warn -XX:+UseZGC"/>
+    <stringAttribute key="org.eclipse.jdt.launching.WORKING_DIRECTORY" value="${workspace_loc:classiclude}/dist/game/"/>
+</launchConfiguration>

@@ -1,0 +1,687 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<spawn>
+		<territories><territory minZ="-2356" maxZ="-1856" name="aden03_2417_01">
+			<node x="143434" y="-25858" />
+			<node x="144940" y="-25595" />
+			<node x="145868" y="-24724" />
+			<node x="145164" y="-23676" />
+			<node x="143704" y="-23776" />
+			<node x="142792" y="-25304" />
+		</territory>
+		</territories><npc id="21114" count="2" respawnTime="45sec" /> 
+		<npc id="21115" count="3" respawnTime="45sec" /> 
+		<npc id="21116" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3044" maxZ="-2244" name="aden03_2417_02">
+			<node x="145941" y="-25568" />
+			<node x="147085" y="-26580" />
+			<node x="147861" y="-25807" />
+			<node x="146447" y="-24356" />
+		</territory>
+		</territories><npc id="21114" count="1" respawnTime="45sec" /> 
+		<npc id="21115" count="1" respawnTime="45sec" /> 
+		<npc id="21116" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3524" maxZ="-2824" name="aden03_2417_03">
+			<node x="148088" y="-25056" />
+			<node x="148924" y="-26444" />
+			<node x="151596" y="-23608" />
+			<node x="149684" y="-22508" />
+		</territory>
+		</territories><npc id="21114" count="3" respawnTime="45sec" /> 
+		<npc id="21115" count="4" respawnTime="45sec" /> 
+		<npc id="21116" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3588" maxZ="-2688" name="aden03_2417_04">
+			<node x="146642" y="-24200" />
+			<node x="147666" y="-25178" />
+			<node x="149522" y="-22512" />
+			<node x="147934" y="-20768" />
+		</territory>
+		</territories><npc id="21114" count="4" respawnTime="45sec" /> 
+		<npc id="21115" count="3" respawnTime="45sec" /> 
+		<npc id="21116" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3484" maxZ="-2584" name="aden03_2417_05">
+			<node x="144856" y="-22684" />
+			<node x="146736" y="-23748" />
+			<node x="147924" y="-20712" />
+			<node x="146936" y="-19676" />
+		</territory>
+		</territories><npc id="21114" count="3" respawnTime="45sec" /> 
+		<npc id="21115" count="4" respawnTime="45sec" /> 
+		<npc id="21116" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3308" maxZ="-2508" name="aden03_2417_06">
+			<node x="142500" y="-23056" />
+			<node x="144776" y="-22628" />
+			<node x="146076" y="-20748" />
+			<node x="145252" y="-20336" />
+			<node x="142592" y="-21240" />
+		</territory>
+		</territories><npc id="21114" count="3" respawnTime="45sec" /> 
+		<npc id="21115" count="4" respawnTime="45sec" /> 
+		<npc id="21116" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3416" maxZ="-2816" name="aden03_2417_07">
+			<node x="142292" y="-21264" />
+			<node x="144936" y="-20412" />
+			<node x="144780" y="-19028" />
+			<node x="143824" y="-18252" />
+			<node x="142156" y="-17848" />
+			<node x="140892" y="-18052" />
+			<node x="140356" y="-19536" />
+			<node x="141120" y="-20784" />
+		</territory>
+		</territories><npc id="21114" count="6" respawnTime="45sec" /> 
+		<npc id="21115" count="7" respawnTime="45sec" /> 
+		<npc id="21116" count="6" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3472" maxZ="-2772" name="aden03_2417_08">
+			<node x="148692" y="-20900" />
+			<node x="150624" y="-23016" />
+			<node x="150632" y="-21540" />
+			<node x="150312" y="-20924" />
+		</territory>
+		</territories><npc id="21114" count="1" respawnTime="45sec" /> 
+		<npc id="21115" count="2" respawnTime="45sec" /> 
+		<npc id="21116" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3416" maxZ="-2416" name="aden03_2417_09">
+			<node x="148664" y="-20788" />
+			<node x="150072" y="-20792" />
+			<node x="152976" y="-16608" />
+			<node x="151064" y="-16184" />
+			<node x="147964" y="-17984" />
+		</territory>
+		</territories><npc id="21114" count="6" respawnTime="45sec" /> 
+		<npc id="21115" count="7" respawnTime="45sec" /> 
+		<npc id="21116" count="6" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3828" maxZ="-3028" name="aden03_2417_10">
+			<node x="145024" y="-18548" />
+			<node x="146876" y="-18000" />
+			<node x="146812" y="-17128" />
+			<node x="144716" y="-17456" />
+		</territory>
+		</territories><npc id="21114" count="1" respawnTime="45sec" /> 
+		<npc id="21115" count="2" respawnTime="45sec" /> 
+		<npc id="21116" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4568" maxZ="-3768" name="aden03_2417_11">
+			<node x="140059" y="-17163" />
+			<node x="142960" y="-16706" />
+			<node x="142516" y="-12605" />
+			<node x="137245" y="-13286" />
+		</territory>
+		</territories><npc id="21111" count="8" respawnTime="45sec" /> 
+		<npc id="21112" count="8" respawnTime="45sec" /> 
+		<npc id="21113" count="5" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4536" maxZ="-3136" name="aden03_2417_12">
+			<node x="143148" y="-16612" />
+			<node x="144708" y="-17444" />
+			<node x="146804" y="-17076" />
+			<node x="147272" y="-14108" />
+			<node x="145352" y="-12052" />
+			<node x="142652" y="-12624" />
+		</territory>
+		</territories><npc id="21111" count="7" respawnTime="45sec" /> 
+		<npc id="21112" count="9" respawnTime="45sec" /> 
+		<npc id="21113" count="4" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4500" maxZ="-3500" name="aden03_2417_13">
+			<node x="146832" y="-17112" />
+			<node x="149548" y="-16076" />
+			<node x="149532" y="-13756" />
+			<node x="147376" y="-14064" />
+		</territory>
+		</territories><npc id="21111" count="3" respawnTime="45sec" /> 
+		<npc id="21112" count="3" respawnTime="45sec" /> 
+		<npc id="21113" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4592" maxZ="-3992" name="aden03_2417_14">
+			<node x="149600" y="-15645" />
+			<node x="152675" y="-15093" />
+			<node x="152427" y="-13124" />
+			<node x="149590" y="-13767" />
+		</territory>
+		</territories><npc id="21111" count="3" respawnTime="45sec" /> 
+		<npc id="21112" count="4" respawnTime="45sec" /> 
+		<npc id="21113" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4604" maxZ="-4004" name="aden03_2417_15">
+			<node x="147128" y="-14064" />
+			<node x="149004" y="-13796" />
+			<node x="148964" y="-11036" />
+			<node x="146708" y="-10288" />
+			<node x="144976" y="-11800" />
+		</territory>
+		</territories><npc id="21111" count="4" respawnTime="45sec" /> 
+		<npc id="21112" count="4" respawnTime="45sec" /> 
+		<npc id="21113" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4600" maxZ="-4000" name="aden03_2417_16">
+			<node x="149036" y="-13832" />
+			<node x="152976" y="-13004" />
+			<node x="153176" y="-10236" />
+			<node x="149008" y="-10984" />
+		</territory>
+		</territories><npc id="21111" count="5" respawnTime="45sec" /> 
+		<npc id="21112" count="6" respawnTime="45sec" /> 
+		<npc id="21113" count="4" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4724" maxZ="-4324" name="aden03_2417_17">
+			<node x="138152" y="-11656" />
+			<node x="141128" y="-11428" />
+			<node x="139724" y="-9836" />
+			<node x="138532" y="-9860" />
+		</territory>
+		</territories><npc id="21108" count="2" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4736" maxZ="-4536" name="aden03_2417_18">
+			<node x="141192" y="-11360" />
+			<node x="144268" y="-11576" />
+			<node x="143516" y="-8664" />
+			<node x="141860" y="-7636" />
+			<node x="139760" y="-9812" />
+		</territory>
+		</territories><npc id="21108" count="5" respawnTime="45sec" /> 
+		<npc id="21109" count="3" respawnTime="45sec" /> 
+		<npc id="21110" count="6" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4792" maxZ="-4192" name="aden03_2417_19">
+			<node x="144400" y="-11432" />
+			<node x="146604" y="-10100" />
+			<node x="146424" y="-7328" />
+			<node x="143660" y="-8692" />
+		</territory>
+		</territories><npc id="21111" count="3" respawnTime="45sec" /> 
+		<npc id="21112" count="4" respawnTime="45sec" /> 
+		<npc id="21113" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4588" maxZ="-3988" name="aden03_2417_20">
+			<node x="146668" y="-10168" />
+			<node x="148952" y="-10920" />
+			<node x="150624" y="-10572" />
+			<node x="149636" y="-8056" />
+			<node x="146464" y="-7312" />
+		</territory>
+		</territories><npc id="20676" count="3" respawnTime="45sec" /> 
+		<npc id="20677" count="4" respawnTime="45sec" /> 
+		<npc id="21108" count="4" respawnTime="45sec" /> 
+		<npc id="21109" count="2" respawnTime="45sec" /> 
+		<npc id="21110" count="4" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4596" maxZ="-3996" name="aden03_2417_21">
+			<node x="150676" y="-10688" />
+			<node x="153348" y="-10208" />
+			<node x="153556" y="-8384" />
+			<node x="150732" y="-7636" />
+			<node x="149676" y="-8192" />
+		</territory>
+		</territories><npc id="20676" count="2" respawnTime="45sec" /> 
+		<npc id="20677" count="3" respawnTime="45sec" /> 
+		<npc id="21108" count="2" respawnTime="45sec" /> 
+		<npc id="21109" count="2" respawnTime="45sec" /> 
+		<npc id="21110" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4856" maxZ="-4456" name="aden03_2417_22">
+			<node x="139396" y="-8640" />
+			<node x="140204" y="-8288" />
+			<node x="141696" y="-6944" />
+			<node x="140504" y="-5300" />
+			<node x="139036" y="-7184" />
+		</territory>
+		</territories><npc id="20676" count="1" respawnTime="45sec" /> 
+		<npc id="20677" count="1" respawnTime="45sec" /> 
+		<npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4780" maxZ="-4180" name="aden03_2417_23">
+			<node x="141648" y="-7220" />
+			<node x="143596" y="-8592" />
+			<node x="146424" y="-7268" />
+			<node x="145588" y="-6096" />
+			<node x="141872" y="-6808" />
+		</territory>
+		</territories><npc id="20676" count="1" respawnTime="45sec" /> 
+		<npc id="20677" count="1" respawnTime="45sec" /> 
+		<npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4856" maxZ="-4256" name="aden03_2417_24">
+			<node x="141672" y="-6808" />
+			<node x="143900" y="-6404" />
+			<node x="142476" y="-4712" />
+			<node x="140484" y="-4508" />
+		</territory>
+		</territories><npc id="20676" count="3" respawnTime="45sec" /> 
+		<npc id="20677" count="2" respawnTime="45sec" /> 
+		<npc id="21108" count="2" respawnTime="45sec" /> 
+		<npc id="21109" count="2" respawnTime="45sec" /> 
+		<npc id="21110" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4812" maxZ="-3812" name="aden03_2417_25">
+			<node x="143952" y="-6332" />
+			<node x="145584" y="-6024" />
+			<node x="145852" y="-3876" />
+			<node x="143708" y="-3884" />
+			<node x="142628" y="-4768" />
+		</territory>
+		</territories><npc id="20676" count="2" respawnTime="45sec" /> 
+		<npc id="20677" count="2" respawnTime="45sec" /> 
+		<npc id="21108" count="2" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4672" maxZ="-4072" name="aden03_2417_26">
+			<node x="145696" y="-6004" />
+			<node x="146536" y="-7260" />
+			<node x="148356" y="-7740" />
+			<node x="148704" y="-5236" />
+			<node x="145908" y="-3836" />
+		</territory>
+		</territories><npc id="20676" count="2" respawnTime="45sec" /> 
+		<npc id="20677" count="3" respawnTime="45sec" /> 
+		<npc id="21108" count="2" respawnTime="45sec" /> 
+		<npc id="21109" count="2" respawnTime="45sec" /> 
+		<npc id="21110" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4600" maxZ="-4400" name="aden03_2417_27">
+			<node x="148420" y="-7740" />
+			<node x="149624" y="-8056" />
+			<node x="150708" y="-7544" />
+			<node x="150852" y="-5948" />
+			<node x="148732" y="-5624" />
+		</territory>
+		</territories><npc id="20676" count="2" respawnTime="45sec" /> 
+		<npc id="20677" count="1" respawnTime="45sec" /> 
+		<npc id="21108" count="2" respawnTime="45sec" /> 
+		<npc id="21109" count="2" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4600" maxZ="-4000" name="aden03_2417_28">
+			<node x="150796" y="-7524" />
+			<node x="153600" y="-8336" />
+			<node x="154460" y="-7372" />
+			<node x="153816" y="-5852" />
+			<node x="150884" y="-5960" />
+		</territory>
+		</territories><npc id="20676" count="2" respawnTime="45sec" /> 
+		<npc id="20677" count="2" respawnTime="45sec" /> 
+		<npc id="21108" count="2" respawnTime="45sec" /> 
+		<npc id="21109" count="2" respawnTime="45sec" /> 
+		<npc id="21110" count="3" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3876" maxZ="-2676" name="aden03_2417_81">
+			<node x="157004" y="-11916" />
+			<node x="160032" y="-10972" />
+			<node x="160580" y="-9332" />
+			<node x="160412" y="-7464" />
+			<node x="157916" y="-7320" />
+			<node x="156548" y="-9512" />
+		</territory>
+		</territories><npc id="21108" count="7" respawnTime="45sec" /> 
+		<npc id="21109" count="3" respawnTime="45sec" /> 
+		<npc id="21110" count="8" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3080" maxZ="-2080" name="aden03_2417_82">
+			<node x="155516" y="-15604" />
+			<node x="157112" y="-15568" />
+			<node x="158352" y="-14892" />
+			<node x="158516" y="-13584" />
+			<node x="156344" y="-13044" />
+			<node x="155092" y="-14880" />
+		</territory>
+		</territories><npc id="21111" count="2" respawnTime="45sec" /> 
+		<npc id="21112" count="3" respawnTime="45sec" /> 
+		<npc id="21113" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4076" maxZ="-3076" name="aden03_2417_83">
+			<node x="153440" y="-14928" />
+			<node x="154136" y="-15008" />
+			<node x="155332" y="-12660" />
+			<node x="155088" y="-11720" />
+			<node x="154112" y="-12456" />
+			<node x="153288" y="-14096" />
+		</territory>
+		</territories><npc id="21111" count="1" respawnTime="45sec" /> 
+		<npc id="21112" count="2" respawnTime="45sec" /> 
+		<npc id="21113" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4316" maxZ="-3316" name="aden03_2417_84">
+			<node x="155148" y="-11588" />
+			<node x="155532" y="-11508" />
+			<node x="155216" y="-10124" />
+			<node x="154316" y="-9896" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4300" maxZ="-3300" name="aden03_2417_85">
+			<node x="154484" y="-9712" />
+			<node x="155220" y="-9976" />
+			<node x="156348" y="-8080" />
+			<node x="155704" y="-7844" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4316" maxZ="-3316" name="aden03_2417_86">
+			<node x="155436" y="-7388" />
+			<node x="156364" y="-8004" />
+			<node x="157716" y="-6064" />
+			<node x="156516" y="-5212" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4616" maxZ="-4416" name="aden03_2417_87">
+			<node x="153984" y="-3260" />
+			<node x="155960" y="-4172" />
+			<node x="156196" y="-3596" />
+			<node x="154160" y="-2840" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4600" maxZ="-4400" name="aden03_2417_88">
+			<node x="151900" y="-2664" />
+			<node x="153524" y="-3156" />
+			<node x="153680" y="-2588" />
+			<node x="152052" y="-2136" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4612" maxZ="-4412" name="aden03_2417_89">
+			<node x="149524" y="-2192" />
+			<node x="151864" y="-2672" />
+			<node x="152008" y="-2088" />
+			<node x="149560" y="-1564" />
+		</territory>
+		</territories><npc id="21111" count="1" respawnTime="45sec" /> 
+		<npc id="21112" count="1" respawnTime="45sec" /> 
+		<npc id="21113" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4636" maxZ="-4436" name="aden03_2417_90">
+			<node x="146924" y="-2172" />
+			<node x="149480" y="-2180" />
+			<node x="149504" y="-1584" />
+			<node x="146904" y="-1600" />
+		</territory>
+		</territories><npc id="21111" count="1" respawnTime="45sec" /> 
+		<npc id="21112" count="1" respawnTime="45sec" /> 
+		<npc id="21113" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4636" maxZ="-4436" name="aden03_2417_91">
+			<node x="143972" y="-2188" />
+			<node x="146472" y="-2140" />
+			<node x="146460" y="-1664" />
+			<node x="143952" y="-1664" />
+		</territory>
+		</territories><npc id="21111" count="1" respawnTime="45sec" /> 
+		<npc id="21112" count="1" respawnTime="45sec" /> 
+		<npc id="21113" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4632" maxZ="-4432" name="aden03_2417_93">
+			<node x="139428" y="-2660" />
+			<node x="143892" y="-2164" />
+			<node x="143852" y="-1644" />
+			<node x="141464" y="-1800" />
+			<node x="139292" y="-2232" />
+		</territory>
+		</territories><npc id="21111" count="3" respawnTime="45sec" /> 
+		<npc id="21112" count="2" respawnTime="45sec" /> 
+		<npc id="21113" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4476" maxZ="-4276" name="aden03_2417_94">
+			<node x="137764" y="-3616" />
+			<node x="139012" y="-2808" />
+			<node x="138816" y="-2368" />
+			<node x="137324" y="-3064" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4496" maxZ="-4296" name="aden03_2417_95">
+			<node x="136004" y="-4624" />
+			<node x="136544" y="-4912" />
+			<node x="137640" y="-3636" />
+			<node x="137244" y="-3220" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3996" maxZ="-3496" name="aden03_2417_96">
+			<node x="137052" y="-5808" />
+			<node x="137852" y="-6420" />
+			<node x="138612" y="-4560" />
+			<node x="137968" y="-4204" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4476" maxZ="-3876" name="aden03_2417_97">
+			<node x="135872" y="-6452" />
+			<node x="136624" y="-7244" />
+			<node x="136464" y="-5020" />
+			<node x="136028" y="-4780" />
+			<node x="135676" y="-5144" />
+		</territory>
+		</territories><npc id="21108" count="1" respawnTime="45sec" /> 
+		<npc id="21109" count="1" respawnTime="45sec" /> 
+		<npc id="21110" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3968" maxZ="-3368" name="aden03_2417_98">
+			<node x="137552" y="-17024" />
+			<node x="137964" y="-18544" />
+			<node x="139060" y="-17100" />
+			<node x="137836" y="-16264" />
+		</territory>
+		</territories><npc id="21111" count="1" respawnTime="45sec" /> 
+		<npc id="21112" count="1" respawnTime="45sec" /> 
+		<npc id="21113" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-2084" maxZ="-1084" name="aden03_2417_99">
+			<node x="154024" y="-19728" />
+			<node x="155416" y="-20264" />
+			<node x="156044" y="-18472" />
+			<node x="154516" y="-17844" />
+			<node x="153180" y="-17852" />
+			<node x="152876" y="-18588" />
+		</territory>
+		</territories><npc id="21114" count="2" respawnTime="45sec" /> 
+		<npc id="21115" count="3" respawnTime="45sec" /> 
+		<npc id="21116" count="2" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-1824" maxZ="-824" name="aden03_2417_100">
+			<node x="154020" y="-22548" />
+			<node x="156424" y="-21692" />
+			<node x="155144" y="-20788" />
+			<node x="153688" y="-20960" />
+		</territory>
+		</territories><npc id="21114" count="1" respawnTime="45sec" /> 
+		<npc id="21115" count="2" respawnTime="45sec" /> 
+		<npc id="21116" count="1" respawnTime="45sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3416" maxZ="-2816" name="aden03_2417_p07">
+			<node x="142292" y="-21264" />
+			<node x="144936" y="-20412" />
+			<node x="144780" y="-19028" />
+			<node x="143824" y="-18252" />
+			<node x="142156" y="-17848" />
+			<node x="140892" y="-18052" />
+			<node x="140356" y="-19536" />
+			<node x="141120" y="-20784" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-3416" maxZ="-2416" name="aden03_2417_p09">
+			<node x="148664" y="-20788" />
+			<node x="150072" y="-20792" />
+			<node x="152976" y="-16608" />
+			<node x="151064" y="-16184" />
+			<node x="147964" y="-17984" />
+		</territory>
+		</territories><npc id="20773" count="2" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4568" maxZ="-3768" name="aden03_2417_p11">
+			<node x="140059" y="-17163" />
+			<node x="142960" y="-16706" />
+			<node x="142516" y="-12605" />
+			<node x="137245" y="-13286" />
+		</territory>
+		</territories><npc id="20773" count="2" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4536" maxZ="-3136" name="aden03_2417_p12">
+			<node x="143148" y="-16612" />
+			<node x="144708" y="-17444" />
+			<node x="146804" y="-17076" />
+			<node x="147272" y="-14108" />
+			<node x="145352" y="-12052" />
+			<node x="142652" y="-12624" />
+		</territory>
+		</territories><npc id="20773" count="3" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4500" maxZ="-3500" name="aden03_2417_p13">
+			<node x="146832" y="-17112" />
+			<node x="149548" y="-16076" />
+			<node x="149532" y="-13756" />
+			<node x="147376" y="-14064" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4592" maxZ="-3992" name="aden03_2417_p14">
+			<node x="149600" y="-15645" />
+			<node x="152675" y="-15093" />
+			<node x="152427" y="-13124" />
+			<node x="149590" y="-13767" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4604" maxZ="-4004" name="aden03_2417_p15">
+			<node x="147128" y="-14064" />
+			<node x="149004" y="-13796" />
+			<node x="148964" y="-11036" />
+			<node x="146708" y="-10288" />
+			<node x="144976" y="-11800" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4600" maxZ="-4000" name="aden03_2417_p16">
+			<node x="149036" y="-13832" />
+			<node x="152976" y="-13004" />
+			<node x="153176" y="-10236" />
+			<node x="149008" y="-10984" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4736" maxZ="-4536" name="aden03_2417_p18">
+			<node x="141192" y="-11360" />
+			<node x="144268" y="-11576" />
+			<node x="143516" y="-8664" />
+			<node x="141860" y="-7636" />
+			<node x="139760" y="-9812" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4792" maxZ="-4192" name="aden03_2417_p19">
+			<node x="144400" y="-11432" />
+			<node x="146604" y="-10100" />
+			<node x="146424" y="-7328" />
+			<node x="143660" y="-8692" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4588" maxZ="-3988" name="aden03_2417_p20">
+			<node x="146668" y="-10168" />
+			<node x="148952" y="-10920" />
+			<node x="150624" y="-10572" />
+			<node x="149636" y="-8056" />
+			<node x="146464" y="-7312" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-4596" maxZ="-3996" name="aden03_2417_p21">
+			<node x="150676" y="-10688" />
+			<node x="153348" y="-10208" />
+			<node x="153556" y="-8384" />
+			<node x="150732" y="-7636" />
+			<node x="149676" y="-8192" />
+		</territory>
+		</territories><npc id="20773" count="1" respawnTime="90sec" respawnRandom="50sec" /> 
+	</spawn>
+</list>

@@ -1,0 +1,4750 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="18200" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="lords_weakness" />
+			<param name="type" value="0" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18201" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="lords_pddown" />
+			<param name="type" value="1" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18202" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="lords_poison" />
+			<param name="type" value="2" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18203" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="lords_nonheal" />
+			<param name="type" value="3" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18204" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="savants_weakness" />
+			<param name="type" value="0" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18205" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="savants_pddown" />
+			<param name="type" value="1" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18206" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="savants_poison" />
+			<param name="type" value="2" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18207" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="savants_nonheal" />
+			<param name="type" value="3" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18208" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="magistrates_weakness" />
+			<param name="type" value="0" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18209" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="magistrates_pddown" />
+			<param name="type" value="1" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18210" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="magistrates_poison" />
+			<param name="type" value="2" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18211" level="78" type="Monster" name="Charm of Corner">
+		
+		<parameters>
+			<param name="AreaName" value="magistrates_nonheal" />
+			<param name="type" value="3" />
+			<skill name="StatusEffect" id="4628" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="126242" sp="15456" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="654" magical="312" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="578" magical="350" evasion="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4628" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="18212" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18213" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18214" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18215" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18216" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18217" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18218" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18219" level="78" type="Monster" name="Halisha's Archon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="KeyBox" value="31455" />
+			<skill name="PhysicalSpecial1" id="4605" level="9" />
+			<skill name="RangeDDMagic1" id="4589" level="9" />
+			<skill name="ClanBuff1" id="4639" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6722" /> 
+		<acquire exp="160990" sp="19710" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="791" magical="457" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="478" magical="289" evasion="3" />
+			<speed>
+				<walk ground="35" />
+				<run ground="185" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4285" level="5" /> 
+			<skill id="4287" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="20" /> 
+			<skill id="4413" level="20" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="4" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4589" level="9" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4639" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="17" />
+			<height normal="57.75" grown="69" />
+		</collision>
+	</npc><npc id="18220" level="78" type="Monster" name="Shaman of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="W_SelfRangeDDMagic" id="4033" level="9" />
+			<skill name="W_RangeDeBuff" id="4587" level="9" />
+			<skill name="W_RangeHeal" id="4613" level="9" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="3939" /> 
+		<acquire exp="52672" sp="6450" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1053" magical="811" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="160" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4033" level="9" /> 
+			<skill id="4587" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4285" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="18221" level="78" type="Monster" name="Shaman of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="W_SelfRangeDDMagic" id="4033" level="9" />
+			<skill name="W_LongRangeDDMagic" id="4597" level="9" />
+			<skill name="W_SelfRangeDeBuff" id="4600" level="9" />
+			<skill name="W_RangeHeal" id="4613" level="9" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="3939" /> 
+		<acquire exp="54084" sp="6618" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1053" magical="811" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="160" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4033" level="9" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4285" level="5" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4597" level="9" /> 
+			<skill id="4600" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="18222" level="78" type="Monster" name="Assassin of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="SelfBuff" value="0" />
+			<skill name="PhysicalSpecial" id="4560" level="9" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="51241" sp="6270" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="190" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4560" level="9" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4412" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="18223" level="78" type="Monster" name="Assassin of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="PhysicalSpecial1" id="4573" level="9" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="38424" sp="4704" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="190" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4573" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="18224" level="78" type="Monster" name="Assassin of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="PhysicalSpecial1" id="4573" level="9" />
+			<skill name="PhysicalSpecial2" id="4560" level="9" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="51759" sp="6336" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="190" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4560" level="9" /> 
+			<skill id="4573" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="18225" level="78" type="Monster" name="Assassin of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="PhysicalSpecial" id="4560" level="9" />
+			<skill name="SelfBuff" id="4091" level="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="51241" sp="6270" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="41" />
+				<run ground="190" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4091" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4560" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="18226" level="78" type="Monster" name="Caster of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
+			<skill name="W_LongRangeDDMagic" id="4157" level="9" />
+			<skill name="W_ShortRangeDDMagic" id="4561" level="9" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="37902" sp="4638" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="155" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4157" level="9" /> 
+			<skill id="4561" level="9" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="18227" level="78" type="Monster" name="Caster of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
+			<skill name="W_LongRangeDDMagic" id="4157" level="9" />
+			<skill name="W_ShortRangeDDMagic" id="4561" level="9" />
+			<skill name="W_ClanBuff" id="4575" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="65130" sp="7974" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="155" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4157" level="9" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4561" level="9" /> 
+			<skill id="4575" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="18228" level="78" type="Monster" name="Caster of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
+			<skill name="W_LongRangeDDMagic" id="4157" level="9" />
+			<skill name="W_ShortRangeDDMagic" id="4561" level="9" />
+			<skill name="W_RangeDeBuff" id="4102" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="48966" sp="5994" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="155" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4102" level="2" /> 
+			<skill id="4157" level="9" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4561" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="18229" level="78" type="Monster" name="Caster of Darkness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
+			<skill name="W_SelfRangeDDMagic" id="4033" level="9" />
+			<skill name="W_ShortRangeDDMagic" id="4561" level="9" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="50434" sp="6174" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="155" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4033" level="9" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4561" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="18230" level="78" type="Monster" name="Signet of Emperor">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="115" />
+			<param name="MoveAroundSocial1" value="115" />
+			<param name="MoveAroundSocial2" value="115" />
+			<skill name="SelfRangeDDMagic" id="4614" level="9" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="20851" sp="2553" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1542" magical="1738" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="245" magical="148" evasion="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="60" />
+			</speed>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4444" level="2" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB5</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="8" />
+		</collision>
+	</npc><npc id="18231" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18232" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18233" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18234" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18235" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18236" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18237" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18238" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18239" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18240" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18241" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18242" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18243" level="78" type="Monster" name="Statue of Protection">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="PhysicalSpecial" id="4605" level="9" />
+			<skill name="DeBuff" id="4620" level="9" />
+			<skill name="SelfRangeDDMagic" id="4072" level="9" />
+			<skill name="SelfBuff1" id="4616" level="1" />
+			<skill name="SelfBuff2" id="4383" level="1" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<equipment rhand="5795" /> 
+		<acquire exp="62031" sp="7596" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="52.326" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="53" />
+				<run ground="140" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4071" level="5" /> 
+			<skill id="4072" level="9" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4383" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="17" /> 
+			<skill id="4413" level="17" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4436" level="5" /> 
+			<skill id="4437" level="5" /> 
+			<skill id="4605" level="9" /> 
+			<skill id="4616" level="1" /> 
+			<skill id="4620" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="600" isAggressive="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="18244" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18245" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18246" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB1</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18247" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB2</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18248" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB2</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18249" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB2</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18250" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB3</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18251" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB3</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18252" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB3</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18253" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="1274" magical="1187" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="179" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="BALANCED" clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18254" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="870" magical="554" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="434" magical="263" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18255" level="78" type="Monster" name="Watchman of Grave">
+		
+		<parameters>
+			<skill name="afflict_skill1" id="4614" level="9" />
+			<skill name="afflict_skill2" id="4613" level="9" />
+			<skill name="afflict_skill3" id="4606" level="9" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2975" hpRegen="26.163" mp="1742.976" mpRegen="3.07" />
+			<attack physical="957" magical="670" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="359" magical="217" evasion="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="1" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="4" /> 
+			<skill id="4439" level="4" /> 
+			<skill id="4606" level="9" /> 
+			<skill id="4613" level="9" /> 
+			<skill id="4614" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="600" aggroRange="450">
+			<clanList>
+				<clan>TOMB4</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="18256" level="78" type="Monster" name="Halisha's Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1" mp="1.07" hpRegen="0" mpRegen="0" />
+			<attack physical="1" magical="1" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="1" magical="1" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1370" max="2743" chance="100" /> 
+				</group>
+				<group chance="0.0006">
+					<item id="2500" min="1" max="1" chance="33.3333" /> 
+					<item id="151" min="1" max="1" chance="33.3333" /> 
+					<item id="81" min="1" max="1" chance="33.3333" /> 
+				</group>
+				<group chance="6.9672">
+					<item id="5545" min="1" max="1" chance="0.63153" /> 
+					<item id="5529" min="1" max="1" chance="0.63153" /> 
+					<item id="5546" min="1" max="1" chance="0.69325" /> 
+					<item id="1895" min="1" max="1" chance="78.7375" /> 
+					<item id="959" min="1" max="1" chance="0.01148" /> 
+					<item id="4042" min="1" max="1" chance="4.59439" /> 
+					<item id="4043" min="1" max="1" chance="9.18733" /> 
+					<item id="4040" min="1" max="1" chance="5.51298" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18257" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18258" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18259" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18260" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18261" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18262" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18263" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18264" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3365" hpRegen="3.21" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="114" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="399" magical="242" evasion="110" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="18265" level="21" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="376" hpRegen="1.5" mp="205.2" mpRegen="1.5" />
+			<attack physical="47" magical="32" random="10" critical="4" accuracy="57" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="92" magical="56" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+				<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="480" max="858" chance="100" /> 
+				</group>
+				<group chance="3.4902">
+					<item id="955" min="1" max="1" chance="10.7157" /> 
+					<item id="956" min="1" max="1" chance="89.2843" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1864" min="1" max="1" chance="100" /> 
+				<item id="1864" min="1" max="1" chance="87.9656" /> 
+				<item id="1869" min="1" max="1" chance="93.9828" /> 
+				<item id="1926" min="1" max="1" chance="9.4932" /> 
+			</spoil>
+		</dropLists></npc><npc id="18266" level="24" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="449" hpRegen="1.5" mp="245.52" mpRegen="1.5" />
+			<attack physical="60" magical="41" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="101" magical="61" evasion="56" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+			<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="483" max="891" chance="100" /> 
+				</group>
+				<group chance="3.5977">
+					<item id="955" min="1" max="1" chance="10.7152" /> 
+					<item id="956" min="1" max="1" chance="89.2848" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="2151" min="1" max="1" chance="30.5968" /> 
+				<item id="1928" min="1" max="1" chance="16.0004" /> 
+				<item id="2176" min="1" max="1" chance="52.5564" /> 
+			</spoil>
+		</dropLists></npc><npc id="18267" level="27" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="531" hpRegen="1.5" mp="286.92" mpRegen="1.5" />
+			<attack physical="74" magical="51" random="10" critical="4" accuracy="63" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="111" magical="67" evasion="59" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="484" max="932" chance="100" /> 
+				</group>
+				<group chance="3.6446">
+					<item id="955" min="1" max="1" chance="10.7145" /> 
+					<item id="956" min="1" max="1" chance="89.2855" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1899" min="1" max="1" chance="19.8352" /> 
+				<item id="1871" min="1" max="1" chance="100" /> 
+				<item id="1871" min="1" max="1" chance="26.9448" /> 
+				<item id="5220" min="1" max="1" chance="5.078" /> 
+			</spoil>
+		</dropLists></npc><npc id="18268" level="30" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="623" hpRegen="1.5" mp="329.4" mpRegen="1.5" />
+			<attack physical="92" magical="63" random="10" critical="4" accuracy="66" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="122" magical="74" evasion="62" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="708" max="1417" chance="100" /> 
+				</group>
+				<group chance="5.4171">
+					<item id="955" min="1" max="1" chance="10.7142" /> 
+					<item id="956" min="1" max="1" chance="89.2858" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1061" min="1" max="1" chance="88.5052" /> 
+				<item id="1900" min="1" max="1" chance="15.9772" /> 
+				<item id="2250" min="1" max="1" chance="36.5084" /> 
+			</spoil>
+		</dropLists></npc><npc id="18269" level="33" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="724" hpRegen="1.8" mp="372.96" mpRegen="1.8" />
+			<attack physical="113" magical="77" random="10" critical="4" accuracy="69" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="133" magical="80" evasion="119" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="732" max="1465" chance="100" /> 
+				</group>
+				<group chance="5.5432">
+					<item id="955" min="1" max="1" chance="10.7158" /> 
+					<item id="956" min="1" max="1" chance="89.2842" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1901" min="1" max="1" chance="24.0608" /> 
+				<item id="2154" min="1" max="1" chance="18.6508" /> 
+				<item id="1938" min="1" max="1" chance="11.7108" /> 
+			</spoil>
+		</dropLists></npc><npc id="18270" level="36" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="835" hpRegen="1.8" mp="417.6" mpRegen="1.8" />
+			<attack physical="137" magical="94" random="30" critical="4" accuracy="72" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="145" magical="87" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="758" max="1520" chance="100" /> 
+				</group>
+				<group chance="5.752">
+					<item id="955" min="1" max="1" chance="10.7145" /> 
+					<item id="956" min="1" max="1" chance="89.2855" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1864" min="2" max="6" chance="100" /> 
+				<item id="1864" min="1" max="3" chance="4.9668" /> 
+				<item id="1880" min="1" max="1" chance="20.4968" /> 
+				<item id="1939" min="1" max="1" chance="18.0032" /> 
+			</spoil>
+		</dropLists></npc><npc id="18271" level="39" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="955" hpRegen="1.8" mp="463.32" mpRegen="1.8" />
+			<attack physical="166" magical="113" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="157" magical="95" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="789" max="1572" chance="100" /> 
+				</group>
+				<group chance="5.9154">
+					<item id="955" min="1" max="1" chance="10.7144" /> 
+					<item id="956" min="1" max="1" chance="89.2856" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="2157" min="1" max="1" chance="19.7684" /> 
+				<item id="1902" min="1" max="1" chance="24.2352" /> 
+				<item id="2158" min="1" max="1" chance="29.604" /> 
+			</spoil>
+		</dropLists></npc><npc id="18272" level="42" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1084" hpRegen="2.1" mp="531" mpRegen="2.1" />
+			<attack physical="198" magical="135" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="170" magical="103" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1257" max="2519" chance="100" /> 
+				</group>
+				<group chance="3.8025">
+					<item id="951" min="1" max="1" chance="12" /> 
+					<item id="952" min="1" max="1" chance="88" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1905" min="1" max="1" chance="26.8516" /> 
+				<item id="1871" min="2" max="2" chance="100" /> 
+				<item id="1871" min="1" max="1" chance="76.0332" /> 
+				<item id="1866" min="1" max="1" chance="100" /> 
+				<item id="1866" min="1" max="1" chance="84.0224" /> 
+			</spoil>
+		</dropLists></npc><npc id="18273" level="45" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1222" hpRegen="2.1" mp="610.8" mpRegen="2.1" />
+			<attack physical="234" magical="160" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="183" magical="111" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1293" max="2582" chance="100" /> 
+				</group>
+				<group chance="3.836">
+					<item id="951" min="1" max="1" chance="12.0021" /> 
+					<item id="952" min="1" max="1" chance="87.9979" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="4553" min="1" max="1" chance="1.2688" /> 
+				<item id="1908" min="1" max="1" chance="30.038" /> 
+				<item id="2163" min="1" max="1" chance="16.1836" /> 
+			</spoil>
+		</dropLists></npc><npc id="18274" level="48" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1366" hpRegen="2.1" mp="692.4" mpRegen="2.1" />
+			<attack physical="275" magical="188" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="197" magical="119" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1330" max="2656" chance="100" /> 
+				</group>
+				<group chance="3.8763">
+					<item id="951" min="1" max="1" chance="12.0011" /> 
+					<item id="952" min="1" max="1" chance="87.9989" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1966" min="1" max="1" chance="13.1788" /> 
+				<item id="2166" min="1" max="1" chance="12.236" /> 
+				<item id="1967" min="1" max="1" chance="19.6872" /> 
+			</spoil>
+		</dropLists></npc><npc id="18275" level="51" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1517" hpRegen="2.4" mp="775.8" mpRegen="2.4" />
+			<attack physical="321" magical="219" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="211" magical="128" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1952" max="3909" chance="100" /> 
+				</group>
+				<group chance="5.5982">
+					<item id="951" min="1" max="1" chance="12.0003" /> 
+					<item id="952" min="1" max="1" chance="87.9997" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1878" min="1" max="1" chance="100" /> 
+				<item id="1878" min="1" max="1" chance="63.6268" /> 
+				<item id="1884" min="2" max="2" chance="100" /> 
+				<item id="1884" min="1" max="1" chance="51.7332" /> 
+				<item id="4601" min="1" max="1" chance="0.9092" /> 
+			</spoil>
+		</dropLists></npc><npc id="18276" level="54" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1674" hpRegen="2.4" mp="861" mpRegen="2.4" />
+			<attack physical="370" magical="253" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="225" magical="136" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1997" max="3995" chance="100" /> 
+				</group>
+				<group chance="1.0644">
+					<item id="947" min="1" max="1" chance="13.7918" /> 
+					<item id="948" min="1" max="1" chance="86.2082" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1984" min="1" max="1" chance="9.8744" /> 
+				<item id="4126" min="1" max="1" chance="7.6012" /> 
+				<item id="1985" min="1" max="1" chance="15.884" /> 
+			</spoil>
+		</dropLists></npc><npc id="18277" level="57" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1833" hpRegen="2.4" mp="948" mpRegen="2.4" />
+			<attack physical="424" magical="289" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="240" magical="145" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2049" max="4095" chance="100" /> 
+				</group>
+				<group chance="1.039">
+					<item id="947" min="1" max="1" chance="13.7921" /> 
+					<item id="948" min="1" max="1" chance="86.2079" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="4129" min="1" max="1" chance="5.5856" /> 
+				<item id="4049" min="1" max="1" chance="27.0704" /> 
+				<item id="947" min="1" max="1" chance="0.2064" /> 
+			</spoil>
+		</dropLists></npc><npc id="18278" level="60" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1995" hpRegen="2.4" mp="1036.8" mpRegen="2.4" />
+			<attack physical="481" magical="328" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="255" magical="154" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2683" max="5361" chance="100" /> 
+				</group>
+				<group chance="1.3609">
+					<item id="947" min="1" max="1" chance="13.7923" /> 
+					<item id="948" min="1" max="1" chance="86.2077" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1867" min="2" max="10" chance="100" /> 
+				<item id="1867" min="1" max="5" chance="55.5704" /> 
+				<item id="1872" min="2" max="10" chance="100" /> 
+				<item id="1872" min="1" max="5" chance="55.5704" /> 
+				<item id="4613" min="1" max="1" chance="0.7932" /> 
+			</spoil>
+		</dropLists></npc><npc id="18279" level="63" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2157" hpRegen="2.7" mp="1127.4" mpRegen="2.7" />
+			<attack physical="541" magical="369" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="270" magical="163" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2736" max="5473" chance="100" /> 
+				</group>
+				<group chance="1.3885">
+					<item id="947" min="1" max="1" chance="13.7991" /> 
+					<item id="948" min="1" max="1" chance="86.2009" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="4052" min="1" max="1" chance="22.614" /> 
+				<item id="5230" min="1" max="1" chance="0.8516" /> 
+				<item id="4053" min="1" max="1" chance="27.378" /> 
+			</spoil>
+		</dropLists></npc><npc id="18280" level="66" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2317" hpRegen="2.7" mp="1219.8" mpRegen="2.7" />
+			<attack physical="603" magical="412" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="285" magical="173" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2790" max="5576" chance="100" /> 
+				</group>
+				<group chance="0.461">
+					<item id="729" min="1" max="1" chance="11.7787" /> 
+					<item id="730" min="1" max="1" chance="88.2213" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="5438" min="1" max="1" chance="0.3864" /> 
+				<item id="4054" min="1" max="1" chance="13.9208" /> 
+				<item id="5550" min="1" max="1" chance="9.4236" /> 
+			</spoil>
+		</dropLists></npc><npc id="18281" level="69" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2472" hpRegen="2.7" mp="1314" mpRegen="2.7" />
+			<attack physical="667" magical="455" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="300" magical="182" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="2849" max="5701" chance="100" /> 
+				</group>
+				<group chance="0.4712">
+					<item id="729" min="1" max="1" chance="11.7784" /> 
+					<item id="730" min="1" max="1" chance="88.2216" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1874" min="1" max="1" chance="51.9132" /> 
+				<item id="5478" min="1" max="1" chance="6.548" /> 
+				<item id="5434" min="1" max="1" chance="0.2884" /> 
+			</spoil>
+		</dropLists></npc><npc id="18282" level="72" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2622" hpRegen="3" mp="1410" mpRegen="3" />
+			<attack physical="731" magical="499" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="315" magical="190" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="4009" max="8028" chance="100" /> 
+				</group>
+				<group chance="0.6635">
+					<item id="729" min="1" max="1" chance="11.7709" /> 
+					<item id="730" min="1" max="1" chance="88.2291" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="5479" min="1" max="1" chance="5.0588" /> 
+				<item id="5440" min="1" max="1" chance="0.3168" /> 
+				<item id="5482" min="1" max="1" chance="11.2844" /> 
+			</spoil>
+		</dropLists></npc><npc id="18283" level="75" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2763" hpRegen="3" mp="1507.8" mpRegen="3" />
+			<attack physical="794" magical="542" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="329" magical="199" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="4078" max="8168" chance="100" /> 
+				</group>
+				<group chance="0.3146">
+					<item id="959" min="1" max="1" chance="9.09091" /> 
+					<item id="960" min="1" max="1" chance="90.9091" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="1875" min="1" max="1" chance="62.3424" /> 
+				<item id="4041" min="1" max="1" chance="8.1316" /> 
+				<item id="5480" min="1" max="1" chance="4.196" /> 
+			</spoil>
+		</dropLists></npc><npc id="18284" level="78" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2893" hpRegen="3" mp="1607.4" mpRegen="3" />
+			<attack physical="855" magical="584" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="343" magical="208" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="4146" max="8295" chance="100" /> 
+				</group>
+				<group chance="0.3195">
+					<item id="959" min="1" max="1" chance="9.10798" /> 
+					<item id="960" min="1" max="1" chance="90.892" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="6901" min="1" max="1" chance="1.0188" /> 
+				<item id="5481" min="1" max="1" chance="4.5716" /> 
+				<item id="1808" min="1" max="1" chance="0.4528" /> 
+			</spoil>
+		</dropLists></npc><npc id="18285" level="81" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3101" hpRegen="3.09" mp="1760.064" mpRegen="3.1" />
+			<attack physical="967" magical="683" random="30" critical="4" accuracy="8.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="374" magical="226" evasion="4" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="5312" max="10638" chance="100" /> 
+				</group>
+				<group chance="0.4097">
+					<item id="959" min="1" max="1" chance="9.10422" /> 
+					<item id="960" min="1" max="1" chance="90.8958" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="5487" min="1" max="1" chance="4.98" /> 
+				<item id="4039" min="1" max="1" chance="36.8624" /> 
+				<item id="4041" min="1" max="1" chance="9.6164" /> 
+			</spoil>
+		</dropLists></npc><npc id="18286" level="84" type="Chest" name="Treasure Chest">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3301" hpRegen="3.18" mp="1920.72" mpRegen="3.18" />
+			<attack physical="1024" magical="741" random="30" critical="4" accuracy="10.75" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="391" magical="237" evasion="6" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="21" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4143" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="5393" max="10798" chance="100" /> 
+				</group>
+				<group chance="0.4158">
+					<item id="959" min="1" max="1" chance="9.09091" /> 
+					<item id="960" min="1" max="1" chance="90.9091" /> 
+				</group>
+			</drop>
+			<spoil>
+				<item id="6688" min="1" max="1" chance="2.5784" /> 
+				<item id="6689" min="1" max="1" chance="2.53" /> 
+				<item id="6690" min="1" max="1" chance="2.5836" /> 
+			</spoil>
+		</dropLists></npc><npc id="18287" level="33" type="Chest" name="Otherworldly Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="702" hpRegen="4.5" mp="372.96" mpRegen="1.8" />
+			<attack physical="113" magical="77" random="30" critical="4" accuracy="40" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="129" magical="78" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="186" max="372" chance="100" /> 
+				</group>
+				<group chance="1.4068">
+					<item id="955" min="1" max="1" chance="10.7194" /> 
+					<item id="956" min="1" max="1" chance="89.2806" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18288" level="35" type="Chest" name="Otherworldly Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="772" hpRegen="4.5" mp="402.6" mpRegen="1.8" />
+			<attack physical="129" magical="88" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="136" magical="82" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="207" max="413" chance="100" /> 
+				</group>
+				<group chance="1.5677">
+					<item id="955" min="1" max="1" chance="10.7163" /> 
+					<item id="956" min="1" max="1" chance="89.2837" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18289" level="43" type="Chest" name="Dimension Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1094" hpRegen="5.5" mp="557.4" mpRegen="2.1" />
+			<attack physical="210" magical="143" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="169" magical="102" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="308" max="617" chance="100" /> 
+				</group>
+				<group chance="0.9324">
+					<item id="951" min="1" max="1" chance="12.0013" /> 
+					<item id="952" min="1" max="1" chance="87.9987" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18290" level="45" type="Chest" name="Dimension Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1183" hpRegen="5.5" mp="610.8" mpRegen="2.1" />
+			<attack physical="234" magical="160" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="177" magical="107" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="338" max="676" chance="100" /> 
+				</group>
+				<group chance="1.0038">
+					<item id="951" min="1" max="1" chance="12.0044" /> 
+					<item id="952" min="1" max="1" chance="87.9956" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18291" level="53" type="Chest" name="Purgatory Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1570" hpRegen="6.5" mp="832.4" mpRegen="2.4" />
+			<attack physical="353" magical="241" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="214" magical="129" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="472" max="944" chance="100" /> 
+				</group>
+				<group chance="0.2515">
+					<item id="947" min="1" max="1" chance="13.7972" /> 
+					<item id="948" min="1" max="1" chance="86.2028" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18292" level="55" type="Chest" name="Purgatory Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1673" hpRegen="6.5" mp="889.8" mpRegen="2.4" />
+			<attack physical="388" magical="265" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="223" magical="135" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="519" max="1010" chance="100" /> 
+				</group>
+				<group chance="0.2717">
+					<item id="947" min="1" max="1" chance="13.802" /> 
+					<item id="948" min="1" max="1" chance="86.198" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18293" level="63" type="Chest" name="Forbidden Path Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2089" hpRegen="7.5" mp="1127.4" mpRegen="2.7" />
+			<attack physical="541" magical="369" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="262" magical="158" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="681" max="1361" chance="100" /> 
+				</group>
+				<group chance="0.1126">
+					<item id="729" min="1" max="1" chance="11.8117" /> 
+					<item id="730" min="1" max="1" chance="88.1883" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18294" level="65" type="Chest" name="Forbidden Path Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2193" hpRegen="7.5" mp="1188.8" mpRegen="2.7" />
+			<attack physical="582" magical="397" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="271" magical="164" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="728" max="1457" chance="100" /> 
+				</group>
+				<group chance="0.1205">
+					<item id="729" min="1" max="1" chance="11.7842" /> 
+					<item id="730" min="1" max="1" chance="88.2158" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18295" level="73" type="Chest" name="Dark Omen Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2586" hpRegen="8.5" mp="1442.4" mpRegen="3" />
+			<attack physical="752" magical="514" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="310" magical="187" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="938" max="1879" chance="100" /> 
+				</group>
+				<group chance="0.1553">
+					<item id="729" min="1" max="1" chance="11.7836" /> 
+					<item id="730" min="1" max="1" chance="88.2164" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18296" level="75" type="Chest" name="Dark Omen Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676" hpRegen="8.5" mp="1507.8" mpRegen="3" />
+			<attack physical="794" magical="542" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="193" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="995" max="1993" chance="100" /> 
+				</group>
+				<group chance="0.0768">
+					<item id="959" min="1" max="1" chance="9.11458" /> 
+					<item id="960" min="1" max="1" chance="90.8854" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18297" level="78" type="Chest" name="Messenger Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3134" hpRegen="8.925" mp="1866.27" mpRegen="3.15" />
+			<attack physical="997" magical="714" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="371" magical="225" evasion="50" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1239" max="2481" chance="100" /> 
+				</group>
+				<group chance="0.0956">
+					<item id="959" min="1" max="1" chance="9.10042" /> 
+					<item id="960" min="1" max="1" chance="90.8996" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18298" level="78" type="Chest" name="Messenger Invader Food">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3259" hpRegen="9.095" mp="1976.076" mpRegen="3.21" />
+			<attack physical="1051" magical="768" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="387" magical="234" evasion="7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="165" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>SSQ</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="70">
+					<item id="57" min="1301" max="2604" chance="100" /> 
+				</group>
+				<group chance="0.1004">
+					<item id="959" min="1" max="1" chance="9.16335" /> 
+					<item id="960" min="1" max="1" chance="90.8367" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="18299" level="35" type="Monster" name="Flame of the Branded">
+		
+		<parameters>
+			<param name="RoomIndex" value="1" />
+			<param name="SSQPart" value="TWILIGHT" />
+			<skill name="DDMagic" id="4614" level="4" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="4893" sp="288" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2318" hpRegen="13.5" mp="402.6" mpRegen="1.8" />
+			<attack physical="129" magical="88" random="20" critical="1" accuracy="45" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="136" magical="82" />
+			<speed>
+				<walk ground="48" />
+				<run ground="30" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="19" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4438" level="2" /> 
+			<skill id="4439" level="2" /> 
+			<skill id="4444" level="2" /> 
+			<skill id="4614" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="6" />
+			<height normal="13" />
+		</collision>
+	</npc></list>

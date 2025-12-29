@@ -1,0 +1,2425 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/skillRoutes.xsd">
+<skillRoutes>
+    <skillRoute>
+        <skillId>1</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>5</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>5</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>6</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>6</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>7</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>7</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>9</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>9</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>13</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>17</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>17</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>18</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Increases the power.</description></skillRoute>
+    <skillRoute>
+        <skillId>18</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>19</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>19</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>24</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>24</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>25</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>28</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Increases the power.</description></skillRoute>
+    <skillRoute>
+        <skillId>28</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>30</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>30</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>35</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>35</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>36</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>36</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>42</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Increased regeneration and a chance to absorb MP from a corpse.</description></skillRoute>
+    <skillRoute>
+        <skillId>42</skillId>
+        <routeId>2001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Increased regeneration and a chance to absorb MP from a corpse.</description></skillRoute>
+    <skillRoute>
+        <skillId>46</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>46</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>48</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>48</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>49</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>49</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>51</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's effectiveness. Increases attack range and decreases MP consumption/re-use time.</description></skillRoute>
+    <skillRoute>
+        <skillId>54</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>54</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>58</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>58</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>69</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>69</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases HP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>70</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>70</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>72</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>72</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>81</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>81</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>84</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>84</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>86</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>86</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>92</skillId>
+        <routeId>1001</routeId>
+        <name>Recovery</name>
+    <description>Minimizes the skill's re-use time.  The re-use time is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>92</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>95</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>95</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>96</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>97</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>The success rate is increased. Maximizes the skill’s success rate.</description></skillRoute>
+    <skillRoute>
+        <skillId>97</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>99</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>99</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>101</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Increases the success rate.</description></skillRoute>
+    <skillRoute>
+        <skillId>101</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Power increases and MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>102</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>102</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>105</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>105</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>107</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>107</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>110</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill’s duration.  Increases duration and effect.</description></skillRoute>
+    <skillRoute>
+        <skillId>110</skillId>
+        <routeId>2001</routeId>
+        <name>Recovery</name>
+    <description>Minimizes the skill's re-use time. Re-use time is decreased and effectiveness is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>111</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>111</skillId>
+        <routeId>2001</routeId>
+        <name>Recovery</name>
+    <description>The skill’s re-use time is reduced to its minimum. Re-use time decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>112</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>112</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>115</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>115</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>116</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>116</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>121</skillId>
+        <routeId>1001</routeId>
+        <name>Recovery</name>
+    <description>Maximizes the skill's re-use time.  Re-use time decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>122</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>122</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>123</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>123</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>127</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>127</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>130</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>131</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>190</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>190</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>205</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Increases critical attack power when using blunt weapons.</description></skillRoute>
+    <skillRoute>
+        <skillId>205</skillId>
+        <routeId>2001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Increases critical attack power when using blunt weapons.</description></skillRoute>
+    <skillRoute>
+        <skillId>211</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Maximum CP is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>211</skillId>
+        <routeId>2001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Maximum CP is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>223</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>The success rate is increased. Maximizes the skill’s success rate.</description></skillRoute>
+    <skillRoute>
+        <skillId>223</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>230</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>230</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>254</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Possible to use de-buff to reduce Atk. Spd.  The success rate of de-buff is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>254</skillId>
+        <routeId>2001</routeId>
+        <name>Power</name>
+    <description>Possible to use de-buff to reduce current HP.  The success rate of de-buff is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>256</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill’s efficiency. One’s current MP is reduced.</description></skillRoute>
+    <skillRoute>
+        <skillId>260</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>The success rate is increased. Maximizes the skill’s success rate.</description></skillRoute>
+    <skillRoute>
+        <skillId>260</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. Power increases and MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>261</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>261</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>262</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>262</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>263</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>263</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>264</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>264</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>265</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>265</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>266</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>266</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>267</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>267</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>268</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>268</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>269</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>269</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>270</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>270</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>271</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>271</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>272</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>272</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>273</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>273</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>274</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>274</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>275</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>275</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>276</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>276</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>277</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>277</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>279</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>279</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>280</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>280</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>281</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>281</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>283</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>284</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Increases the power.</description></skillRoute>
+    <skillRoute>
+        <skillId>284</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>288</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>288</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill’s efficiency.  MP consumption and one’s current MP are decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>289</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>289</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>299</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>301</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>302</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power.  Possible to use de-buff to reduce Atk. Spd.  The success rate of de-buff is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>302</skillId>
+        <routeId>2001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power.  Possible to use de-buff to reduce current HP.  The success rate of de-buff is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>303</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>The skill’s efficiency is maximized. Decreases HP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>304</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>304</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>305</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>305</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>306</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>306</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>307</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>307</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>308</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>308</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>309</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>309</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>310</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>310</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>311</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>311</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>312</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>312</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill’s efficiency.  MP consumption and one’s current MP are decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>313</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. Effectiveness increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>313</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption/duration decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>314</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>314</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>315</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>315</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. HP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>318</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's effectiveness. Decreases the shield defense penalty.</description></skillRoute>
+    <skillRoute>
+        <skillId>320</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>320</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>322</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>322</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill’s efficiency.  MP consumption and one’s current MP are decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>400</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>400</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>401</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>401</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>402</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>402</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>403</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>403</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>404</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>404</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>405</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>409</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>409</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>410</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>410</skillId>
+        <routeId>2001</routeId>
+        <name>Time</name>
+    <description>The skill usage duration is maximized. The duration is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>411</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>411</skillId>
+        <routeId>2001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's efficiency. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>412</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>412</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>450</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes a skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>450</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Maximizes a skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1002</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1002</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1003</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1003</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1004</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1004</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1005</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1005</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1006</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1006</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1007</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1007</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1008</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1008</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1009</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1009</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1010</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1010</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1013</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1013</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1020</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1020</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1028</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1028</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1032</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1032</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1033</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1033</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1035</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1035</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1036</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1036</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1040</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1040</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1042</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1042</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1043</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1043</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1044</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1044</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1045</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1045</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1048</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1048</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1059</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1059</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1062</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1062</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1064</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1064</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1068</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1068</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1069</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1069</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1071</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1071</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1072</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1072</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1073</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1073</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1074</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1074</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1077</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1077</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1078</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1078</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1083</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1083</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1085</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1085</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1086</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1086</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1087</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1087</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1096</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1096</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1097</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1097</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1099</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1099</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1104</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1104</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1111</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1126</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1126</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1127</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1127</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1128</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1129</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1139</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1139</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1140</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1140</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1141</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1141</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1144</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1144</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1145</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1145</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1146</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1146</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1148</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1148</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1151</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1151</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1154</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1155</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1155</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1159</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1159</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1160</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1160</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1164</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>The success rate is increased. Maximizes the skill’s success rate.</description></skillRoute>
+    <skillRoute>
+        <skillId>1164</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1170</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1170</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1171</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1171</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1174</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1174</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1176</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1176</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1182</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1182</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1189</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1189</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1191</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1191</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1201</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1201</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1204</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1204</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1206</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1206</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1208</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1208</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1217</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1217</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1218</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1218</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1219</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1219</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1222</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1222</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1223</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1223</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1224</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1224</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1225</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1226</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1227</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1228</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1229</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of the skill. Effectiveness Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1229</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1230</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1230</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1231</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1231</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1232</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1232</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1234</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1234</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1235</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1235</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1236</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1236</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1237</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1237</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1238</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1238</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1239</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1239</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1240</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1240</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1242</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1242</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1243</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1243</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1245</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1245</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1246</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1246</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1247</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1247</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1248</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1248</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1249</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1249</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1250</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1250</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1251</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1251</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1252</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1252</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1253</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1253</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1256</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Effectiveness is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1256</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1257</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Duration increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1257</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1259</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1259</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1260</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1260</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1261</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1261</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1263</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1263</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1265</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1265</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1267</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1267</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1268</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1268</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1269</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1269</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1275</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1275</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1276</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1277</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1278</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1282</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1282</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1284</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1284</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1295</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1295</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1296</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1296</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1298</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill’s success rate. Success rate increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1298</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1299</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the skill's duration. Increases duration/effect.</description></skillRoute>
+    <skillRoute>
+        <skillId>1299</skillId>
+        <routeId>2001</routeId>
+        <name>Recovery</name>
+    <description>Minimizes the skill's re-use time. Decreases re-use time and increases effectiveness.</description></skillRoute>
+    <skillRoute>
+        <skillId>1303</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1303</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1304</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1304</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1305</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1305</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1306</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1306</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. Decreases MP consumption.</description></skillRoute>
+    <skillRoute>
+        <skillId>1307</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1307</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1308</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1308</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1309</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1309</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1310</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1310</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1311</skillId>
+        <routeId>1001</routeId>
+        <name>Time</name>
+    <description>Maximizes the duration of the skill. Increases the duration.</description></skillRoute>
+    <skillRoute>
+        <skillId>1311</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes efficiency of skill. MP consumption decreases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1331</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1332</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1333</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1334</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill’s power. Servitor’s power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1394</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1394</skillId>
+        <routeId>2001</routeId>
+        <name>Power</name>
+    <description>Maximizes power of skill. Power Increases.</description></skillRoute>
+    <skillRoute>
+        <skillId>1396</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1396</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Maximizes the skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1398</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1398</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1399</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1399</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1400</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's effect. Strengthens the effect.</description></skillRoute>
+    <skillRoute>
+        <skillId>1400</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1401</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1401</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1402</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes the skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1402</skillId>
+        <routeId>2001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1417</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes a skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1417</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Maximizes a skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>448</skillId>
+        <routeId>1001</routeId>
+        <name>Power</name>
+    <description>Maximizes a skill's power. The power is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>452</skillId>
+        <routeId>1001</routeId>
+        <name>Chance</name>
+    <description>Maximizes a skill's success rate. The success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1381</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+	<skillRoute>
+        <skillId>1381</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Enchant Chance: the success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1382</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+	<skillRoute>
+        <skillId>1382</skillId>
+        <routeId>2001</routeId>
+        <name>Chance</name>
+    <description>Enchant Chance: the success rate is increased.</description></skillRoute>
+    <skillRoute>
+        <skillId>1395</skillId>
+        <routeId>1001</routeId>
+        <name>Cost</name>
+    <description>Maximizes the skill's efficiency. MP consumption is decreased.</description></skillRoute>
+</skillRoutes>
+</list>

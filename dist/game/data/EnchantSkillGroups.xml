@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/EnchantSkillGroups.xsd">
+	<enchant level="1" enchantFailLevel="0">
+		<sps>
+			<sp amount="306000" type="NORMAL" />
+			<sp amount="4250000" type="BLESSED" />
+			<sp amount="4250000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="90" type="NORMAL" />
+			<chance value="90" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="82" type="NORMAL" />
+			<levelChance level="77" value="92" type="NORMAL" />
+			<levelChance level="78" value="97" type="NORMAL" />
+			<levelChance level="79" value="97" type="NORMAL" />
+			<levelChance level="80" value="97" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="1" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="3060000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="2" enchantFailLevel="0">
+		<sps>
+			<sp amount="315000" type="NORMAL" />
+			<sp amount="4550000" type="BLESSED" />
+			<sp amount="4550000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="87" type="NORMAL" />
+			<chance value="87" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="80" type="NORMAL" />
+			<levelChance level="77" value="90" type="NORMAL" />
+			<levelChance level="78" value="95" type="NORMAL" />
+			<levelChance level="79" value="95" type="NORMAL" />
+			<levelChance level="80" value="95" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="3150000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="3" enchantFailLevel="0">
+		<sps>
+			<sp amount="325000" type="NORMAL" />
+			<sp amount="4850000" type="BLESSED" />
+			<sp amount="4850000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="84" type="NORMAL" />
+			<chance value="84" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="78" type="NORMAL" />
+			<levelChance level="77" value="88" type="NORMAL" />
+			<levelChance level="78" value="93" type="NORMAL" />
+			<levelChance level="79" value="93" type="NORMAL" />
+			<levelChance level="80" value="93" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="3250000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="4" enchantFailLevel="0">
+		<sps>
+			<sp amount="346000" type="NORMAL" />
+			<sp amount="5170000" type="BLESSED" />
+			<sp amount="5170000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="81" type="NORMAL" />
+			<chance value="81" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="40" type="NORMAL" />
+			<levelChance level="77" value="82" type="NORMAL" />
+			<levelChance level="78" value="92" type="NORMAL" />
+			<levelChance level="79" value="91" type="NORMAL" />
+			<levelChance level="80" value="91" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="3460000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="5" enchantFailLevel="0">
+		<sps>
+			<sp amount="357000" type="NORMAL" />
+			<sp amount="5420000" type="BLESSED" />
+			<sp amount="5420000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="78" type="NORMAL" />
+			<chance value="78" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="30" type="NORMAL" />
+			<levelChance level="77" value="80" type="NORMAL" />
+			<levelChance level="78" value="90" type="NORMAL" />
+			<levelChance level="79" value="90" type="NORMAL" />
+			<levelChance level="80" value="90" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="3570000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="6" enchantFailLevel="0">
+		<sps>
+			<sp amount="368000" type="NORMAL" />
+			<sp amount="5880000" type="BLESSED" />
+			<sp amount="5880000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="75" type="NORMAL" />
+			<chance value="75" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="20" type="NORMAL" />
+			<levelChance level="77" value="78" type="NORMAL" />
+			<levelChance level="78" value="88" type="NORMAL" />
+			<levelChance level="79" value="88" type="NORMAL" />
+			<levelChance level="80" value="88" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="3680000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="7" enchantFailLevel="0">
+		<sps>
+			<sp amount="390000" type="NORMAL" />
+			<sp amount="6550000" type="BLESSED" />
+			<sp amount="6550000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="72" type="NORMAL" />
+			<chance value="72" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="14" type="NORMAL" />
+			<levelChance level="77" value="40" type="NORMAL" />
+			<levelChance level="78" value="82" type="NORMAL" />
+			<levelChance level="79" value="82" type="NORMAL" />
+			<levelChance level="80" value="82" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="3900000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="8" enchantFailLevel="0">
+		<sps>
+			<sp amount="402000" type="NORMAL" />
+			<sp amount="13340000" type="BLESSED" />
+			<sp amount="13340000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="68" type="NORMAL" />
+			<chance value="68" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="10" type="NORMAL" />
+			<levelChance level="77" value="30" type="NORMAL" />
+			<levelChance level="78" value="80" type="NORMAL" />
+			<levelChance level="79" value="80" type="NORMAL" />
+			<levelChance level="80" value="80" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="4020000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="9" enchantFailLevel="0">
+		<sps>
+			<sp amount="414000" type="NORMAL" />
+			<sp amount="18580000" type="BLESSED" />
+			<sp amount="18580000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="64" type="NORMAL" />
+			<chance value="64" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="6" type="NORMAL" />
+			<levelChance level="77" value="20" type="NORMAL" />
+			<levelChance level="78" value="78" type="NORMAL" />
+			<levelChance level="79" value="78" type="NORMAL" />
+			<levelChance level="80" value="78" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="4140000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="10" enchantFailLevel="0">
+		<sps>
+			<sp amount="507000" type="NORMAL" />
+			<sp amount="36370000" type="BLESSED" />
+			<sp amount="36370000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="60" type="NORMAL" />
+			<chance value="60" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="6" type="NORMAL" />
+			<levelChance level="77" value="14" type="NORMAL" />
+			<levelChance level="78" value="40" type="NORMAL" />
+			<levelChance level="79" value="70" type="NORMAL" />
+			<levelChance level="80" value="70" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="5070000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="11" enchantFailLevel="10">
+		<sps>
+			<sp amount="523000" type="NORMAL" />
+			<sp amount="15000000" type="BLESSED" />
+			<sp amount="15000000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="89" type="NORMAL" />
+			<chance value="89" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="2" type="NORMAL" />
+			<levelChance level="77" value="10" type="NORMAL" />
+			<levelChance level="78" value="30" type="NORMAL" />
+			<levelChance level="79" value="58" type="NORMAL" />
+			<levelChance level="80" value="70" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="5230000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="12" enchantFailLevel="10">
+		<sps>
+			<sp amount="538000" type="NORMAL" />
+			<sp amount="16800000" type="BLESSED" />
+			<sp amount="16800000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="86" type="NORMAL" />
+			<chance value="86" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="2" type="NORMAL" />
+			<levelChance level="77" value="6" type="NORMAL" />
+			<levelChance level="78" value="20" type="NORMAL" />
+			<levelChance level="79" value="56" type="NORMAL" />
+			<levelChance level="80" value="70" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="5380000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="13" enchantFailLevel="10">
+		<sps>
+			<sp amount="659000" type="NORMAL" />
+			<sp amount="47000000" type="BLESSED" />
+			<sp amount="47000000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="83" type="NORMAL" />
+			<chance value="83" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="2" type="NORMAL" />
+			<levelChance level="77" value="2" type="NORMAL" />
+			<levelChance level="78" value="14" type="NORMAL" />
+			<levelChance level="79" value="54" type="NORMAL" />
+			<levelChance level="80" value="58" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="6590000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="14" enchantFailLevel="10">
+		<sps>
+			<sp amount="680000" type="NORMAL" />
+			<sp amount="56700000" type="BLESSED" />
+			<sp amount="56700000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="80" type="NORMAL" />
+			<chance value="80" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="2" type="NORMAL" />
+			<levelChance level="78" value="10" type="NORMAL" />
+			<levelChance level="79" value="28" type="NORMAL" />
+			<levelChance level="80" value="46" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="6800000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="15" enchantFailLevel="10">
+		<sps>
+			<sp amount="699000" type="NORMAL" />
+			<sp amount="85100000" type="BLESSED" />
+			<sp amount="85100000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="77" type="NORMAL" />
+			<chance value="77" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="2" type="NORMAL" />
+			<levelChance level="78" value="6" type="NORMAL" />
+			<levelChance level="79" value="22" type="NORMAL" />
+			<levelChance level="80" value="32" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="6990000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="16" enchantFailLevel="10">
+		<sps>
+			<sp amount="857000" type="NORMAL" />
+			<sp amount="110500000" type="BLESSED" />
+			<sp amount="110500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="74" type="NORMAL" />
+			<chance value="74" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="2" type="NORMAL" />
+			<levelChance level="79" value="16" type="NORMAL" />
+			<levelChance level="80" value="24" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="8570000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="17" enchantFailLevel="10">
+		<sps>
+			<sp amount="884000" type="NORMAL" />
+			<sp amount="358400000" type="BLESSED" />
+			<sp amount="358400000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="71" type="NORMAL" />
+			<chance value="71" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="2" type="NORMAL" />
+			<levelChance level="79" value="10" type="NORMAL" />
+			<levelChance level="80" value="20" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="8840000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="18" enchantFailLevel="10">
+		<sps>
+			<sp amount="909000" type="NORMAL" />
+			<sp amount="575400000" type="BLESSED" />
+			<sp amount="575400000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="67" type="NORMAL" />
+			<chance value="67" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="2" type="NORMAL" />
+			<levelChance level="79" value="6" type="NORMAL" />
+			<levelChance level="80" value="12" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="9090000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="19" enchantFailLevel="10">
+		<sps>
+			<sp amount="1114000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="63" type="NORMAL" />
+			<chance value="63" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="2" type="NORMAL" />
+			<levelChance level="80" value="9" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="11140000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="20" enchantFailLevel="10">
+		<sps>
+			<sp amount="1149000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="59" type="NORMAL" />
+			<chance value="59" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="2" type="NORMAL" />
+			<levelChance level="80" value="5" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="11490000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="21" enchantFailLevel="20">
+		<sps>
+			<sp amount="1182000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="88" type="NORMAL" />
+			<chance value="88" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="2" type="NORMAL" />
+			<levelChance level="80" value="4" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="11820000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="22" enchantFailLevel="20">
+		<sps>
+			<sp amount="1448000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="84" type="NORMAL" />
+			<chance value="84" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="2" type="NORMAL" />
+			<levelChance level="80" value="2" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="14480000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="23" enchantFailLevel="20">
+		<sps>
+			<sp amount="1494000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="80" type="NORMAL" />
+			<chance value="80" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="2" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="14940000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="24" enchantFailLevel="20">
+		<sps>
+			<sp amount="1537000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="76" type="NORMAL" />
+			<chance value="76" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="2" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="15370000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="25" enchantFailLevel="20">
+		<sps>
+			<sp amount="1882000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="72" type="NORMAL" />
+			<chance value="72" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="1" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="18820000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="26" enchantFailLevel="20">
+		<sps>
+			<sp amount="1942000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="68" type="NORMAL" />
+			<chance value="68" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="1" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="19420000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="27" enchantFailLevel="20">
+		<sps>
+			<sp amount="1998000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="64" type="NORMAL" />
+			<chance value="64" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="1" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="19980000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="28" enchantFailLevel="20">
+		<sps>
+			<sp amount="2447000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="60" type="NORMAL" />
+			<chance value="60" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="1" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="24470000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="29" enchantFailLevel="20">
+		<sps>
+			<sp amount="2525000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="56" type="NORMAL" />
+			<chance value="56" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="1" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="2525000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+	<enchant level="30" enchantFailLevel="20">
+		<sps>
+			<sp amount="2597000" type="NORMAL" />
+			<sp amount="690500000" type="BLESSED" />
+			<sp amount="690500000" type="CHANGE" />
+		</sps>
+		<chances>
+			<chance value="52" type="NORMAL" />
+			<chance value="52" type="BLESSED" />
+		</chances>
+		<levelChances>
+			<levelChance level="76" value="1" type="NORMAL" />
+			<levelChance level="77" value="1" type="NORMAL" />
+			<levelChance level="78" value="1" type="NORMAL" />
+			<levelChance level="79" value="1" type="NORMAL" />
+			<levelChance level="80" value="1" type="NORMAL" />
+		</levelChances>
+		<items>
+			<item id="6622" count="0" type="NORMAL" /> <!-- Giant's Codex -->
+			<item id="57" count="0" type="NORMAL" /> <!-- Adena -->
+		</items>
+		<exp amount="25970000" type="NORMAL" /> <!-- Nueva línea para EXP -->
+	</enchant>
+</list>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="xsd/votesystem.xsd">
+   <votesite name="l2.topgameserver.net" ordinal="0" url="https://l2.topgameserver.net/lineage/voting/481/Coliseum">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="ItopZ.com" ordinal="1" url="https://itopz.com/vote/325628">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="L2Top.co" ordinal="2" url="https://l2top.co/vote/server/LineageColiseum">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="L2Votes.com" ordinal="3" url="https://l2votes.com/votes.php?sid=661">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="Hopzone.net" ordinal="4" url="https://vgw.hopzone.net/site/vote/105594/1">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="L2Network.eu" ordinal="5" url="https://l2network.eu/index.php?a=in%uparam%=%char%">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="top.l2jbrasil.com" ordinal="6" url="https://top.l2jbrasil.com/index.php?a=in%uparam%=tuccy">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="MMOTOP.eu" ordinal="7" url="https://l2top.org/server/coliseum/vote/">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="L2Topzone.com" ordinal="8" url="https://l2topzone.com/vote/id/15792">
+       <items>
+       <item itemId="6393" itemCount="1" />
+	   </items>
+   </votesite>
+   <votesite name="L2Servers.com" ordinal="9" url="https://www.l2servers.com/servers/paid-42473.php">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+   <votesite name="Top100Arena.com" ordinal="10" url="https://www.top100arena.com/listing/100027/vote">
+       <items>
+       <item itemId="29564" itemCount="1" />
+       </items>
+   </votesite>
+</list>

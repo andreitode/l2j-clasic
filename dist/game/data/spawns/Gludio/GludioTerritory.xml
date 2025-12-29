@@ -1,0 +1,125 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/spawns.xsd">
+	<!-- ZOne 1-->
+	<spawn>
+		<territories><territory minZ="-2806" maxZ="-3077" name="gludio_001">
+			<node x="-45371" y="122169" />
+			<node x="-46114" y="123962" />
+			<node x="-49777" y="123073" />
+			<node x="-47846" y="121247" />
+		</territory>
+		</territories><npc id="20035" count="1" respawnTime="30sec" />  <!-- Skeleton Tracker -->
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-2806" maxZ="-3077" name="gludio_002">
+			<node x="-45371" y="122169" />
+			<node x="-46114" y="123962" />
+			<node x="-49777" y="123073" />
+			<node x="-47846" y="121247" />
+		</territory>
+		</territories><npc id="20029" count="4" respawnTime="30sec" />  <!-- Ruin Zombie Leader -->
+	</spawn>
+	<spawn>
+		<territories><territory minZ="-2806" maxZ="-3077" name="gludio_003">
+			<node x="-45371" y="122169" />
+			<node x="-46114" y="123962" />
+			<node x="-49777" y="123073" />
+			<node x="-47846" y="121247" />
+		</territory>
+		</territories><npc id="20045" count="2" respawnTime="30sec" />  <!-- Skeleton Tracker -->
+	</spawn>
+		<spawn>
+		<territories><territory minZ="-2806" maxZ="-3077" name="gludio_004">
+			<node x="-45371" y="122169" />
+			<node x="-46114" y="123962" />
+			<node x="-49777" y="123073" />
+			<node x="-47846" y="121247" />
+		</territory>
+		</territories><npc id="20042" count="2" respawnTime="30sec" />  <!-- Skeleton Tracker Captain -->
+	</spawn>
+	<!-- Zone 2 -->
+	<spawn>
+		<territories><territory minZ="-2835" maxZ="-3020" name="gludio_005">
+			<node x="-50620" y="120905" />
+			<node x="-50555" y="122945" />
+			<node x="-52671" y="122454" />
+			<node x="-53979" y="123266" />
+			<node x="-55058" y="122614" />
+			<node x="-54003" y="119610" />
+		</territory>
+		</territories><npc id="20042" count="6" respawnTime="30sec" />  <!-- Skeleton Tracker Captain -->
+	</spawn>
+		<spawn>
+		<territories><territory minZ="-2835" maxZ="-3020" name="gludio_006">
+			<node x="-50620" y="120905" />
+			<node x="-50555" y="122945" />
+			<node x="-52671" y="122454" />
+			<node x="-53979" y="123266" />
+			<node x="-55058" y="122614" />
+			<node x="-54003" y="119610" />
+		</territory>
+		</territories><npc id="20029" count="3" respawnTime="30sec" />  <!-- Ruin Zombie Leader -->
+	</spawn>
+			<spawn>
+		<territories><territory minZ="-2835" maxZ="-3020" name="gludio_007">
+			<node x="-50620" y="120905" />
+			<node x="-50555" y="122945" />
+			<node x="-52671" y="122454" />
+			<node x="-53979" y="123266" />
+			<node x="-55058" y="122614" />
+			<node x="-54003" y="119610" />
+		</territory>
+		</territories><npc id="20051" count="2" respawnTime="30sec" />  <!-- Skeleton Bowman -->
+	</spawn>
+				<spawn>
+		<territories><territory minZ="-2835" maxZ="-3020" name="gludio_008">
+			<node x="-50620" y="120905" />
+			<node x="-50555" y="122945" />
+			<node x="-52671" y="122454" />
+			<node x="-53979" y="123266" />
+			<node x="-55058" y="122614" />
+			<node x="-54003" y="119610" />
+		</territory>
+		</territories><npc id="20035" count="10" respawnTime="30sec" />  <!-- Skeleton Tracker -->
+	</spawn>
+	<!-- Subzone -->
+	<spawn>
+		<territories><territory minZ="-2913" maxZ="-3023" name="gludio_008">
+			<node x="-53971" y="122463" />
+			<node x="-53042" y="122807" />
+			<node x="-54397" y="123192" />
+		</territory>
+		</territories><npc id="20035" count="2" respawnTime="30sec" />  <!-- Skeleton Tracker -->
+	</spawn>
+		<spawn>
+		<territories><territory minZ="-2913" maxZ="-3023" name="gludio_009">
+			<node x="-53971" y="122463" />
+			<node x="-53042" y="122807" />
+			<node x="-54397" y="123192" />
+		</territory>
+		</territories><npc id="20029" count="1" respawnTime="30sec" />  <!-- Ruin Zombie Leader -->
+	</spawn>
+
+	<!-- Zone 3 -->
+		<spawn>
+		<territories><territory minZ="-3014" maxZ="-3071" name="gludio_010">
+			<node x="-58567" y="123627" />
+			<node x="-58217" y="122831" />
+			<node x="-59268" y="122792" />
+		</territory>
+		</territories><npc id="27030" count="1" respawnTime="300sec" />  <!-- Ruin Zombie Leader -->
+		<npc id="20035" count="3" respawnTime="300sec" /> <!-- Skeleton Tracker -->
+	</spawn>
+	<!-- Zone 4 -->
+	<spawn>
+		<territories><territory minZ="-2896" maxZ="-2691" name="gludio_011">
+			<node x="-44038" y="122496" />
+			<node x="-45249" y="124266" />
+			<node x="-48212" y="123780" />
+			<node x="-46477" y="122753" />
+		</territory>
+		</territories><npc id="20042" count="3" respawnTime="300sec" />  <!-- Skeleton Leader -->
+		<npc id="20035" count="6" respawnTime="300sec" /> <!-- Skeleton Tracker -->
+		<npc id="20029" count="3" respawnTime="30sec" /> 
+	</spawn>
+</list>

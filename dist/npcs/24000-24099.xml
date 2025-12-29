@@ -1,0 +1,2412 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="24000" level="99" type="Folk" name="Leona Blackbird" title="Dragon's Advocate">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="67763" hpRegen="10.5" mp="1507" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9.5" />
+			<height normal="22.4" />
+		</collision>
+	</npc><npc id="24001" level="99" type="Folk" name="Kain Van Halter" title="Prince of the Second Dimension">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="67763" hpRegen="10.5" mp="1507" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="24002" level="99" type="Folk" name="Queen Ant" title="Successor in the Ant Nest">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="151492" hpRegen="10.5" mp="1540" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="45" />
+			<height normal="53" />
+		</collision>
+	</npc><npc id="24003" level="99" type="Folk" name="Escort Ant">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="55088" hpRegen="10.5" mp="1540" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="24004" level="99" type="Folk" name="Royal Guard Ant">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="55088" hpRegen="10.5" mp="1540" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="26" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="24005" level="99" type="Folk" name="Urfen" title="Orfen Kin">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="167822" hpRegen="10.5" mp="1574" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="53" />
+		</collision>
+	</npc><npc id="24006" level="99" type="Folk" name="Laikel">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="62933" hpRegen="10.5" mp="1574" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18.5" />
+			<height normal="30.5" />
+		</collision>
+	</npc><npc id="24007" level="99" type="Folk" name="Riba">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="62933" hpRegen="10.5" mp="1574" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12.5" />
+			<height normal="34.5" />
+		</collision>
+	</npc><npc id="24008" level="99" type="Folk" name="Zaken" title="Unworldly Pirate King">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="188800" hpRegen="10.5" mp="1574" mpRegen="3.6" />
+			<speed>
+				<walk ground="42" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="24009" level="99" type="Folk" name="Zaken" title="Unworldly Pirate King">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="188800" hpRegen="10.5" mp="1574" mpRegen="3.6" />
+			<speed>
+				<walk ground="42" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="24010" level="99" type="Folk" name="Pirate Zombie Captain">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="69926" hpRegen="10.5" mp="1574" mpRegen="3.6" />
+			<speed>
+				<walk ground="14" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="17" />
+			<height normal="28" />
+		</collision>
+	</npc><npc id="24011" level="99" type="Folk" name="Pirate Zombie">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="69926" hpRegen="10.5" mp="1574" mpRegen="3.6" />
+			<speed>
+				<walk ground="11" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="24012" level="99" type="Folk" name="Saium" title="Relative of the Emperor">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="212878" hpRegen="10.5" mp="1607" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="26" />
+			<height normal="67.8" />
+		</collision>
+	</npc><npc id="24013" level="99" type="Folk" name="Traitor Angel">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="70959" hpRegen="10.5" mp="1607" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="24014" level="66" type="Monster" name="Vanor" title="Mercenary of Glory">
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="13094" sp="392" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="921" hpRegen="7.5" mp="1079" mpRegen="2.7" />
+			<speed>
+				<walk ground="36" />
+				<run ground="174" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4085" level="1" /> 
+			<skill id="4086" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15.6" />
+			<height normal="37.8" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="503" min="1" max="1" chance="0.03" /> 
+				<item id="2415" min="1" max="1" chance="0.03" /> 
+				<item id="2416" min="1" max="1" chance="0.0075" /> 
+				<item id="2417" min="1" max="1" chance="0.0075" /> 
+				<item id="57" min="672" max="1570" chance="70" /> 
+				<item id="1870" min="1" max="1" chance="29.96" /> 
+				<item id="4072" min="1" max="1" chance="2.308" /> 
+				<item id="4102" min="1" max="1" chance="2.269" /> 
+				<item id="1875" min="1" max="1" chance="2.027" /> 
+				<item id="1874" min="1" max="1" chance="2.003" /> 
+				<item id="4088" min="1" max="1" chance="1.999" /> 
+				<item id="4089" min="1" max="1" chance="1.888" /> 
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="7" chance="80.21" /> 
+				<item id="1874" min="1" max="1" chance="21.22" /> 
+				<item id="1875" min="1" max="1" chance="20.91" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24015" level="76" type="Monster" name="Barif Camrin">
+		
+		<race>ETC</race> 
+		<acquire exp="196742" sp="5902" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="27199" hpRegen="8.5" mp="2311" mpRegen="3" />
+			<speed>
+				<walk ground="60" /> 
+				<run ground="120" /> 
+			</speed>
+			<attack physical="19039" magical="2080" critical="4" attackSpeed="278" range="40" />
+			<defence physical="8160" magical="1156" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" /> 
+			<height normal="13.25" /> 
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="5313" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="4066" max="9485" chance="70" /> 
+				<item id="1880" min="1" max="1" chance="17.83" /> 
+				<item id="1873" min="2" max="6" chance="14.68" /> 
+				<item id="1865" min="9" max="27" chance="9.83" /> 
+				<item id="1869" min="28" max="84" chance="3.18" /> 
+				<item id="5515" min="1" max="1" chance="2.872" /> 
+				<item id="5502" min="1" max="1" chance="2.845" /> 
+				<item id="5503" min="1" max="1" chance="2.812" /> 
+				<item id="5514" min="1" max="1" chance="2.772" /> 
+			</drop>
+			<spoil>
+				<item id="1865" min="1" max="25" chance="86.25" /> 
+				<item id="5382" min="1" max="1" chance="3.339" /> 
+				<item id="5406" min="1" max="1" chance="3.317" /> 
+				<item id="5404" min="1" max="1" chance="3.274" /> 
+				<item id="5380" min="1" max="1" chance="3.219" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24016" level="78" type="Monster" name="Lesser Giant Commander">
+		
+		<race>GIANT</race>
+		<acquire exp="341811" sp="10254" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="56058" hpRegen="8.5" mp="2411" mpRegen="3" />
+			<speed>
+				<walk ground="60" /> 
+				<run ground="120" /> 
+			</speed>
+			<attack physical="39241" magical="2170" critical="4" attackSpeed="278" range="40" />
+			<defence physical="16817" magical="1206" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4085" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" /> 
+			<height normal="13.25" /> 
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="5288" min="1" max="1" chance="0.03" /> 
+				<item id="5287" min="1" max="1" chance="0.0075" /> 
+				<item id="5293" min="1" max="1" chance="0.0075" /> 
+				<item id="57" min="6917" max="16148" chance="70" /> 
+				<item id="1865" min="9" max="27" chance="16.21" /> 
+				<item id="1869" min="28" max="84" chance="5.358" /> 
+				<item id="1880" min="4" max="12" chance="3.811" /> 
+				<item id="1873" min="22" max="66" chance="2.738" /> 
+				<item id="5524" min="1" max="1" chance="2.276" /> 
+				<item id="5520" min="1" max="1" chance="1.567" /> 
+				<item id="5521" min="1" max="1" chance="1.097" /> 
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="21" chance="85.57" /> 
+				<item id="5424" min="1" max="1" chance="4.227" /> 
+				<item id="5416" min="1" max="1" chance="2.631" /> 
+				<item id="5418" min="1" max="1" chance="1.812" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24018" level="65" type="Monster" name="Hekaton Prime">
+		<race>GIANT</race>
+		<acquire exp="1444329" sp="43329" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="20709" hpRegen="8.5" mp="2134" mpRegen="3" />
+			<speed>
+				<walk ground="60" /> 
+				<run ground="120" /> 
+			</speed>
+			<attack physical="294273" magical="2170" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="126117" magical="1206" />
+		</stats>
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4410" level="18" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4085" level="1" /> 
+			<skill id="4086" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" /> 
+			<height normal="13.25" /> 
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="28325" max="66123" chance="70" /> 
+				<item id="730" min="1" max="1" chance="3.031" /> 
+				<item id="729" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="1875" min="1" max="19" chance="85.18" /> 
+				<item id="5426" min="1" max="1" chance="40" /> 
+				<item id="5428" min="1" max="1" chance="39.09" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24019" level="77" type="Monster" name="Hekaton Chires">
+		
+		<race>GIANT</race>
+		<acquire exp="528416" sp="15852" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="9070" hpRegen="8.5" mp="2089" mpRegen="3" />
+			<speed>
+				<walk ground="60" /> 
+				<run ground="120" /> 
+			</speed>
+			<attack physical="77332" magical="2125" critical="4" attackSpeed="278" range="40" />
+			<defence physical="33142" magical="1180" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" /> 
+			<height normal="13.25" /> 
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="6675" max="15590" chance="70" /> 
+				<item id="1873" min="2" max="6" chance="23.85" /> 
+				<item id="1865" min="9" max="27" chance="15.58" /> 
+				<item id="1869" min="28" max="84" chance="5.23" /> 
+				<item id="1880" min="4" max="12" chance="3.665" /> 
+				<item id="8346" min="1" max="1" chance="2.862" /> 
+				<item id="8331" min="1" max="1" chance="2.858" /> 
+				<item id="8342" min="1" max="1" chance="2.387" /> 
+				<item id="5532" min="1" max="1" chance="0.75" /> 
+				<item id="5539" min="1" max="1" chance="0.75" /> 
+				<item id="5536" min="1" max="1" chance="0.75" /> 
+				<item id="5538" min="1" max="1" chance="0.3" /> 
+				<item id="5541" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="1873" min="1" max="21" chance="89.39" /> 
+				<item id="5446" min="1" max="1" chance="0.75" /> 
+				<item id="5452" min="1" max="1" chance="0.75" /> 
+				<item id="5456" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24020" level="77" type="Monster" name="Batur">
+		
+		<race>GIANT</race>
+		<acquire exp="1051810" sp="31554" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="55242" hpRegen="8.5" mp="2361" mpRegen="3" />
+			<speed>
+				<walk ground="60" /> 
+				<run ground="120" /> 
+			</speed>
+			<attack physical="38669" magical="2125" critical="4" attackSpeed="278" range="40" />
+			<defence physical="16573" magical="1180" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="13" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" /> 
+			<height normal="13.25" /> 
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="6547" max="15290" chance="70" /> 
+				<item id="729" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="729" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24021" level="77" type="Monster" name="Lesser Giant Warrior">
+		
+		<race>GIANT</race>
+		<acquire exp="326047" sp="9781" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="55242" hpRegen="8.5" mp="2361" mpRegen="3" />
+			<speed>
+				<walk ground="60" /> 
+				<run ground="120" /> 
+			</speed>
+			<attack physical="38669" magical="2125" critical="4" attackSpeed="278" range="40" />
+			<defence physical="16573" magical="1180" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="12" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" /> 
+			<height normal="13.25" /> 
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="5290" min="1" max="1" chance="0.03" /> 
+				<item id="5291" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="6573" max="15352" chance="70" /> 
+				<item id="1865" min="7" max="21" chance="26.63" /> 
+				<item id="1869" min="24" max="72" chance="7.977" /> 
+				<item id="1880" min="3" max="9" chance="5.475" /> 
+				<item id="5497" min="1" max="1" chance="5.321" /> 
+				<item id="5496" min="1" max="1" chance="5.291" /> 
+				<item id="5508" min="1" max="1" chance="5.193" /> 
+				<item id="5509" min="1" max="3" chance="2.612" /> 
+			</drop>
+			<spoil>
+				<item id="1865" min="1" max="39" chance="89.17" /> 
+				<item id="5368" min="1" max="1" chance="8.135" /> 
+				<item id="5394" min="1" max="1" chance="8.128" /> 
+				<item id="5370" min="1" max="1" chance="8.108" /> 
+				<item id="5392" min="1" max="1" chance="8.013" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24022" level="77" type="Monster" name="Lesser Giant Wizard">
+		
+		<race>GIANT</race>
+		<acquire exp="257609" sp="7728" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2268" hpRegen="8.5" mp="2089" mpRegen="3" />
+			<speed>
+				<walk ground="60" /> 
+				<run ground="120" /> 
+			</speed>
+			<attack physical="25780" magical="2125" critical="4" attackSpeed="278" range="40" />
+			<defence physical="11048" magical="1180" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4285" level="5" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" /> 
+			<height normal="13.25" /> 
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="5319" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="5301" max="12380" chance="70" /> 
+				<item id="1865" min="7" max="21" chance="19.8" /> 
+				<item id="1869" min="24" max="72" chance="6.415" /> 
+				<item id="1880" min="3" max="9" chance="4.467" /> 
+				<item id="5515" min="1" max="1" chance="3.727" /> 
+				<item id="5514" min="1" max="1" chance="3.723" /> 
+				<item id="5502" min="1" max="1" chance="3.704" /> 
+				<item id="5503" min="1" max="1" chance="3.593" /> 
+			</drop>
+			<spoil>
+				<item id="1865" min="1" max="31" chance="92.98" /> 
+				<item id="5404" min="1" max="1" chance="4.328" /> 
+				<item id="5382" min="1" max="1" chance="4.304" /> 
+				<item id="5406" min="1" max="1" chance="4.301" /> 
+				<item id="5380" min="1" max="1" chance="4.279" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24023" level="102" type="Monster" name="Embryo Castle Siege Tank">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="13579514602" sp="27159121" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="11570307" hpRegen="9.5" mp="80976" mpRegen="3.3" />
+			<attack physical="45713" magical="35171" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="4133" magical="2399" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="42" />
+			<height normal="57" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14804" level="10" /> 
+		</skillList>
+	</npc><npc id="24024" level="100" type="Folk" name="Embryo Raider">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17421" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="161313" hpRegen="10.5" mp="23928" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="30" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+	</npc><npc id="24025" level="70" type="Monster" name="Bloody Purple">
+		<parameters>
+			<param name="MoveAroundSocial" value="70" />
+			<param name="MoveAroundSocial1" value="70" />
+			<param name="MoveAroundSocial2" value="70" />
+			<param name="SoulShot" value="100" />
+			<param name="SoulShotRate" value="10" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="5" />
+			<param name="LongRangeGuardRate" value="5" />
+			<skill name="DeBuff" id="4035" level="6" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="77020" sp="2311" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5158" hpRegen="7.5" mp="2201" mpRegen="2.7" />
+			<attack physical="171" magical="120" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="450" magical="350" />
+			<speed>
+				<walk ground="10" />
+				<run ground="180" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="10" /> 
+		</skillList>
+		<shots shotChance="30" spiritChance="30" />
+		<exCrtEffect>false</exCrtEffect>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>UNDEAD</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15.6" />
+			<height normal="28.2" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="91" min="1" max="1" chance="0.003" /> 
+				<item id="92" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1096" max="2558" chance="70" /> 
+				<item id="1865" min="1" max="3" chance="15.51" /> 
+				<item id="1895" min="1" max="1" chance="14.25" /> 
+				<item id="1864" min="4" max="12" chance="11.93" /> 
+				<item id="1878" min="2" max="6" chance="3.857" /> 
+				<item id="4105" min="1" max="1" chance="0.75" /> 
+				<item id="4106" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="4965" min="1" max="1" chance="0.75" /> 
+				<item id="5000" min="1" max="1" chance="0.3" /> 
+				<item id="5004" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24026" level="71" type="Monster" name="Clipher">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<acquire exp="79766" sp="2393" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1665" hpRegen="8.5" mp="2253" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="181" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="410" magical="210" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="17" />
+			<height normal="26.8" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="78" min="1" max="1" chance="0.003" /> 
+				<item id="142" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1145" max="2673" chance="70" /> 
+				<item id="1865" min="1" max="3" chance="17.47" /> 
+				<item id="1895" min="1" max="1" chance="13.72" /> 
+				<item id="1864" min="4" max="12" chance="12.78" /> 
+				<item id="1878" min="2" max="6" chance="3.969" /> 
+				<item id="4104" min="1" max="1" chance="1" /> 
+				<item id="4107" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="11" chance="92.14" /> 
+				<item id="1875" min="1" max="1" chance="36.62" /> 
+				<item id="1874" min="1" max="1" chance="35.66" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24027" level="72" type="Monster" name="Sairon">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<acquire exp="86040" sp="2581" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1697" hpRegen="8.5" mp="2306" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="191" magical="14" random="30" critical="5" attackSpeed="278" range="40" />
+			<defence physical="410" magical="210" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="10.4" />
+			<height normal="23.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="266" min="1" max="1" chance="0.003" /> 
+				<item id="267" min="1" max="1" chance="0.003" /> 
+				<item id="300" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1293" max="3017" chance="70" /> 
+				<item id="1895" min="1" max="1" chance="15.87" /> 
+				<item id="1864" min="4" max="12" chance="13.8" /> 
+				<item id="1878" min="2" max="6" chance="4.567" /> 
+				<item id="1865" min="9" max="27" chance="3.183" /> 
+				<item id="2120" min="1" max="1" chance="0.75" /> 
+				<item id="4111" min="1" max="1" chance="0.75" /> 
+				<item id="4113" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="13" chance="89.5" /> 
+				<item id="1874" min="1" max="1" chance="41.89" /> 
+				<item id="1875" min="1" max="1" chance="41.51" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24028" level="73" type="Monster" name="Demon Warrior">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<acquire exp="89303" sp="2679" />
+		<equipment rhand="234" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1728" hpRegen="8.5" mp="2359" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="211" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="430" magical="220" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="12" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="33.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="175" min="1" max="1" chance="0.003" /> 
+				<item id="210" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1357" max="3166" chance="70" /> 
+				<item id="1895" min="1" max="1" chance="17.04" /> 
+				<item id="1864" min="4" max="12" chance="14.93" /> 
+				<item id="1878" min="2" max="6" chance="4.697" /> 
+				<item id="1865" min="9" max="27" chance="3.306" /> 
+				<item id="4117" min="1" max="1" chance="0.75" /> 
+				<item id="4118" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="13" chance="91.215" /> 
+				<item id="1874" min="1" max="1" chance="43.4" /> 
+				<item id="1875" min="1" max="1" chance="42.44" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24029" level="74" type="Monster" name="Veil Master">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DEMONIC</race>
+		<acquire exp="90904" sp="2727" />
+		<equipment rhand="78" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1758" hpRegen="8.5" mp="2413" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="236" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="445" magical="235" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4412" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="33.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="79" min="1" max="1" chance="0.003" /> 
+				<item id="171" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1372" max="3205" chance="70" /> 
+				<item id="1895" min="1" max="1" chance="11.11" /> 
+				<item id="1876" min="1" max="1" chance="8.019" /> 
+				<item id="1866" min="2" max="6" chance="6.628" /> 
+				<item id="1879" min="1" max="1" chance="6.623" /> 
+				<item id="1870" min="5" max="15" chance="3.946" /> 
+				<item id="1871" min="9" max="27" chance="2.235" /> 
+				<item id="4114" min="1" max="1" chance="0.75" /> 
+				<item id="4116" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="948" min="1" max="1" chance="2.453" /> 
+				<item id="947" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24030" level="74" type="Monster" name="Stone Vanul">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<acquire exp="129198" sp="3875" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1758" hpRegen="8.5" mp="2413" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="236" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="445" magical="235" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4412" level="9" /> 
+			<skill id="4413" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="16.5" />
+			<height normal="29.45" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="97" min="1" max="1" chance="0.0075" /> 
+				<item id="268" min="1" max="1" chance="0.0075" /> 
+				<item id="57" min="2433" max="5685" chance="70" /> 
+				<item id="1866" min="2" max="6" chance="12.09" /> 
+				<item id="1879" min="1" max="1" chance="11.33" /> 
+				<item id="1870" min="5" max="15" chance="7.156" /> 
+				<item id="1871" min="9" max="27" chance="3.93" /> 
+				<item id="1895" min="3" max="9" chance="2.955" /> 
+				<item id="1876" min="4" max="12" chance="1.809" /> 
+				<item id="4115" min="1" max="1" chance="1.673" /> 
+				<item id="4120" min="1" max="1" chance="1.612" /> 
+			</drop>
+			<spoil>
+				<item id="948" min="1" max="1" chance="4.386" /> 
+				<item id="947" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24031" level="75" type="Monster" name="Death Flyer">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DEMONIC</race>
+		<acquire exp="94263" sp="2827" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1788" hpRegen="8.5" mp="2466" mpRegen="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<attack physical="256" magical="140" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="455" magical="245" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="12" /> 
+		</skillList>
+		<collision>
+			<radius normal="13.2" />
+			<height normal="44.3" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="234" min="1" max="1" chance="0.003" /> 
+				<item id="287" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1438" max="3358" chance="70" /> 
+				<item id="1895" min="1" max="1" chance="12.31" /> 
+				<item id="1876" min="1" max="1" chance="8.416" /> 
+				<item id="1866" min="2" max="6" chance="7.041" /> 
+				<item id="1879" min="1" max="1" chance="6.981" /> 
+				<item id="1870" min="5" max="15" chance="4.149" /> 
+				<item id="1871" min="9" max="27" chance="2.292" /> 
+				<item id="4119" min="1" max="1" chance="0.75" /> 
+				<item id="4121" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="4186" min="1" max="1" chance="0.75" /> 
+				<item id="4192" min="1" max="1" chance="0.75" /> 
+				<item id="4199" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24032" level="70" type="Monster" name="Seer">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<acquire exp="77020" sp="2310" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1633" hpRegen="7.5" mp="2201" mpRegen="2.7" />
+			<speed>
+				<walk ground="68" />
+				<run ground="180" />
+			</speed>
+			<attack physical="171" magical="120" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="400" magical="200" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="34" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="91" min="1" max="1" chance="0.003" /> 
+				<item id="92" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1096" max="2558" chance="70" /> 
+				<item id="1871" min="1" max="3" chance="10.26" /> 
+				<item id="1895" min="1" max="1" chance="9.201" /> 
+				<item id="1876" min="1" max="1" chance="6.335" /> 
+				<item id="1879" min="1" max="1" chance="5.335" /> 
+				<item id="1866" min="2" max="6" chance="5.299" /> 
+				<item id="1870" min="5" max="15" chance="3.233" /> 
+				<item id="4105" min="1" max="1" chance="0.75" /> 
+				<item id="4106" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="4965" min="1" max="1" chance="0.75" /> 
+				<item id="5000" min="1" max="1" chance="0.3" /> 
+				<item id="5004" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24033" level="71" type="Monster" name="Guardian Spirit">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DEMONIC</race>
+		<acquire exp="79766" sp="2392" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1665" hpRegen="8.5" mp="2253" mpRegen="3" />
+			<speed>
+				<walk ground="37" />
+				<run ground="180" />
+			</speed>
+			<attack physical="181" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="410" magical="210" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="40" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="78" min="1" max="1" chance="0.003" /> 
+				<item id="142" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1145" max="2673" chance="70" /> 
+				<item id="1870" min="3" max="9" chance="16.74" /> 
+				<item id="1874" min="1" max="1" chance="6.706" /> 
+				<item id="4104" min="1" max="1" chance="1.043" /> 
+				<item id="4107" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="11" chance="91.865" /> 
+				<item id="1875" min="1" max="1" chance="37.01" /> 
+				<item id="1874" min="1" max="1" chance="34.76" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24034" level="72" type="Monster" name="Midnight Sairon">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DEMONIC</race>
+		<acquire exp="86040" sp="2581" />
+		<equipment rhand="5129" lhand="5129" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1697" hpRegen="8.5" mp="2306" mpRegen="3" />
+			<speed>
+				<walk ground="22" />
+				<run ground="180" />
+			</speed>
+			<attack physical="191" magical="14" random="30" critical="5" attackSpeed="278" range="40" />
+			<defence physical="410" magical="210" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="10.2" />
+			<height normal="22.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="266" min="1" max="1" chance="0.003" /> 
+				<item id="267" min="1" max="1" chance="0.003" /> 
+				<item id="300" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1293" max="3017" chance="70" /> 
+				<item id="1870" min="3" max="9" chance="18.48" /> 
+				<item id="1874" min="1" max="1" chance="7.587" /> 
+				<item id="2120" min="1" max="1" chance="0.75" /> 
+				<item id="4111" min="1" max="1" chance="0.75" /> 
+				<item id="4113" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="13" chance="90.5" /> 
+				<item id="1874" min="1" max="1" chance="40.93" /> 
+				<item id="1875" min="1" max="1" chance="40.28" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24035" level="73" type="Monster" name="Daymen">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<acquire exp="89303" sp="2679" />
+		<equipment rhand="84" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1728" hpRegen="8.5" mp="2359" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="211" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="430" magical="220" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="12" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="33.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="175" min="1" max="1" chance="0.003" /> 
+				<item id="210" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1357" max="3166" chance="70" /> 
+				<item id="1870" min="3" max="9" chance="19.19" /> 
+				<item id="1874" min="1" max="1" chance="7.894" /> 
+				<item id="4117" min="1" max="1" chance="0.75" /> 
+				<item id="4118" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="1870" min="1" max="13" chance="92.505" /> 
+				<item id="1874" min="1" max="1" chance="42.74" /> 
+				<item id="1875" min="1" max="1" chance="41.9" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24036" level="74" type="Monster" name="Dolores">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DEMONIC</race>
+		<acquire exp="90904" sp="2727" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1758" hpRegen="8.5" mp="2413" mpRegen="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<attack physical="236" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="445" magical="235" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4412" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="13.2" />
+			<height normal="44.3" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="79" min="1" max="1" chance="0.003" /> 
+				<item id="171" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1372" max="3205" chance="70" /> 
+				<item id="1887" min="1" max="1" chance="5.875" /> 
+				<item id="4114" min="1" max="1" chance="0.75" /> 
+				<item id="4116" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="948" min="1" max="1" chance="2.493" /> 
+				<item id="947" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24037" level="74" type="Monster" name="Maiden Doll">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DEMONIC</race>
+		<acquire exp="129198" sp="3875" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1758" hpRegen="8.5" mp="2413" mpRegen="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<attack physical="236" magical="130" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="445" magical="235" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4412" level="9" /> 
+			<skill id="4413" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="17" />
+			<height normal="55" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="97" min="1" max="1" chance="0.0075" /> 
+				<item id="268" min="1" max="1" chance="0.0075" /> 
+				<item id="57" min="2433" max="5685" chance="70" /> 
+				<item id="1887" min="1" max="1" chance="10.68" /> 
+				<item id="4120" min="1" max="1" chance="1.603" /> 
+				<item id="4115" min="1" max="1" chance="1.574" /> 
+			</drop>
+			<spoil>
+				<item id="948" min="1" max="1" chance="4.296" /> 
+				<item id="947" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24038" level="75" type="Monster" name="Tor Scorpion">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>BUG</race>
+		<acquire exp="94263" sp="2827" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1788" hpRegen="8.5" mp="2466" mpRegen="3" />
+			<speed>
+				<walk ground="37" />
+				<run ground="180" />
+			</speed>
+			<attack physical="256" magical="140" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="455" magical="245" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="12" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4410" level="12" /> 
+		</skillList>
+		<collision>
+			<radius normal="22.4" />
+			<height normal="52.2" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="234" min="1" max="1" chance="0.003" /> 
+				<item id="287" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1438" max="3358" chance="70" /> 
+				<item id="1887" min="1" max="1" chance="6.164" /> 
+				<item id="4119" min="1" max="1" chance="0.75" /> 
+				<item id="4121" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="4186" min="1" max="1" chance="0.75" /> 
+				<item id="4192" min="1" max="1" chance="0.75" /> 
+				<item id="4199" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24039" level="75" type="Monster" name="Pearl Horror">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<acquire exp="181912" sp="5457" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1788" hpRegen="8.5" mp="2466" mpRegen="3" />
+			<speed>
+				<walk ground="100" />
+				<run ground="180" />
+			</speed>
+			<attack physical="291" magical="160" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="485" magical="275" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4410" level="12" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="35" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="7895" max="18441" chance="70" /> 
+				<item id="2133" min="1" max="1" chance="4.633" /> 
+			</drop>
+			<spoil>
+				<item id="1887" min="1" max="3" chance="69.24" /> 
+				<item id="948" min="1" max="1" chance="13.5" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24040" level="75" type="Monster" name="Midnight Nightmare">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DEMONIC</race>
+		<acquire exp="185062" sp="5551" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1788" hpRegen="8.5" mp="2466" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="301" magical="180" random="30" critical="4" attackSpeed="278" range="40" />
+			<defence physical="495" magical="285" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4085" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="40" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="20427" max="47712" chance="70" /> 
+				<item id="2133" min="1" max="1" chance="11.81" /> 
+			</drop>
+			<spoil>
+				<item id="1887" min="1" max="7" chance="90.325" /> 
+				<item id="729" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24041" level="71" type="Monster" name="Bloody Mourner">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>BEAST</race>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1228" hpRegen="8.5" mp="2253" mpRegen="3" />
+			<speed>
+				<walk ground="25" />
+				<run ground="180" />
+			</speed>
+			<attack physical="872" magical="370" critical="4" attackSpeed="278" range="40" />
+			<defence physical="935" magical="516" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="24042" level="71" type="Monster" name="Clumsy Wimp">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>UNDEAD</race>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1228" hpRegen="8.5" mp="2253" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="872" magical="370" critical="4" attackSpeed="278" range="40" />
+			<defence physical="935" magical="516" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="39" />
+		</collision>
+	</npc><npc id="24043" level="101" type="Monster" name="Castle Archer">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<acquire exp="117675675" sp="235439" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="476709" hpRegen="9.5" mp="30165" mpRegen="3.3" />
+			<attack physical="42356" magical="31566" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3777" magical="2192" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4440" level="5" /> 
+		</skillList>
+	</npc><npc id="24044" level="74" type="Monster" name="Zaken's Treasure Chest">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>ETC</race> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1620" hpRegen="8.5" mp="2413" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="774" magical="528" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="315" magical="230" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4408" level="13" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="12" />
+		</collision>
+	</npc><npc id="24045" level="101" type="Monster" name="Orc Mercenary Warrior">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="38425" />
+		<acquire exp="117675675" sp="235439" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="476709" hpRegen="9.5" mp="30165" mpRegen="3.3" />
+			<attack physical="42356" magical="31566" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3777" magical="2192" />
+			<speed>
+				<walk ground="48" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="33" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="16758" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4440" level="5" /> 
+		</skillList>
+	</npc><npc id="24046" level="70" type="Monster" name="Floating Eye Seer">
+		
+		<race>ETC</race> 
+		<acquire exp="14700" sp="441" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="980" hpRegen="7.5" mp="2201" mpRegen="2.7" />
+			<speed>
+				<walk ground="90" />
+				<run ground="180" />
+			</speed>
+			<attack physical="228" magical="110" critical="4" attackSpeed="278" range="40" />
+			<defence physical="416" magical="304" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="864" min="1" max="1" chance="0.03" /> 
+				<item id="895" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="620" max="1447" chance="70" /> 
+				<item id="1878" min="1" max="1" chance="11.32" /> 
+				<item id="1865" min="1" max="3" chance="9.007" /> 
+				<item id="1895" min="1" max="1" chance="7.748" /> 
+				<item id="1864" min="4" max="12" chance="6.725" /> 
+				<item id="4053" min="1" max="1" chance="4.056" /> 
+				<item id="4052" min="1" max="1" chance="3.426" /> 
+			</drop>
+			<spoil>
+				<item id="4974" min="1" max="1" chance="7.219" /> 
+				<item id="4973" min="1" max="1" chance="4.789" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24047" level="71" type="Monster" name="Floating Eye Seer">
+		
+		<race>ETC</race> 
+		<acquire exp="15123" sp="453" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="999" hpRegen="8.5" mp="2253" mpRegen="3" />
+			<speed>
+				<walk ground="90" />
+				<run ground="180" />
+			</speed>
+			<attack physical="238" magical="120" critical="4" attackSpeed="278" range="40" />
+			<defence physical="429" magical="314" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="20" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="110" min="1" max="1" chance="0.03" /> 
+				<item id="284" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="640" max="1492" chance="70" /> 
+				<item id="1866" min="1" max="1" chance="12.05" /> 
+				<item id="1870" min="1" max="3" chance="9.275" /> 
+				<item id="1871" min="1" max="3" chance="6.183" /> 
+				<item id="1895" min="1" max="1" chance="5.285" /> 
+				<item id="4077" min="1" max="1" chance="4.356" /> 
+				<item id="1876" min="1" max="1" chance="3.771" /> 
+				<item id="1879" min="1" max="1" chance="3.073" /> 
+				<item id="4112" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="4971" min="1" max="1" chance="0.988" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24048" level="71" type="Monster" name="Immortal Spirit">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>HUMAN</race>
+		<acquire exp="15123" sp="453" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="999" hpRegen="8.5" mp="2253" mpRegen="3" />
+			<attack physical="238" magical="120" critical="4" attackSpeed="278" range="40" />
+			<defence physical="429" magical="314" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="22" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="926" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="640" max="1492" chance="70" /> 
+				<item id="1878" min="1" max="1" chance="10.77" /> 
+				<item id="1865" min="1" max="3" chance="9.294" /> 
+				<item id="1895" min="1" max="1" chance="7.979" /> 
+				<item id="1864" min="4" max="12" chance="6.976" /> 
+				<item id="4054" min="1" max="1" chance="3.832" /> 
+			</drop>
+			<spoil>
+				<item id="4975" min="1" max="1" chance="7.391" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24049" level="72" type="Monster" name="Immortal Spirit">
+		
+		<race>HUMAN</race>
+		<acquire exp="15549" sp="466" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1018" hpRegen="8.5" mp="2306" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="248" magical="130" critical="4" attackSpeed="278" range="40" />
+			<defence physical="440" magical="324" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="22" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="2391" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="659" max="1538" chance="70" /> 
+				<item id="1870" min="1" max="3" chance="27.53" /> 
+				<item id="1874" min="1" max="1" chance="3.843" /> 
+				<item id="4082" min="1" max="1" chance="2.338" /> 
+			</drop>
+			<spoil>
+				<item id="4984" min="1" max="1" chance="2.708" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24050" level="71" type="Monster" name="Starving Spirit">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<acquire exp="15123" sp="453" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="999" hpRegen="8.5" mp="2253" mpRegen="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<attack physical="238" magical="120" critical="4" attackSpeed="278" range="40" />
+			<defence physical="429" magical="314" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="8" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="25.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="110" min="1" max="1" chance="0.03" /> 
+				<item id="2388" min="1" max="1" chance="0.03" /> 
+				<item id="2384" min="1" max="1" chance="0.0075" /> 
+				<item id="2390" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="640" max="1492" chance="70" /> 
+				<item id="1866" min="1" max="1" chance="11.95" /> 
+				<item id="1870" min="1" max="3" chance="9.354" /> 
+				<item id="1871" min="1" max="3" chance="6.246" /> 
+				<item id="1895" min="1" max="1" chance="5.337" /> 
+				<item id="1876" min="1" max="1" chance="3.722" /> 
+				<item id="1879" min="1" max="1" chance="3.171" /> 
+				<item id="4077" min="1" max="1" chance="2.147" /> 
+				<item id="4067" min="1" max="1" chance="1.745" /> 
+				<item id="4066" min="1" max="1" chance="1.163" /> 
+				<item id="4068" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="4953" min="1" max="1" chance="4.45" /> 
+				<item id="4960" min="1" max="1" chance="4.424" /> 
+				<item id="4959" min="1" max="1" chance="4.385" /> 
+				<item id="4958" min="1" max="1" chance="4.313" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24051" level="72" type="Monster" name="Starving Spirit">
+		<race>UNDEAD</race>
+		<acquire exp="15549" sp="466" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1018" hpRegen="8.5" mp="2306" mpRegen="3" />
+			<speed>
+				<walk ground="39" />
+				<run ground="180" />
+			</speed>
+			<attack physical="248" magical="130" critical="4" attackSpeed="278" range="40" />
+			<defence physical="440" magical="324" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="2380" min="1" max="1" chance="0.03" /> 
+				<item id="358" min="1" max="1" chance="0.0075" /> 
+				<item id="57" min="659" max="1538" chance="70" /> 
+				<item id="1870" min="1" max="3" chance="27.68" /> 
+				<item id="1874" min="1" max="1" chance="3.816" /> 
+				<item id="4080" min="1" max="1" chance="2.105" /> 
+				<item id="4078" min="1" max="1" chance="1.493" /> 
+			</drop>
+			<spoil>
+				<item id="4982" min="1" max="1" chance="2.363" /> 
+				<item id="4981" min="1" max="1" chance="1.422" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24052" level="72" type="Monster" name="Starving Soldier">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>DIVINE</race>
+		<acquire exp="15549" sp="466" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1018" hpRegen="8.5" mp="2306" mpRegen="3" />
+			<speed>
+				<walk ground="61" />
+				<run ground="180" />
+			</speed>
+			<attack physical="248" magical="130" critical="4" attackSpeed="278" range="40" />
+			<defence physical="440" magical="324" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="8" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.4" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="229" min="1" max="1" chance="0.003" /> 
+				<item id="243" min="1" max="1" chance="0.003" /> 
+				<item id="2392" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="659" max="1538" chance="70" /> 
+				<item id="1866" min="1" max="1" chance="13.27" /> 
+				<item id="1870" min="1" max="3" chance="9.574" /> 
+				<item id="1871" min="1" max="3" chance="6.343" /> 
+				<item id="1895" min="1" max="1" chance="5.521" /> 
+				<item id="1876" min="1" max="1" chance="3.883" /> 
+				<item id="1879" min="1" max="1" chance="3.193" /> 
+				<item id="4083" min="1" max="1" chance="0.75" /> 
+				<item id="4109" min="1" max="1" chance="0.3" /> 
+				<item id="4110" min="1" max="1" chance="0.3" /> 
+			</drop>
+			<spoil>
+				<item id="4989" min="1" max="1" chance="3.092" /> 
+				<item id="4969" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24053" level="73" type="Monster" name="Starving Soldier">
+		<race>UNDEAD</race>
+		<acquire exp="15987" sp="479" />
+		<equipment rhand="47716" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1037" hpRegen="8.5" mp="2359" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="258" magical="140" critical="4" attackSpeed="278" range="40" />
+			<defence physical="450" magical="334" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="28.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="2403" min="1" max="1" chance="0.03" /> 
+				<item id="2398" min="1" max="1" chance="0.0075" /> 
+				<item id="57" min="680" max="1586" chance="70" /> 
+				<item id="1870" min="1" max="3" chance="28.57" /> 
+				<item id="1874" min="1" max="1" chance="3.928" /> 
+				<item id="4086" min="1" max="1" chance="2.454" /> 
+				<item id="4084" min="1" max="1" chance="1.864" /> 
+			</drop>
+			<spoil>
+				<item id="4988" min="1" max="1" chance="3.263" /> 
+				<item id="4986" min="1" max="1" chance="2.007" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24054" level="73" type="Monster" name="Starving Warrior">
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+		</parameters>
+		<race>HUMAN</race>
+		<acquire exp="15987" sp="479" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1037" hpRegen="8.5" mp="2359" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="258" magical="140" critical="4" attackSpeed="278" range="40" />
+			<defence physical="450" magical="334" />
+			<hitTime>840</hitTime>
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="30" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="234" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="680" max="1586" chance="70" /> 
+				<item id="1866" min="1" max="1" chance="13.22" /> 
+				<item id="1870" min="1" max="3" chance="9.969" /> 
+				<item id="1871" min="1" max="3" chance="6.599" /> 
+				<item id="1895" min="1" max="1" chance="5.626" /> 
+				<item id="1876" min="1" max="1" chance="3.987" /> 
+				<item id="1879" min="1" max="1" chance="3.274" /> 
+				<item id="4119" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="4989" min="1" max="1" chance="1.63" /> 
+				<item id="4966" min="1" max="1" chance="0.3" /> 
+				<item id="4968" min="1" max="1" chance="0.3" /> 
+				<item id="4969" min="1" max="1" chance="0.3" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24055" level="74" type="Monster" name="Starving Warrior">
+		
+		<race>UNDEAD</race>
+		<acquire exp="16428" sp="492" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1055" hpRegen="8.5" mp="2413" mpRegen="3" />
+			<speed>
+				<walk ground="39" />
+				<run ground="180" />
+			</speed>
+			<attack physical="268" magical="150" critical="4" attackSpeed="278" range="40" />
+			<defence physical="460" magical="344" />
+		</stats>
+		<status attackable="true" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="28.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="2416" min="1" max="1" chance="0.03" /> 
+				<item id="2417" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="699" max="1634" chance="70" /> 
+				<item id="4089" min="1" max="1" chance="4.091" /> 
+				<item id="4088" min="1" max="1" chance="4.071" /> 
+				<item id="1887" min="1" max="1" chance="2.991" /> 
+			</drop>
+			<spoil>
+				<item id="4962" min="1" max="1" chance="4.326" /> 
+				<item id="4991" min="1" max="1" chance="2.727" /> 
+				<item id="4990" min="1" max="1" chance="2.681" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="24056" level="100" type="Monster" name="Knights Archer" title="Rune Castle Unit">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<acquire exp="233823400" sp="233900" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="772269" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="14" />
+			<height normal="26.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+	</npc><npc id="24057" level="100" type="Monster" name="Knights Priest" title="Rune Castle Unit">
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="233823400" sp="233900" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="772269" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="33.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4438" level="5" /> 
+		</skillList>
+	</npc><npc id="24058" level="100" type="Monster" name="Vampire Warrior">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1782710" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="22" />
+			<height normal="37" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4435" level="5" /> 
+		</skillList>
+	</npc><npc id="24059" level="100" type="Monster" name="Vampire Rogue">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1782710" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="28.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4435" level="5" /> 
+		</skillList>
+	</npc><npc id="24060" level="100" type="Monster" name="Vampire Shooter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="47898" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1782710" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+	</npc><npc id="24061" level="100" type="Monster" name="Vampire Wizard">
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="1782710" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="32" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="4438" level="5" /> 
+		</skillList>
+	</npc><npc id="24062" level="100" type="Monster" name="Vampire Warrior">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="77941100" sp="78000" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="475390" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="22" />
+			<height normal="37" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+	</npc><npc id="24063" level="100" type="Monster" name="Vampire Rogue">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="77941100" sp="78000" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="475390" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="15" />
+			<height normal="28.5" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+	</npc><npc id="24064" level="100" type="Monster" name="Vampire Shooter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="47898" />
+		<acquire exp="77941100" sp="78000" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="475390" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+	</npc><npc id="24065" level="100" type="Monster" name="Vampire Wizard">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="77941100" sp="78000" />
+		<stats str="79" int="34" dex="42" wit="66" con="75" men="12">
+			<vitals hp="475390" hpRegen="9.5" mp="29693" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="32" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14821" level="1" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+	</npc><npc id="24066" level="100" type="Monster" name="Cannon">
+		<race>ETC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1013895" hpRegen="9.5" mp="78477" mpRegen="3.3" />
+			<attack physical="38999" magical="27961" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3421" magical="1985" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="88" />
+			<height normal="42.6" />
+		</collision>
+	</npc><npc id="24067" level="101" type="Monster" name="Sophie von Hellmann">
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="7950775691" sp="7950863" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="1825009" hpRegen="411.3974312" mp="78477" mpRegen="3.3" />
+			<attack physical="278524" magical="199743" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="32292" magical="15762" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="32" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="1" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="14804" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="19448" min="1" max="1" chance="78.25" /> 
+				<item id="57" min="35000000" max="70000000" chance="20" /> 
+				<item id="19447" min="1" max="1" chance="19.15" /> 
+				<item id="35354" min="1" max="1" chance="3.013" /> 
+				<item id="35349" min="1" max="1" chance="2.992" /> 
+				<item id="35338" min="1" max="1" chance="2.981" /> 
+				<item id="35344" min="1" max="1" chance="2.977" /> 
+				<item id="35343" min="1" max="1" chance="2.965" /> 
+				<item id="35341" min="1" max="1" chance="2.959" /> 
+				<item id="35348" min="1" max="1" chance="2.954" /> 
+				<item id="35339" min="1" max="1" chance="2.953" /> 
+				<item id="35353" min="1" max="1" chance="2.945" /> 
+				<item id="35342" min="1" max="1" chance="2.939" /> 
+				<item id="35340" min="1" max="1" chance="2.923" /> 
+				<item id="35346" min="1" max="1" chance="2.908" /> 
+				<item id="35351" min="1" max="1" chance="2.9" /> 
+				<item id="35345" min="1" max="1" chance="2.89" /> 
+				<item id="35350" min="1" max="1" chance="2.882" /> 
+				<item id="35352" min="1" max="1" chance="2.875" /> 
+				<item id="35347" min="1" max="1" chance="2.87" /> 
+				<item id="35473" min="1" max="1" chance="0.75" /> 
+				<item id="35474" min="1" max="1" chance="0.75" /> 
+				<item id="35475" min="1" max="1" chance="0.75" /> 
+				<item id="35476" min="1" max="1" chance="0.75" /> 
+				<item id="35477" min="1" max="1" chance="0.75" /> 
+				<item id="35478" min="1" max="1" chance="0.75" /> 
+				<item id="35472" min="1" max="1" chance="0.75" /> 
+				<item id="35471" min="1" max="1" chance="0.75" /> 
+				<item id="35464" min="1" max="1" chance="0.75" /> 
+				<item id="35463" min="1" max="1" chance="0.75" /> 
+				<item id="35462" min="1" max="1" chance="0.75" /> 
+				<item id="35465" min="1" max="1" chance="0.75" /> 
+				<item id="35466" min="1" max="1" chance="0.75" /> 
+				<item id="35467" min="1" max="1" chance="0.75" /> 
+				<item id="35468" min="1" max="1" chance="0.75" /> 
+				<item id="35469" min="1" max="1" chance="0.75" /> 
+				<item id="35470" min="1" max="1" chance="0.75" /> 
+				<item id="38065" min="1" max="1" chance="0.3" /> 
+				<item id="38066" min="1" max="1" chance="0.3" /> 
+				<item id="38067" min="1" max="1" chance="0.3" /> 
+				<item id="38068" min="1" max="1" chance="0.3" /> 
+				<item id="38069" min="1" max="1" chance="0.3" /> 
+				<item id="38070" min="1" max="1" chance="0.3" /> 
+				<item id="38064" min="1" max="1" chance="0.3" /> 
+				<item id="38063" min="1" max="1" chance="0.3" /> 
+				<item id="38054" min="1" max="1" chance="0.3" /> 
+				<item id="38055" min="1" max="1" chance="0.3" /> 
+				<item id="38056" min="1" max="1" chance="0.3" /> 
+				<item id="38057" min="1" max="1" chance="0.3" /> 
+				<item id="38058" min="1" max="1" chance="0.3" /> 
+				<item id="38060" min="1" max="1" chance="0.3" /> 
+				<item id="38061" min="1" max="1" chance="0.3" /> 
+				<item id="38062" min="1" max="1" chance="0.3" /> 
+				<item id="38059" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="24068" level="101" type="Monster" name="Eilhalder von Hellmann">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="235387962" sp="56493" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1825009" hpRegen="9.5" mp="78477" mpRegen="3.3" />
+			<attack physical="42356" magical="31566" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3777" magical="2192" />
+			<speed>
+				<walk ground="15" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="7.5" />
+			<height normal="25.8" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="14804" level="10" /> 
+		</skillList>
+	</npc><npc id="24069" level="101" type="Monster" name="Alfred von Hellmann">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="47897" />
+		<acquire exp="7950775691" sp="7950863" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1825009" hpRegen="9.5" mp="78477" mpRegen="3.3" />
+			<attack physical="42356" magical="31566" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="3777" magical="2192" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="19" />
+			<height normal="35" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="9" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="14804" level="10" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="17527" min="2" max="3" chance="81" /> 
+				<item id="30297" min="1" max="2" chance="84.66" /> 
+				<item id="17526" min="1" max="2" chance="19.76" /> 
+				<item id="46150" min="1" max="1" chance="10.061" /> 
+				<item id="30298" min="1" max="1" chance="2.567" /> 
+				<item id="46151" min="1" max="1" chance="2.523" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="24070" level="102" type="RaidBoss" name="Kain van Halter" title="Traitor">
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="36218" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="6759299" hpRegen="419.6050136" mp="78477" mpRegen="3.3" />
+			<attack physical="284080" magical="203728" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="32936" magical="16076" />
+			<speed>
+				<walk ground="64" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="10.8" />
+			<height normal="24.6" />
+		</collision>
+	</npc><npc id="24071" level="102" type="RaidBoss" name="Kain van Halter" title="Traitor">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="23657549" hpRegen="419.6050136" mp="78477" mpRegen="3.3" />
+			<attack physical="284080" magical="203728" random="30" critical="5" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="32936" magical="16076" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+		</stats>
+		<status attackable="true" />
+		<collision>
+			<radius normal="12" />
+			<height normal="36" />
+		</collision>
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5467" level="1" /> 
+			<skill id="14823" level="1" /> 
+			<skill id="14804" level="10" /> 
+		</skillList>
+	</npc></list>

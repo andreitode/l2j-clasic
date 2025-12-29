@@ -1,0 +1,2690 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="19400" level="90" type="Monster" name="Cocoon Destroyer">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="14040" level="4" />
+			<skill name="Skill02_ID" id="6914" level="3" />
+			<param name="Attack_BoostValue" value="135" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="1458000" sp="349" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="27283" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="13" />
+				<run ground="180" />
+			</speed>
+			<attack physical="4393" magical="785" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="440" magical="244" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>M_FAIRY</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="17375" min="1" max="1" chance="4.936" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="15" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="19401" level="93" type="Folk" name="Soldier">
+		<parameters>
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<equipment rhand="17325" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14467" hpRegen="8.5" mp="2132" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="5066" magical="900" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="467" magical="263" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skillList>
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="700" aggroRange="400">
+			<clanList>
+				<clan>SF_GOOD</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="19402" level="93" type="Folk" name="Soldier">
+		<parameters>
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<equipment rhand="17329" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14467" hpRegen="8.5" mp="2132" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="5066" magical="900" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="467" magical="263" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skillList>
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="700" aggroRange="400">
+			<clanList>
+				<clan>SF_GOOD</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="19403" level="94" type="Monster" name="Boz" title="Spicula Clone Generator">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="300" />
+			</speed>
+			<attack physical="5312" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>NORNIL_METUCELLAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="70" />
+		</collision>
+	</npc><npc id="19404" level="99" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.01" />
+			<height normal="18" />
+		</collision>
+	</npc><npc id="19405" level="99" type="Monster" name="Gatekeeper Zombie">
+		
+		<parameters>
+			<param name="pass1" value="36228" />
+			<param name="pass2" value="8065" />
+			<param name="pass3" value="36229" />
+			<param name="SkillRange" value="700" />
+			<skill name="DDMagic" id="15431" level="1" />
+			<param name="Attack_BoostValue" value="155" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="8217" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="33" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="7" /> 
+			<skill id="4411" level="7" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4417" level="35" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15455" level="1" /> 
+			<skill id="15466" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="1000">
+			<clanList>
+				<clan>TRIOLL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="17" />
+			<height normal="30.5" />
+		</collision>
+	</npc><npc id="19406" level="97" type="Monster" name="Anteroom Gatekeeper">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="119" />
+			<skill name="PhysicalSpecial" id="15432" level="1" />
+			<skill name="DDMagic" id="15459" level="1" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="8217" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15685" hpRegen="8.5" mp="2280" mpRegen="3" />
+			<speed>
+				<walk ground="33" />
+				<run ground="120" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="505" magical="290" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="18" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4417" level="35" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15455" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="200" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>TRIOLL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="40" />
+			<height normal="30.5" />
+		</collision>
+	</npc><npc id="19407" level="97" type="Monster" name="Anteroom Gatekeeper">
+		
+		<parameters>
+			<skill name="PhysicalSpecial" id="15432" level="1" />
+			<skill name="DDMagic" id="15459" level="1" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="8217" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15685" hpRegen="8.5" mp="2280" mpRegen="3" />
+			<speed>
+				<walk ground="33" />
+				<run ground="120" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="505" magical="290" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="18" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4417" level="35" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15455" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="200" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="40" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19408" level="99" type="Monster" name="Chapel Gatekeeper">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="119" />
+			<skill name="PhysicalSpecial" id="15432" level="1" />
+			<skill name="DDMagic" id="15459" level="1" />
+			<param name="Attack_BoostValue" value="155" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="8217" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="33" />
+				<run ground="120" />
+			</speed>
+			<attack physical="6746" magical="1186" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="18" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4417" level="35" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15455" level="1" /> 
+			<skill id="15466" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="200" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>TRIOLL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="40" />
+			<height normal="30.5" />
+		</collision>
+	</npc><npc id="19409" level="99" type="Monster" name="Triol's High Priest">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15685" hpRegen="8.5" mp="2280" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="18" /> 
+			<skill id="4417" level="26" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15455" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>TRIOLL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="19.1" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17449" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="4001" max="9338" chance="20" /> 
+				<item id="35357" min="1" max="1" chance="0.075" /> 
+				<item id="19448" min="1" max="1" chance="0.0075" /> 
+				<item id="35481" min="1" max="1" chance="0.003" /> 
+				<item id="19447" min="1" max="1" chance="0.0009" /> 
+			</drop>
+			<spoil>
+				<item id="40207" min="1" max="1" chance="23.23" /> 
+				<item id="40212" min="1" max="1" chance="9" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19410" level="99" type="Monster" name="Triol's High Priest">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="155" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="6746" magical="1186" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="18" /> 
+			<skill id="4417" level="26" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15455" level="1" /> 
+			<skill id="15466" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450">
+			<clanList>
+				<clan>TRIOLL</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="19.1" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17449" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="4001" max="9338" chance="20" /> 
+				<item id="35357" min="1" max="1" chance="0.075" /> 
+				<item id="19448" min="1" max="1" chance="0.0075" /> 
+				<item id="35481" min="1" max="1" chance="0.003" /> 
+				<item id="19447" min="1" max="1" chance="0.0009" /> 
+			</drop>
+			<spoil>
+				<item id="40207" min="1" max="1" chance="23.23" /> 
+				<item id="40212" min="1" max="1" chance="9" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19411" level="85" type="Monster" name="Crevice">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack type="FIST" range="40" distance="80" width="120" random="5" physical="1189" critical="4" accuracy="5" attackSpeed="278" magical="812" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="35" />
+			<height normal="12" />
+		</collision>
+	</npc><npc id="19412" level="99" type="Monster" name="Crevice" title="Yellow">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="28" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19413" level="99" type="Monster" name="Crevice" title="Purple">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="28" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19414" level="99" type="Monster" name="Crevice" title="Red">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="28" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19415" level="95" type="Folk" name="Soldier">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<equipment rhand="8683" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="10.5" mp="1846" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1552" magical="726" critical="4" attackSpeed="180" range="40" />
+			<defence physical="342" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="19416" level="85" type="Monster" name="Transport Golem">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="43.5" />
+		</collision>
+	</npc><npc id="19417" level="85" type="Folk" name="Construction Golem" title="Malfunctioning">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19418" level="85" type="Folk" name="Construction Golem">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19419" level="99" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="19420" level="99" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="28" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19421" level="99" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="28" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19422" level="99" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="28" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19423" level="104" type="GrandBoss" name="Lindvior" title="Wind Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="100" />
+				<run ground="1" />
+			</speed>
+			<attack physical="63862" magical="11470" critical="4" attackSpeed="278" range="40" />
+			<defence physical="7772" magical="3235" />
+			<attribute>
+				<defence fire="300" water="300" wind="370" earth="250" holy="300" dark="300" />
+				<attack type="WIND" value="370" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<ai aggroRange="2000" isAggressive="false" />
+		<collision>
+			<radius normal="190" />
+			<height normal="1500" />
+		</collision>
+	</npc><npc id="19424" level="104" type="GrandBoss" name="Lindvior" title="Wind Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="133921719" hpRegen="10.5" mp="47100" mpRegen="3.6" />
+			<speed>
+				<walk ground="270" />
+				<run ground="270" />
+			</speed>
+			<attack physical="63862" magical="11470" critical="4" attackSpeed="278" range="40" />
+			<defence physical="7772" magical="3235" />
+			<attribute>
+				<defence fire="300" water="300" wind="370" earth="250" holy="300" dark="300" />
+				<attack type="WIND" value="370" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="5464" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="15638" level="1" /> 
+			<skill id="15274" level="1" /> 
+			<skill id="15279" level="1" /> 
+		</skillList>
+		<ai aggroRange="2000" isAggressive="false" />
+		<collision>
+			<radius normal="430" />
+			<height normal="500" />
+		</collision>
+	</npc><npc id="19425" level="99" type="Folk" name="Lindvior" title="Wind Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="100" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1519" magical="695" critical="4" attackSpeed="180" range="40" />
+			<defence physical="335" magical="245" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="10" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="190" />
+			<height normal="200" />
+		</collision>
+	</npc><npc id="19426" level="99" type="Monster" name="Generator">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="5021374" hpRegen="10.5" mp="47100" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="0" magical="0" critical="4" attackSpeed="278" range="40" />
+			<defence physical="266" magical="176" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="200" />
+			<height normal="160" />
+		</collision>
+	</npc><npc id="19427" level="99" type="Monster" name="Giant Cyclone">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="10.5" mp="1846" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="270" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="200" />
+			<height normal="100" />
+		</collision>
+	</npc><npc id="19428" level="99" type="Folk" name="Lindvior">
+		
+		<race>DRAGON</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1519" magical="695" critical="4" attackSpeed="180" range="40" />
+			<defence physical="335" magical="245" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" showName="false" targetable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="19429" level="99" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="19430" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="48" />
+			<height normal="49.5" />
+		</collision>
+	</npc><npc id="19431" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="100" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="190" />
+			<height normal="1500" />
+		</collision>
+	</npc><npc id="19432" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19433" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19434" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19435" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19436" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19437" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19438" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="19439" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="19440" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="19441" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19442" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19443" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19444" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19445" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19446" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19447" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19448" level="99" type="Monster" name="">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="2355" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19449" level="1" type="Folk" name="Small Draco Egg">
+		
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="1" mp="1" mpRegen="1" />
+			<speed>
+				<walk ground="60" />
+				<run ground="66" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="278" range="0" type="FIST" distance="0" width="0" random="0" accuracy="40" />
+			<defence physical="1" magical="1" />
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="19450" level="1" type="Folk" name="Small Draco Egg">
+		
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<mpReward value="20" type="PER" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="1" mp="1" mpRegen="1" />
+			<speed>
+				<walk ground="60" />
+				<run ground="66" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="278" range="0" type="FIST" distance="0" width="0" random="0" accuracy="40" />
+			<defence physical="1" magical="1" />
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="19451" level="99" type="Folk" name="Lindvior">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673" hpRegen="6.5" mp="889" mpRegen="2.4" />
+			<speed>
+				<walk ground="100" />
+				<run ground="180" />
+			</speed>
+			<attack physical="22651" magical="36431" critical="4" attackSpeed="278" range="40" />
+			<defence physical="1223" magical="811" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="190" />
+			<height normal="390.6" />
+		</collision>
+	</npc><npc id="19452" level="99" type="Monster" name="Noctus" title="Wind Dragon Patrol">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="31336" hpRegen="9.5" mp="2023" mpRegen="3.3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+			<attack physical="18222" magical="6406" critical="4" attackSpeed="278" range="40" />
+			<defence physical="983" magical="653" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="19453" level="99" type="Monster" name="Borea" title="Wind Dragon Patrol">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="31336" hpRegen="9.5" mp="2023" mpRegen="3.3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+			<attack physical="18222" magical="6406" critical="4" attackSpeed="278" range="40" />
+			<defence physical="983" magical="653" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="22" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19454" level="99" type="Monster" name="Lindvior Commander">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6891" hpRegen="10.5" mp="2205" mpRegen="3.6" />
+			<speed>
+				<walk ground="100" />
+				<run ground="200" />
+			</speed>
+			<attack physical="17726" magical="6062" critical="4" attackSpeed="278" range="40" />
+			<defence physical="957" magical="635" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="40" />
+			<height normal="55" />
+		</collision>
+	</npc><npc id="19455" level="98" type="Monster" name="Aden Raider">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="5654355" sp="5666" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="180" />
+			</speed>
+			<attack physical="17046" magical="5736" critical="4" attackSpeed="278" range="40" />
+			<defence physical="920" magical="614" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="10781" level="1" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="994" max="2317" chance="70" /> 
+				<item id="35337" min="1" max="1" chance="0.03" /> 
+				<item id="35336" min="1" max="1" chance="0.03" /> 
+				<item id="35335" min="1" max="1" chance="0.03" /> 
+				<item id="36519" min="1" max="1" chance="0.03" /> 
+				<item id="17527" min="1" max="1" chance="0.0075" /> 
+				<item id="9552" min="1" max="1" chance="0.003" /> 
+				<item id="9554" min="1" max="1" chance="0.003" /> 
+				<item id="9556" min="1" max="1" chance="0.003" /> 
+				<item id="17526" min="1" max="1" chance="0.0009" /> 
+				<item id="19447" min="1" max="1" chance="0.0009" /> 
+				<item id="35459" min="1" max="1" chance="0.0009" /> 
+				<item id="35460" min="1" max="1" chance="0.0009" /> 
+				<item id="35461" min="1" max="1" chance="0.0009" /> 
+				<item id="19448" min="1" max="1" chance="0.0009" /> 
+			</drop>
+			<spoil>
+				<item id="36534" min="1" max="1" chance="0.3" /> 
+				<item id="36886" min="1" max="1" chance="0.003" /> 
+				<item id="36885" min="1" max="1" chance="9" /> 
+			</spoil>
+		</dropLists>
+		<collision>
+			<radius normal="14" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="19456" level="99" type="Monster" name="Te Ochdumann" title="Commander">
+		
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<acquire exp="23034996" sp="23130" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="1123" magical="622" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5466" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4412" level="21" /> 
+			<skill id="4413" level="5" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="8" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="2160" max="5031" chance="70" /> 
+				<item id="17527" min="1" max="1" chance="0.03" /> 
+				<item id="35335" min="1" max="1" chance="0.03" /> 
+				<item id="35336" min="1" max="1" chance="0.03" /> 
+				<item id="35337" min="1" max="1" chance="0.03" /> 
+				<item id="17526" min="1" max="1" chance="0.003" /> 
+				<item id="35459" min="1" max="1" chance="0.0009" /> 
+				<item id="35460" min="1" max="1" chance="0.0009" /> 
+				<item id="35461" min="1" max="1" chance="0.0009" /> 
+			</drop>
+			<spoil>
+				<item id="36534" min="1" max="1" chance="0.3" /> 
+				<item id="36535" min="1" max="1" chance="0.03" /> 
+				<item id="36886" min="1" max="1" chance="0.003" /> 
+				<item id="36885" min="1" max="1" chance="9" /> 
+				<item id="36887" min="1" max="1" chance="9" /> 
+			</spoil>
+		</dropLists>
+		<collision>
+			<radius normal="20" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="19457" level="99" type="Monster" name="Travis" title="Deceased King">
+		
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<acquire exp="23034996" sp="23130" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="1123" magical="622" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5466" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4412" level="21" /> 
+			<skill id="4413" level="5" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="8" /> 
+		</skillList>
+		<dropLists>
+			<drop>
+				<item id="57" min="2160" max="5031" chance="70" /> 
+				<item id="17527" min="1" max="1" chance="0.03" /> 
+				<item id="35335" min="1" max="1" chance="0.03" /> 
+				<item id="35336" min="1" max="1" chance="0.03" /> 
+				<item id="35337" min="1" max="1" chance="0.03" /> 
+				<item id="17526" min="1" max="1" chance="0.003" /> 
+				<item id="35459" min="1" max="1" chance="0.0009" /> 
+				<item id="35460" min="1" max="1" chance="0.0009" /> 
+				<item id="35461" min="1" max="1" chance="0.0009" /> 
+			</drop>
+			<spoil>
+				<item id="36534" min="1" max="1" chance="0.3" /> 
+				<item id="36535" min="1" max="1" chance="0.03" /> 
+				<item id="36886" min="1" max="1" chance="0.003" /> 
+				<item id="36885" min="1" max="1" chance="9" /> 
+				<item id="36887" min="1" max="1" chance="9" /> 
+			</spoil>
+		</dropLists>
+		<collision>
+			<radius normal="25" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19458" level="99" type="Folk" name="Treasure Dealer Kaysen">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="21373" critical="4" attackSpeed="278" range="40" />
+			<defence physical="937" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="21" />
+		</collision>
+	</npc><npc id="19459" level="99" type="Folk" name="Nerva's Temporary Prison">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="21373" critical="4" attackSpeed="278" range="40" />
+			<defence physical="937" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+				<attack type="EARTH" value="370" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="45" />
+			<height normal="80" />
+		</collision>
+	</npc><npc id="19460" level="99" type="Monster" name="Horn">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="10.5" mp="1" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="37" magical="25" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="19461" level="99" type="Monster" name="Horn">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="10.5" mp="1" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="37" magical="25" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="19462" level="99" type="Monster" name="Horn">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="10.5" mp="1" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="37" magical="25" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="19463" level="99" type="Monster" name="Bloody Horn">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="19464" level="99" type="Monster" name="Land of Chaos Transparent">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19465" level="99" type="Monster" name="Land of Chaos Transparent">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19466" level="99" type="Monster" name="Land of Chaos Transparent">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19467" level="99" type="Monster" name="Land of Chaos Transparent">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="128" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19470" level="65" type="Monster" name="Kartia's Flower">
+		
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="400" hpRegen="7.5" mp="1188" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="128" />
+			</speed>
+			<attack physical="519" magical="163" critical="4" attackSpeed="278" range="40" />
+			<defence physical="272" magical="146" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" randomWalk="false" />
+		<skillList>
+			<skill id="4416" level="5" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="19471" level="99" type="Monster" name="Mysterious Assassin">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="380184" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="98576" magical="17597" critical="8" attackSpeed="278" range="40" />
+			<defence physical="1596" magical="1053" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="57" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="35567" min="1" max="1" chance="1.2" /> 
+				<item id="35569" min="1" max="1" chance="1.2" /> 
+				<item id="37097" min="1" max="1" chance="100" /> 
+				<item id="37098" min="1" max="1" chance="100" /> 
+				<item id="37099" min="1" max="1" chance="100" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="19472" level="99" type="Monster" name="Mysterious Assassin">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="380184" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="180" />
+			</speed>
+			<attack physical="98576" magical="17597" critical="4" attackSpeed="278" range="40" />
+			<defence physical="1596" magical="1053" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="43" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="35567" min="1" max="1" chance="1.2" /> 
+				<item id="35569" min="1" max="1" chance="1.2" /> 
+				<item id="37097" min="1" max="1" chance="100" /> 
+				<item id="37098" min="1" max="1" chance="100" /> 
+				<item id="37099" min="1" max="1" chance="100" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="19473" level="99" type="Monster" name="Mysterious Assassin">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="380184" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="98576" magical="17597" critical="4" attackSpeed="278" range="40" />
+			<defence physical="1596" magical="1053" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="38" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="35567" min="1" max="1" chance="1.2" /> 
+				<item id="35569" min="1" max="1" chance="1.2" /> 
+				<item id="37097" min="1" max="1" chance="100" /> 
+				<item id="37098" min="1" max="1" chance="100" /> 
+				<item id="37099" min="1" max="1" chance="100" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="19474" level="99" type="Monster" name="">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="180" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="57" />
+			<height normal="74" />
+		</collision>
+	</npc><npc id="19475" level="99" type="Monster" name="Legah" title="One-armed Zombie's Arm">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="13143" magical="5807" critical="4" attackSpeed="553" range="40" />
+			<defence physical="37" magical="24" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="9" /> 
+			<skill id="4411" level="9" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="8" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" />
+		<collision>
+			<radius normal="20" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="19476" level="99" type="Folk" name="Lyn Draco">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="19477" level="99" type="FriendlyNpc" name="Generator">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="17349" magical="5807" critical="4" attackSpeed="278" range="40" />
+			<defence physical="936" magical="621" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" showName="false" canMove="false" />
+		<skillList>
+			<skill id="15605" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="200" />
+			<height normal="160" />
+		</collision>
+	</npc><npc id="19478" level="99" type="Folk" name="Immariel">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" targetable="false" talkable="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="21.2" />
+		</collision>
+	</npc><npc id="19479" level="99" type="FriendlyNpc" name="Generator Guard">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="35" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4406" magical="5297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" talkable="false" targetable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19480" level="99" type="Folk" name="Dimensional War Decor Transparent 1">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" targetable="false" showName="false" canMove="false" talkable="false" />
+		<collision>
+			<radius normal="1" />
+			<height normal="1" />
+		</collision>
+	</npc><npc id="19481" level="99" type="Folk" name="Dimensional War Decor Transparent 2">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19482" level="99" type="Folk" name="Dimensional War Decor Camp">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="110" />
+			<height normal="70" />
+		</collision>
+	</npc><npc id="19483" level="99" type="Folk" name="Dimensional War Decor Clan Hall">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="100" />
+			<height normal="72" />
+		</collision>
+	</npc><npc id="19484" level="99" type="Folk" name="Dimensional War Decor Flag">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2974" hpRegen="8.5" mp="1607.4" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1770" magical="1113" critical="4" attackSpeed="253" range="40" />
+			<defence physical="556" magical="451" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="120" />
+		</collision>
+	</npc><npc id="19485" level="99" type="Folk" name="Dimensional War Decor Stake">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="63.5" />
+			<height normal="97.5" />
+		</collision>
+	</npc><npc id="19486" level="99" type="Folk" name="Dimensional War Decor Relic 1">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="46" />
+			<height normal="72.5" />
+		</collision>
+	</npc><npc id="19487" level="99" type="Folk" name="Dimensional War Decor Relic 2">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="98" />
+		</collision>
+	</npc><npc id="19488" level="99" type="Folk" name="Dimensional War Decor Ballista 1">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="112" />
+			<height normal="59" />
+		</collision>
+	</npc><npc id="19489" level="99" type="Folk" name="Dimensional War Decor Ballista 2">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7624" hpRegen="10.5" mp="2280" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="125" />
+			<height normal="43" />
+		</collision>
+	</npc><npc id="19490" level="90" type="Monster" name="Seal Remnant">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="5022741" hpRegen="9.5" mp="22800" mpRegen="3.3" />
+			<speed>
+				<walk ground="25" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1424" magical="972" critical="4" attackSpeed="278" range="40" />
+			<defence physical="380" magical="278" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19491" level="99" type="Folk" name="">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="40" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19493" level="99" type="Folk" name="Freed Knight">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="36" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24.5" />
+		</collision>
+	</npc><npc id="19494" level="99" type="Folk" name="Freed Assassin">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc><npc id="19495" level="99" type="Folk" name="Freed Wizard">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="28" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="19496" level="99" type="Folk" name="Willy">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="15" />
+			<height normal="18.3" />
+		</collision>
+	</npc><npc id="19497" level="99" type="Folk" name="Guphi">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="25" />
+			<height normal="34" />
+		</collision>
+	</npc></list>

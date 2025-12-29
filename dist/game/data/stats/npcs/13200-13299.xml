@@ -1,0 +1,3869 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="13200" level="79" type="Folk" name="Young Child">
+		
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="24" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="5" />
+			<height normal="12.3" />
+		</collision>
+	</npc><npc id="13201" level="79" type="Folk" name="Guard of the Dawn">
+		
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="8" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="13202" level="76" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="11" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2758" hpRegen="8.5" mp="1540" mpRegen="3" />
+			<attack physical="824" magical="563" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="11" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13203" level="77" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="12" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2856" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<attack physical="856" magical="585" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="328" magical="240" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13204" level="78" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="13" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2974" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="891" magical="608" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="333" magical="243" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13205" level="79" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="14" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13206" level="80" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="15" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13207" level="81" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="16" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3461" hpRegen="8.5" mp="1708" mpRegen="3" />
+			<attack physical="1012" magical="691" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="346" magical="253" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13208" level="82" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="17" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3643" hpRegen="8.5" mp="1743" mpRegen="3" />
+			<attack physical="1055" magical="721" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="350" magical="256" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13209" level="83" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="18" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3835" hpRegen="8.5" mp="1777" mpRegen="3" />
+			<attack physical="1099" magical="751" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="354" magical="259" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13210" level="84" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="19" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="8.5" mp="1812" mpRegen="3" />
+			<attack physical="1145" magical="782" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="358" magical="262" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13211" level="85" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="20" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<attack physical="1189" magical="812" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="20" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13212" level="86" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5267" level="21" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4439" hpRegen="8.5" mp="1881" mpRegen="3" />
+			<attack physical="1234" magical="843" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="366" magical="268" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5267" level="21" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13213" level="76" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="7" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2758" hpRegen="8.5" mp="1540" mpRegen="3" />
+			<attack physical="824" magical="563" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13214" level="77" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="8" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2856" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<attack physical="856" magical="585" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="328" magical="240" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="8" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13215" level="78" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="9" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2974" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="891" magical="608" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="333" magical="243" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13216" level="79" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="10" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="10" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13217" level="80" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="11" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="11" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13218" level="81" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="12" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3461" hpRegen="8.5" mp="1708" mpRegen="3" />
+			<attack physical="1012" magical="691" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="346" magical="253" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13219" level="82" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="13" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3643" hpRegen="8.5" mp="1743" mpRegen="3" />
+			<attack physical="1055" magical="721" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="350" magical="256" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13220" level="83" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="14" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3835" hpRegen="8.5" mp="1777" mpRegen="3" />
+			<attack physical="1099" magical="751" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="354" magical="259" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13221" level="84" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="15" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="8.5" mp="1812" mpRegen="3" />
+			<attack physical="1145" magical="782" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="358" magical="262" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13222" level="85" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="16" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<attack physical="1189" magical="812" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13223" level="86" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5268" level="17" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4439" hpRegen="8.5" mp="1881" mpRegen="3" />
+			<attack physical="1234" magical="843" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="366" magical="268" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5268" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13224" level="76" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="7" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2758" hpRegen="8.5" mp="1540" mpRegen="3" />
+			<attack physical="824" magical="563" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13225" level="77" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="8" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2856" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<attack physical="856" magical="585" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="328" magical="240" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="8" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13226" level="78" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="9" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2974" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="891" magical="608" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="333" magical="243" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13227" level="79" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="10" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="10" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13228" level="80" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="11" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="11" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13229" level="81" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="12" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3461" hpRegen="8.5" mp="1708" mpRegen="3" />
+			<attack physical="1012" magical="691" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="346" magical="253" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13230" level="82" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="13" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3643" hpRegen="8.5" mp="1743" mpRegen="3" />
+			<attack physical="1055" magical="721" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="350" magical="256" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13231" level="83" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="14" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3835" hpRegen="8.5" mp="1777" mpRegen="3" />
+			<attack physical="1099" magical="751" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="354" magical="259" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13232" level="84" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="15" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="8.5" mp="1812" mpRegen="3" />
+			<attack physical="1145" magical="782" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="358" magical="262" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13233" level="85" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="16" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<attack physical="1189" magical="812" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13234" level="86" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5269" level="17" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4439" hpRegen="8.5" mp="1881" mpRegen="3" />
+			<attack physical="1234" magical="843" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="366" magical="268" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5269" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13235" level="76" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="6" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2758" hpRegen="8.5" mp="1540" mpRegen="3" />
+			<attack physical="824" magical="563" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13236" level="77" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="7" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2856" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<attack physical="856" magical="585" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="328" magical="240" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13237" level="78" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="8" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2974" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="891" magical="608" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="333" magical="243" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="8" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13238" level="79" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="9" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13239" level="80" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="10" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="10" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13240" level="81" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="11" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3461" hpRegen="8.5" mp="1708" mpRegen="3" />
+			<attack physical="1012" magical="691" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="346" magical="253" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="11" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13241" level="82" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="12" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3643" hpRegen="8.5" mp="1743" mpRegen="3" />
+			<attack physical="1055" magical="721" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="350" magical="256" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13242" level="83" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="13" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3835" hpRegen="8.5" mp="1777" mpRegen="3" />
+			<attack physical="1099" magical="751" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="354" magical="259" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13243" level="84" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="14" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="8.5" mp="1812" mpRegen="3" />
+			<attack physical="1145" magical="782" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="358" magical="262" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13244" level="85" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="15" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<attack physical="1189" magical="812" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13245" level="86" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="0" />
+			<skill name="trap_skill" id="5270" level="16" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4439" hpRegen="8.5" mp="1881" mpRegen="3" />
+			<attack physical="1234" magical="843" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="366" magical="268" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5270" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13246" level="76" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="9" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2758" hpRegen="8.5" mp="1540" mpRegen="3" />
+			<attack physical="824" magical="563" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13247" level="77" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="10" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2856" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<attack physical="856" magical="585" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="328" magical="240" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="10" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13248" level="78" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="11" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2974" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="891" magical="608" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="333" magical="243" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="11" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13249" level="79" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="12" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13250" level="80" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="13" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13251" level="81" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="14" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3461" hpRegen="8.5" mp="1708" mpRegen="3" />
+			<attack physical="1012" magical="691" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="346" magical="253" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13252" level="82" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="15" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3643" hpRegen="8.5" mp="1743" mpRegen="3" />
+			<attack physical="1055" magical="721" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="350" magical="256" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13253" level="83" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="16" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3835" hpRegen="8.5" mp="1777" mpRegen="3" />
+			<attack physical="1099" magical="751" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="354" magical="259" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13254" level="84" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="17" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="8.5" mp="1812" mpRegen="3" />
+			<attack physical="1145" magical="782" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="358" magical="262" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13255" level="85" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="18" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<attack physical="1189" magical="812" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13256" level="86" type="Folk" name="Trap">
+		
+		<parameters>
+			<param name="trap_skill_type" value="1" />
+			<skill name="trap_skill" id="5271" level="19" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4439" hpRegen="8.5" mp="1881" mpRegen="3" />
+			<attack physical="1234" magical="843" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="366" magical="268" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5271" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="80" />
+		<collision>
+			<radius normal="5" />
+			<height normal="10" />
+		</collision>
+	</npc><npc id="13257" level="76" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="7" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2758" hpRegen="8.5" mp="1540" mpRegen="3" />
+			<attack physical="824" magical="563" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13258" level="77" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="8" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2856" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<attack physical="856" magical="585" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="328" magical="240" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="8" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13259" level="78" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="9" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2974" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<attack physical="891" magical="608" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="333" magical="243" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13260" level="79" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="10" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3127" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<attack physical="930" magical="635" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="337" magical="247" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="10" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13261" level="80" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="11" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="11" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13262" level="81" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="12" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3461" hpRegen="8.5" mp="1708" mpRegen="3" />
+			<attack physical="1012" magical="691" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="346" magical="253" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13263" level="82" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="13" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3643" hpRegen="8.5" mp="1743" mpRegen="3" />
+			<attack physical="1055" magical="721" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="350" magical="256" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13264" level="83" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="14" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3835" hpRegen="8.5" mp="1777" mpRegen="3" />
+			<attack physical="1099" magical="751" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="354" magical="259" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13265" level="84" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="15" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="8.5" mp="1812" mpRegen="3" />
+			<attack physical="1145" magical="782" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="358" magical="262" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13266" level="85" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="16" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<attack physical="1189" magical="812" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13267" level="86" type="Decoy" name="Illusion">
+		
+		<parameters>
+			<skill name="decoy_skill" id="5272" level="17" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4439" hpRegen="8.5" mp="1881" mpRegen="3" />
+			<attack physical="1234" magical="843" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="366" magical="268" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" hasSummoner="true" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="5272" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13268" level="55" type="Folk" name="Aqua Elf">
+		
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673" hpRegen="6.5" mp="889" mpRegen="2.4" />
+			<attack physical="388" magical="265" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="224" magical="164" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="12" />
+			<height normal="27.5" />
+		</collision>
+	</npc><npc id="13269" level="80" type="Folk" name="Hot Weather">
+		
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="10" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4028" level="1" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="9" grown="10" />
+			<height normal="14.5" grown="18" />
+		</collision>
+	</npc><npc id="13270" level="80" type="Folk" name="Sultriness">
+		
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="10" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4028" level="1" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="30" grown="32" />
+			<height normal="5.35" grown="65.5" />
+		</collision>
+	</npc><npc id="13271" level="1" type="Monster" name="Young Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="11" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="13272" level="1" type="Monster" name="Defective Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="14" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="13273" level="1" type="Monster" name="Rain Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="17" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="13274" level="1" type="Monster" name="Large Rain Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="30" />
+			<height normal="65" />
+		</collision>
+	</npc><npc id="13275" level="1" type="Monster" name="Young Honey Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="13276" level="1" type="Monster" name="Defective Honey Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="20" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="13277" level="1" type="Monster" name="Rain Honey Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="26" />
+			<height normal="52" />
+		</collision>
+	</npc><npc id="13278" level="1" type="Monster" name="Large Rain Honey Watermelon">
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="19" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="30" />
+			<height normal="60" />
+		</collision>
+	</npc><npc id="13279" level="1" type="Folk" name="Uldie">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="18" />
+				<run ground="160" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4441" level="5" /> 
+			<skill id="6465" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="13280" level="1" type="Folk" name="Belldandy">
+		
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="22" />
+				<run ground="174" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4441" level="5" /> 
+			<skill id="6465" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="9" />
+			<height normal="20.5" />
+		</collision>
+	</npc><npc id="13281" level="80" type="Folk" name="Skooldie" title="Event manager">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="160" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8" />
+			<height normal="12.8" />
+		</collision>
+	</npc><npc id="13282" level="1" type="Folk" name="Skooldie">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="39" hpRegen="2" mp="40" mpRegen="0.9" />
+			<attack physical="8" magical="6" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="44" magical="33" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="15" />
+				<run ground="160" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4441" level="5" /> 
+			<skill id="6465" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="12.8" />
+		</collision>
+	</npc><npc id="13283" level="55" type="Folk" name="Treykan">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673" hpRegen="6.5" mp="889" mpRegen="2.4" />
+			<attack physical="388" magical="265" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="224" magical="164" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="88" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="25" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="13284" level="80" type="Folk">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="13285" level="80" type="Folk" name="Santa" title="Event manager">
+		
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="5" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="12" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="13286" level="85" type="Monster" name="Baby White Tiger">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="601" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="120" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15.7" />
+		</collision>
+	</npc><npc id="13287" level="85" type="Monster" name="Baby White Tiger Captain">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7563" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="180" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="22" />
+			<height normal="29.5" />
+		</collision>
+	</npc><npc id="13288" level="85" type="Monster" name="Gloomy Baby White Tiger">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="601" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="120" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8" />
+			<height normal="15.7" />
+		</collision>
+	</npc><npc id="13289" level="85" type="Monster" name="Gloomy Baby White Tiger Captain">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7563" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="180" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="22" />
+			<height normal="29.5" />
+		</collision>
+	</npc><npc id="13290" level="85" type="Monster" name="White Tiger">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="601" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="16" />
+			<height normal="17.2" />
+		</collision>
+	</npc><npc id="13291" level="85" type="Monster" name="White Tiger Captain">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="7563" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="6" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="60000" magical="200000" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="50" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="13292" level="75" type="Folk" name="Employee of Magic Research Institute" title="Event manager">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="313" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2676" hpRegen="8.5" mp="1507" mpRegen="3" />
+			<attack physical="795" magical="543" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="13293" level="85" type="Monster">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="812" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="13294" level="85" type="Monster">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" mp="1846" mpRegen="3" hpRegen="0" />
+			<attack physical="1189" magical="812" random="20" critical="1" accuracy="45" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4390" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="13295" level="80" type="Folk" name="White Lady" title="Event manager">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="13296" level="80" type="Folk" name="Freya" title="Event manager">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<attack physical="971" magical="663" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="54" />
+				<run ground="160" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4441" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<collision>
+			<radius normal="18" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="13297" level="80" type="Folk" name="World Cup Cat" title="Event Manager">
+		
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3290" mp="1674" hpRegen="8.5" mpRegen="3" />
+			<attack physical="971" magical="663" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="5" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="160" />
+				<run ground="180" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4408" level="4" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="13298" level="55" type="Folk" name="Game Master" title="Customer Support">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673" mp="889" hpRegen="6.5" mpRegen="2.4" />
+			<attack physical="388" magical="265" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" critical="4" accuracy="44" />
+			<defence physical="224" magical="164" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<status undying="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="13299" level="55" type="Monster" name="Orbis' Curse">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673" hpRegen="6.5" mp="889" mpRegen="2.4" />
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+			<attack physical="388" magical="265" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="224" magical="164" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<shots soul="2" spirit="2" />
+		<collision>
+			<radius normal="18" />
+			<height normal="46" />
+		</collision>
+	</npc></list>

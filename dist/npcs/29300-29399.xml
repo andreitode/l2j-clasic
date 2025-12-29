@@ -1,0 +1,562 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="29300" level="97" type="RaidBoss" name="Varkaron" title="Dimensional Invader">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="231808530" hpRegen="7.5" mp="47100" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="300" earth="300" holy="250" dark="350" />
+				<attack type="DARK" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="63" />
+				<run ground="300" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="16510" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="38" />
+			<height normal="100" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17401" min="1" max="1" chance="0.75" /> 
+				<item id="17407" min="1" max="1" chance="0.75" /> 
+				<item id="17410" min="1" max="1" chance="0.75" /> 
+				<item id="17411" min="1" max="1" chance="0.75" /> 
+				<item id="17412" min="1" max="1" chance="0.75" /> 
+				<item id="17526" min="1" max="1" chance="100" /> 
+				<item id="47714" min="1" max="1" chance="100" /> 
+				<item id="17527" min="2" max="2" chance="100" /> 
+				<item id="17690" min="3" max="3" chance="17.41" /> 
+				<item id="17685" min="3" max="3" chance="16.14" /> 
+				<item id="17689" min="3" max="3" chance="16.05" /> 
+				<item id="17686" min="3" max="3" chance="15.97" /> 
+				<item id="17688" min="3" max="3" chance="15.89" /> 
+				<item id="17687" min="3" max="3" chance="15.84" /> 
+				<item id="38574" min="1" max="1" chance="2.232" /> 
+				<item id="38038" min="1" max="1" chance="0.3" /> 
+				<item id="38017" min="1" max="1" chance="0.3" /> 
+				<item id="38016" min="1" max="1" chance="0.3" /> 
+				<item id="38012" min="1" max="1" chance="0.3" /> 
+				<item id="38013" min="1" max="1" chance="0.3" /> 
+				<item id="38035" min="1" max="1" chance="0.3" /> 
+				<item id="38014" min="1" max="1" chance="0.3" /> 
+				<item id="38015" min="1" max="1" chance="0.3" /> 
+				<item id="38030" min="1" max="1" chance="0.3" /> 
+				<item id="38029" min="1" max="1" chance="0.3" /> 
+				<item id="38027" min="1" max="1" chance="0.3" /> 
+				<item id="38026" min="1" max="1" chance="0.3" /> 
+				<item id="38024" min="1" max="1" chance="0.3" /> 
+				<item id="38023" min="1" max="1" chance="0.3" /> 
+				<item id="38022" min="1" max="1" chance="0.3" /> 
+				<item id="38021" min="1" max="1" chance="0.3" /> 
+				<item id="38031" min="1" max="1" chance="0.3" /> 
+				<item id="38032" min="1" max="1" chance="0.3" /> 
+				<item id="38033" min="1" max="1" chance="0.3" /> 
+				<item id="38025" min="1" max="1" chance="0.3" /> 
+				<item id="38028" min="1" max="1" chance="0.3" /> 
+				<item id="38018" min="1" max="1" chance="0.3" /> 
+				<item id="38039" min="1" max="1" chance="0.3" /> 
+				<item id="38037" min="1" max="1" chance="0.3" /> 
+				<item id="38036" min="1" max="1" chance="0.3" /> 
+				<item id="38019" min="1" max="1" chance="0.3" /> 
+				<item id="38034" min="1" max="1" chance="0.3" /> 
+				<item id="38020" min="1" max="1" chance="0.3" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="29301" level="99" type="Monster" name="Minion Monisac">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="168928" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<attack physical="34699" magical="11614" critical="4" attackSpeed="278" range="40" />
+			<defence physical="1872" magical="1243" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="29302" level="99" type="Monster" name="Minion Monishe">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="15302" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="168928" hpRegen="7.5" mp="2355" mpRegen="2.7" />
+			<attack physical="34699" magical="11614" critical="4" attackSpeed="278" range="40" />
+			<defence physical="1872" magical="1243" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="100" dark="200" />
+			</attribute>
+			<speed>
+				<walk ground="45" />
+				<run ground="150" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="27.5" />
+		</collision>
+	</npc><npc id="29303" level="105" type="Monster" name="Helios" title="Emperor of the Beginning">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="247524303" hpRegen="1842.10526315789" mp="51696" mpRegen="1944.44444444444" />
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="50000" magical="8824" critical="4" attackSpeed="278" range="40" />
+			<defence physical="3889" magical="2258" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="16746" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="105" />
+			<height normal="124" />
+		</collision>
+	</npc><npc id="29304" level="105" type="Monster" name="Helios" title="Emperor of the Beginning">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="247524303" hpRegen="1842.10526315789" mp="51696" mpRegen="1944.44444444444" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="50000" magical="8824" critical="44" attackSpeed="278" range="40" />
+			<defence physical="3889" magical="2258" />
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="16746" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="105" />
+			<height normal="152" />
+		</collision>
+	</npc><npc id="29305" level="105" type="GrandBoss" name="Helios" title="Emperor of the Beginning">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="6127016742000" sp="14704840180" />
+		<stats str="164" int="188" dex="55" wit="78" con="111" men="149">
+			<vitals hp="247524303" hpRegen="1842.10526315789" mp="51696" mpRegen="1944.44444444444" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="40" />
+				<run ground="180" />
+			</speed>
+			<attack physical="50000" magical="8824" critical="44" attackSpeed="278" range="40" />
+			<defence physical="3889" magical="2258" />
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4416" level="11" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="16746" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="105" />
+			<height normal="180" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="47245" min="1" max="1" chance="100" /> 
+				<item id="47214" min="1" max="1" chance="40.05" /> 
+				<item id="17437" min="1" max="3" chance="20.82" /> 
+				<item id="17439" min="1" max="3" chance="20.43" /> 
+				<item id="17440" min="1" max="3" chance="20.3" /> 
+				<item id="17436" min="1" max="3" chance="19.52" /> 
+				<item id="17438" min="1" max="3" chance="19.42" /> 
+				<item id="17441" min="1" max="3" chance="17.43" /> 
+				<item id="17433" min="1" max="3" chance="17.34" /> 
+				<item id="17442" min="1" max="3" chance="17.33" /> 
+				<item id="17445" min="1" max="3" chance="17.06" /> 
+				<item id="17431" min="1" max="3" chance="16.77" /> 
+				<item id="17430" min="1" max="3" chance="16.73" /> 
+				<item id="17446" min="1" max="3" chance="16.575" /> 
+				<item id="17443" min="1" max="3" chance="16.44" /> 
+				<item id="17435" min="1" max="3" chance="16.145" /> 
+				<item id="17434" min="1" max="3" chance="16.13" /> 
+				<item id="17444" min="1" max="3" chance="16" /> 
+				<item id="17432" min="1" max="3" chance="15.84" /> 
+				<item id="17416" min="1" max="2" chance="9.155" /> 
+				<item id="17419" min="1" max="2" chance="9.151" /> 
+				<item id="17420" min="1" max="2" chance="9.125" /> 
+				<item id="17418" min="1" max="2" chance="9.119" /> 
+				<item id="17424" min="1" max="2" chance="9.117" /> 
+				<item id="17425" min="1" max="2" chance="9.085" /> 
+				<item id="17426" min="1" max="2" chance="9.076" /> 
+				<item id="17422" min="1" max="2" chance="9.053" /> 
+				<item id="17421" min="1" max="2" chance="9.05" /> 
+				<item id="17423" min="1" max="2" chance="9.031" /> 
+				<item id="17417" min="1" max="2" chance="9.022" /> 
+				<item id="37781" min="1" max="1" chance="50.53" /> 
+				<item id="37772" min="1" max="1" chance="48.98" /> 
+				<item id="35568" min="1" max="1" chance="37.96" /> 
+				<item id="19448" min="8" max="8" chance="31.42" /> 
+				<item id="36389" min="8" max="8" chance="30.04" /> 
+				<item id="19447" min="4" max="4" chance="19.26" /> 
+				<item id="36386" min="4" max="4" chance="19.09" /> 
+				<item id="17699" min="1" max="1" chance="17.45" /> 
+				<item id="17706" min="1" max="1" chance="17.44" /> 
+				<item id="17709" min="1" max="1" chance="17.39" /> 
+				<item id="17713" min="1" max="1" chance="17.31" /> 
+				<item id="17708" min="1" max="1" chance="17.29" /> 
+				<item id="17704" min="1" max="1" chance="17.14" /> 
+				<item id="17714" min="1" max="1" chance="16.88" /> 
+				<item id="17707" min="1" max="1" chance="16.82" /> 
+				<item id="17711" min="1" max="1" chance="16.66" /> 
+				<item id="17703" min="1" max="1" chance="16.6" /> 
+				<item id="17698" min="1" max="1" chance="16.51" /> 
+				<item id="17701" min="1" max="1" chance="16.3" /> 
+				<item id="17697" min="1" max="1" chance="16.27" /> 
+				<item id="17710" min="1" max="1" chance="16.26" /> 
+				<item id="17712" min="1" max="1" chance="16.16" /> 
+				<item id="17700" min="1" max="1" chance="15.88" /> 
+				<item id="17702" min="1" max="1" chance="15.87" /> 
+				<item id="17705" min="1" max="1" chance="15.83" /> 
+				<item id="36162" min="1" max="1" chance="9.951" /> 
+				<item id="39483" min="1" max="1" chance="8.373" /> 
+				<item id="39484" min="1" max="1" chance="8.318" /> 
+				<item id="39485" min="1" max="1" chance="8.2895" /> 
+			</drop>
+		</dropLists>
+	</npc><npc id="29306" level="99" type="Monster" name="Leopold" title="Superion Siege Cannon">
+		
+		
+		<race>ETC</race>
+		<stats>
+			<vitals hp="600826" hpRegen="10.5" mp="25848" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="1" />
+			<height normal="249" />
+		</collision>
+	</npc><npc id="29307" level="99" type="Monster" name="Helios' Red Lightning" title="Enuma Elish">
+		
+		
+		<race>ETC</race>
+		<stats>
+			<vitals hp="168928" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="25" />
+			<height normal="33.5" />
+		</collision>
+	</npc><npc id="29308" level="99" type="Monster" name="Helios' Blue Lightning" title="Enuma Elish">
+		
+		
+		<race>ETC</race>
+		<stats>
+			<vitals hp="168928" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="10" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<collision>
+			<radius normal="25" />
+			<height normal="33.5" />
+		</collision>
+	</npc><npc id="29309" level="105" type="Monster" name="Leopold Origin" title="Ultimate Kamael">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2403304" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="900" type="BOW" distance="10" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4286" level="1" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="4441" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="30" />
+			<height normal="35.5" />
+		</collision>
+	</npc><npc id="29310" level="105" type="Monster" name="Enuma Elish Origin" title="Ultimate Kamael">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2403304" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="230" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4286" level="1" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="4441" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16547" level="10" /> 
+		</skillList>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="30" />
+			<height normal="35.5" />
+		</collision>
+	</npc><npc id="29311" level="105" type="Monster" name="Royal Templar Colonel" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3004130" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4461" level="1" /> 
+			<skill id="4823" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="10" /> 
+		</skillList>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc><npc id="29312" level="105" type="Monster" name="Royal Sharpshooter" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<equipment rhand="47163" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3004130" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="900" type="BOW" distance="10" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4461" level="1" /> 
+			<skill id="4823" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="10" /> 
+		</skillList>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc><npc id="29313" level="105" type="Monster" name="Royal Archmage" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3004130" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4461" level="1" /> 
+			<skill id="4823" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4438" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="10" /> 
+		</skillList>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc><npc id="29314" level="105" type="Monster" name="Royal Gatekeeper" title="Emperor's Escort">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="3004130" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="4461" level="1" /> 
+			<skill id="4823" level="1" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16547" level="10" /> 
+			<skill id="16608" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="45.5" />
+		</collision>
+	</npc><npc id="29315" level="105" type="Monster" name="Mimillion" title="Red Lightning Watchman">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="60082600" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+		</skillList>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="32" />
+			<height normal="50.5" />
+		</collision>
+	</npc><npc id="29316" level="105" type="Monster" name="Mimillus" title="Blue Lightning Watchman">
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="60082600" hpRegen="7.5" mp="25848" mpRegen="2.7" />
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="4348" magical="2100" />
+			<attribute>
+				<defence fire="300" water="300" wind="250" earth="350" holy="300" dark="300" />
+				<attack type="EARTH" value="430" />
+			</attribute>
+			<speed>
+				<walk ground="55" />
+				<run ground="180" />
+			</speed>
+		</stats>
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="11" /> 
+		</skillList>
+		<ai type="BALANCED" />
+		<collision>
+			<radius normal="32" />
+			<height normal="50.5" />
+		</collision>
+	</npc><npc id="29317" level="85" type="Folk" name="Lindvior" title="Wind Dragon">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="209461939" hpRegen="10.5" mp="47100" mpRegen="3.6" />
+			<speed>
+				<walk ground="100" />
+				<run ground="270" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<collision>
+			<radius normal="525" />
+			<height normal="316.5" />
+		</collision>
+	</npc></list>

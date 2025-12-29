@@ -1,0 +1,2680 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="23400" level="99" type="Monster" name="Lavisys" title="Magical">
+		
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire exp="4894979" sp="11747" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="139406" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="300" />
+			</speed>
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="23401" level="99" type="Monster" name="Bridget" title="Fire Slave">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="20395683" sp="48949" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="190100" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="46" />
+				<run ground="160" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" randomWalk="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="35" />
+			<height normal="47.5" />
+		</collision>
+	</npc><npc id="23402" level="99" type="Monster" name="Disorder Avatar">
+		
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2162357" sp="5189" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9409" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="9" /> 
+			<skill id="4458" level="3" /> 
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="23403" level="97" type="Monster" name="Suffering Fanatic">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="10.5" mp="22800" mpRegen="3.6" />
+			<speed>
+				<walk ground="92" />
+				<run ground="200" />
+			</speed>
+			<attack physical="42273" magical="7579" critical="4" attackSpeed="278" range="40" />
+			<defence physical="505" magical="290" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="18" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="27" />
+			<height normal="48.5" />
+		</collision>
+	</npc><npc id="23404" level="97" type="Monster" name="Suffering Herald">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="10.5" mp="34200" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="160" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="4" attackSpeed="278" range="40" />
+			<defence physical="505" magical="290" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="18" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="23405" level="97" type="Monster" name="Suffering Zealot">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="10.5" mp="34200" mpRegen="3.6" />
+			<speed>
+				<walk ground="73" />
+				<run ground="170" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="4" attackSpeed="278" range="40" />
+			<defence physical="505" magical="290" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="18" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="19" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="23406" level="97" type="Monster" name="Suffering Mutant">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="10.5" mp="22800" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="42273" magical="7579" critical="4" attackSpeed="278" range="40" />
+			<defence physical="505" magical="290" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="18" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="43" />
+			<height normal="47.5" />
+		</collision>
+	</npc><npc id="23407" level="97" type="Monster" name="Suffering Hacker">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="10.5" mp="22800" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="42273" magical="7579" critical="4" attackSpeed="278" range="40" />
+			<defence physical="505" magical="290" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="18" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="34" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="23408" level="99" type="Monster" name="Emergency Caller" title="Dexterous">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="92" />
+				<run ground="200" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="27" />
+			<height normal="48.5" />
+		</collision>
+	</npc><npc id="23409" level="99" type="Monster" name="Erosion Herald">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="3532" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="160" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="14.4" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="23410" level="99" type="Monster" name="Hiding Tracker" title="Swift">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="3532" mpRegen="3.6" />
+			<speed>
+				<walk ground="73" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="19" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="23411" level="99" type="Monster" name="Erosion Mutant">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="43" />
+			<height normal="47.5" />
+		</collision>
+	</npc><npc id="23412" level="99" type="Monster" name="Erosion Hacker">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="200" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="34" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="23413" level="99" type="Monster" name="Erosion Ark">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="80" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="23414" level="21" type="Monster" name="Windima">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="935" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="364" hpRegen="3.5" mp="205" mpRegen="1.5" />
+			<speed>
+				<walk ground="12" />
+				<run ground="30" />
+			</speed>
+			<attack physical="48" magical="33" critical="4" attackSpeed="278" range="40" />
+			<defence physical="90" magical="66" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4410" level="13" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc><npc id="23415" level="23" type="Monster" name="Windima Feri">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1184" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="410" hpRegen="3.5" mp="231" mpRegen="1.5" />
+			<speed>
+				<walk ground="12" />
+				<run ground="30" />
+			</speed>
+			<attack physical="56" magical="39" critical="4" attackSpeed="278" range="40" />
+			<defence physical="96" magical="70" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4410" level="15" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc><npc id="23416" level="25" type="Monster" name="Windima Resh">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="1894" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="460" hpRegen="3.5" mp="259" mpRegen="1.5" />
+			<speed>
+				<walk ground="12" />
+				<run ground="30" />
+			</speed>
+			<attack physical="65" magical="44" critical="4" attackSpeed="278" range="40" />
+			<defence physical="102" magical="75" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc><npc id="23417" level="26" type="Monster" name="Wind Vortex" title="Cyclone">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2126" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="487" hpRegen="3.5" mp="273" mpRegen="1.5" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="70" magical="48" critical="4" attackSpeed="278" range="40" />
+			<defence physical="105" magical="77" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="23418" level="35" type="Monster" name="Marionette Spirit">
+		
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2671" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="772" hpRegen="4.5" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<attack physical="130" magical="89" critical="4" attackSpeed="278" range="40" />
+			<defence physical="137" magical="100" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="5" /> 
+		</skillList>
+		<collision>
+			<radius normal="32" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="23419" level="25" type="Monster" name="Giant Windima">
+		
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2956" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="772" hpRegen="3.5" mp="402" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<attack physical="65" magical="45" critical="4" attackSpeed="278" range="40" />
+			<defence physical="103" magical="75" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4412" level="5" /> 
+			<skill id="4416" level="5" /> 
+			<skill id="4066" level="2" /> 
+			<skill id="4001" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="60" />
+			<height normal="47" />
+		</collision>
+	</npc><npc id="23420" level="25" type="Monster" name="Immense Windima">
+		
+		<race>PLANT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2956" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="772" hpRegen="3.5" mp="402" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="100" />
+			</speed>
+			<attack physical="65" magical="45" critical="4" attackSpeed="278" range="40" />
+			<defence physical="103" magical="75" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4413" level="5" /> 
+			<skill id="4416" level="5" /> 
+			<skill id="4066" level="2" /> 
+			<skill id="4001" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="60" />
+			<height normal="47" />
+		</collision>
+	</npc><npc id="23421" level="35" type="Monster" name="Chertuba Mirage">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="7276" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1183" hpRegen="4.5" mp="610" mpRegen="1.8" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<attack physical="130" magical="89" critical="4" attackSpeed="278" range="40" />
+			<defence physical="137" magical="100" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4412" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4737" level="3" /> 
+			<skill id="4173" level="3" /> 
+			<skill id="4722" level="3" /> 
+			<skill id="4177" level="3" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="51" />
+		</collision>
+	</npc><npc id="23422" level="35" type="Monster" name="Chertuba Illusion">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="7276" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1183" hpRegen="4.5" mp="610" mpRegen="1.8" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<attack physical="130" magical="89" critical="4" attackSpeed="278" range="40" />
+			<defence physical="137" magical="101" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4413" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4737" level="3" /> 
+			<skill id="4173" level="3" /> 
+			<skill id="4722" level="3" /> 
+			<skill id="4177" level="3" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="51" />
+		</collision>
+	</npc><npc id="23423" level="77" type="Monster" name="Mesmer Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="274158" sp="65" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8570" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<speed>
+				<walk ground="46" />
+				<run ground="170" />
+			</speed>
+			<attack physical="857" magical="585" critical="4" attackSpeed="278" range="40" />
+			<defence physical="328" magical="241" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="40" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="23424" level="78" type="Monster" name="Gargoyle Dragon">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="297057" sp="71" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8923" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="891" magical="608" critical="4" attackSpeed="278" range="40" />
+			<defence physical="333" magical="244" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4410" level="12" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="65" />
+		</collision>
+	</npc><npc id="23425" level="78" type="Monster" name="Black Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="292767" sp="70" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8923" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<speed>
+				<walk ground="55" />
+				<run ground="170" />
+			</speed>
+			<attack physical="891" magical="608" critical="4" attackSpeed="278" range="40" />
+			<defence physical="333" magical="244" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="28" />
+			<height normal="51" />
+		</collision>
+	</npc><npc id="23426" level="79" type="Monster" name="Emerald Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="321007" sp="77" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9383" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="930" magical="635" critical="4" attackSpeed="278" range="40" />
+			<defence physical="337" magical="247" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="23427" level="80" type="Monster" name="Sand Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="337462" sp="80" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9870" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="971" magical="663" critical="4" attackSpeed="278" range="40" />
+			<defence physical="342" magical="250" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="38" />
+			<height normal="63" />
+		</collision>
+	</npc><npc id="23428" level="80" type="Monster" name="Captain" title="Dragonblood">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="356719" sp="85" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9870" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<speed>
+				<walk ground="56" />
+				<run ground="170" />
+			</speed>
+			<attack physical="971" magical="663" critical="4" attackSpeed="278" range="40" />
+			<defence physical="342" magical="250" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="22" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="23429" level="79" type="Monster" name="Minion" title="Dragonblood">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="155222" sp="37" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9383" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="930" magical="635" critical="4" attackSpeed="278" range="40" />
+			<defence physical="338" magical="247" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="23430" level="81" type="Monster" name="Prey Drake">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="414684" sp="99" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10385" hpRegen="9.5" mp="1708" mpRegen="3.3" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1013" magical="691" critical="4" attackSpeed="278" range="40" />
+			<defence physical="346" magical="253" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="27" />
+			<height normal="47" />
+		</collision>
+	</npc><npc id="23431" level="82" type="Monster" name="Beast Drake">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="525002" sp="126" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10930" hpRegen="9.5" mp="1743" mpRegen="3.3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1055" magical="721" critical="4" attackSpeed="278" range="40" />
+			<defence physical="350" magical="256" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="23432" level="82" type="Monster" name="Dust Drake">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="484480" sp="116" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10930" hpRegen="9.5" mp="1743" mpRegen="3.3" />
+			<speed>
+				<walk ground="46" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1056" magical="721" critical="4" attackSpeed="278" range="40" />
+			<defence physical="350" magical="256" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4411" level="13" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="41" />
+		</collision>
+	</npc><npc id="23433" level="83" type="Monster" name="Vampiric Drake">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="551083" sp="132" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="11506" hpRegen="9.5" mp="1777" mpRegen="3.3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1099" magical="751" critical="4" attackSpeed="278" range="40" />
+			<defence physical="354" magical="259" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="70" />
+		</collision>
+	</npc><npc id="23434" level="81" type="Monster" name="Dragon Hatchling">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="210187" sp="50" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10385" hpRegen="9.5" mp="1708" mpRegen="3.3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1013" magical="691" critical="4" attackSpeed="278" range="40" />
+			<defence physical="346" magical="253" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="18" />
+		</collision>
+	</npc><npc id="23435" level="83" type="Monster" name="Leopard Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="410401" sp="98" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="11506" hpRegen="9.5" mp="1777" mpRegen="3.3" />
+			<speed>
+				<walk ground="57" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1099" magical="751" critical="4" attackSpeed="278" range="40" />
+			<defence physical="354" magical="259" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>LEOPARD_DRAGON</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="18" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="23436" level="77" type="Monster" name="Cave Servant Archer">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="274158" sp="65" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8570" hpRegen="8.5" mp="1574" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="857" magical="585" critical="4" attackSpeed="278" range="1100" />
+			<defence physical="328" magical="241" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="23437" level="78" type="Monster" name="Cave Servant Warrior">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="306496" sp="73" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8923" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="891" magical="608" critical="4" attackSpeed="278" range="40" />
+			<defence physical="333" magical="244" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="23438" level="78" type="Monster" name="Metallic Cave Servant">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="362848" sp="87" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8923" hpRegen="8.5" mp="1607" mpRegen="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="891" magical="608" critical="4" attackSpeed="278" range="40" />
+			<defence physical="333" magical="244" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="34.5" />
+		</collision>
+	</npc><npc id="23439" level="79" type="Monster" name="Iron Cave Servant">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="372211" sp="89" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9383" hpRegen="8.5" mp="1641" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<attack physical="930" magical="635" critical="4" attackSpeed="278" range="40" />
+			<defence physical="337" magical="247" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="39" />
+		</collision>
+	</npc><npc id="23440" level="80" type="Monster" name="Headless Knight">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="295937" sp="71" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9870" hpRegen="8.5" mp="1674" mpRegen="3" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="971" magical="663" critical="4" attackSpeed="278" range="40" />
+			<defence physical="341" magical="250" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc><npc id="23441" level="81" type="Monster" name="Bloody Grave Warrior">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="534852" sp="128" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10385" hpRegen="9.5" mp="1708" mpRegen="3.3" />
+			<speed>
+				<walk ground="68" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1012" magical="691" critical="4" attackSpeed="278" range="40" />
+			<defence physical="346" magical="253" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="23442" level="82" type="Monster" name="Dark Grave Warrior">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="561759" sp="134" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10930" hpRegen="9.5" mp="1743" mpRegen="3.3" />
+			<speed>
+				<walk ground="42.5" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1056" magical="721" critical="4" attackSpeed="278" range="40" />
+			<defence physical="350" magical="256" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="22.88" />
+			<height normal="41.6" />
+		</collision>
+	</npc><npc id="23443" level="82" type="Monster" name="Dark Grave Wizard">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="519466" sp="124" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10930" hpRegen="9.5" mp="1743" mpRegen="3.3" />
+			<speed>
+				<walk ground="46" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1056" magical="721" critical="4" attackSpeed="278" range="40" />
+			<defence physical="350" magical="256" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="21.12" />
+			<height normal="40.48" />
+		</collision>
+	</npc><npc id="23444" level="83" type="Monster" name="Dark Grave Knight">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="589667" sp="141" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="11506" hpRegen="9.5" mp="1777" mpRegen="3.3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1100" magical="751" critical="4" attackSpeed="278" range="40" />
+			<defence physical="354" magical="259" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23445" level="77" type="Monster" name="Chaos Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="365544" sp="87" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3309" hpRegen="8.5" mp="1540" mpRegen="3" />
+			<speed>
+				<walk ground="200" />
+				<run ground="170" />
+			</speed>
+			<attack physical="857" magical="585" critical="4" attackSpeed="278" range="40" />
+			<defence physical="328" magical="241" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="23446" level="81" type="Monster" name="Crag Dragon">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="414684" sp="99" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4154" hpRegen="9.5" mp="1708" mpRegen="3.3" />
+			<speed>
+				<walk ground="180" />
+				<run ground="170" />
+			</speed>
+			<attack physical="1013" magical="691" critical="4" attackSpeed="278" range="40" />
+			<defence physical="346" magical="253" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="32" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="23448" level="2" type="Monster" name="Floato">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="88" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="48" hpRegen="2" mp="47" mpRegen="0.9" />
+			<attack physical="9" magical="6" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="46" magical="31" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="14" />
+		</collision>
+	</npc><npc id="23449" level="5" type="Monster" name="Keen Floato">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="183" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="80" hpRegen="2" mp="70" mpRegen="0.9" />
+			<attack physical="12" magical="8" random="50" critical="1" accuracy="115" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="52" magical="38" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>320</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="14" />
+		</collision>
+	</npc><npc id="23450" level="7" type="Monster" name="Ratel">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="251" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="108" hpRegen="2" mp="85" mpRegen="0.9" />
+			<attack physical="15" magical="10" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="56" magical="41" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="23451" level="9" type="Monster" name="Robust Ratel">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="481" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="143" hpRegen="2" mp="100" mpRegen="0.9" />
+			<attack physical="18" magical="12" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="60" magical="44" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="23452" level="10" type="Monster" name="Honeybee">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="413" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="163" hpRegen="2" mp="108" mpRegen="0.9" />
+			<attack physical="19" magical="13" random="50" critical="1" accuracy="115" attackSpeed="278" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="62" magical="45" evasion="10" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="23453" level="12" type="Monster" name="Kiku">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="526" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="200" hpRegen="2.5" mp="124" mpRegen="1.2" />
+			<attack physical="23" magical="16" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="66" magical="49" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="6" />
+			<height normal="10.5" />
+		</collision>
+	</npc><npc id="23454" level="13" type="Monster" name="Robust Kiku">
+		
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="529" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="215" hpRegen="2.5" mp="133" mpRegen="1.2" />
+			<attack physical="25" magical="17" random="10" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="69" magical="50" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<collision>
+			<radius normal="6" />
+			<height normal="10.5" />
+		</collision>
+	</npc><npc id="23455" level="15" type="Monster" name="Growler">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="618" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="247" hpRegen="2.5" mp="149" mpRegen="1.2" />
+			<attack physical="30" magical="20" random="10" critical="4" accuracy="44" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="74" magical="54" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="6" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="23456" level="17" type="Monster" name="Evolved Growler" title="Quest Monster">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="704" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="283" hpRegen="2.5" mp="166" mpRegen="1.2" />
+			<attack physical="35" magical="24" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="79" magical="58" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="28" />
+		</collision>
+	</npc><npc id="23457" level="19" type="Monster" name="Treant">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="878" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="322" hpRegen="2.5" mp="183" mpRegen="1.2" />
+			<attack physical="41" magical="28" random="10" critical="4" accuracy="44" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="84" magical="62" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="23458" level="18" type="Monster" name="Leafie">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="789" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="302" hpRegen="2.5" mp="175" mpRegen="1.2" />
+			<attack physical="38" magical="26" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81" magical="54" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="13" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="23459" level="19" type="Monster" name="Karaphon" title="Earth Spirit">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="8615" sp="2" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="321" hpRegen="2.5" mp="183" mpRegen="1.2" />
+			<attack physical="38" magical="26" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81" magical="54" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" randomWalk="false" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4411" level="16" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4296" level="1" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="55" />
+		</collision>
+	</npc><npc id="23460" level="18" type="Monster" name="Keen Honeybee">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="205" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="301" hpRegen="1.5" mp="174" mpRegen="0.5" />
+			<attack physical="38" magical="26" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81" magical="54" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" randomWalk="false" />
+		<skillList>
+			<skill id="4410" level="13" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4293" level="1" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="23461" level="19" type="Monster" name="Keen Growler">
+		
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="217" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="321" hpRegen="1.5" mp="183" mpRegen="0.5" />
+			<attack physical="38" magical="26" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="81" magical="54" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" randomWalk="false" />
+		<skillList>
+			<skill id="4410" level="13" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4296" level="1" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="28" />
+		</collision>
+	</npc><npc id="23462" level="99" type="Monster" name="Dimensional Orc Butcher">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="83739744" sp="301463" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="376398" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="48" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16364" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="16365" level="1" /> 
+			<skill id="16368" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="33" />
+		</collision>
+	</npc><npc id="23463" level="99" type="Monster" name="Dimensional Orc Hunter" title="Scout">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="1100" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="16367" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="26.5" />
+		</collision>
+	</npc><npc id="23464" level="99" type="Monster" name="Dimensional Shaman" title="Watcher">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16360" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="16383" level="1" /> 
+			<skill id="16382" level="1" /> 
+			<skill id="16366" level="1" /> 
+			<skill id="16372" level="1" /> 
+			<skill id="16381" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="23465" level="99" type="Monster" name="Dimensional Bugbear">
+		
+		<race>GIANT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="55" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16362" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16368" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23466" level="99" type="Monster" name="Dimensional Salamander" title="Hunter">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="526957" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="6.8" />
+		</collision>
+	</npc><npc id="23467" level="99" type="Monster" name="Dimensional Binder">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16362" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16365" level="1" /> 
+			<skill id="16367" level="1" /> 
+			<skill id="16368" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="23468" level="99" type="Monster" name="Dimensional Demon">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="83739744" sp="301463" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="376398" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16364" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16384" level="1" /> 
+			<skill id="16365" level="1" /> 
+			<skill id="16367" level="1" /> 
+			<skill id="16368" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="31.5" />
+		</collision>
+	</npc><npc id="23469" level="99" type="Monster" name="Dimensional Archon" title="Slaughterer">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="251219232" sp="904389" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1355033" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="63" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="3" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16360" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16364" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16383" level="1" /> 
+			<skill id="16365" level="1" /> 
+			<skill id="16367" level="1" /> 
+			<skill id="16368" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="25" />
+			<height normal="72" />
+		</collision>
+	</npc><npc id="23470" level="99" type="Monster" name="Unworldly Demon">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="83739744" sp="301463" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="376398" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16364" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16369" level="1" /> 
+			<skill id="16365" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23471" level="99" type="Monster" name="Unworldly Etin">
+		
+		<race>GIANT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="30" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16362" level="1" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16369" level="1" /> 
+			<skill id="16365" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23472" level="99" type="Monster" name="Unworldly Shaman" title="Watcher">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16360" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="16383" level="1" /> 
+			<skill id="16382" level="1" /> 
+			<skill id="16373" level="1" /> 
+			<skill id="16366" level="1" /> 
+			<skill id="16381" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="23473" level="99" type="Monster" name="Unworldly Salamander" title="Hunter">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="526957" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23474" level="99" type="Monster" name="Unworldly Golem">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16369" level="1" /> 
+			<skill id="16367" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="37" />
+		</collision>
+	</npc><npc id="23475" level="99" type="Monster" name="Unworldly Archon" title="Slaughterer">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="251219232" sp="904389" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1355033" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="3" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16360" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16364" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16369" level="1" /> 
+			<skill id="16365" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="64" />
+		</collision>
+	</npc><npc id="23476" level="99" type="Monster" name="Unworldly Harpy" title="Avenger">
+		
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5466" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16362" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16384" level="1" /> 
+			<skill id="16369" level="1" /> 
+			<skill id="16367" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="43" />
+		</collision>
+	</npc><npc id="23477" level="99" type="Monster" name="Abyssal Shaman" title="Watcher">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16360" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="16379" level="1" /> 
+			<skill id="16383" level="1" /> 
+			<skill id="16382" level="1" /> 
+			<skill id="16367" level="1" /> 
+			<skill id="16366" level="1" /> 
+			<skill id="16374" level="1" /> 
+			<skill id="16381" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="23478" level="99" type="Monster" name="Abyssal Berserker">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16364" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="16385" level="1" /> 
+			<skill id="16370" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="23479" level="99" type="Monster" name="Abyssal Salamander" title="Hunter">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="526957" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="180" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23480" level="99" type="Monster" name="Abyssal Harpy" title="Avenger">
+		
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5466" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="1" /> 
+			<skill id="16362" level="1" /> 
+			<skill id="16363" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="16371" level="1" /> 
+			<skill id="16385" level="1" /> 
+			<skill id="16384" level="1" /> 
+			<skill id="16370" level="1" /> 
+			<skill id="16367" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="69" />
+		</collision>
+	</npc><npc id="23481" level="99" type="Monster" name="Abyssal Binder">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="38" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="16385" level="1" /> 
+			<skill id="16384" level="1" /> 
+			<skill id="16370" level="1" /> 
+			<skill id="16367" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="23482" level="99" type="Monster" name="Abyssal Archon" title="Slaughterer">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="251219232" sp="904389" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1355033" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="120" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="16357" level="2" /> 
+			<skill id="16358" level="3" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16360" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="16364" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="16385" level="1" /> 
+			<skill id="16384" level="1" /> 
+			<skill id="16370" level="1" /> 
+			<skill id="16365" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="24" />
+			<height normal="61" />
+		</collision>
+	</npc><npc id="23483" level="99" type="Monster" name="Abyssal Golem">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="125609616" sp="452194" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="752796" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="150" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="16357" level="1" /> 
+			<skill id="16358" level="2" /> 
+			<skill id="16359" level="1" /> 
+			<skill id="16361" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="16385" level="1" /> 
+			<skill id="16370" level="1" /> 
+			<skill id="16367" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="37" />
+		</collision>
+	</npc><npc id="23484" level="11" type="Monster" name="Robust Honeybee">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="443" sp="0" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="185" hpRegen="2.5" mp="116" mpRegen="1.2" />
+			<attack physical="21" magical="14" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="64" magical="43" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="23485" level="14" type="Monster" name="Evolved Kiku">
+		
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="539" sp="0" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="230" hpRegen="2.5" mp="140" mpRegen="1.2" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<attack physical="28" magical="19" critical="4" attackSpeed="278" range="40" />
+			<defence physical="72" magical="52" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4410" level="15" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<collision>
+			<radius normal="6" />
+			<height normal="10.5" />
+		</collision>
+	</npc><npc id="23486" level="17" type="Monster" name="Robust Growler">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="704" sp="0" />
+		<stats str="70" int="28" dex="40" wit="65" con="74" men="20">
+			<vitals hp="283" hpRegen="2.5" mp="166" mpRegen="1.2" />
+			<attack physical="35" magical="24" random="30" critical="4" accuracy="44" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="79" magical="52" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" canBeSown="true" />
+		<skillList>
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>false</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="6" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="23487" level="98" type="Monster" name="Magma Ailith">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="7035704" sp="4502" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45027" magical="7933" critical="4" attackSpeed="278" range="40" />
+			<defence physical="516" magical="298" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="34" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="23488" level="98" type="Monster" name="Magma Apophis">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="13065602" sp="8361" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45028" magical="7933" critical="4" attackSpeed="278" range="40" />
+			<defence physical="515" magical="298" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="19" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="31.5" />
+		</collision>
+	</npc><npc id="23489" level="98" type="Monster" name="Lava Wyrm">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="6357549" sp="4068" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45028" magical="7933" critical="4" attackSpeed="278" range="40" />
+			<defence physical="516" magical="298" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4411" level="16" /> 
+			<skill id="4379" level="4" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="29" />
+			<height normal="72" />
+		</collision>
+	</npc><npc id="23490" level="98" type="Monster" name="Lava Drake">
+		
+		<race>DRAGON</race>
+		<sex>FEMALE</sex>
+		<acquire exp="6357549" sp="4068" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="70" />
+			</speed>
+			<attack physical="45027" magical="7933" critical="4" attackSpeed="278" range="40" />
+			<defence physical="516" magical="298" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4379" level="4" /> 
+			<skill id="4416" level="10" /> 
+		</skillList>
+		<collision>
+			<radius normal="38" />
+			<height normal="63" />
+		</collision>
+	</npc><npc id="23491" level="98" type="Monster" name="Lava Wendigo">
+		
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<acquire exp="6357549" sp="4068" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="70" />
+			</speed>
+			<attack physical="45027" magical="7933" critical="4" attackSpeed="278" range="40" />
+			<defence physical="516" magical="298" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4379" level="4" /> 
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<collision>
+			<radius normal="26" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="23492" level="98" type="Monster" name="Lava Stone Golem">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="9341333" sp="5978" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="13" />
+				<run ground="30" />
+			</speed>
+			<attack physical="45028" magical="7933" critical="4" attackSpeed="278" range="40" />
+			<defence physical="515" magical="298" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4411" level="16" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4379" level="4" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="38" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="23493" level="98" type="Monster" name="Lava Leviah">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="6357549" sp="4068" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15761" hpRegen="10.5" mp="2317" mpRegen="3.6" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45027" magical="7933" critical="4" attackSpeed="278" range="40" />
+			<defence physical="516" magical="298" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4379" level="4" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23494" level="99" type="Monster" name="Magma Salamander">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="7180453" sp="11488" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23495" level="99" type="Monster" name="Magma Dre Vanul">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="6648482" sp="10637" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="23496" level="99" type="Monster" name="Magma Ifrit">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="13334406" sp="21335" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="39" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4410" level="19" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23497" level="99" type="Monster" name="Blazing Saurus" title="Flaming Stigma">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<acquire exp="15385854" sp="24617" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4411" level="19" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="75" />
+		</collision>
+	</npc><npc id="23498" level="99" type="Monster" name="Blazing Wizard" title="Flaming Stigma">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="15385854" sp="24617" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<attack physical="47221" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4411" level="19" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4379" level="5" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="27.5" />
+		</collision>
+	</npc><npc id="23499" level="99" type="Monster" name="Flame Preta">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<acquire exp="6488346" sp="10381" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="130" />
+				<run ground="70" />
+			</speed>
+			<attack physical="47220" magical="8305" critical="4" attackSpeed="278" range="40" />
+			<defence physical="526" magical="305" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4379" level="4" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="37" />
+		</collision>
+	</npc></list>

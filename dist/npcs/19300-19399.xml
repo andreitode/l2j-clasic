@@ -1,0 +1,3344 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="19300" level="95" type="Monster" name="Spicula Elite Lieutenant">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="15233" level="1" />
+			<skill name="Skill02_ID" id="15231" level="1" />
+			<param name="Attack_BoostValue" value="144" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="321920" hpRegen="8.5" mp="22058" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="160" />
+			</speed>
+			<attack physical="13007" magical="2303" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="311" magical="177" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="1000">
+			<clanList>
+				<clan>NORNIL_METUCELLAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="19301" level="93" type="Monster" name="Elite Soldier Clone 1">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="15221" level="1" />
+			<skill name="Skill02_ID" id="15222" level="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="102440" hpRegen="8.5" mp="17294" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="130" />
+			</speed>
+			<attack physical="11820" magical="2099" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="299" magical="168" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="1000">
+			<clanList>
+				<clan>NORNIL_METUCELLAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="19302" level="93" type="Monster" name="Spicula Elite Guard 1">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="15221" level="2" />
+			<skill name="Skill02_ID" id="15223" level="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="312844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="130" />
+			</speed>
+			<attack physical="11820" magical="2099" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="299" magical="168" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="450">
+			<clanList>
+				<clan>NORNIL_METUCELLAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="19303" level="94" type="Monster" name="Elite Soldier Clone 2">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="15224" level="1" />
+			<skill name="Skill02_ID" id="15389" level="1" />
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="15304" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="102611" hpRegen="8.5" mp="17591" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="130" />
+			</speed>
+			<attack physical="12395" magical="2197" critical="4" attackSpeed="278" range="800" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="305" magical="172" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="450">
+			<clanList>
+				<clan>NORNIL_METUCELLAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="19304" level="94" type="Monster" name="Spicula Elite Guard 2">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="15224" level="1" />
+			<skill name="Skill02_ID" id="15390" level="1" />
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="15304" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="313367" hpRegen="8.5" mp="21690" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="160" />
+			</speed>
+			<attack physical="12395" magical="2197" critical="4" attackSpeed="278" range="800" type="BOW" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="305" magical="172" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="450">
+			<clanList>
+				<clan>NORNIL_METUCELLAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="19305" level="94" type="Monster" name="Boz" title="Spicula Clone Generator">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="300" />
+			</speed>
+			<attack physical="5312" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" canMove="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="1000" aggroRange="450">
+			<clanList>
+				<clan>NORNIL_METUCELLAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="70" />
+		</collision>
+	</npc><npc id="19306" level="95" type="Monster" name="Yin Spicula Lieutenant">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="1090634" sp="261" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14467" hpRegen="8.5" mp="2132" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="130" />
+			</speed>
+			<attack physical="5066" magical="900" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="467" magical="263" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="19307" level="96" type="Monster" name="Yin Spicula Captain">
+		
+		<parameters>
+			<param name="IsAggressive" value="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="1113716" sp="267" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14467" hpRegen="8.5" mp="2132" mpRegen="3" />
+			<speed>
+				<walk ground="40" />
+				<run ground="130" />
+			</speed>
+			<attack physical="5066" magical="900" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="467" magical="263" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="19308" level="94" type="Folk" name="Yin Fragment" title="Spicula Clone Generator">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="25" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="19309" level="93" type="Monster" name="Golem of Repairs" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<acquire exp="4784107" sp="4843" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4408" level="13" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="20" />
+			<height normal="22" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17343" min="1" max="1" chance="0.03" /> 
+				<item id="57" min="1072" max="2504" chance="20" /> 
+				<item id="36841" min="1" max="1" chance="1.775" /> 
+				<item id="36779" min="1" max="1" chance="0.075" /> 
+			</drop>
+			<spoil>
+				<item id="36532" min="1" max="1" chance="22.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19310" level="94" type="Monster" name="Drill Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<attack type="EARTH" value="180" />
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="20" />
+			<height normal="22" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17329" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1104" max="2576" chance="20" /> 
+				<item id="36830" min="1" max="1" chance="0.3" /> 
+				<item id="36768" min="1" max="1" chance="0.0075" /> 
+			</drop>
+			<spoil>
+				<item id="36532" min="1" max="1" chance="23.01" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19311" level="94" type="Monster" name="Drill Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<acquire exp="4894525" sp="4948" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4408" level="13" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="20" />
+			<height normal="22" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17329" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1104" max="2576" chance="20" /> 
+				<item id="36830" min="1" max="1" chance="0.3" /> 
+				<item id="36768" min="1" max="1" chance="0.0075" /> 
+			</drop>
+			<spoil>
+				<item id="36532" min="1" max="1" chance="23.01" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19312" level="94" type="Monster" name="Excavator Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<attack type="EARTH" value="180" />
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="20" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19313" level="94" type="Folk" name="Excavator Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<acquire exp="1185436" sp="284" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4408" level="13" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="20" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19314" level="95" type="Monster" name="Pincer Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="144" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14806" hpRegen="8.5" mp="2205" mpRegen="3" />
+			<speed>
+				<walk ground="130" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1" magical="987" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="486" magical="276" />
+			<attribute>
+				<attack type="EARTH" value="180" />
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" />
+			<height normal="23" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="1140" max="2660" chance="20" /> 
+				<item id="36528" min="1" max="1" chance="9.602" /> 
+				<item id="36529" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="36528" min="1" max="1" chance="7.528" /> 
+				<item id="36529" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19315" level="95" type="Monster" name="Pincer Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="144" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<acquire exp="4619897" sp="4693" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14806" hpRegen="8.5" mp="2205" mpRegen="3" />
+			<speed>
+				<walk ground="130" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1" magical="987" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="486" magical="276" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4408" level="13" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" />
+			<height normal="23" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="57" min="1140" max="2660" chance="20" /> 
+				<item id="36528" min="1" max="1" chance="9.602" /> 
+				<item id="36529" min="1" max="1" chance="0.75" /> 
+			</drop>
+			<spoil>
+				<item id="36528" min="1" max="1" chance="7.528" /> 
+				<item id="36529" min="1" max="1" chance="0.75" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19316" level="94" type="Monster" name="Screw Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="13" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<attack type="EARTH" value="180" />
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="18" />
+			<height normal="31" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17327" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1104" max="2576" chance="20" /> 
+				<item id="36828" min="1" max="1" chance="0.3" /> 
+				<item id="36766" min="1" max="1" chance="0.0075" /> 
+			</drop>
+			<spoil>
+				<item id="36532" min="1" max="1" chance="10.94" /> 
+				<item id="36533" min="1" max="1" chance="2.167" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19317" level="94" type="Monster" name="Screw Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<acquire exp="4894525" sp="4948" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="13" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4408" level="13" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="18" />
+			<height normal="31" />
+		</collision>
+		<dropLists>
+			<drop>
+				<item id="17327" min="1" max="1" chance="0.003" /> 
+				<item id="57" min="1104" max="2576" chance="20" /> 
+				<item id="36828" min="1" max="1" chance="0.3" /> 
+				<item id="36766" min="1" max="1" chance="0.0075" /> 
+			</drop>
+			<spoil>
+				<item id="36532" min="1" max="1" chance="10.94" /> 
+				<item id="36533" min="1" max="1" chance="2.167" /> 
+			</spoil>
+		</dropLists>
+	</npc><npc id="19318" level="94" type="Monster" name="Cannon Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<acquire exp="1185436" sp="284" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="43643" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="10" />
+				<run ground="10" />
+			</speed>
+			<attack physical="5312" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<attack type="EARTH" value="180" />
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4390" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="150" />
+		<collision>
+			<radius normal="45" />
+			<height normal="43" />
+		</collision>
+	</npc><npc id="19319" level="94" type="Monster" name="Cannon Golem" title="Black Anvil Guild">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<acquire exp="1185436" sp="284" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="66" />
+			</speed>
+			<attack physical="5312" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<attack type="EARTH" value="180" />
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4408" level="13" /> 
+			<skill id="5465" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="21" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4412" level="12" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="45" />
+			<height normal="47.5" />
+		</collision>
+	</npc><npc id="19320" level="94" type="Folk" name="Yin" title="Spicula Clone Generator">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="14547" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="72" />
+				<run ground="300" />
+			</speed>
+			<attack physical="5312" magical="942" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<attribute>
+				<defence fire="100" water="100" wind="50" earth="100" holy="100" dark="100" />
+				<attack type="EARTH" value="180" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="40" />
+			<height normal="90" />
+		</collision>
+	</npc><npc id="19321" level="94" type="Monster" name="For Raid Presentation Purposes">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6555" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1632" magical="1114" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="393" magical="287" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="18" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="19322" level="94" type="Folk" name="Yuti" title="Captain">
+		
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<equipment rhand="17417" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6555" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="128" />
+			</speed>
+			<attack physical="1632" magical="1114" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="393" magical="287" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19323" level="94" type="Folk" name="Raider's Crossroads Decor">
+		
+		<race>FRIEND</race>
+		<sex>MALE</sex>
+		<equipment rhand="17417" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6555" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="128" />
+			</speed>
+			<attack physical="1632" magical="1114" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="393" magical="287" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19324" level="94" type="Monster" name="For Raid Presentation Purposes">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6555" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1632" magical="1114" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="393" magical="287" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="18" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="19325" level="85" type="Folk" name="Sticky Mushroom">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="9.5" mp="1846" mpRegen="3.3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="2369" magical="1233" critical="4" attackSpeed="180" range="40" />
+			<defence physical="496" magical="302" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19326" level="94" type="Monster" name="For Raid Presentation Purposes">
+		
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6555" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1632" magical="1114" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="393" magical="287" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="19327" level="95" type="Monster" name="Gustav">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="6149301075" sp="1475832" />
+		<equipment rhand="15570" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="530201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="70" />
+				<run ground="121" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc><npc id="19328" level="95" type="Monster" name="Gustav" title="Resurrected">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="530201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="70" />
+				<run ground="121" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc><npc id="19329" level="95" type="Monster" name="Mikhail">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="6149301075" sp="1475832" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="530201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="70" />
+				<run ground="121" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc><npc id="19330" level="95" type="Monster" name="Mikhail" title="Resurrected">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="530201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="70" />
+				<run ground="121" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc><npc id="19331" level="95" type="Monster" name="Dietrich">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="6149301075" sp="1475832" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="530201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="70" />
+				<run ground="121" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc><npc id="19332" level="95" type="Monster" name="Dietrich" title="Resurrected">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="530201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="70" />
+				<run ground="121" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="31" grown="38" />
+		</collision>
+	</npc><npc id="19333" level="95" type="Folk" name="Demolished Throne Stronghold">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6891" hpRegen="8.5" mp="2205" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1690" magical="1154" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="395" magical="289" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="30" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="19334" level="95" type="Folk" name="Transportation Stronghold">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6891" hpRegen="8.5" mp="2205" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="45" />
+			</speed>
+			<attack physical="1690" magical="1154" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="395" magical="289" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="17.5" />
+			<height normal="52.5" />
+		</collision>
+	</npc><npc id="19335" level="95" type="Monster" name="Attack Stronghold">
+		
+		<race>CONSTRUCT</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="30" />
+			<height normal="13" />
+		</collision>
+	</npc><npc id="19336" level="94" type="Monster" name="Doom Servant">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="282844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="15" />
+				<run ground="120" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="451" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" grown="15.5" />
+			<height normal="40" grown="48.5" />
+		</collision>
+	</npc><npc id="19337" level="94" type="Monster" name="Doom Guard">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="15" />
+				<run ground="120" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" grown="15.5" />
+			<height normal="40" grown="48.5" />
+		</collision>
+	</npc><npc id="19338" level="94" type="Monster" name="Doom Archer">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="286" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="140" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="1100" type="BOW" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="19339" level="95" type="Monster" name="Doom Trooper">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="301" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="482844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="155" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="651" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" grown="12" />
+			<height normal="28" grown="33" />
+		</collision>
+	</npc><npc id="19340" level="95" type="Monster" name="Doom Warrior">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="71" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="482844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="160" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="651" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19341" level="95" type="Monster" name="Doom Knight">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc><npc id="19342" level="95" type="Monster" name="Lidia von Hellmann" title="Lady of the Fortress of the Dead">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="18447903225" sp="4427496" />
+		<equipment rhand="8209" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1030201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="20" />
+				<run ground="180" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="10" />
+			<height normal="25.4" />
+		</collision>
+	</npc><npc id="19343" level="95" type="Monster" name="Giselle von Hellmann" title="Vengeful Ghost of the von Hellmann House">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="99" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1030201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="46" />
+				<run ground="165" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="5.5" grown="6.5" />
+			<height normal="28" grown="34.5" />
+		</collision>
+	</npc><npc id="19344" level="95" type="Monster" name="Giselle von Hellmann" title="Resurrected">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="99" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1030201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="46" />
+				<run ground="165" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="5.5" grown="6.5" />
+			<height normal="28" grown="34.5" />
+		</collision>
+	</npc><npc id="19345" level="95" type="Monster" name="Alfred von Hellmann" title="Master of the von Hellmann House">
+		
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="8679" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1030201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="60" />
+				<run ground="160" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="19" grown="22" />
+			<height normal="35" grown="42.9" />
+		</collision>
+	</npc><npc id="19346" level="94" type="Monster" name="Vampire Adept">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="946" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="64" />
+				<run ground="180" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="6" grown="7" />
+			<height normal="21.5" grown="25.8" />
+		</collision>
+	</npc><npc id="19347" level="94" type="Monster" name="Vampire Soldier">
+		
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="234" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="60" />
+				<run ground="190" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" grown="9" />
+			<height normal="23.5" grown="29" />
+		</collision>
+	</npc><npc id="19348" level="94" type="Monster" name="Vampire Caster">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="946" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="282844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="64" />
+				<run ground="180" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="451" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="6" grown="7" />
+			<height normal="21.5" grown="25.8" />
+		</collision>
+	</npc><npc id="19349" level="94" type="Monster" name="Vampire Magister">
+		
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="946" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="282844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="46" />
+				<run ground="165" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="451" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="5.5" grown="6.5" />
+			<height normal="28" grown="34.5" />
+		</collision>
+	</npc><npc id="19350" level="95" type="Monster" name="Vampire Warlord">
+		
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="6723" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="482844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="43" />
+				<run ground="165" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="651" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="9" grown="10" />
+			<height normal="31.5" grown="38" />
+		</collision>
+	</npc><npc id="19351" level="95" type="Monster" name="Vampire Leader">
+		
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="15" />
+				<run ground="185" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="7.5" />
+			<height normal="25.8" />
+		</collision>
+	</npc><npc id="19352" level="90" type="Monster" name="Sophie von Hellmann's Soul" title="Maligned">
+		
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="2" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="25.5" />
+		</collision>
+	</npc><npc id="19353" level="95" type="Monster" name="Logan" title="Near-death">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="120" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="9" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19354" level="95" type="Monster" name="Von Hellmann House's Maligned Spirit">
+		
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="DARK" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19355" level="95" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6891" hpRegen="8.5" mp="2205" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1690" magical="1154" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="395" magical="289" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19356" level="95" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6891" hpRegen="8.5" mp="2205" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1690" magical="1154" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="395" magical="289" />
+			<attribute>
+				<attack type="DARK" value="330" />
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="15" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19357" level="95" type="Monster" name="Bloody Lord Nurka">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="18447903225" sp="4427496" />
+		<equipment rhand="72" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2030201" hpRegen="8.5" mp="2242" mpRegen="30" />
+			<speed>
+				<walk ground="70" />
+				<run ground="180" />
+			</speed>
+			<attack physical="67541" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="3608" magical="2081" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" grown="24" />
+			<height normal="37" grown="44.5" />
+		</collision>
+	</npc><npc id="19358" level="95" type="Monster" name="Nurka's Royal Guard">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="69" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="752844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="701" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" grown="16" />
+			<height normal="27" grown="32" />
+		</collision>
+	</npc><npc id="19359" level="95" type="Monster" name="Nurka's Royal Guard">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="582844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="1100" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="681" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19360" level="94" type="Monster" name="Soldier of Resistance">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19361" level="94" type="Monster" name="Archer of Resistance">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="1100" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19362" level="95" type="Monster" name="Wizard of Resistance">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="19363" level="95" type="Monster" name="Healer of Resistance">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="382844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="45460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="501" magical="301" />
+			<attribute>
+				<defence fire="250" water="250" wind="200" earth="250" holy="250" dark="250" />
+				<attack type="EARTH" value="330" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4410" level="17" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="500">
+			<clanList>
+				<clan>PARTISAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="19364" level="99" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="19365" level="1" type="Monster" name="Cute Buffalo">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="1" int="1" dex="1" wit="1" con="1" men="1">
+			<vitals hp="200" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="121" />
+			</speed>
+			<attack physical="3" magical="3" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="16" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19366" level="1" type="Monster" name="Cute Spotted Buffalo">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="1" int="1" dex="1" wit="1" con="1" men="1">
+			<vitals hp="200" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="121" />
+			</speed>
+			<attack physical="3" magical="3" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="19367" level="1" type="Folk" name="Silvermane White Tiger" title="Cow Thief">
+		
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<stats str="1" int="1" dex="1" wit="1" con="1" men="1">
+			<vitals hp="100000" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<attack physical="6" magical="6" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="10000" magical="10000" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="34" />
+			<height normal="28" grown="34" />
+		</collision>
+	</npc><npc id="19368" level="1" type="Folk" name="Greedy Mahum Chef">
+		
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<attack physical="100000" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="35" />
+			<height normal="32.5" />
+		</collision>
+	</npc><npc id="19369" level="99" type="Folk" name="Campfire">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="32" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="19370" level="99" type="Monster" name="Mysterious Fruit Tree">
+		
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="5" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="50.5" />
+		</collision>
+	</npc><npc id="19371" level="99" type="Monster" name="Greedy Pixie">
+		
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19372" level="99" type="Folk" name="Dimensional Rift">
+		
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="80" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="19373" level="1" type="Monster" name="Broken Toad Cannon">
+		
+		<race>SIEGE_WEAPON</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="60" />
+				<run ground="66" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="21" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="45" />
+			<height normal="47.5" />
+		</collision>
+	</npc><npc id="19374" level="1" type="Monster" name="Broken Gathering Robot">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="23" />
+			<height normal="32.8" />
+		</collision>
+	</npc><npc id="19375" level="99" type="Monster" name="Repair Robot">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="23" />
+			<height normal="32.8" />
+		</collision>
+	</npc><npc id="19376" level="99" type="Monster" name="Repair Robot">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="23" />
+			<height normal="32.8" />
+		</collision>
+	</npc><npc id="19377" level="99" type="Folk" name="Teleport Source" title="Teleport">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="16" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="19378" level="99" type="Folk" name="Star Stone" title="Gatherable">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="54" />
+			<height normal="61" />
+		</collision>
+	</npc><npc id="19379" level="99" type="Folk" name="Sandblast">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="220" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="19" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.01" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="19380" level="99" type="Monster" name="Stone Gathering Robot">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="72" />
+				<run ground="190" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="23" />
+			<height normal="32.8" />
+		</collision>
+	</npc><npc id="19381" level="1" type="Monster" name="Destroyer Robot">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="30" />
+				<run ground="150" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" showName="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="5" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="19382" level="1" type="Folk" name="Clan Request Assistant">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="10" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="19383" level="99" type="Folk" name="Blue Stone" title="Gatherable">
+		
+		<race>CONSTRUCT</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="38" />
+			<height normal="43.5" />
+		</collision>
+	</npc><npc id="19384" level="99" type="Folk" name="Dark Summon Circle">
+		
+		<race>CONSTRUCT</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="12" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="19385" level="99" type="Monster" name="Crystal Raider">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="54" />
+				<run ground="170" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="15" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="19386" level="1" type="Monster" name="Broken Guardian Robot">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="53" />
+				<run ground="200" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" showName="false" undying="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="18" />
+			<height normal="41.5" />
+		</collision>
+	</npc><npc id="19387" level="1" type="Folk" name="Cute Milk Cow">
+		
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="45" />
+				<run ground="250" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="26" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="19388" level="99" type="Folk" name="Summon Device">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="10" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="19389" level="1" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19390" level="99" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19391" level="99" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.01" />
+			<height normal="18" />
+		</collision>
+	</npc><npc id="19392" level="99" type="Folk" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="1" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="406" magical="297" />
+			<attribute>
+				<defence fire="250" water="250" wind="250" earth="250" holy="200" dark="250" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="14765" level="4" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="0.01" />
+			<height normal="18" />
+		</collision>
+	</npc><npc id="19393" level="85" type="Monster" name="Contaminated Cocoon">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" showName="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="38" />
+			<height normal="130" />
+		</collision>
+	</npc><npc id="19394" level="85" type="Monster" name="Large Contaminated Cocoon">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="8.5" mp="1846" mpRegen="3" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="362" magical="265" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" showName="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="50" />
+			<height normal="191" />
+		</collision>
+	</npc><npc id="19395" level="99" type="Monster" name="">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="1" mp="1" mpRegen="1" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" targetable="false" showName="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="0.1" />
+			<height normal="0.1" />
+		</collision>
+	</npc><npc id="19396" level="99" type="Monster" name="Mother Nornil">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1" hpRegen="1" mp="1" mpRegen="1" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1" magical="1" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="1" magical="1" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<abnormalResist physical="0" magical="0" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="14765" level="4" /> 
+			<skill id="4414" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="50" />
+			<height normal="253" />
+		</collision>
+	</npc></list>

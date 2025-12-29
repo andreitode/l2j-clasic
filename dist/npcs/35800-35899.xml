@@ -1,0 +1,5361 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="35800" level="75" type="Folk" name="Support Unit Captain" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35801" level="75" type="Folk" name="Engineering Manager" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="144" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="35802" level="75" type="FortLogistics" name="Logistics Officer" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="88" />
+			<param name="fortress_id" value="105" />
+			<param name="fee_power_up_lv1" value="100000" />
+			<param name="fee_power_up_lv2" value="150000" />
+			<param name="ai_type1" value="gludio_fort_a_supply" />
+			<param name="ai_type2" value="gludio_fort_b_supply" />
+			<param name="ai_type3" value="dion_fort_supply" />
+			<param name="ai_type4" value="giran_fort_supply" />
+			<param name="ai_type5" value="oren_fort_supply" />
+			<param name="ai_type6" value="aden_fort_a_supply" />
+			<param name="silhouette1" value="35665" /> 
+			<param name="silhouette2" value="35697" /> 
+			<param name="silhouette3" value="35734" /> 
+			<param name="silhouette4" value="35766" /> 
+			<param name="silhouette5" value="35803" /> 
+			<param name="silhouette6" value="35834" /> 
+			<param name="item_medal" value="9910" /> 
+			<param name="tr_x" value="74779" />
+			<param name="tr_y" value="4205" />
+			<param name="tr_z" value="-3040" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="35803" level="80" type="Folk" name="Supply Box">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290" hpRegen="8.5" mp="1675" mpRegen="3" />
+			<attack physical="971" magical="663" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<dropLists>
+			<drop>
+				<item id="9590" min="1" max="1" chance="5.157210711689" /> 
+				<item id="3936" min="1" max="1" chance="6.18867554602623" /> 
+				<item id="9912" min="200" max="400" chance="100" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="35804" level="75" type="Folk" name="Detention Camp Warden" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="fortress_condition" value="1" />
+			<param name="restrict_time" value="240" />
+			<param name="enter_type" value="1" />
+			<param name="zone_type" value="26" />
+			<param name="fortress_id" value="105" />
+			<param name="enter_type1" value="1" />
+			<param name="zone_type1" value="93" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35805" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2218_008" />
+			<param name="pos_x01" value="72613" />
+			<param name="pos_y01" value="4628" />
+			<param name="pos_z01" value="-2152" />
+			<param name="dominion_id" value="84" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35806" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2218_001" />
+			<param name="pos_x01" value="72613" />
+			<param name="pos_y01" value="4628" />
+			<param name="pos_z01" value="-2152" />
+			<param name="dominion_id" value="84" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35807" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2218_002" />
+			<param name="DoorName2" value="fortress_2218_003" />
+			<param name="DoorName3" value="fortress_2218_004" />
+			<param name="DoorName4" value="fortress_2218_005" />
+			<param name="pos_x01" value="72613" />
+			<param name="pos_y01" value="4628" />
+			<param name="pos_z01" value="-2152" />
+			<param name="dominion_id" value="84" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35808" level="80" type="Defender" name="Rebel Commander" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="ShoutMsg1" value="3" />
+			<param name="ShoutMsg1_FString" value="1300018" />
+			<param name="ShoutMsg1_Probablity" value="10000" />
+			<skill name="Skill01_ID" id="4195" level="7" /> 
+			<skill name="Skill02_ID" id="4178" level="7" /> 
+			<param name="Skill02_Probablity" value="2000" />
+			<param name="Skill02_AttackSplash" value="1" />
+			<param name="Skill02_FString" value="1300019" />
+			<param name="Skill02_FStringRate" value="5000" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" lhand="6377" /> 
+		<acquire exp="3200" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="29.8" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="7" /> 
+			<skill id="4195" level="7" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9581" min="1" max="1" chance="9.10180006362534" /> 
+				<item id="9591" min="1" max="1" chance="4.67819966934586" /> 
+				<item id="9912" min="40" max="200" chance="90" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="26.985" />
+		</collision>
+	</npc><npc id="35809" level="76" type="Defender" name="Decorated Rebel Soldier" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="Skill01_ID" id="5065" level="7" /> 
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill01_Check_Dist" value="1" />
+			<param name="Skill01_Dist_Min" value="150" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5065" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="78.1650009155273" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="15" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="35810" level="75" type="Defender" name="Rebel Private" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="MoveAroundSocial2" value="92" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="97" /> 
+		<acquire exp="2812" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="71.8570022583008" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35811" level="72" type="Defender" name="Court Guard" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="105" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="98" /> 
+		<acquire exp="2592" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="732" magical="500" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="305" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="66.2799987792969" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35812" level="72" type="Defender" name="Guard" title="Ivory Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="79" />
+			<param name="MoveAroundSocial2" value="79" />
+			<param name="fortress_id" value="105" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="287" /> 
+		<acquire exp="2592" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="732" magical="500" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="305" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="67.2109985351563" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35813" level="75" type="Folk" name="Power Control Unit" title="Control Room">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="54" />
+			<height normal="59.5" />
+		</collision>
+	</npc><npc id="35814" level="76" type="Defender" name="Dwarven Gunnery Sergeant">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="165" />
+			<param name="MoveAroundSocial1" value="165" />
+			<param name="MoveAroundSocial2" value="165" />
+			<param name="fortress_id" value="105" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5461" level="6" /> 
+			<skill name="Skill02_ID" id="5468" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="8" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5461" level="6" /> 
+			<skill id="5468" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="61.7369995117188" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="35815" level="78" type="FortCommander" name="Guard Captain" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="barrack_id" value="1" />
+			<param name="fortress_id" value="105" />
+			<param name="silhouette" value="35816" /> 
+			<param name="ai_type" value="oren_fort_garrison_a" />
+			<param name="msg_dying" value="1300006" />
+			<param name="msg_one_point" value="1300012" />
+			<param name="one_point_prob" value="5" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="spawn_x" value="10" />
+			<param name="spawn_y" value="10" />
+			<skill name="clanbuff" id="4608" level="1" /> 
+			<skill name="Skill01_ID" id="4172" level="6" /> 
+			<param name="Skill01_Probablity" value="2000" />
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="80" lhand="641" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4172" level="6" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="8" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4439" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="4608" level="1" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.1370010375977" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc><npc id="35816" level="76" type="Defender" name="Guard" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="105" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+			<skill name="Skill01_ID" id="5112" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="9" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5112" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35817" level="76" type="Defender" name="Guard" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="105" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5045" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="9" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5045" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="73.0100021362305" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35818" level="78" type="FortCommander" name="Support Unit Captain" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="barrack_id" value="2" />
+			<param name="fortress_id" value="105" />
+			<param name="msg_dying" value="1300005" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="spawn_interval" value="30" />
+			<param name="max_spawn" value="7" />
+			<param name="spawn_prob" value="90" />
+			<param name="silhouette" value="35819" /> 
+			<param name="ai_type" value="oren_fort_witch" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="msg_final_skill" value="1300014" />
+			<skill name="final_skill_id" id="5398" level="1" /> 
+			<param name="final_skill_prob" value="2" />
+			<skill name="Skill01_ID" id="4196" level="6" /> 
+			<skill name="Skill02_ID" id="4194" level="6" /> 
+			<skill name="send_zen_id" id="5396" level="1" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4194" level="6" /> 
+			<skill id="4196" level="6" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5396" level="1" /> 
+			<skill id="5398" level="1" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.157096862793" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35819" level="76" type="Defender" name="Wizard" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="127" />
+			<param name="MoveAroundSocial2" value="148" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="fortress_id" value="105" />
+			<param name="barrack_id" value="2" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+			<skill name="zen_skill_id" id="5396" level="1" /> 
+			<param name="channelling_dist" value="300" />
+			<skill name="Skill01_ID" id="5053" level="6" /> 
+			<skill name="Skill02_ID" id="4077" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="325" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4077" level="6" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="16" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5053" level="6" /> 
+			<skill id="5396" level="1" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="77.5739974975586" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="35820" level="76" type="Defender" name="Healer" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="fortress_id" value="105" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<param name="IsHealer" value="2" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill03_ID" id="4115" level="1" /> 
+			<param name="Skill03_Target" value="2" />
+			<param name="Skill03_Type" value="3" />
+			<skill name="Skill04_ID" id="5114" level="6" /> 
+			<param name="Skill04_Type" value="2" />
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="92" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4115" level="1" /> 
+			<skill id="4408" level="15" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5114" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>7</sNpcPropHpRate>
+		<ai type="HEALER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="82.3820037841797" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="35821" level="78" type="FortCommander" name="Archer Captain" title="Archer">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="105" />
+			<param name="MoveAroundSocial2" value="105" />
+			<param name="barrack_id" value="0" />
+			<param name="fortress_id" value="105" />
+			<param name="msg_dying" value="1300004" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<param name="msg_see_spell" value="1300013" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="skill00_id" id="4755" level="6" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="10212" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4755" level="6" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.223503112793" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35822" level="76" type="Defender" name="Archer" title="Archer">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="79" />
+			<param name="MoveAroundSocial2" value="79" />
+			<param name="fortress_id" value="105" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5046" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="287" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5046" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="71" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35823" level="80" type="Monster" name="Ballista" title="Ivory Fortress">
+		
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="112" />
+			<height normal="59" />
+		</collision>
+	</npc><npc id="35824" level="80" type="Folk" name="Mercenary Captain">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="fortress_id" value="105" />
+			<param name="DoorName" value="fortress_2218_002" />
+			<param name="DoorName2" value="fortress_2218_003" />
+			<param name="DoorName3" value="fortress_2218_004" />
+			<param name="DoorName4" value="fortress_2218_005" />
+			<param name="msg_door_break" value="1300001" />
+			<param name="msg_open_door" value="1300002" />
+			<param name="msg_dying" value="1300003" />
+			<param name="Party_Type" value="2" />
+			<minions name="Privates">
+				<npc id="35825" count="1" respawnTime="3" weightPoint="4" /> 
+			</minions>
+			<param name="x0" value="72051" />
+			<param name="y0" value="7834" />
+			<param name="z0" value="-3208" />
+			<param name="x1" value="71793" />
+			<param name="y1" value="7545" />
+			<param name="z1" value="-3160" />
+			<param name="x2" value="71629" />
+			<param name="y2" value="7217" />
+			<param name="z2" value="-3112" />
+			<param name="x3" value="71434" />
+			<param name="y3" value="6899" />
+			<param name="z3" value="-3056" />
+			<param name="x4" value="71306" />
+			<param name="y4" value="6492" />
+			<param name="z4" value="-3040" />
+			<param name="x5" value="71427" />
+			<param name="y5" value="6183" />
+			<param name="z5" value="-3032" />
+			<param name="x6" value="71643" />
+			<param name="y6" value="5889" />
+			<param name="z6" value="-3040" />
+			<param name="x7" value="71861" />
+			<param name="y7" value="5596" />
+			<param name="z7" value="-3040" />
+			<param name="x8" value="72101" />
+			<param name="y8" value="5253" />
+			<param name="z8" value="-3040" />
+			<param name="x9" value="72349" />
+			<param name="y9" value="4912" />
+			<param name="z9" value="-3040" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" lhand="6377" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="36.48" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>FORTRESS_ATTACKER</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="24.5" />
+		</collision>
+	</npc><npc id="35825" level="75" type="Folk" name="Mercenary Private">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+			<param name="fortress_id" value="105" />
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+		</parameters>
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<equipment rhand="96" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>FORTRESS_ATTACKER</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="35826" level="20" type="Folk" name="Flagpole">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="343" hpRegen="2.5" mp="192" mpRegen="1.2" />
+			<attack physical="44" magical="30" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="87" magical="64" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="46" />
+			<height normal="72.5" />
+		</collision>
+	</npc><npc id="35827" level="75" type="FortManager" name="Foreman" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="fnAgitBuff" value="fortressbuff" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="158" />
+			<param name="fortress_id" value="106" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35828" level="75" type="Folk" name="Suspicious Merchant" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+		</parameters>
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="35829" level="75" type="Folk" name="Guard Captain" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="fortress_id" value="106" />
+			<param name="fee_photocannon" value="100000" />
+			<param name="fee_scout" value="150000" />
+			<param name="fee_door" value="200000" />
+			<param name="fee_guard_reinforce_lv1" value="100000" />
+			<param name="fee_guard_reinforce_lv2" value="100000" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="80" lhand="641" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc><npc id="35830" level="75" type="Folk" name="Archer Captain" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="105" />
+		</parameters>
+		<race>ELF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35831" level="75" type="Folk" name="Support Unit Captain" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35832" level="75" type="Folk" name="Engineering Manager" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="144" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="35833" level="75" type="FortLogistics" name="Logistics Officer" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="88" />
+			<param name="fortress_id" value="106" />
+			<param name="fee_power_up_lv1" value="100000" />
+			<param name="fee_power_up_lv2" value="150000" />
+			<param name="ai_type1" value="gludio_fort_a_supply" />
+			<param name="ai_type2" value="gludio_fort_b_supply" />
+			<param name="ai_type3" value="dion_fort_supply" />
+			<param name="ai_type4" value="giran_fort_supply" />
+			<param name="ai_type5" value="oren_fort_supply" />
+			<param name="ai_type6" value="aden_fort_a_supply" />
+			<param name="silhouette1" value="35665" /> 
+			<param name="silhouette2" value="35697" /> 
+			<param name="silhouette3" value="35734" /> 
+			<param name="silhouette4" value="35766" /> 
+			<param name="silhouette5" value="35803" /> 
+			<param name="silhouette6" value="35834" /> 
+			<param name="item_medal" value="9910" /> 
+			<param name="tr_x" value="156797" />
+			<param name="tr_y" value="55611" />
+			<param name="tr_z" value="-3256" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="35834" level="80" type="Folk" name="Supply Box">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290" hpRegen="8.5" mp="1675" mpRegen="3" />
+			<attack physical="971" magical="663" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<dropLists>
+			<drop>
+				<item id="9590" min="1" max="1" chance="6.19810729434967" /> 
+				<item id="3936" min="1" max="1" chance="7.43775602521896" /> 
+				<item id="9912" min="240" max="480" chance="100" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="35835" level="75" type="Folk" name="Detention Camp Warden" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="fortress_condition" value="1" />
+			<param name="restrict_time" value="240" />
+			<param name="enter_type" value="1" />
+			<param name="zone_type" value="27" />
+			<param name="fortress_id" value="106" />
+			<param name="enter_type1" value="1" />
+			<param name="zone_type1" value="94" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35836" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2419_001" />
+			<param name="pos_x01" value="154580" />
+			<param name="pos_y01" value="55600" />
+			<param name="pos_z01" value="-2360" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35837" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2419_006" />
+			<param name="pos_x01" value="154580" />
+			<param name="pos_y01" value="55600" />
+			<param name="pos_z01" value="-2360" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35838" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2419_002" />
+			<param name="DoorName2" value="fortress_2419_003" />
+			<param name="DoorName3" value="fortress_2419_004" />
+			<param name="DoorName4" value="fortress_2419_005" />
+			<param name="pos_x01" value="154580" />
+			<param name="pos_y01" value="55600" />
+			<param name="pos_z01" value="-2360" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35839" level="80" type="Defender" name="Rebel Commander" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="ShoutMsg1" value="3" />
+			<param name="ShoutMsg1_FString" value="1300018" />
+			<param name="ShoutMsg1_Probablity" value="10000" />
+			<skill name="Skill01_ID" id="4195" level="7" /> 
+			<skill name="Skill02_ID" id="4178" level="7" /> 
+			<param name="Skill02_Probablity" value="2000" />
+			<param name="Skill02_AttackSplash" value="1" />
+			<param name="Skill02_FString" value="1300019" />
+			<param name="Skill02_FStringRate" value="5000" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" lhand="6377" /> 
+		<acquire exp="3200" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="29.8" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="7" /> 
+			<skill id="4195" level="7" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9581" min="1" max="1" chance="9.10180006362534" /> 
+				<item id="9591" min="1" max="1" chance="4.67819966934586" /> 
+				<item id="9912" min="40" max="200" chance="90" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="26.985" />
+		</collision>
+	</npc><npc id="35840" level="76" type="Defender" name="Decorated Rebel Soldier" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="Skill01_ID" id="5065" level="7" /> 
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill01_Check_Dist" value="1" />
+			<param name="Skill01_Dist_Min" value="150" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5065" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="78.1650009155273" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="15" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="35841" level="75" type="Defender" name="Rebel Private" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="MoveAroundSocial2" value="92" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="97" /> 
+		<acquire exp="2812" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="71.8570022583008" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35842" level="72" type="Defender" name="Court Guard" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="106" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="98" /> 
+		<acquire exp="2592" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="732" magical="500" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="305" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="66.2799987792969" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35843" level="72" type="Defender" name="Guard" title="Narsell Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="79" />
+			<param name="MoveAroundSocial2" value="79" />
+			<param name="fortress_id" value="106" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="287" /> 
+		<acquire exp="2592" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="732" magical="500" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="305" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="67.2109985351563" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35844" level="75" type="Folk" name="Power Control Unit" title="Control Room">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="54" />
+			<height normal="59.5" />
+		</collision>
+	</npc><npc id="35845" level="76" type="Defender" name="Dwarven Gunnery Sergeant">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="165" />
+			<param name="MoveAroundSocial1" value="165" />
+			<param name="MoveAroundSocial2" value="165" />
+			<param name="fortress_id" value="106" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5461" level="6" /> 
+			<skill name="Skill02_ID" id="5468" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="8" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5461" level="6" /> 
+			<skill id="5468" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="61.7369995117188" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="35846" level="78" type="FortCommander" name="Guard Captain" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="barrack_id" value="1" />
+			<param name="fortress_id" value="106" />
+			<param name="silhouette" value="35847" /> 
+			<param name="ai_type" value="aden_fort_a_garrison_a" />
+			<param name="msg_dying" value="1300006" />
+			<param name="msg_one_point" value="1300012" />
+			<param name="one_point_prob" value="5" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="spawn_x" value="10" />
+			<param name="spawn_y" value="10" />
+			<skill name="clanbuff" id="4608" level="1" /> 
+			<skill name="Skill01_ID" id="4172" level="6" /> 
+			<param name="Skill01_Probablity" value="2000" />
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="80" lhand="641" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4172" level="6" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="8" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4439" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="4608" level="1" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.1370010375977" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc><npc id="35847" level="76" type="Defender" name="Guard" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="106" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+			<skill name="Skill01_ID" id="5112" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="9" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5112" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35848" level="76" type="Defender" name="Guard" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="106" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5045" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="9" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5045" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="73.0100021362305" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35849" level="78" type="FortCommander" name="Support Unit Captain" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="barrack_id" value="2" />
+			<param name="fortress_id" value="106" />
+			<param name="msg_dying" value="1300005" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="spawn_interval" value="30" />
+			<param name="max_spawn" value="7" />
+			<param name="spawn_prob" value="90" />
+			<param name="silhouette" value="35850" /> 
+			<param name="ai_type" value="aden_fort_a_witch" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="msg_final_skill" value="1300014" />
+			<skill name="final_skill_id" id="5398" level="1" /> 
+			<param name="final_skill_prob" value="2" />
+			<skill name="Skill01_ID" id="4196" level="6" /> 
+			<skill name="Skill02_ID" id="4194" level="6" /> 
+			<skill name="send_zen_id" id="5396" level="1" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4194" level="6" /> 
+			<skill id="4196" level="6" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5396" level="1" /> 
+			<skill id="5398" level="1" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.157096862793" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35850" level="76" type="Defender" name="Wizard" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="127" />
+			<param name="MoveAroundSocial2" value="148" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="fortress_id" value="106" />
+			<param name="barrack_id" value="2" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+			<skill name="zen_skill_id" id="5396" level="1" /> 
+			<param name="channelling_dist" value="300" />
+			<skill name="Skill01_ID" id="5053" level="6" /> 
+			<skill name="Skill02_ID" id="4077" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="325" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4077" level="6" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="16" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5053" level="6" /> 
+			<skill id="5396" level="1" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="77.5739974975586" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="35851" level="76" type="Defender" name="Healer" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="fortress_id" value="106" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<param name="IsHealer" value="2" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill03_ID" id="4115" level="1" /> 
+			<param name="Skill03_Target" value="2" />
+			<param name="Skill03_Type" value="3" />
+			<skill name="Skill04_ID" id="5114" level="6" /> 
+			<param name="Skill04_Type" value="2" />
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="92" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4115" level="1" /> 
+			<skill id="4408" level="15" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5114" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>7</sNpcPropHpRate>
+		<ai type="HEALER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="82.3820037841797" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="35852" level="78" type="FortCommander" name="Archer Captain" title="Archer">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="105" />
+			<param name="MoveAroundSocial2" value="105" />
+			<param name="barrack_id" value="0" />
+			<param name="fortress_id" value="106" />
+			<param name="msg_dying" value="1300004" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<param name="msg_see_spell" value="1300013" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="skill00_id" id="4755" level="6" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="10212" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4755" level="6" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.223503112793" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35853" level="76" type="Defender" name="Archer" title="Archer">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="79" />
+			<param name="MoveAroundSocial2" value="79" />
+			<param name="fortress_id" value="106" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5046" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="287" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5046" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="71" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35854" level="80" type="Monster" name="Ballista" title="Narsell Fortress">
+		
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="112" />
+			<height normal="59" />
+		</collision>
+	</npc><npc id="35855" level="80" type="Folk" name="Mercenary Captain">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="fortress_id" value="106" />
+			<param name="DoorName" value="fortress_2419_002" />
+			<param name="DoorName2" value="fortress_2419_003" />
+			<param name="DoorName3" value="fortress_2419_004" />
+			<param name="DoorName4" value="fortress_2419_005" />
+			<param name="msg_door_break" value="1300001" />
+			<param name="msg_open_door" value="1300002" />
+			<param name="msg_dying" value="1300003" />
+			<param name="Party_Type" value="2" />
+			<minions name="Privates">
+				<npc id="35856" count="1" respawnTime="3" weightPoint="4" /> 
+			</minions>
+			<param name="x0" value="151251" />
+			<param name="y0" value="58391" />
+			<param name="z0" value="-3368" />
+			<param name="x1" value="151526" />
+			<param name="y1" value="58194" />
+			<param name="z1" value="-3296" />
+			<param name="x2" value="151782" />
+			<param name="y2" value="57978" />
+			<param name="z2" value="-3280" />
+			<param name="x3" value="152220" />
+			<param name="y3" value="57619" />
+			<param name="z3" value="-3280" />
+			<param name="x4" value="152573" />
+			<param name="y4" value="57328" />
+			<param name="z4" value="-3280" />
+			<param name="x5" value="152890" />
+			<param name="y5" value="57077" />
+			<param name="z5" value="-3248" />
+			<param name="x6" value="153146" />
+			<param name="y6" value="56857" />
+			<param name="z6" value="-3256" />
+			<param name="x7" value="153514" />
+			<param name="y7" value="56539" />
+			<param name="z7" value="-3256" />
+			<param name="x8" value="153870" />
+			<param name="y8" value="56202" />
+			<param name="z8" value="-3256" />
+			<param name="x9" value="154264" />
+			<param name="y9" value="55835" />
+			<param name="z9" value="-3256" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" lhand="6377" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="36.48" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>FORTRESS_ATTACKER</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="24.5" />
+		</collision>
+	</npc><npc id="35856" level="75" type="Folk" name="Mercenary Private">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+			<param name="fortress_id" value="106" />
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+		</parameters>
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<equipment rhand="96" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>FORTRESS_ATTACKER</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="35857" level="20" type="Folk" name="Flagpole">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="343" hpRegen="2.5" mp="192" mpRegen="1.2" />
+			<attack physical="44" magical="30" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="87" magical="64" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="46" />
+			<height normal="72.5" />
+		</collision>
+	</npc><npc id="35858" level="75" type="FortManager" name="Foreman" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="fnAgitBuff" value="fortressbuff" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="158" />
+			<param name="fortress_id" value="107" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35859" level="75" type="Folk" name="Suspicious Merchant" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+		</parameters>
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="35860" level="75" type="Folk" name="Guard Captain" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="fortress_id" value="107" />
+			<param name="fee_photocannon" value="100000" />
+			<param name="fee_scout" value="150000" />
+			<param name="fee_door" value="200000" />
+			<param name="fee_guard_reinforce_lv1" value="100000" />
+			<param name="fee_guard_reinforce_lv2" value="100000" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="80" lhand="641" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc><npc id="35861" level="75" type="Folk" name="Archer Captain" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="105" />
+		</parameters>
+		<race>ELF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35862" level="75" type="Folk" name="General" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="9813" lhand="9813" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="DUAL" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="19" /> 
+			<skill id="4416" level="22" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="14.5" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="35863" level="75" type="Folk" name="Support Unit Captain" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="28" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35864" level="75" type="Folk" name="Engineering Manager" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="144" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="35865" level="75" type="FortLogistics" name="Logistics Officer" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="88" />
+			<param name="fortress_id" value="107" />
+			<param name="fee_power_up_lv1" value="100000" />
+			<param name="fee_power_up_lv2" value="150000" />
+			<param name="ai_type1" value="gludio_fort_a_supply" />
+			<param name="ai_type2" value="gludio_fort_b_supply" />
+			<param name="ai_type3" value="dion_fort_supply" />
+			<param name="ai_type4" value="giran_fort_supply" />
+			<param name="ai_type5" value="oren_fort_supply" />
+			<param name="ai_type6" value="aden_fort_a_supply" />
+			<param name="silhouette1" value="35665" /> 
+			<param name="silhouette2" value="35697" /> 
+			<param name="silhouette3" value="35734" /> 
+			<param name="silhouette4" value="35766" /> 
+			<param name="silhouette5" value="35803" /> 
+			<param name="silhouette6" value="35834" /> 
+			<param name="item_medal" value="9910" /> 
+			<param name="tr_x" value="191773" />
+			<param name="tr_y" value="40829" />
+			<param name="tr_z" value="-3408" />
+		</parameters>
+		<race>DWARF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="18" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="35866" level="80" type="Folk" name="Supply Box">
+		
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3290" hpRegen="8.5" mp="1675" mpRegen="3" />
+			<attack physical="971" magical="663" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="8.5" />
+			<height normal="8.5" />
+		</collision>
+	</npc><npc id="35867" level="75" type="Folk" name="Detention Camp Warden" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="fortress_condition" value="1" />
+			<param name="restrict_time" value="240" />
+			<param name="enter_type" value="1" />
+			<param name="zone_type" value="28" />
+			<param name="fortress_id" value="107" />
+			<param name="enter_type1" value="1" />
+			<param name="zone_type1" value="95" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35868" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2519_012" />
+			<param name="pos_x01" value="189965" />
+			<param name="pos_y01" value="40170" />
+			<param name="pos_z01" value="-2512" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35869" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2519_001" />
+			<param name="pos_x01" value="189965" />
+			<param name="pos_y01" value="40170" />
+			<param name="pos_z01" value="-2512" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35870" level="75" type="FortDoorman" name="Doorman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="DoorName1" value="fortress_2519_006" />
+			<param name="DoorName2" value="fortress_2519_007" />
+			<param name="DoorName3" value="fortress_2519_008" />
+			<param name="DoorName4" value="fortress_2519_009" />
+			<param name="pos_x01" value="189965" />
+			<param name="pos_y01" value="40170" />
+			<param name="pos_z01" value="-2512" />
+			<param name="dominion_id" value="85" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35871" level="80" type="Defender" name="Rebel Commander" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="ShoutMsg1" value="3" />
+			<param name="ShoutMsg1_FString" value="1300018" />
+			<param name="ShoutMsg1_Probablity" value="10000" />
+			<skill name="Skill01_ID" id="4195" level="7" /> 
+			<skill name="Skill02_ID" id="4178" level="7" /> 
+			<param name="Skill02_Probablity" value="2000" />
+			<param name="Skill02_AttackSplash" value="1" />
+			<param name="Skill02_FString" value="1300019" />
+			<param name="Skill02_FStringRate" value="5000" />
+		</parameters>
+		<race>DARK_ELF</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" lhand="6377" /> 
+		<acquire exp="3200" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="29.8" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="7" /> 
+			<skill id="4195" level="7" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="16" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>2</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9581" min="1" max="1" chance="9.10180006362534" /> 
+				<item id="9591" min="1" max="1" chance="4.67819966934586" /> 
+				<item id="9912" min="40" max="200" chance="90" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="26.985" />
+		</collision>
+	</npc><npc id="35872" level="76" type="Defender" name="Decorated Rebel Soldier" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="Skill01_ID" id="5065" level="7" /> 
+			<param name="Skill01_Probablity" value="2000" />
+			<param name="Skill01_Check_Dist" value="1" />
+			<param name="Skill01_Dist_Min" value="150" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="4" accuracy="5" attackSpeed="278" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<hitTime>540</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="15" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="5065" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>6</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="78.004997253418" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="15" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="35873" level="75" type="Defender" name="Rebel Private" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="92" />
+			<param name="MoveAroundSocial2" value="92" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="97" /> 
+		<acquire exp="2812" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="71.9570007324219" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35874" level="72" type="Defender" name="Court Guard" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="107" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="98" /> 
+		<acquire exp="2592" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="732" magical="500" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="305" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="66.2799987792969" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35875" level="72" type="Defender" name="Guard" title="Bayou Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="79" />
+			<param name="MoveAroundSocial2" value="79" />
+			<param name="fortress_id" value="107" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="287" /> 
+		<acquire exp="2592" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<attack physical="732" magical="500" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="305" magical="223" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="15" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="12" chance="66.2109985351563" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35876" level="75" type="Folk" name="Main Machine" title="Control Room">
+		
+		<parameters>
+			<param name="barrack_id" value="3" />
+			<param name="fortress_id" value="107" />
+			<param name="msg_shutdown" value="1300007" />
+			<param name="msg_broken1" value="1300009" />
+			<param name="msg_broken2" value="1300010" />
+			<param name="msg_broken3" value="1300011" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<acquire exp="2812" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="46" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="35877" level="75" type="Folk" name="Backup Power Unit" title="Control Room">
+		
+		<parameters>
+			<param name="broadcast_range" value="2000" />
+		</parameters>
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<acquire exp="2812" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="16" />
+			<height normal="15.5" />
+		</collision>
+	</npc><npc id="35878" level="75" type="Folk" name="Control Unit" title="Control Room">
+		
+		<parameters>
+			<param name="barrack_id" value="3" />
+			<param name="fortress_id" value="107" />
+			<param name="DoorName1" value="fortress_2519_002" />
+			<param name="DoorName2" value="fortress_2519_003" />
+			<param name="DoorKey" value="10014" /> 
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="2812" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="39" />
+			<height normal="42.5" />
+		</collision>
+	</npc><npc id="35879" level="75" type="Folk" name="Power Control Unit" title="Control Room">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="54" />
+			<height normal="59.5" />
+		</collision>
+	</npc><npc id="35880" level="76" type="Defender" name="Dwarven Gunnery Sergeant">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="165" />
+			<param name="MoveAroundSocial1" value="165" />
+			<param name="MoveAroundSocial2" value="165" />
+			<param name="fortress_id" value="107" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5461" level="6" /> 
+			<skill name="Skill02_ID" id="5468" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="8" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5461" level="6" /> 
+			<skill id="5468" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="24" max="72" chance="1.93110397338867" /> 
+				<item id="10014" min="1" max="1" chance="46.3464953613281" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="13" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="35881" level="74" type="Defender" name="Scout Golem" title="Control Room">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="30" />
+			<param name="MoveAroundSocial1" value="30" />
+			<param name="MoveAroundSocial2" value="30" />
+			<param name="fortress_id" value="107" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<acquire exp="2738" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2632" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<attack physical="774" magical="528" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="315" magical="230" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+			<hitTime>720</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="6" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>1.61051</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="6" chance="46" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="5" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="35882" level="78" type="FortCommander" name="Guard Captain" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="barrack_id" value="1" />
+			<param name="fortress_id" value="107" />
+			<param name="silhouette" value="35883" /> 
+			<param name="ai_type" value="aden_fort_b_garrison_a" />
+			<param name="msg_dying" value="1300006" />
+			<param name="msg_one_point" value="1300012" />
+			<param name="one_point_prob" value="5" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="spawn_x" value="10" />
+			<param name="spawn_y" value="10" />
+			<skill name="clanbuff" id="4608" level="1" /> 
+			<skill name="Skill01_ID" id="4172" level="6" /> 
+			<param name="Skill01_Probablity" value="2000" />
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="80" lhand="641" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4172" level="6" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="8" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4435" level="5" /> 
+			<skill id="4439" level="5" /> 
+			<skill id="4440" level="5" /> 
+			<skill id="4608" level="1" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.157096862793" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc><npc id="35883" level="76" type="Defender" name="Guard" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="107" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+			<skill name="Skill01_ID" id="5112" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="9" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="16" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5112" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35884" level="76" type="Defender" name="Guard" title="Guard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="fortress_id" value="107" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5045" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="75" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="9" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5045" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="73.0100021362305" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35885" level="78" type="FortCommander" name="Support Unit Captain" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="barrack_id" value="2" />
+			<param name="fortress_id" value="107" />
+			<param name="msg_dying" value="1300005" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="spawn_interval" value="30" />
+			<param name="max_spawn" value="7" />
+			<param name="spawn_prob" value="90" />
+			<param name="silhouette" value="35886" /> 
+			<param name="ai_type" value="aden_fort_b_witch" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="msg_final_skill" value="1300014" />
+			<skill name="final_skill_id" id="5398" level="1" /> 
+			<param name="final_skill_prob" value="2" />
+			<skill name="Skill01_ID" id="4196" level="6" /> 
+			<skill name="Skill02_ID" id="4194" level="6" /> 
+			<skill name="send_zen_id" id="5396" level="1" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4194" level="6" /> 
+			<skill id="4196" level="6" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5396" level="1" /> 
+			<skill id="5398" level="1" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.157096862793" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="9" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35886" level="76" type="Defender" name="Wizard" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="127" />
+			<param name="MoveAroundSocial2" value="148" />
+			<param name="IsAggressive" value="1" />
+			<param name="MoveArounding" value="0" />
+			<param name="fortress_id" value="107" />
+			<param name="barrack_id" value="2" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+			<skill name="zen_skill_id" id="5396" level="1" /> 
+			<param name="channelling_dist" value="300" />
+			<skill name="Skill01_ID" id="5053" level="6" /> 
+			<skill name="Skill02_ID" id="4077" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="325" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4077" level="6" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="16" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5053" level="6" /> 
+			<skill id="5396" level="1" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai type="MAGE" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="77.5739974975586" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="35887" level="76" type="Defender" name="Healer" title="Support Unit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="fortress_id" value="107" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<param name="IsHealer" value="2" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill03_ID" id="4115" level="1" /> 
+			<param name="Skill03_Target" value="2" />
+			<param name="Skill03_Type" value="3" />
+			<skill name="Skill04_ID" id="5114" level="6" /> 
+			<param name="Skill04_Type" value="2" />
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="92" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4115" level="1" /> 
+			<skill id="4408" level="15" /> 
+			<skill id="4409" level="16" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="17" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5114" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>7</sNpcPropHpRate>
+		<ai type="HEALER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="82.3820037841797" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="35888" level="78" type="FortCommander" name="Archer Captain" title="Archer">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="105" />
+			<param name="MoveAroundSocial2" value="105" />
+			<param name="barrack_id" value="0" />
+			<param name="fortress_id" value="107" />
+			<param name="msg_dying" value="1300004" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<param name="msg_see_spell" value="1300013" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="skill00_id" id="4755" level="6" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="10212" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="16" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4755" level="6" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="140" max="300" chance="84.223503112793" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35889" level="76" type="Defender" name="Archer" title="Archer">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="79" />
+			<param name="MoveAroundSocial2" value="79" />
+			<param name="fortress_id" value="107" />
+			<param name="IsAggressive" value="1" />
+			<param name="MovingAttack" value="0" />
+			<param name="MoveArounding" value="0" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<skill name="Skill01_ID" id="5046" level="6" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="287" /> 
+		<acquire exp="2888" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2758" hpRegen="8.5" mp="1541" mpRegen="3" />
+			<attack physical="824" magical="563" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="324" magical="237" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="5046" level="6" /> 
+			<skill id="5432" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>5</sNpcPropHpRate>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="4" max="16" chance="71" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="35890" level="78" type="FortCommander" name="General" title="Officer's Barracks">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+			<param name="MoveAroundSocial2" value="140" />
+			<param name="barrack_id" value="4" />
+			<param name="fortress_id" value="107" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="IsAggressive" value="1" />
+			<param name="msg_help_send" value="1300015" />
+			<param name="msg_help_go" value="1300016" />
+			<param name="msg_help_not_go" value="1300017" />
+			<param name="msg_dying" value="1300020" />
+			<skill name="Skill01_ID" id="4725" level="6" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="9813" lhand="9813" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="DUAL" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="19" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4725" level="6" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="40" max="154" chance="70.4766006469727" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="14.5" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="35891" level="78" type="Defender" name="Minister" title="Officer's Barracks">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+			<param name="MoveAroundSocial2" value="140" />
+			<param name="fortress_id" value="107" />
+			<skill name="toggle_buff" id="5432" level="1" /> 
+			<param name="IsAggressive" value="1" />
+			<param name="msg_help_send" value="1300015" />
+			<param name="msg_help_go" value="1300016" />
+			<param name="msg_help_not_go" value="1300017" />
+			<skill name="Skill01_ID" id="4721" level="6" /> 
+			<skill name="selfheal_skill" id="5457" level="1" /> 
+		</parameters>
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<equipment rhand="7895" /> 
+		<acquire exp="3042" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="681762" hpRegen="397.49728048556" mp="1607" mpRegen="3" />
+			<attack physical="7149" magical="4882" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="532" magical="584" />
+			<attribute>
+				<defence fire="80" water="80" wind="80" earth="80" holy="80" dark="80" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="9" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+			<skill id="4721" level="6" /> 
+			<skill id="5432" level="1" /> 
+			<skill id="5457" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>0.5</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false">
+			<clanList>
+				<clan>DOOR</clan>
+				<clan>FORTRESS</clan>
+			</clanList>
+		</ai>
+		<dropLists>
+			<drop>
+				<item id="9912" min="40" max="154" chance="70.4766006469727" /> 
+			</drop>
+		</dropLists>
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="35892" level="80" type="Monster" name="Ballista" title="Bayou Fortress">
+		
+		<race>CASTLE_GUARD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="22" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>8</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="112" />
+			<height normal="59" />
+		</collision>
+	</npc><npc id="35893" level="80" type="Folk" name="Mercenary Captain">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="fortress_id" value="107" />
+			<param name="DoorName" value="fortress_2519_006" />
+			<param name="DoorName2" value="fortress_2519_007" />
+			<param name="DoorName3" value="fortress_2519_008" />
+			<param name="DoorName4" value="fortress_2519_009" />
+			<param name="msg_door_break" value="1300001" />
+			<param name="msg_open_door" value="1300002" />
+			<param name="msg_dying" value="1300003" />
+			<param name="Party_Type" value="2" />
+			<minions name="Privates">
+				<npc id="35894" count="1" respawnTime="3" weightPoint="4" /> 
+			</minions>
+			<param name="x0" value="189947" />
+			<param name="y0" value="44518" />
+			<param name="z0" value="-3872" />
+			<param name="x1" value="190148" />
+			<param name="y1" value="43971" />
+			<param name="z1" value="-3760" />
+			<param name="x2" value="190317" />
+			<param name="y2" value="43419" />
+			<param name="z2" value="-3632" />
+			<param name="x3" value="190402" />
+			<param name="y3" value="42956" />
+			<param name="z3" value="-3488" />
+			<param name="x4" value="190399" />
+			<param name="y4" value="42574" />
+			<param name="z4" value="-3424" />
+			<param name="x5" value="190101" />
+			<param name="y5" value="42443" />
+			<param name="z5" value="-3408" />
+			<param name="x6" value="189924" />
+			<param name="y6" value="42114" />
+			<param name="z6" value="-3408" />
+			<param name="x7" value="189922" />
+			<param name="y7" value="41673" />
+			<param name="z7" value="-3408" />
+			<param name="x8" value="189927" />
+			<param name="y8" value="41091" />
+			<param name="z8" value="-3408" />
+			<param name="x9" value="189929" />
+			<param name="y9" value="40565" />
+			<param name="z9" value="-3408" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="2500" lhand="6377" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="679374" hpRegen="391.417777464402" mp="1675" mpRegen="3" />
+			<attack physical="7477" magical="5105" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="546" magical="600" />
+			<attribute>
+				<defence fire="120" water="120" wind="120" earth="120" holy="120" dark="120" />
+			</attribute>
+			<speed>
+				<walk ground="36.48" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status undying="false" noSleepMode="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>FORTRESS_ATTACKER</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="24.5" />
+		</collision>
+	</npc><npc id="35894" level="75" type="Folk" name="Mercenary Private">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+			<param name="fortress_id" value="107" />
+			<param name="Party_Type" value="1" />
+			<param name="PrivateFollowBoss" value="1" />
+		</parameters>
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<equipment rhand="96" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="76" attackSpeed="278" type="POLE" range="80" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="13" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4416" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>3</sNpcPropHpRate>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300">
+			<clanList>
+				<clan>FORTRESS_ATTACKER</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="35895" level="20" type="Folk" name="Flagpole">
+		
+		<race>ETC</race>
+		<sex>ETC</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="343" hpRegen="2.5" mp="192" mpRegen="1.2" />
+			<attack physical="44" magical="30" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="87" magical="64" />
+			<attribute>
+				<defence fire="20" water="20" wind="20" earth="20" holy="20" dark="20" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+		</stats>
+		<status undying="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="19" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="46" />
+			<height normal="72.5" />
+		</collision>
+	</npc><npc id="35896" level="75" type="FortManager" name="Foreman" title="White Sands Fortress">
+		
+		<parameters>
+			<param name="fnAgitBuff" value="fortressbuff" />
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="158" />
+			<param name="fortress_id" value="108" />
+			<param name="dominion_id" value="86" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="35897" level="75" type="Folk" name="Suspicious Merchant" title="White Sands Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="140" />
+		</parameters>
+		<race>ORC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="17" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="8" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="35898" level="75" type="Folk" name="Guard Captain" title="White Sands Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="fortress_id" value="108" />
+			<param name="fee_photocannon" value="100000" />
+			<param name="fee_scout" value="150000" />
+			<param name="fee_door" value="200000" />
+			<param name="fee_guard_reinforce_lv1" value="100000" />
+			<param name="fee_guard_reinforce_lv2" value="100000" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="80" lhand="641" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.75" />
+		</collision>
+	</npc><npc id="35899" level="75" type="Folk" name="Archer Captain" title="White Sands Fortress">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="105" />
+		</parameters>
+		<race>ELF</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2677" hpRegen="8.5" mp="1508" mpRegen="3" />
+			<attack physical="795" magical="543" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="319" magical="234" />
+			<attribute>
+				<defence fire="40" water="40" wind="40" earth="40" holy="40" dark="40" />
+			</attribute>
+			<speed>
+				<walk ground="30" />
+				<run ground="120" />
+			</speed>
+		</stats>
+		<status attackable="false" canMove="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="15" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" aggroRange="450" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="23.5" />
+		</collision>
+	</npc></list>

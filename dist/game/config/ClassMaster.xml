@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../data/xsd/classMaster.xsd">
+	<classMaster classChangeEnabled="True" spawnClassMasters="True" showPopupWindow="True">
+		<classChangeOption name="Free">
+			<appliesTo>
+				<category>FIRST_CLASS_GROUP</category>
+				<category>SECOND_CLASS_GROUP</category>
+				<category>THIRD_CLASS_GROUP</category>
+			</appliesTo>
+		</classChangeOption>
+	</classMaster>
+</list>

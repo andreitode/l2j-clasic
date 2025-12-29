@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/cubics.xsd">
+	<cubic id="1" level="1" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="26.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="1" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+	<cubic id="1" level="2" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="31.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="2" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+	<cubic id="1" level="3" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="36.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="3" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+	<cubic id="1" level="4" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="41.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="4" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+	<cubic id="1" level="5" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="45.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="5" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+	<cubic id="1" level="6" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="48.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="6" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+	<cubic id="1" level="7" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="51.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="7" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+	<cubic id="1" level="8" slot="1" duration="900" delay="10" maxCount="30" useUp="0" power="54.0" targetType="TARGET">
+		<conditions>
+			<hp type="GREATER" percent="33" />
+			<range value="1000" />
+		</conditions>
+		<skills>
+			<skill id="4049" level="8" successRate="12" canUseOnStaticObjects="true" /> <!-- Cubic Drain -->
+		</skills>
+	</cubic>
+</list>

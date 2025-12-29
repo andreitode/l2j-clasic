@@ -1,0 +1,4882 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="25001" level="23" type="RaidBoss" name="Greyclaw Kutus" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25002" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25003" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="67" lhand="633" /> 
+		<acquire exp="714843" sp="67170" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="40330" hpRegen="17.535" mp="231.96" mpRegen="1.5" />
+			<attack physical="62" magical="3" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="286" magical="139" evasion="-18" shield="383" shieldRate="20" />
+			<speed>
+				<walk ground="81" />
+				<run ground="275" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="2" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4790" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="21" />
+			<height normal="43.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="16.4788">
+					<item id="69" min="1" max="1" chance="25" /> 
+					<item id="128" min="1" max="1" chance="25" /> 
+					<item id="126" min="1" max="1" chance="25" /> 
+					<item id="125" min="1" max="1" chance="25" /> 
+				</group>
+				<group chance="43.1641">
+					<item id="377" min="1" max="1" chance="61.4886" /> 
+					<item id="348" min="1" max="1" chance="38.5114" /> 
+				</group>
+				<group chance="76.6686">
+					<item id="1937" min="24" max="72" chance="25.8061" /> 
+					<item id="1935" min="53" max="157" chance="7.67146" /> 
+					<item id="2021" min="3" max="9" chance="36.4098" /> 
+					<item id="6575" min="1" max="1" chance="4.15346" /> 
+					<item id="956" min="12" max="36" chance="25.9591" /> 
+				</group>
+				<group chance="28.6595">
+					<item id="6576" min="1" max="1" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25002" level="22" type="Monster" name="Kutus' Escort" title="Raid Fighter">
+		<parameters>
+			<skill name="DDMagic_a" id="4191" level="2" />
+			<skill name="Debuff_a" id="4198" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="7" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4185" hpRegen="17.158" mp="218.52" mpRegen="1.5" />
+			<attack physical="154" magical="25" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="138" magical="135" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4191" level="2" /> 
+			<skill id="4198" level="2" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="25003" level="22" type="Monster" name="Kutus' Pawn" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4727" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="123" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6247" hpRegen="17.158" mp="218.52" mpRegen="1.5" />
+			<attack physical="231" magical="58" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="138" magical="135" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4727" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="25004" level="30" type="RaidBoss" name="Turek Mercenary Captain" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25005" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25006" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="PhysicalSpecial_b" id="4739" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="124" /> 
+		<acquire exp="1424160" sp="129276" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="70742" hpRegen="28.565" mp="329.4" mpRegen="1.5" />
+			<attack physical="208" magical="25" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="355" magical="173" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>760</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4739" level="3" /> 
+			<skill id="4791" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="24" grown="12" />
+			<height normal="47" grown="27.6" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="9.1142">
+					<item id="224" min="1" max="1" chance="50" /> 
+					<item id="1660" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="39.8095">
+					<item id="352" min="1" max="1" chance="23.8217" /> 
+					<item id="2378" min="1" max="1" chance="38.0891" /> 
+					<item id="2377" min="1" max="1" chance="38.0891" /> 
+				</group>
+				<group chance="58.3127">
+					<item id="2919" min="81" max="243" chance="8.90406" /> 
+					<item id="1941" min="14" max="42" chance="34.5324" /> 
+					<item id="2918" min="40" max="120" chance="18.0309" /> 
+					<item id="2044" min="8" max="22" chance="38.5326" /> 
+				</group>
+				<group chance="69.6975">
+					<item id="2038" min="4" max="12" chance="60.4472" /> 
+					<item id="6387" min="60" max="180" chance="39.5528" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25005" level="29" type="Monster" name="Turek Mercenary Archer" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4754" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="271" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="7224" hpRegen="27.487" mp="315.12" mpRegen="1.5" />
+			<attack physical="384" magical="90" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="172" magical="168" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>800</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="4" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4754" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="16" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="25006" level="29" type="Monster" name="Turek Mercenary Warrior" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5391" hpRegen="27.487" mp="315.12" mpRegen="1.5" />
+			<attack physical="384" magical="90" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="172" magical="168" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="15" grown="14" />
+			<height normal="33" grown="26.4" />
+		</collision>
+	</npc><npc id="25007" level="42" type="RaidBoss" name="Retreat Spider Cletu" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25008" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25009" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="4" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="2299956" sp="251972" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="139295" hpRegen="50.722" mp="531" mpRegen="2.1" />
+			<attack physical="508" magical="93" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="494" magical="241" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>650</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="4" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4792" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="27" />
+			<height normal="25.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="6.5276">
+					<item id="282" min="1" max="1" chance="50" /> 
+					<item id="285" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="34.9953">
+					<item id="419" min="1" max="1" chance="29.5437" /> 
+					<item id="418" min="1" max="1" chance="31.9789" /> 
+					<item id="399" min="1" max="1" chance="18.4725" /> 
+					<item id="398" min="1" max="1" chance="20.005" /> 
+				</group>
+				<group chance="81.3034">
+					<item id="1975" min="23" max="67" chance="14.0157" /> 
+					<item id="1967" min="116" max="346" chance="4.53376" /> 
+					<item id="1966" min="16" max="48" chance="21.9077" /> 
+					<item id="1976" min="60" max="180" chance="9.73022" /> 
+					<item id="2085" min="4" max="12" chance="49.8127" /> 
+				</group>
+				<group chance="89.0571">
+					<item id="2086" min="8" max="22" chance="24.2539" /> 
+					<item id="952" min="12" max="36" chance="75.7461" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25008" level="41" type="Monster" name="Cletu's Confidant" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4780" level="3" />
+			<skill name="SelfRangeBuff_a" id="4214" level="3" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="21023" hpRegen="48.186" mp="504.8" mpRegen="2.1" />
+			<attack physical="948" magical="337" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="241" magical="235" evasion="-18" />
+			<speed>
+				<walk ground="72" />
+				<run ground="170" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4214" level="3" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="4780" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="26" />
+			<height normal="25.5" />
+		</collision>
+	</npc><npc id="25009" level="41" type="Monster" name="Cletu's Pawn" title="Raid Fighter">
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10511" hpRegen="48.186" mp="504.8" mpRegen="2.1" />
+			<attack physical="948" magical="337" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="241" magical="235" evasion="-18" />
+			<speed>
+				<walk ground="72" />
+				<run ground="170" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="12" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="26" />
+			<height normal="25.5" />
+		</collision>
+	</npc><npc id="25010" level="55" type="RaidBoss" name="Furious Thieles" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25011" count="3" respawnTime="360" weightPoint="1" /> 
+				<npc id="25012" count="2" respawnTime="360" weightPoint="1" /> 
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4740" level="5" /> 
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="2988757" sp="448385" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="262379" hpRegen="88.695" mp="889.8" mpRegen="2.4" />
+			<attack physical="1142" magical="324" random="30" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="670" magical="327" evasion="-18" />
+			<speed>
+				<walk ground="12" />
+				<run ground="50" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4740" level="5" /> 
+			<skill id="4793" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="3.2033">
+					<item id="300" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="13.0208">
+					<item id="2397" min="1" max="1" chance="30.4183" /> 
+					<item id="2402" min="1" max="1" chance="48.7689" /> 
+					<item id="2406" min="1" max="1" chance="20.8129" /> 
+				</group>
+				<group chance="99.1818">
+					<item id="4069" min="81" max="243" chance="4.53319" /> 
+					<item id="4070" min="40" max="120" chance="13.9378" /> 
+					<item id="4071" min="14" max="42" chance="20.1491" /> 
+					<item id="4113" min="12" max="36" chance="30.0527" /> 
+					<item id="4622" min="1" max="3" chance="31.3272" /> 
+				</group>
+				<group chance="98.2635">
+					<item id="4623" min="2" max="4" chance="21.0801" /> 
+					<item id="4624" min="2" max="6" chance="15.8099" /> 
+					<item id="6572" min="1" max="1" chance="12.2264" /> 
+					<item id="8171" min="1" max="1" chance="25.4418" /> 
+					<item id="8176" min="1" max="1" chance="25.4418" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25011" level="54" type="Monster" name="Thieles' Escort" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4760" level="5" /> 
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="279" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="27092" hpRegen="85.864" mp="861" mpRegen="2.4" />
+			<attack physical="2164" magical="1209" random="10" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="328" magical="320" evasion="-18" />
+			<speed>
+				<walk ground="37" />
+				<run ground="170" />
+			</speed>
+			<hitTime>930</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4760" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="25012" level="54" type="Monster" name="Thieles' Follower" title="Raid Fighter">
+		<race>FAIRY</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="20218" hpRegen="85.864" mp="861" mpRegen="2.4" />
+			<attack physical="2164" magical="1209" random="30" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="328" magical="320" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>370</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="9" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="25013" level="50" type="RaidBoss" name="Ghost of Peasant Captain" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25014" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25015" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="DDMagic_a" id="4192" level="5" />
+			<skill name="SelfRangeDebuff_a" id="4188" level="5" />
+			<skill name="SelfRangeDebuffAnother_a" id="4190" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="145" /> 
+		<acquire exp="2494222" sp="346727" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="213145" hpRegen="73.934" mp="747.8" mpRegen="2.1" />
+			<attack physical="857" magical="196" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="600" magical="293" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>170</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4188" level="5" /> 
+			<skill id="4190" level="5" /> 
+			<skill id="4192" level="5" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4794" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="39" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="2.6354">
+					<item id="300" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="10.7127">
+					<item id="2384" min="1" max="1" chance="30.4181" /> 
+					<item id="2388" min="1" max="1" chance="48.7692" /> 
+					<item id="2390" min="1" max="1" chance="20.8127" /> 
+				</group>
+				<group chance="97.3965">
+					<item id="4068" min="14" max="42" chance="16.8813" /> 
+					<item id="4066" min="9" max="27" chance="34.1813" /> 
+					<item id="4067" min="40" max="120" chance="11.6773" /> 
+					<item id="4113" min="12" max="36" chance="25.1785" /> 
+					<item id="952" min="21" max="63" chance="12.0815" /> 
+				</group>
+				<group chance="75.7946">
+					<item id="4604" min="2" max="6" chance="27.1687" /> 
+					<item id="4605" min="3" max="7" chance="21.7349" /> 
+					<item id="4606" min="3" max="9" chance="18.1125" /> 
+					<item id="8159" min="4" max="4" chance="32.9839" /> 
+				</group>
+				<group chance="25">
+					<item id="8176" min="7" max="7" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25014" level="49" type="Monster" name="Ghost of Peasant" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4720" level="4" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="68" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="32519" hpRegen="70.884" mp="720" mpRegen="2.1" />
+			<attack physical="3227" magical="2881" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="293" magical="286" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4720" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc><npc id="25015" level="49" type="Monster" name="Ghost of Peasant" title="Raid Fighter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="16259" hpRegen="70.884" mp="720" mpRegen="2.1" />
+			<attack physical="1613" magical="720" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="293" magical="286" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>800</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="25016" level="60" type="RaidBoss" name="The 3rd Underwater Guardian" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25017" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25018" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="6" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="3346092" sp="522780" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="307124" hpRegen="101.298" mp="1036.8" mpRegen="2.4" />
+			<attack physical="1468" magical="462" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="742" magical="362" evasion="-18" />
+			<speed>
+				<walk ground="27" />
+				<run ground="150" />
+			</speed>
+			<hitTime>430</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="6" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4795" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="40" />
+			<height normal="73" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="2.4403">
+					<item id="268" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="26.5068">
+					<item id="601" min="1" max="1" chance="25" /> 
+					<item id="2439" min="1" max="1" chance="25" /> 
+					<item id="2475" min="1" max="1" chance="25" /> 
+					<item id="2487" min="1" max="1" chance="25" /> 
+				</group>
+				<group chance="94.6553">
+					<item id="4091" min="192" max="576" chance="3.29025" /> 
+					<item id="4090" min="116" max="346" chance="5.46953" /> 
+					<item id="4099" min="60" max="180" chance="10.5288" /> 
+					<item id="4096" min="23" max="67" chance="28.0768" /> 
+					<item id="4120" min="12" max="36" chance="30.7452" /> 
+					<item id="947" min="1" max="1" chance="21.8893" /> 
+				</group>
+				<group chance="77.4">
+					<item id="4619" min="1" max="3" chance="46.1539" /> 
+					<item id="4620" min="2" max="4" chance="30.7691" /> 
+					<item id="4621" min="2" max="6" chance="23.077" /> 
+				</group>
+				<group chance="25">
+					<item id="8176" min="8" max="8" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25017" level="59" type="Monster" name="Escort of the 3rd Guardian" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4784" level="5" />
+			<skill name="SelfRangeBuff_a" id="4213" level="5" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="47798" hpRegen="99.014" mp="1007" mpRegen="2.4" />
+			<attack physical="2801" magical="1701" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="364" magical="355" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>100</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4213" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4784" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="25018" level="59" type="Monster" name="Support of the 3rd Guardian" title="Raid Fighter">
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="23899" hpRegen="99.014" mp="1007" mpRegen="2.4" />
+			<attack physical="2801" magical="1701" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="364" magical="355" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>100</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="25019" level="25" type="RaidBoss" name="Pan Dryad" title="Raid Boss">
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="2" />
+			<skill name="SelfBuff_a" id="4175" level="2" />
+			<skill name="PhysicalSpecial_a" id="4732" level="2" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="2" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<equipment rhand="291" /> 
+		<acquire exp="730469" sp="69595" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="86632" hpRegen="46.096" mp="259.2" mpRegen="1.5" />
+			<attack physical="148" magical="18" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="305" magical="149" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>580</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4172" level="2" /> 
+			<skill id="4175" level="2" /> 
+			<skill id="4177" level="2" /> 
+			<skill id="4732" level="2" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4796" level="1" /> 
+			<skill id="4416" level="13" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="42" />
+			<height normal="73" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="8.9774">
+					<item id="316" min="1" max="1" chance="50" /> 
+					<item id="317" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="49.4336">
+					<item id="416" min="1" max="1" chance="30.7443" /> 
+					<item id="393" min="1" max="1" chance="19.2557" /> 
+					<item id="394" min="1" max="1" chance="19.2557" /> 
+					<item id="415" min="1" max="1" chance="30.7443" /> 
+				</group>
+				<group chance="60.1751">
+					<item id="1939" min="24" max="72" chance="21.999" /> 
+					<item id="1938" min="53" max="157" chance="7.6972" /> 
+					<item id="2030" min="3" max="9" chance="70.3038" /> 
+				</group>
+				<group chance="58.6108">
+					<item id="956" min="12" max="36" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25020" level="34" type="RaidBoss" name="Breka Warlock Pastu" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25021" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25022" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="8" /> 
+		<acquire exp="1174184" sp="135023" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="65791" hpRegen="25.613" mp="387.72" mpRegen="1.8" />
+			<attack physical="151" magical="12" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="398" magical="194" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="3" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4797" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="22" />
+			<height normal="35" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="5.4285">
+					<item id="159" min="1" max="1" chance="20" /> 
+					<item id="190" min="1" max="1" chance="20" /> 
+					<item id="189" min="1" max="1" chance="20" /> 
+					<item id="188" min="1" max="1" chance="20" /> 
+					<item id="187" min="1" max="1" chance="20" /> 
+				</group>
+				<group chance="15.1836">
+					<item id="396" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="82.7787">
+					<item id="1952" min="12" max="36" chance="52.5096" /> 
+					<item id="2058" min="3" max="9" chance="16.2666" /> 
+					<item id="2051" min="12" max="36" chance="4.31198" /> 
+					<item id="2050" min="7" max="21" chance="7.39188" /> 
+					<item id="2049" min="3" max="7" chance="19.5199" /> 
+				</group>
+				<group chance="56.3853">
+					<item id="2048" min="2" max="6" chance="35.821" /> 
+					<item id="6574" min="1" max="1" chance="64.179" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25021" level="33" type="Monster" name="Pastu's Silhouette" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4786" level="3" />
+			<skill name="SelfRangeBuff_a" id="4211" level="3" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9983" hpRegen="24.517" mp="372.96" mpRegen="1.8" />
+			<attack physical="281" magical="44" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="193" magical="189" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4211" level="3" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4786" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="25022" level="33" type="Monster" name="Pastu's Shadow" title="Raid Fighter">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4991" hpRegen="24.517" mp="372.96" mpRegen="1.8" />
+			<attack physical="281" magical="44" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="193" magical="189" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="25023" level="34" type="RaidBoss" name="Marsh Stakato Queen Zyrnna" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25024" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25025" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="DDMagic_a" id="4194" level="3" />
+			<skill name="SelfRangeDebuff_a" id="4183" level="3" />
+			<skill name="SelfRangeDebuffAnother_a" id="4188" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="150" /> 
+		<acquire exp="1753455" sp="156895" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="87402" hpRegen="33.959" mp="387.72" mpRegen="1.8" />
+			<attack physical="284" magical="41" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="398" magical="194" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4183" level="3" /> 
+			<skill id="4188" level="3" /> 
+			<skill id="4194" level="3" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4798" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="76" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="7.5089">
+					<item id="262" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="29.9871">
+					<item id="353" min="1" max="1" chance="38.4252" /> 
+					<item id="380" min="1" max="1" chance="61.5748" /> 
+				</group>
+				<group chance="53.9365">
+					<item id="1950" min="53" max="157" chance="12.9102" /> 
+					<item id="1951" min="24" max="72" chance="43.9226" /> 
+					<item id="2053" min="12" max="36" chance="43.1672" /> 
+				</group>
+				<group chance="79.6395">
+					<item id="951" min="1" max="3" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25024" level="33" type="Monster" name="Jeruna's Escort Captain" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4730" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="238" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13233" hpRegen="32.437" mp="372.96" mpRegen="1.8" />
+			<attack physical="1052" magical="621" random="5" critical="8" accuracy="76" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="193" magical="189" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4730" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="9" grown="11" />
+			<height normal="24" grown="26.4" />
+		</collision>
+	</npc><npc id="25025" level="33" type="Monster" name="Jeruna's Escort" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="144" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6616" hpRegen="32.437" mp="372.96" mpRegen="1.8" />
+			<attack physical="526" magical="155" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="193" magical="189" evasion="-18" />
+			<speed>
+				<walk ground="30" />
+				<run ground="170" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" grown="18" />
+			<height normal="25" grown="30.8" />
+		</collision>
+	</npc><npc id="25026" level="49" type="RaidBoss" name="Ketra's Commander Atis" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25027" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25028" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4746" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="84" /> 
+		<acquire exp="1655129" sp="248433" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="148076" hpRegen="51.719" mp="720" mpRegen="2.1" />
+			<attack physical="431" magical="51" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="586" magical="286" evasion="-18" />
+			<speed>
+				<walk ground="33" />
+				<run ground="170" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4746" level="4" /> 
+			<skill id="4799" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="24" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="2.2858">
+					<item id="286" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="23.8962">
+					<item id="119" min="1" max="1" chance="23.0622" /> 
+					<item id="886" min="1" max="1" chance="46.2061" /> 
+					<item id="855" min="1" max="1" chance="30.7317" /> 
+				</group>
+				<group chance="89.5739">
+					<item id="2917" min="40" max="120" chance="12.479" /> 
+					<item id="1920" min="14" max="42" chance="21.24" /> 
+					<item id="1918" min="81" max="243" chance="4.64655" /> 
+					<item id="2121" min="3" max="9" chance="59.9447" /> 
+					<item id="6573" min="1" max="1" chance="1.68978" /> 
+				</group>
+				<group chance="92.4979">
+					<item id="4609" min="1" max="1" chance="54.5455" /> 
+					<item id="4608" min="2" max="4" chance="18.1818" /> 
+					<item id="4607" min="1" max="3" chance="27.2727" /> 
+				</group>
+				<group chance="50">
+					<item id="8158" min="4" max="6" chance="50" /> 
+					<item id="8176" min="2" max="3" chance="50" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25027" level="48" type="Monster" name="Ketra Marksman" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4761" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="279" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15133" hpRegen="49.588" mp="692.4" mpRegen="2.1" />
+			<attack physical="810" magical="191" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="286" magical="279" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>910</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4761" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="25028" level="48" type="Monster" name="Ketra Raider" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="128" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="11293" hpRegen="49.588" mp="692.4" mpRegen="2.1" />
+			<attack physical="810" magical="191" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="286" magical="279" evasion="-18" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" grown="14" />
+			<height normal="24" grown="28.8" />
+		</collision>
+	</npc><npc id="25029" level="53" type="RaidBoss" name="Atraiban" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25030" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25031" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="5" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="3145490" sp="461913" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="242937" hpRegen="82.956" mp="832.4" mpRegen="2.4" />
+			<attack physical="1023" magical="279" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="642" magical="313" evasion="-18" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4800" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="45" />
+			<height normal="96" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="3.5465">
+					<item id="284" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="32.0166">
+					<item id="503" min="1" max="1" chance="20.5971" /> 
+					<item id="633" min="1" max="1" chance="29.4029" /> 
+					<item id="673" min="1" max="1" chance="29.4029" /> 
+					<item id="2415" min="1" max="1" chance="20.5971" /> 
+				</group>
+				<group chance="82.4113">
+					<item id="4101" min="116" max="346" chance="7.81167" /> 
+					<item id="4439" min="60" max="180" chance="17.8893" /> 
+					<item id="4072" min="293" max="877" chance="2.38984" /> 
+					<item id="4102" min="192" max="576" chance="3.64076" /> 
+					<item id="4112" min="12" max="36" chance="44.0583" /> 
+					<item id="947" min="1" max="1" chance="24.2101" /> 
+				</group>
+				<group chance="74.5331">
+					<item id="4613" min="1" max="3" chance="46.1539" /> 
+					<item id="4614" min="2" max="4" chance="30.7692" /> 
+					<item id="4615" min="2" max="6" chance="23.077" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25030" level="52" type="Monster" name="Atraiban's Top Disciple" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4784" level="5" />
+			<skill name="SelfRangeBuff_a" id="4212" level="5" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="37286" hpRegen="79.987" mp="804" mpRegen="2.4" />
+			<attack physical="1932" magical="1016" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="314" magical="306" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>100</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4212" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4784" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="25031" level="52" type="Monster" name="Atraiban's Disciple" title="Raid Fighter">
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="18643" hpRegen="79.987" mp="804" mpRegen="2.4" />
+			<attack physical="1932" magical="1016" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="314" magical="306" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="28" />
+		</collision>
+	</npc><npc id="25032" level="58" type="RaidBoss" name="Eva's Guardian Millenu" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25033" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25034" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeHold_a" id="4197" level="5" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="3939" /> 
+		<acquire exp="1820975" sp="806823" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="290050" hpRegen="96.605" mp="977.4" mpRegen="2.4" />
+			<attack physical="1334" magical="398" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="713" magical="348" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4801" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13.5" />
+			<height normal="38" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="2.5525">
+					<item id="288" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="9.8181">
+					<item id="5297" min="1" max="1" chance="30.4682" /> 
+					<item id="5298" min="1" max="1" chance="48.7202" /> 
+					<item id="5301" min="1" max="1" chance="20.8116" /> 
+				</group>
+				<group chance="94.1791">
+					<item id="5478" min="9" max="27" chance="25.7446" /> 
+					<item id="5482" min="28" max="84" chance="12.9884" /> 
+					<item id="5479" min="20" max="60" chance="8.15213" /> 
+					<item id="5535" min="12" max="36" chance="35.2559" /> 
+					<item id="729" min="1" max="1" chance="17.859" /> 
+				</group>
+				<group chance="16.8194">
+					<item id="6570" min="1" max="1" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25033" level="57" type="Monster" name="Millenu Escort Wizard" title="Raid Fighter">
+		<parameters>
+			<skill name="DDMagic_a" id="4193" level="5" />
+			<skill name="Debuff_a" id="4199" level="5" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="5131" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="30131" hpRegen="94.077" mp="948" mpRegen="2.4" />
+			<attack physical="3384" magical="2642" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="349" magical="341" evasion="-18" />
+			<speed>
+				<walk ground="29" />
+				<run ground="170" />
+			</speed>
+			<hitTime>220</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4193" level="5" /> 
+			<skill id="4199" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="25034" level="57" type="Monster" name="Millenu Escort Warrior" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4170" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="946" lhand="945" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="44971" hpRegen="94.077" mp="948" mpRegen="2.4" />
+			<attack physical="5076" magical="5945" random="5" critical="8" accuracy="76" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="349" magical="341" evasion="-18" shield="534" shieldRate="20" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>520</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4170" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="25035" level="70" type="RaidBoss" name="Shilen's Messenger Cabrio" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25036" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25037" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="PhysicalSpecial_b" id="4180" level="7" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="189" /> 
+		<acquire exp="1915900" sp="918808" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="373386" hpRegen="117.684" mp="1345.8" mpRegen="2.7" />
+			<attack physical="2154" magical="717" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="887" magical="433" evasion="-18" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4494" level="1" /> 
+			<skill id="4802" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="18" />
+			<height normal="63" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="47.8648">
+					<item id="5313" min="1" max="1" chance="25" /> 
+					<item id="5314" min="1" max="1" chance="25" /> 
+					<item id="5318" min="1" max="1" chance="25" /> 
+					<item id="5319" min="1" max="1" chance="25" /> 
+				</group>
+				<group chance="78.9684">
+					<item id="5503" min="293" max="877" chance="3.84989" /> 
+					<item id="5502" min="116" max="346" chance="9.74947" /> 
+					<item id="5515" min="192" max="576" chance="5.865" /> 
+					<item id="5514" min="60" max="180" chance="18.7676" /> 
+					<item id="6577" min="1" max="1" chance="0.92201" /> 
+					<item id="959" min="1" max="1" chance="5.53145" /> 
+					<item id="960" min="1" max="1" chance="55.3145" /> 
+				</group>
+				<group chance="75">
+					<item id="8160" min="1" max="3" chance="33.3333" /> 
+					<item id="8176" min="3" max="9" chance="33.3333" /> 
+					<item id="8619" min="1" max="1" chance="33.3333" /> 
+				</group>
+				<group chance="100">
+					<item id="8619" min="1" max="1" chance="75" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25036" level="69" type="Monster" name="Cabrio Captor" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4208" level="6" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="279" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="39454" hpRegen="116.469" mp="1314" mpRegen="2.7" />
+			<attack physical="4178" magical="2773" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="436" magical="426" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>800</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4208" level="6" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="25037" level="69" type="Monster" name="Cabrio Blader" title="Raid Fighter">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<equipment rhand="5129" lhand="5129" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="29443" hpRegen="116.469" mp="1314" mpRegen="2.7" />
+			<attack physical="4178" magical="2773" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="436" magical="426" evasion="-18" shield="582" />
+			<speed>
+				<walk ground="22" />
+				<run ground="170" />
+			</speed>
+			<hitTime>500</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="6" />
+			<height normal="12" />
+		</collision>
+	</npc><npc id="25038" level="28" type="RaidBoss" name="Tirak" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25039" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25040" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="DDMagic_a" id="4192" level="2" />
+			<skill name="SelfRangeDebuff_a" id="4182" level="2" />
+			<skill name="SelfRangeDebuffAnother_a" id="4186" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="750326" sp="74683" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="48983" hpRegen="20.213" mp="300.96" mpRegen="1.5" />
+			<attack physical="94" magical="6" random="5" critical="4" accuracy="44" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="334" magical="163" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4182" level="2" /> 
+			<skill id="4186" level="2" /> 
+			<skill id="4192" level="2" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4803" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="28" />
+			<height normal="75" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="12.7611">
+					<item id="83" min="1" max="1" chance="23.69" /> 
+					<item id="144" min="1" max="1" chance="23.69" /> 
+					<item id="130" min="1" max="1" chance="17.54" /> 
+					<item id="127" min="1" max="1" chance="17.54" /> 
+					<item id="124" min="1" max="1" chance="17.54" /> 
+				</group>
+				<group chance="67.3474">
+					<item id="849" min="1" max="1" chance="49.9829" /> 
+					<item id="912" min="1" max="1" chance="37.5018" /> 
+					<item id="880" min="3" max="9" chance="12.5153" /> 
+				</group>
+				<group chance="77.5845">
+					<item id="1901" min="60" max="180" chance="16.0557" /> 
+					<item id="2026" min="1" max="3" chance="83.9443" /> 
+				</group>
+				<group chance="84.1741">
+					<item id="955" min="1" max="3" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25039" level="27" type="Monster" name="Tirak's Escort" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4732" level="2" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="68" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="7507" hpRegen="19.561" mp="286.92" mpRegen="1.5" />
+			<attack physical="349" magical="89" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="162" magical="158" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4732" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="27" grown="34" />
+		</collision>
+	</npc><npc id="25040" level="27" type="Monster" name="Tirak's Knight" title="Raid Fighter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="2" lhand="945" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3753" hpRegen="19.561" mp="286.92" mpRegen="1.5" />
+			<attack physical="174" magical="22" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="162" magical="158" evasion="-18" shield="217" shieldRate="20" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="25" grown="31" />
+		</collision>
+	</npc><npc id="25041" level="35" type="RaidBoss" name="Remmel" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25042" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25043" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4752" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="221" lhand="109" /> 
+		<acquire exp="1018607" sp="103175" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="69449" hpRegen="26.794" mp="402.6" mpRegen="1.8" />
+			<attack physical="163" magical="12" random="5" critical="8" accuracy="76" attackSpeed="253" type="DAGGER" range="40" distance="80" width="120" />
+			<defence physical="410" magical="200" evasion="-18" shield="547" shieldRate="20" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4752" level="3" /> 
+			<skill id="4804" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="76" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="6.7384">
+					<item id="61" min="9" max="25" chance="18.9704" /> 
+					<item id="2451" min="11" max="33" chance="14.6593" /> 
+					<item id="2428" min="11" max="31" chance="15.3568" /> 
+					<item id="2427" min="10" max="30" chance="16.124" /> 
+					<item id="1125" min="10" max="28" chance="16.9729" /> 
+					<item id="607" min="9" max="27" chance="17.9167" /> 
+				</group>
+				<group chance="89.4767">
+					<item id="2933" min="46" max="136" chance="14.5647" /> 
+					<item id="2932" min="36" max="108" chance="18.4083" /> 
+					<item id="2931" min="28" max="82" chance="24.0981" /> 
+					<item id="1963" min="203" max="607" chance="3.2727" /> 
+					<item id="1957" min="320" max="960" chance="2.07104" /> 
+					<item id="1949" min="112" max="336" chance="5.91696" /> 
+					<item id="6574" min="1" max="1" chance="31.6682" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25042" level="34" type="Monster" name="Remmel's Archer" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4757" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="275" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="7052" hpRegen="25.613" mp="387.72" mpRegen="1.8" />
+			<attack physical="303" magical="48" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="199" magical="194" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>960</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4757" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="25043" level="34" type="Monster" name="Remmel's Escort" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="127" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5263" hpRegen="25.613" mp="387.72" mpRegen="1.8" />
+			<attack physical="303" magical="48" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="199" magical="194" evasion="-18" />
+			<speed>
+				<walk ground="21" />
+				<run ground="170" />
+			</speed>
+			<hitTime>740</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="25044" level="47" type="RaidBoss" name="Barion" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25045" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25046" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="4" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="70" /> 
+		<acquire exp="1624139" sp="238098" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="134366" hpRegen="47.474" mp="665" mpRegen="2.1" />
+			<attack physical="380" magical="42" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="559" magical="273" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>170</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="4" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4805" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="39" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="47.1405">
+					<item id="2463" min="1" max="1" chance="19.5042" /> 
+					<item id="2462" min="1" max="1" chance="19.5042" /> 
+					<item id="2461" min="1" max="1" chance="19.5042" /> 
+					<item id="2460" min="11" max="31" chance="1.20915" /> 
+					<item id="2438" min="1" max="1" chance="19.5042" /> 
+					<item id="2437" min="1" max="1" chance="19.5042" /> 
+					<item id="2436" min="10" max="30" chance="1.26961" /> 
+				</group>
+				<group chance="55.4086">
+					<item id="2960" min="396" max="1188" chance="2.04228" /> 
+					<item id="2964" min="60" max="180" chance="13.4779" /> 
+					<item id="2963" min="49" max="147" chance="16.5036" /> 
+					<item id="2962" min="858" max="2574" chance="0.94263" /> 
+					<item id="2961" min="570" max="1710" chance="1.41891" /> 
+					<item id="2955" min="255" max="765" chance="3.68625" /> 
+					<item id="2954" min="144" max="432" chance="6.52751" /> 
+					<item id="4606" min="3" max="9" chance="14.9733" /> 
+					<item id="4605" min="3" max="7" chance="17.9678" /> 
+					<item id="4604" min="2" max="6" chance="22.4599" /> 
+				</group>
+				<group chance="99.7786">
+					<item id="952" min="3" max="9" chance="49.889" /> 
+					<item id="8158" min="1" max="2" chance="25.0555" /> 
+					<item id="8176" min="2" max="3" chance="25.0555" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25045" level="46" type="Monster" name="Barion's Dark Wizard" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4781" level="4" />
+			<skill name="SelfRangeBuff_a" id="4213" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="159" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="20430" hpRegen="45.388" mp="637.8" mpRegen="2.1" />
+			<attack physical="712" magical="156" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="273" magical="266" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4213" level="4" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4781" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="25046" level="46" type="Monster" name="Barion's Soldier" title="Raid Fighter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="129" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10215" hpRegen="45.388" mp="637.8" mpRegen="2.1" />
+			<attack physical="712" magical="156" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="273" magical="266" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="27" grown="34" />
+		</collision>
+	</npc><npc id="25047" level="49" type="RaidBoss" name="Karte" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25048" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25049" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="DDMagic_a" id="4192" level="4" />
+			<skill name="SelfRangeDebuff_a" id="4188" level="4" />
+			<skill name="SelfRangeDebuffAnother_a" id="4190" level="4" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="131" /> 
+		<acquire exp="1412364" sp="185123" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="148076" hpRegen="51.719" mp="720" mpRegen="2.1" />
+			<attack physical="431" magical="51" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="586" magical="286" evasion="-18" />
+			<speed>
+				<walk ground="27" />
+				<run ground="170" />
+			</speed>
+			<hitTime>710</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4188" level="4" /> 
+			<skill id="4190" level="4" /> 
+			<skill id="4192" level="4" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4806" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="18" />
+			<height normal="47.5" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="1.7743">
+					<item id="228" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="21.9997">
+					<item id="2463" min="1" max="1" chance="13.1515" /> 
+					<item id="2462" min="1" max="1" chance="13.1515" /> 
+					<item id="2461" min="1" max="1" chance="13.1515" /> 
+					<item id="2460" min="1" max="1" chance="17.1211" /> 
+					<item id="2438" min="1" max="1" chance="13.1515" /> 
+					<item id="2437" min="1" max="1" chance="13.1515" /> 
+					<item id="2436" min="1" max="1" chance="17.1211" /> 
+				</group>
+				<group chance="90.3875">
+					<item id="2955" min="15" max="45" chance="12.0882" /> 
+					<item id="2961" min="30" max="90" chance="5.19994" /> 
+					<item id="2960" min="22" max="66" chance="7.0908" /> 
+					<item id="2963" min="49" max="147" chance="3.18363" /> 
+					<item id="2954" min="9" max="27" chance="20.1469" /> 
+					<item id="2964" min="60" max="180" chance="2.60014" /> 
+					<item id="2962" min="39" max="117" chance="4" /> 
+					<item id="2119" min="3" max="9" chance="45.6904" /> 
+				</group>
+				<group chance="81.8676">
+					<item id="4610" min="1" max="3" chance="23.918" /> 
+					<item id="4611" min="2" max="4" chance="15.9454" /> 
+					<item id="4612" min="1" max="1" chance="47.8359" /> 
+					<item id="6574" min="1" max="1" chance="12.3007" /> 
+				</group>
+				<group chance="25">
+					<item id="8158" min="9" max="9" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25048" level="48" type="Monster" name="Karte's Chief Knight" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4722" level="4" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="71" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="22587" hpRegen="49.588" mp="692.4" mpRegen="2.1" />
+			<attack physical="1620" magical="765" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="286" magical="279" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>170</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4722" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="25049" level="48" type="Monster" name="Karte's Royal Guards" title="Raid Fighter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="74" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="11293" hpRegen="49.588" mp="692.4" mpRegen="2.1" />
+			<attack physical="810" magical="191" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="286" magical="279" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>300</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="27" grown="34" />
+		</collision>
+	</npc><npc id="25050" level="51" type="RaidBoss" name="Verfa" title="Raid Boss">
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="5" />
+			<skill name="SelfBuff_a" id="4176" level="5" />
+			<skill name="PhysicalSpecial_a" id="4728" level="5" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> 
+		<acquire exp="1381165" sp="185853" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="324092" hpRegen="139.955" mp="775.8" mpRegen="2.4" />
+			<attack physical="973" magical="271" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="614" magical="299" evasion="-18" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4172" level="5" /> 
+			<skill id="4176" level="5" /> 
+			<skill id="4177" level="5" /> 
+			<skill id="4728" level="5" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4807" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="45" />
+			<height normal="141" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="12.9684">
+					<item id="2384" min="1" max="1" chance="30.4186" /> 
+					<item id="2388" min="1" max="1" chance="48.7685" /> 
+					<item id="2390" min="1" max="1" chance="20.8129" /> 
+				</group>
+				<group chance="88.2913">
+					<item id="4066" min="81" max="243" chance="5.07185" /> 
+					<item id="4067" min="40" max="120" chance="15.5938" /> 
+					<item id="4068" min="14" max="42" chance="22.5431" /> 
+					<item id="6574" min="1" max="1" chance="11.6164" /> 
+					<item id="4612" min="1" max="1" chance="45.1748" /> 
+				</group>
+				<group chance="83.2378">
+					<item id="4611" min="2" max="4" chance="15.9724" /> 
+					<item id="4610" min="1" max="3" chance="23.9587" /> 
+					<item id="8159" min="2" max="3" chance="30.0344" /> 
+					<item id="8176" min="2" max="2" chance="30.0344" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25051" level="65" type="RaidBoss" name="Rahha" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25052" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25053" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="6" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="3674504" sp="679343" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="344100" hpRegen="110.823" mp="1188.8" mpRegen="2.7" />
+			<attack physical="1815" magical="606" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="815" magical="397" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="6" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4808" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="34" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="2.0469">
+					<item id="235" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="5.9076">
+					<item id="5287" min="1" max="1" chance="30.432" /> 
+					<item id="5288" min="1" max="1" chance="48.7542" /> 
+					<item id="5293" min="1" max="1" chance="20.8139" /> 
+				</group>
+				<group chance="86.6591">
+					<item id="5520" min="9" max="27" chance="17.2051" /> 
+					<item id="5524" min="28" max="84" chance="8.45255" /> 
+					<item id="5521" min="3" max="7" chance="43.706" /> 
+					<item id="5536" min="12" max="36" chance="30.6364" /> 
+				</group>
+				<group chance="77.5085">
+					<item id="730" min="1" max="1" chance="87.007" /> 
+					<item id="729" min="1" max="1" chance="11.6009" /> 
+					<item id="6569" min="1" max="1" chance="1.39211" /> 
+				</group>
+				<group chance="50">
+					<item id="8160" min="1" max="3" chance="50" /> 
+					<item id="8176" min="3" max="9" chance="50" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25052" level="64" type="Monster" name="Priestess of Rahha" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4785" level="6" />
+			<skill name="SelfRangeBuff_a" id="4213" level="6" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="53978" hpRegen="109.162" mp="1158" mpRegen="2.7" />
+			<attack physical="3491" magical="2351" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="400" magical="390" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>520</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4213" level="6" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4785" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="25053" level="64" type="Monster" name="Fanatics of Rahha" title="Raid Fighter">
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="26989" hpRegen="109.162" mp="1158" mpRegen="2.7" />
+			<attack physical="3491" magical="2351" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="400" magical="390" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>650</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="25054" level="75" type="RaidBoss" name="Kernon" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25055" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25056" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="DDMagic_a" id="4195" level="8" />
+			<skill name="SelfRangeDebuff_a" id="4182" level="8" />
+			<skill name="SelfRangeDebuffAnother_a" id="4190" level="8" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="2238750" sp="1054472" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="397437" hpRegen="123.216" mp="1507.8" mpRegen="3" />
+			<attack physical="2451" magical="868" random="5" critical="4" accuracy="44" attackSpeed="253" type="FIST" range="40" distance="80" width="120" />
+			<defence physical="957" magical="467" evasion="-18" />
+			<speed>
+				<walk ground="37" />
+				<run ground="170" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4182" level="8" /> 
+			<skill id="4190" level="8" /> 
+			<skill id="4195" level="8" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4809" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="24" grown="29" />
+			<height normal="40" grown="48" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="1.1317">
+					<item id="6371" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="10.2846">
+					<item id="6686" min="1" max="1" chance="16.6667" /> 
+					<item id="6685" min="1" max="1" chance="16.6667" /> 
+					<item id="6682" min="1" max="1" chance="16.6667" /> 
+					<item id="6681" min="1" max="1" chance="16.6667" /> 
+					<item id="6677" min="1" max="1" chance="16.6667" /> 
+					<item id="6676" min="1" max="1" chance="16.6667" /> 
+				</group>
+				<group chance="73.0572">
+					<item id="6713" min="46" max="136" chance="6.57074" /> 
+					<item id="6712" min="36" max="108" chance="8.30486" /> 
+					<item id="6709" min="28" max="82" chance="10.8718" /> 
+					<item id="6708" min="20" max="60" chance="14.9487" /> 
+					<item id="6704" min="14" max="40" chance="22.1461" /> 
+					<item id="6703" min="112" max="336" chance="2.66942" /> 
+					<item id="6695" min="12" max="36" chance="33.3996" /> 
+					<item id="6577" min="1" max="1" chance="1.08887" /> 
+				</group>
+				<group chance="52.4998">
+					<item id="960" min="1" max="1" chance="90.9091" /> 
+					<item id="959" min="1" max="1" chance="9.09089" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25055" level="74" type="Monster" name="Taliadon" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4168" level="7" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="1472" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="62863" hpRegen="122.143" mp="1475" mpRegen="3" />
+			<attack physical="9587" magical="13630" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="471" magical="460" evasion="-18" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4168" level="7" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc><npc id="25056" level="74" type="Monster" name="Vemsk" title="Raid Fighter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="142" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="31431" hpRegen="122.143" mp="1475" mpRegen="3" />
+			<attack physical="4793" magical="3407" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="471" magical="460" evasion="-18" />
+			<speed>
+				<walk ground="27" />
+				<run ground="170" />
+			</speed>
+			<hitTime>710</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="12" grown="14.5" />
+			<height normal="31" grown="36" />
+		</collision>
+	</npc><npc id="25057" level="45" type="RaidBoss" name="Beacon of Blue Sky" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25058" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25059" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="PhysicalSpecial_b" id="4742" level="4" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="1358394" sp="171282" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="121183" hpRegen="43.343" mp="610.8" mpRegen="2.1" />
+			<attack physical="333" magical="35" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="533" magical="260" evasion="-18" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4742" level="4" /> 
+			<skill id="4810" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="50" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="2.4846">
+					<item id="233" min="1" max="1" chance="50" /> 
+					<item id="231" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="29.07">
+					<item id="64" min="1" max="1" chance="50" /> 
+					<item id="608" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="98.5044">
+					<item id="2956" min="24" max="72" chance="22.1516" /> 
+					<item id="1981" min="53" max="157" chance="10.1265" /> 
+					<item id="2107" min="2" max="4" chance="49.2523" /> 
+					<item id="2106" min="4" max="12" chance="18.4696" /> 
+				</group>
+				<group chance="94.2472">
+					<item id="952" min="3" max="9" chance="40.8163" /> 
+					<item id="4604" min="2" max="6" chance="10.2041" /> 
+					<item id="4605" min="3" max="7" chance="8.16332" /> 
+					<item id="4606" min="1" max="1" chance="40.8163" /> 
+				</group>
+				<group chance="50">
+					<item id="8164" min="5" max="5" chance="50" /> 
+					<item id="8176" min="2" max="2" chance="50" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25058" level="44" type="Monster" name="Beacon's Shooter" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4757" level="5" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="279" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="12313" hpRegen="41.347" mp="584" mpRegen="2.1" />
+			<attack physical="624" magical="130" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="260" magical="253" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>800</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4757" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="25059" level="44" type="Monster" name="Beacon's Warrior" title="Raid Fighter">
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<equipment rhand="150" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="9189" hpRegen="41.347" mp="584" mpRegen="2.1" />
+			<attack physical="624" magical="130" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="260" magical="253" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="160" />
+			</speed>
+			<hitTime>170</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="25060" level="24" type="RaidBoss" name="Unrequited Kael" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25061" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25062" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="2" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="606920" sp="51383" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="41750" hpRegen="17.961" mp="245.52" mpRegen="1.5" />
+			<attack physical="68" magical="4" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="144" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>840</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="2" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4811" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="75" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="10.6632">
+					<item id="275" min="1" max="1" chance="50" /> 
+					<item id="276" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="47.2582">
+					<item id="605" min="4" max="12" chance="27.2727" /> 
+					<item id="1123" min="2" max="4" chance="72.7273" /> 
+				</group>
+				<group chance="85.2673">
+					<item id="2024" min="3" max="9" chance="47.801" /> 
+					<item id="955" min="1" max="1" chance="52.199" /> 
+				</group>
+				<group chance="33.9998">
+					<item id="956" min="8" max="22" chance="72.7272" /> 
+					<item id="6387" min="24" max="72" chance="27.2728" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25061" level="23" type="Monster" name="Kael's Bead" title="Raid Fighter">
+		<parameters>
+			<skill name="DDMagic_a" id="4194" level="2" />
+			<skill name="Debuff_a" id="4199" level="2" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="4323" hpRegen="17.535" mp="231.96" mpRegen="1.5" />
+			<attack physical="167" magical="28" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="143" magical="139" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>100</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4194" level="2" /> 
+			<skill id="4199" level="2" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="25062" level="23" type="Monster" name="Kael's Escort" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4728" level="2" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6452" hpRegen="17.535" mp="231.96" mpRegen="1.5" />
+			<attack physical="251" magical="63" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="143" magical="139" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>650</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4728" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="25063" level="35" type="RaidBoss" name="Chertuba of Great Soul" title="Raid Boss">
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="3" />
+			<skill name="SelfBuff_a" id="4173" level="3" />
+			<skill name="PhysicalSpecial_a" id="4722" level="3" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4737" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="78" /> 
+		<acquire exp="1018607" sp="103175" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="138899" hpRegen="66.986" mp="402.6" mpRegen="1.8" />
+			<attack physical="327" magical="51" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="410" magical="200" evasion="-18" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4173" level="3" /> 
+			<skill id="4177" level="3" /> 
+			<skill id="4722" level="3" /> 
+			<skill id="4737" level="3" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4812" level="1" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="24" />
+			<height normal="51" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="4.2504">
+					<item id="297" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="44.5782">
+					<item id="630" min="1" max="1" chance="37.0277" /> 
+					<item id="2412" min="1" max="1" chance="25.9445" /> 
+					<item id="2494" min="1" max="1" chance="37.0277" /> 
+				</group>
+				<group chance="73.1813">
+					<item id="1956" min="40" max="120" chance="16.4813" /> 
+					<item id="2930" min="140" max="420" chance="3.3443" /> 
+					<item id="2934" min="81" max="243" chance="8.13896" /> 
+					<item id="2055" min="3" max="9" chance="72.0355" /> 
+				</group>
+				<group chance="90.159">
+					<item id="951" min="1" max="1" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25064" level="40" type="RaidBoss" name="Wizard of Storm Teruk" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25065" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25066" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="DDMagic_a" id="4195" level="4" />
+			<skill name="SelfRangeDebuff_a" id="4185" level="4" />
+			<skill name="SelfRangeDebuffAnother_a" id="4188" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="90" /> 
+		<acquire exp="1091654" sp="139773" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="91937" hpRegen="34.039" mp="478.8" mpRegen="1.8" />
+			<attack physical="236" magical="18" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="469" magical="229" evasion="-18" />
+			<speed>
+				<walk ground="43" />
+				<run ground="170" />
+			</speed>
+			<hitTime>630</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4185" level="4" /> 
+			<skill id="4188" level="4" /> 
+			<skill id="4195" level="4" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4813" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="19" />
+			<height normal="55" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="4.1048">
+					<item id="89" min="1" max="1" chance="12.5" /> 
+					<item id="161" min="1" max="1" chance="12.5" /> 
+					<item id="194" min="1" max="1" chance="12.5" /> 
+					<item id="193" min="1" max="1" chance="12.5" /> 
+					<item id="192" min="1" max="1" chance="12.5" /> 
+					<item id="191" min="1" max="1" chance="12.5" /> 
+					<item id="173" min="1" max="1" chance="12.5" /> 
+					<item id="160" min="1" max="1" chance="12.5" /> 
+				</group>
+				<group chance="43.8401">
+					<item id="915" min="1" max="1" chance="23.0139" /> 
+					<item id="883" min="1" max="1" chance="46.2513" /> 
+					<item id="852" min="1" max="1" chance="30.7349" /> 
+				</group>
+				<group chance="88.6816">
+					<item id="1910" min="140" max="420" chance="3.16684" /> 
+					<item id="1908" min="81" max="243" chance="6.88328" /> 
+					<item id="1909" min="40" max="120" chance="19.8772" /> 
+					<item id="2064" min="3" max="9" chance="8.533" /> 
+					<item id="2065" min="4" max="10" chance="7.31403" /> 
+					<item id="2066" min="10" max="30" chance="2.59761" /> 
+					<item id="2067" min="4" max="12" chance="5.96742" /> 
+					<item id="2068" min="5" max="13" chance="5.30437" /> 
+					<item id="2061" min="2" max="6" chance="12.7995" /> 
+					<item id="2069" min="2" max="4" chance="17.3171" /> 
+					<item id="2063" min="3" max="7" chance="10.2397" /> 
+				</group>
+				<group chance="82.6806">
+					<item id="4593" min="2" max="6" chance="15.3488" /> 
+					<item id="4592" min="2" max="4" chance="20.4651" /> 
+					<item id="4591" min="1" max="3" chance="30.6976" /> 
+					<item id="951" min="1" max="1" chance="33.4884" /> 
+				</group>
+				<group chance="50">
+					<item id="8170" min="5" max="5" chance="50" /> 
+					<item id="8176" min="1" max="1" chance="50" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25065" level="39" type="Monster" name="Teruk's Escort" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4722" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="123" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13899" hpRegen="32.412" mp="463.32" mpRegen="1.8" />
+			<attack physical="879" magical="276" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="228" magical="223" evasion="-18" />
+			<speed>
+				<walk ground="37" />
+				<run ground="170" />
+			</speed>
+			<hitTime>280</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4722" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="25066" level="39" type="Monster" name="Teruk's Knight" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="291" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6949" hpRegen="32.412" mp="463.32" mpRegen="1.8" />
+			<attack physical="439" magical="69" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="228" magical="223" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13" grown="22" />
+			<height normal="35" grown="42.2" />
+		</collision>
+	</npc><npc id="25067" level="52" type="RaidBoss" name="Red Flag Captain Shaka" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25068" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25069" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4740" level="5" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="71" /> 
+		<acquire exp="2909180" sp="424683" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="233042" hpRegen="79.987" mp="804" mpRegen="2.4" />
+			<attack physical="966" magical="254" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="628" magical="306" evasion="-18" />
+			<speed>
+				<walk ground="70" />
+				<run ground="170" />
+			</speed>
+			<hitTime>650</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4740" level="5" /> 
+			<skill id="4814" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="60" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="3.1503">
+					<item id="78" min="1" max="1" chance="33.3333" /> 
+					<item id="148" min="1" max="1" chance="33.3333" /> 
+					<item id="142" min="1" max="1" chance="33.3333" /> 
+				</group>
+				<group chance="12.8054">
+					<item id="2397" min="1" max="1" chance="30.4184" /> 
+					<item id="2402" min="1" max="1" chance="48.7693" /> 
+					<item id="2406" min="1" max="1" chance="20.8123" /> 
+				</group>
+				<group chance="87.1815">
+					<item id="4071" min="14" max="42" chance="22.5432" /> 
+					<item id="4069" min="81" max="243" chance="5.07183" /> 
+					<item id="4070" min="40" max="120" chance="15.5939" /> 
+					<item id="4108" min="14" max="42" chance="10.5176" /> 
+					<item id="4107" min="9" max="27" chance="16.3607" /> 
+					<item id="4104" min="5" max="15" chance="29.9128" /> 
+				</group>
+				<group chance="99.783">
+					<item id="952" min="21" max="63" chance="14.0963" /> 
+					<item id="4604" min="2" max="6" chance="24.6686" /> 
+					<item id="4605" min="3" max="7" chance="19.7349" /> 
+					<item id="4606" min="3" max="9" chance="16.4458" /> 
+					<item id="8165" min="1" max="1" chance="25.0544" /> 
+				</group>
+				<group chance="25">
+					<item id="8176" min="1" max="1" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25068" level="51" type="Monster" name="Shaka's Sniper" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4755" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="277" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="23915" hpRegen="76.974" mp="775.8" mpRegen="2.4" />
+			<attack physical="1821" magical="942" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="307" magical="299" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>930</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4755" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="25069" level="51" type="Monster" name="Shaka's Follower" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="128" lhand="633" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="17847" hpRegen="76.974" mp="775.8" mpRegen="2.4" />
+			<attack physical="1821" magical="942" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="307" magical="299" evasion="-18" shield="410" shieldRate="20" />
+			<speed>
+				<walk ground="67" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="23" />
+			<height normal="61" />
+		</collision>
+	</npc><npc id="25070" level="55" type="RaidBoss" name="Enchanted Forest Lookout Ruell" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25071" count="3" respawnTime="360" weightPoint="1" /> 
+				<npc id="25072" count="1" respawnTime="360" weightPoint="1" /> 
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="5" /> 
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1707842" sp="285150" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="189660" hpRegen="64.171" mp="889.8" mpRegen="2.4" />
+			<attack physical="610" magical="93" random="30" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="670" magical="327" evasion="-18" />
+			<speed>
+				<walk ground="12" />
+				<run ground="50" />
+			</speed>
+			<hitTime>610</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4815" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="1.7826">
+					<item id="78" min="1" max="1" chance="33.3333" /> 
+					<item id="148" min="1" max="1" chance="33.3333" /> 
+					<item id="142" min="1" max="1" chance="33.3333" /> 
+				</group>
+				<group chance="18.4391">
+					<item id="856" min="1" max="1" chance="30.7694" /> 
+					<item id="887" min="1" max="1" chance="46.1536" /> 
+					<item id="918" min="1" max="1" chance="23.0771" /> 
+				</group>
+				<group chance="87.0786">
+					<item id="4049" min="81" max="243" chance="6.39204" /> 
+					<item id="4051" min="14" max="42" chance="27.3438" /> 
+					<item id="4050" min="40" max="120" chance="15.2894" /> 
+					<item id="4108" min="2" max="6" chance="41.7066" /> 
+					<item id="4107" min="9" max="27" chance="9.26818" /> 
+				</group>
+				<group chance="98.3225">
+					<item id="4104" min="5" max="15" chance="15.0075" /> 
+					<item id="948" min="1" max="1" chance="84.9925" /> 
+				</group>
+				<group chance="64.3258">
+					<item id="947" min="1" max="1" chance="20.7859" /> 
+					<item id="6571" min="1" max="1" chance="1.48479" /> 
+					<item id="8171" min="1" max="2" chance="38.8646" /> 
+					<item id="8176" min="2" max="3" chance="38.8646" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25071" level="54" type="Monster" name="Ruell's Wind" title="Raid Fighter">
+		<parameters>
+			<skill name="DDMagic_a" id="4191" level="5" /> 
+			<skill name="Debuff_a" id="4200" level="5" /> 
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="19604" hpRegen="62.194" mp="861" mpRegen="2.4" />
+			<attack physical="1541" magical="619" random="30" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="328" magical="320" evasion="-18" />
+			<speed>
+				<walk ground="60" />
+				<run ground="170" />
+			</speed>
+			<hitTime>560</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4191" level="5" /> 
+			<skill id="4200" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="11" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="25072" level="54" type="Monster" name="Ruell's Unicorn" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4727" level="5" /> 
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="29260" hpRegen="62.194" mp="861" mpRegen="2.4" />
+			<attack physical="2312" magical="1393" random="30" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="328" magical="320" evasion="-18" />
+			<speed>
+				<walk ground="46" />
+				<run ground="170" />
+			</speed>
+			<hitTime>740</hitTime>
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4727" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" isAggressive="false" />
+		<collision>
+			<radius normal="14" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="25073" level="80" type="RaidBoss" name="Bloody Priest Rudelto" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25074" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25075" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="6" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="1894878" sp="895518" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="368045" hpRegen="116.469" mp="1314" mpRegen="2.7" />
+			<attack physical="2089" magical="693" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="873" magical="426" evasion="-18" />
+			<speed>
+				<walk ground="37" />
+				<run ground="170" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="6" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4816" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="50" />
+			<height normal="180" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="1.8425">
+					<item id="289" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="4.2904">
+					<item id="5326" min="1" max="1" chance="50" /> 
+					<item id="5329" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="71.5577">
+					<item id="5488" min="8" max="22" chance="34.7826" /> 
+					<item id="5487" min="4" max="12" chance="65.2174" /> 
+				</group>
+				<group chance="76.4579">
+					<item id="5534" min="12" max="36" chance="37.2129" /> 
+					<item id="960" min="1" max="1" chance="56.2272" /> 
+					<item id="959" min="1" max="1" chance="5.6227" /> 
+					<item id="6577" min="1" max="1" chance="0.93725" /> 
+				</group>
+				<group chance="75">
+					<item id="8160" min="1" max="3" chance="33.3333" /> 
+					<item id="8176" min="3" max="6" chance="33.3333" /> 
+					<item id="8619" min="1" max="1" chance="33.3333" /> 
+				</group>
+				<group chance="100">
+					<item id="8619" min="1" max="1" chance="75" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25074" level="68" type="Monster" name="Rudelto's Banshee" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4209" level="6" />
+			<skill name="SelfRangeBuff_a" id="4213" level="6" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="57995" hpRegen="115.186" mp="1282.4" mpRegen="2.7" />
+			<attack physical="4044" magical="2658" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="429" magical="419" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>560</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4209" level="6" /> 
+			<skill id="4213" level="6" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="25075" level="68" type="Monster" name="Rudelto's Dre Vanul" title="Raid Fighter">
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="28997" hpRegen="115.186" mp="1282.4" mpRegen="2.7" />
+			<attack physical="4044" magical="2658" random="10" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="429" magical="419" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4333" level="5" /> 
+			<skill id="4416" level="9" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="25076" level="25" type="RaidBoss" name="Princess Molrang" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25077" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25078" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="DDMagic_a" id="4194" level="2" />
+			<skill name="SelfRangeDebuff_a" id="4182" level="2" />
+			<skill name="SelfRangeDebuffAnother_a" id="4187" level="2" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="730469" sp="69595" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="43316" hpRegen="18.439" mp="259.2" mpRegen="1.5" />
+			<attack physical="74" magical="4" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="305" magical="149" evasion="76" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>350</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4182" level="2" /> 
+			<skill id="4187" level="2" /> 
+			<skill id="4194" level="2" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4817" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="40" />
+			<height normal="20" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="13.466">
+					<item id="296" min="1" max="1" chance="50" /> 
+					<item id="293" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="55.7351">
+					<item id="58" min="1" max="1" chance="12.1591" /> 
+					<item id="379" min="1" max="1" chance="17.5204" /> 
+					<item id="378" min="1" max="1" chance="17.5206" /> 
+					<item id="351" min="1" max="1" chance="10.9611" /> 
+					<item id="350" min="1" max="1" chance="12.1591" /> 
+					<item id="349" min="1" max="1" chance="12.1591" /> 
+					<item id="59" min="1" max="1" chance="17.5206" /> 
+				</group>
+				<group chance="9.3777">
+					<item id="6575" min="1" max="1" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25077" level="24" type="Monster" name="Escort Captain Dogun" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4732" level="2" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="6680" hpRegen="17.961" mp="245.52" mpRegen="1.5" />
+			<attack physical="273" magical="68" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="148" magical="144" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4732" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="25078" level="24" type="Monster" name="Princess' Escort" title="Raid Fighter">
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="3340" hpRegen="17.961" mp="245.52" mpRegen="1.5" />
+			<attack physical="136" magical="17" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="148" magical="144" evasion="-18" />
+			<speed>
+				<walk ground="40" />
+				<run ground="170" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="21" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="25079" level="30" type="RaidBoss" name="Cat's Eye" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25080" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25081" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="3" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="1329219" sp="122342" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="70742" hpRegen="28.565" mp="329.4" mpRegen="1.5" />
+			<attack physical="208" magical="25" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="355" magical="173" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="3" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4818" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="25" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="8.2146">
+					<item id="318" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="44.4956">
+					<item id="437" min="1" max="1" chance="38.4616" /> 
+					<item id="470" min="1" max="1" chance="61.5384" /> 
+				</group>
+				<group chance="85.1092">
+					<item id="1944" min="53" max="157" chance="10.9403" /> 
+					<item id="1945" min="192" max="576" chance="4.65837" /> 
+					<item id="2042" min="12" max="36" chance="26.014" /> 
+					<item id="955" min="3" max="9" chance="58.3873" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25080" level="29" type="Monster" name="Mercenary" title="Raid Fighter">
+		<parameters>
+			<skill name="HealMagic_a" id="4785" level="2" />
+			<skill name="SelfRangeBuff_a" id="4211" level="2" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="179" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10782" hpRegen="27.487" mp="315.12" mpRegen="1.5" />
+			<attack physical="384" magical="90" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="172" magical="168" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>260</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4211" level="2" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4785" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="25081" level="15" type="Monster" name="Cat's Eye Bandit" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="218" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5391" hpRegen="27.487" mp="315.12" mpRegen="1.5" />
+			<attack physical="384" magical="90" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="172" magical="168" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13.5" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="25082" level="39" type="RaidBoss" name="Leader of Cat Gang" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25083" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25084" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="3" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1078255" sp="134578" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="86871" hpRegen="32.412" mp="463.32" mpRegen="1.8" />
+			<attack physical="219" magical="17" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="457" magical="223" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="3" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4819" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13.5" />
+			<height normal="26" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="4.0272">
+					<item id="71" min="1" max="1" chance="50" /> 
+					<item id="72" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="21.0811">
+					<item id="439" min="1" max="1" chance="38.4743" /> 
+					<item id="471" min="1" max="1" chance="61.5257" /> 
+				</group>
+				<group chance="84.1114">
+					<item id="1962" min="8" max="22" chance="38.9827" /> 
+					<item id="1954" min="24" max="72" chance="20.2388" /> 
+					<item id="2060" min="4" max="12" chance="27.2051" /> 
+					<item id="2059" min="8" max="22" chance="13.5734" /> 
+				</group>
+				<group chance="66.7292">
+					<item id="4589" min="1" max="3" chance="49.7629" /> 
+					<item id="4590" min="2" max="4" chance="33.1754" /> 
+					<item id="6574" min="1" max="1" chance="17.0617" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25083" level="38" type="Monster" name="Cat Gang" title="Raid Fighter">
+		<parameters>
+			<skill name="DDMagic_a" id="4196" level="3" />
+			<skill name="Debuff_a" id="4200" level="3" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8799" hpRegen="30.873" mp="447.96" mpRegen="1.8" />
+			<attack physical="545" magical="114" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="222" magical="217" evasion="-18" />
+			<speed>
+				<walk ground="48" />
+				<run ground="170" />
+			</speed>
+			<hitTime>340</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4196" level="3" /> 
+			<skill id="4200" level="3" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="25084" level="38" type="Monster" name="Cat Gang" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4727" level="3" />
+		</parameters>
+		<race>ELEMENTAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13134" hpRegen="30.873" mp="447.96" mpRegen="1.8" />
+			<attack physical="818" magical="258" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="222" magical="217" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>610</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="7" /> 
+			<skill id="4727" level="3" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="25085" level="44" type="RaidBoss" name="Timak Orc Ranger Captain" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25086" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25087" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="PhysicalSpecial_b" id="4745" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="157" /> 
+		<acquire exp="2352182" sp="262175" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="156185" hpRegen="56.114" mp="584" mpRegen="2.1" />
+			<attack physical="583" magical="113" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="520" magical="253" evasion="-18" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4745" level="4" /> 
+			<skill id="4820" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="24" />
+			<height normal="51" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="34.0422">
+					<item id="854" min="7" max="19" chance="8.07204" /> 
+					<item id="917" min="1" max="1" chance="78.7666" /> 
+					<item id="885" min="6" max="18" chance="13.1613" /> 
+				</group>
+				<group chance="99.7519">
+					<item id="1916" min="220" max="660" chance="5.10837" /> 
+					<item id="1915" min="280" max="840" chance="8.31042" /> 
+					<item id="1914" min="81" max="243" chance="18.3176" /> 
+					<item id="951" min="3" max="7" chance="11.2044" /> 
+					<item id="4601" min="1" max="3" chance="34.2355" /> 
+					<item id="4602" min="2" max="4" chance="22.8237" /> 
+				</group>
+				<group chance="42.0753">
+					<item id="4603" min="2" max="6" chance="40.5827" /> 
+					<item id="8164" min="3" max="3" chance="59.4173" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25086" level="43" type="Monster" name="Timak Orc Ranger" title="Raid Fighter">
+		<parameters>
+			<skill name="LongRangePhysicalSpecial_a" id="4760" level="4" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="14" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15819" hpRegen="53.367" mp="557.4" mpRegen="2.1" />
+			<attack physical="1089" magical="412" random="5" critical="8" accuracy="76" attackSpeed="253" reuseDelay="1500" type="BOW" range="800" distance="10" width="0" />
+			<defence physical="253" magical="247" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>910</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4760" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="ARCHER" clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="25087" level="43" type="Monster" name="Timak Orc Ranger" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="68" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="11805" hpRegen="53.367" mp="557.4" mpRegen="2.1" />
+			<attack physical="1089" magical="412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="253" magical="247" evasion="-18" />
+			<speed>
+				<walk ground="45" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="29" />
+		</collision>
+	</npc><npc id="25088" level="43" type="RaidBoss" name="Crazy Mechanic Golem" title="Raid Boss">
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm01_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="5" />
+			<skill name="SelfBuff_a" id="4176" level="5" />
+			<skill name="PhysicalSpecial_a" id="4724" level="5" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4172" level="5" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="2492637" sp="273103" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="295133" hpRegen="133.418" mp="557.4" mpRegen="2.1" />
+			<attack physical="1089" magical="412" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="507" magical="247" evasion="-18" />
+			<speed>
+				<walk ground="30" />
+				<run ground="150" />
+			</speed>
+			<hitTime>720</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4172" level="5" /> 
+			<skill id="4176" level="5" /> 
+			<skill id="4177" level="5" /> 
+			<skill id="4724" level="5" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4821" level="1" /> 
+			<skill id="4416" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="15" />
+			<height normal="63" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="7.3228">
+					<item id="227" min="1" max="1" chance="50" /> 
+					<item id="242" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="28.2612">
+					<item id="355" min="1" max="1" chance="38.4909" /> 
+					<item id="382" min="1" max="1" chance="61.5091" /> 
+				</group>
+				<group chance="59.2021">
+					<item id="1969" min="24" max="72" chance="47.1091" /> 
+					<item id="1968" min="53" max="157" chance="13.5779" /> 
+					<item id="2084" min="8" max="22" chance="39.313" /> 
+				</group>
+				<group chance="77.72">
+					<item id="2083" min="4" max="12" chance="56.1489" /> 
+					<item id="6573" min="1" max="1" chance="11.6844" /> 
+					<item id="8176" min="3" max="3" chance="32.1668" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25089" level="59" type="RaidBoss" name="Soulless Wild Boar" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25090" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25091" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="5" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="2072981" sp="415763" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="215207" hpRegen="71.371" mp="1007" mpRegen="2.4" />
+			<attack physical="748" magical="122" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="728" magical="355" evasion="-18" />
+			<speed>
+				<walk ground="35" />
+				<run ground="170" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="5" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4822" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="35" />
+			<height normal="27" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="1.5744">
+					<item id="171" min="1" max="1" chance="33.3333" /> 
+					<item id="210" min="1" max="1" chance="33.3333" /> 
+					<item id="175" min="1" max="1" chance="33.3333" /> 
+				</group>
+				<group chance="16.1259">
+					<item id="864" min="1" max="1" chance="30.758" /> 
+					<item id="895" min="1" max="1" chance="46.1363" /> 
+					<item id="926" min="1" max="1" chance="23.1057" /> 
+				</group>
+				<group chance="92.7701">
+					<item id="4052" min="81" max="243" chance="5.39829" /> 
+					<item id="4053" min="28" max="84" chance="18.9064" /> 
+					<item id="4054" min="20" max="60" chance="12.1632" /> 
+					<item id="4118" min="2" max="6" chance="38.3476" /> 
+					<item id="4117" min="9" max="27" chance="8.99449" /> 
+					<item id="4116" min="5" max="15" chance="16.19" /> 
+				</group>
+				<group chance="93.4154">
+					<item id="4616" min="1" max="3" chance="24.6711" /> 
+					<item id="4617" min="2" max="4" chance="16.4474" /> 
+					<item id="4618" min="1" max="1" chance="49.3421" /> 
+					<item id="6572" min="1" max="1" chance="9.53943" /> 
+				</group>
+				<group chance="50">
+					<item id="8165" min="1" max="3" chance="50" /> 
+					<item id="8176" min="1" max="2" chance="50" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25090" level="58" type="Monster" name="Soulless Wolf" title="Raid Fighter">
+		<parameters>
+			<skill name="DDMagic_a" id="4193" level="5" />
+			<skill name="Debuff_a" id="4205" level="5" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="22415" hpRegen="69.691" mp="977.4" mpRegen="2.4" />
+			<attack physical="1901" magical="817" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="356" magical="348" evasion="-18" />
+			<speed>
+				<walk ground="24" />
+				<run ground="170" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4193" level="5" /> 
+			<skill id="4205" level="5" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="11" />
+		</collision>
+	</npc><npc id="25091" level="58" type="Monster" name="Soulless Bear" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4726" level="5" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="33456" hpRegen="69.691" mp="977.4" mpRegen="2.4" />
+			<attack physical="2852" magical="1840" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="356" magical="348" evasion="-18" />
+			<speed>
+				<walk ground="37" />
+				<run ground="170" />
+			</speed>
+			<hitTime>450</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4726" level="5" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="19" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="25092" level="80" type="RaidBoss" name="Korim" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25093" count="1" respawnTime="360" weightPoint="1" />
+				<npc id="25094" count="4" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm02_A" />
+			<skill name="DDMagic_a" id="4195" level="7" />
+			<skill name="SelfRangeDebuff_a" id="4182" level="7" />
+			<skill name="SelfRangeDebuffAnother_a" id="4190" level="7" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="201" /> 
+		<acquire exp="3859833" sp="738431" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="373386" hpRegen="117.684" mp="1345.8" mpRegen="2.7" />
+			<attack physical="2154" magical="717" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="887" magical="433" evasion="-18" />
+			<speed>
+				<walk ground="29" />
+				<run ground="170" />
+			</speed>
+			<hitTime>220</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4182" level="7" /> 
+			<skill id="4190" level="7" /> 
+			<skill id="4195" level="7" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4823" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="19.5" />
+			<height normal="51" />
+		</collision>
+	<dropLists>
+			<drop>
+				<group chance="1.4329">
+					<item id="305" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="11.1604">
+					<item id="5312" min="1" max="1" chance="29.18" /> 
+					<item id="5315" min="1" max="1" chance="41.6401" /> 
+					<item id="5317" min="1" max="1" chance="29.18" /> 
+				</group>
+				<group chance="77.1712">
+					<item id="5527" min="9" max="27" chance="36.9992" /> 
+					<item id="5495" min="40" max="120" chance="10.5731" /> 
+					<item id="5528" min="14" max="42" chance="23.7853" /> 
+					<item id="5541" min="12" max="36" chance="28.6424" /> 
+				</group>
+				<group chance="82.8125">
+					<item id="730" min="1" max="3" chance="63.0824" /> 
+					<item id="6578" min="1" max="1" chance="6.72894" /> 
+					<item id="8160" min="1" max="3" chance="30.1887" /> 
+				</group>
+				<group chance="50">
+					<item id="8176" min="3" max="9" chance="50" /> 
+					<item id="8619" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="100">
+					<item id="8619" min="1" max="1" chance="75" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25093" level="69" type="Monster" name="Korim Guard Captain Kaywon" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4720" level="6" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="162" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="58887" hpRegen="116.469" mp="1314" mpRegen="2.7" />
+			<attack physical="8357" magical="11094" random="20" critical="1" accuracy="115" attackSpeed="253" type="BLUNT" range="40" distance="80" width="120" />
+			<defence physical="436" magical="426" evasion="-18" />
+			<speed>
+				<walk ground="36" />
+				<run ground="170" />
+			</speed>
+			<hitTime>390</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4720" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="25094" level="69" type="Monster" name="Korim Guards" title="Raid Fighter">
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<equipment rhand="86" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="29443" hpRegen="116.469" mp="1314" mpRegen="2.7" />
+			<attack physical="4178" magical="2773" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="436" magical="426" evasion="-18" />
+			<speed>
+				<walk ground="34" />
+				<run ground="170" />
+			</speed>
+			<hitTime>460</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="6" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="29" />
+		</collision>
+	</npc><npc id="25095" level="29" type="RaidBoss" name="Elf Renoa" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25096" count="3" respawnTime="360" weightPoint="1" />
+				<npc id="25097" count="1" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeHold_a" id="4197" level="2" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="755659" sp="76955" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="51235" hpRegen="20.929" mp="315.12" mpRegen="1.5" />
+			<attack physical="102" magical="6" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="345" magical="168" evasion="-18" />
+			<speed>
+				<walk ground="80" />
+				<run ground="170" />
+			</speed>
+			<hitTime>410</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4197" level="2" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4275" level="2" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4824" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="7" />
+			<height normal="21" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="4.6382">
+					<item id="279" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="25.1236">
+					<item id="395" min="1" max="1" chance="38.4614" /> 
+					<item id="417" min="1" max="1" chance="61.5386" /> 
+				</group>
+				<group chance="54.7101">
+					<item id="1942" min="8" max="22" chance="67.2666" /> 
+					<item id="1943" min="24" max="72" chance="32.7334" /> 
+				</group>
+				<group chance="62.6083">
+					<item id="2040" min="3" max="9" chance="100" /> 
+				</group>
+				<group chance="84.1745">
+					<item id="6576" min="1" max="1" chance="100" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25096" level="28" type="Monster" name="Renoa's Elpy" title="Raid Fighter">
+		<parameters>
+			<skill name="DDMagic_a" id="4193" level="2" />
+			<skill name="Debuff_a" id="4199" level="2" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="5251" hpRegen="20.213" mp="300.96" mpRegen="1.5" />
+			<attack physical="252" magical="43" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="167" magical="163" evasion="-18" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4193" level="2" /> 
+			<skill id="4199" level="2" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="5" />
+			<height normal="4.5" />
+		</collision>
+	</npc><npc id="25097" level="28" type="Monster" name="Renoa's Hog" title="Raid Fighter">
+		<parameters>
+			<skill name="PhysicalSpecial_a" id="4727" level="2" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="7837" hpRegen="20.213" mp="300.96" mpRegen="1.5" />
+			<attack physical="379" magical="96" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="167" magical="163" evasion="-18" />
+			<speed>
+				<walk ground="35" />
+				<run ground="170" />
+			</speed>
+			<hitTime>540</hitTime>
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4727" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai clanHelpRange="300" />
+		<collision>
+			<radius normal="35" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="25098" level="35" type="RaidBoss" name="Sejarr's Servant" title="Raid Boss">
+		<parameters>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="SelfRangeCancel_a" id="4177" level="3" />
+			<skill name="SelfBuff_a" id="4173" level="3" />
+			<skill name="PhysicalSpecial_a" id="4732" level="3" />
+			<skill name="SelfRangePhysicalSpecial_a" id="4737" level="3" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1018607" sp="103175" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="138899" hpRegen="66.986" mp="402.6" mpRegen="1.8" />
+			<attack physical="327" magical="51" random="10" critical="4" accuracy="5" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="410" magical="200" evasion="-18" />
+			<speed>
+				<walk ground="25" />
+				<run ground="170" />
+			</speed>
+			<hitTime>200</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4173" level="3" /> 
+			<skill id="4177" level="3" /> 
+			<skill id="4408" level="1" /> 
+			<skill id="4409" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4732" level="3" /> 
+			<skill id="4737" level="3" /> 
+			<skill id="4825" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="43" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="4.2504">
+					<item id="70" min="1" max="1" chance="50" /> 
+					<item id="2499" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="11.8891">
+					<item id="396" min="1" max="1" chance="100" /> 
+				</group>
+				<group chance="66.1119">
+					<item id="1952" min="12" max="36" chance="51.4818" /> 
+					<item id="2047" min="4" max="12" chance="31.7919" /> 
+					<item id="2967" min="8" max="22" chance="16.7263" /> 
+				</group>
+				<group chance="61.5251">
+					<item id="952" min="3" max="9" chance="59.7015" /> 
+					<item id="4589" min="2" max="6" chance="22.3881" /> 
+					<item id="4590" min="3" max="7" chance="17.9104" /> 
+				</group>
+			</drop>
+		</dropLists></npc><npc id="25099" level="56" type="RaidBoss" name="Rotting Tree Repiro" title="Raid Boss">
+		<parameters>
+			<minions name="Privates">
+				<npc id="25100" count="2" respawnTime="360" weightPoint="1" />
+				<npc id="25101" count="2" respawnTime="360" weightPoint="1" />
+			</minions>
+			<param name="RaidSpawnMusic" value="Rm03_A" />
+			<skill name="RangeDDMagic_a" id="4178" level="4" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1344111" sp="167614" raidPoints="5" />
+		<stats str="60" int="76" dex="73" wit="70" con="57" men="80">
+			<vitals hp="114863" hpRegen="41.347" mp="584" mpRegen="2.1" />
+			<attack physical="312" magical="32" random="30" critical="4" accuracy="44" attackSpeed="253" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="520" magical="253" evasion="-18" />
+			<speed>
+				<walk ground="55" />
+				<run ground="55" />
+			</speed>
+			<hitTime>480</hitTime>
+			<abnormalResist physical="230" magical="230" />
+		</stats>
+		<status undying="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4178" level="4" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="5" /> 
+			<skill id="4494" level="1" /> 
+			<skill id="4826" level="1" /> 
+			<skill id="4278" level="1" /> 
+			<skill id="4275" level="2" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai type="BALANCED" clanHelpRange="300" />
+		<collision>
+			<radius normal="35" grown="42" />
+			<height normal="80" grown="96" />
+		</collision>
+		<dropLists>
+			<drop>
+				<group chance="2.4678">
+					<item id="76" min="1" max="1" chance="16.6667" /> 
+					<item id="145" min="1" max="1" chance="16.6667" /> 
+					<item id="134" min="1" max="1" chance="16.6667" /> 
+					<item id="84" min="1" max="1" chance="16.6667" /> 
+					<item id="77" min="1" max="1" chance="16.6667" /> 
+					<item id="75" min="1" max="1" chance="16.6667" /> 
+				</group>
+				<group chance="28.8734">
+					<item id="64" min="1" max="1" chance="50" /> 
+					<item id="608" min="1" max="1" chance="50" /> 
+				</group>
+				<group chance="96.2937">
+					<item id="1981" min="53" max="157" chance="10.2888" /> 
+					<item id="2956" min="24" max="72" chance="22.5069" /> 
+					<item id="2095" min="3" max="9" chance="8.34094" /> 
+					<item id="2092" min="3" max="7" chance="10.0092" /> 
+					<item id="2096" min="4" max="10" chance="7.14948" /> 
+					<item id="2090" min="2" max="4" chance="16.6819" /> 
+					<item id="2089" min="1" max="3" chance="25.0228" /> 
+				</group>
+				<group chance="67.4495">
+					<item id="2091" min="2" max="6" chance="17.8618" /> 
+					<item id="4606" min="1" max="1" chance="56.6468" /> 
+					<item id="4605" min="3" max="7" chance="11.3295" /> 
+					<item id="4604" min="2" max="6" chance="14.1618" /> 
+				</group>
+				<group chance="63.208">
+					<item id="952" min="3" max="9" chance="60.448" /> 
+					<item id="8164" min="1" max="1" chance="39.552" /> 
+				</group>
+			</drop>
+		</dropLists></npc></list>

@@ -1,0 +1,3292 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="23010" level="97" type="Monster" name="Square Intruder">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="130" />
+			<param name="MoveAroundSocial1" value="130" />
+			<param name="MoveAroundSocial2" value="130" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6555" level="28" />
+			<skill name="Skill02_ID" id="6558" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15685" hpRegen="8.5" mp="2280" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="150" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="6555" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="32.5" />
+		</collision>
+	</npc><npc id="23011" level="97" type="Monster" name="Square Attacker">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6557" level="28" />
+			<skill name="Skill02_ID" id="6558" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15685" hpRegen="8.5" mp="2280" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="220" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="6557" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="14" />
+			<height normal="27.5" />
+		</collision>
+	</npc><npc id="23012" level="97" type="Monster" name="Stronghold Protector">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="150" />
+			<param name="MoveAroundSocial1" value="150" />
+			<param name="MoveAroundSocial2" value="150" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6557" level="28" />
+			<skill name="Skill02_ID" id="6558" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="8.5" mp="22800" mpRegen="30" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="6557" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23013" level="97" type="Monster" name="Spirit Protector">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="111" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6534" level="28" />
+			<skill name="Skill02_ID" id="6537" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356012" hpRegen="8.5" mp="23174" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="240" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="6534" level="1" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="25.8" />
+		</collision>
+	</npc><npc id="23014" level="97" type="Monster" name="Vicious Dueler">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6534" level="28" />
+			<skill name="Skill02_ID" id="6537" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356012" hpRegen="8.5" mp="23174" mpRegen="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="6534" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="23015" level="97" type="Monster" name="Vicious Swordsman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6535" level="28" />
+			<skill name="Skill02_ID" id="6538" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356012" hpRegen="8.5" mp="23174" mpRegen="3" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="6535" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="11" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="23016" level="97" type="Monster" name="Vicious Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="130" />
+			<param name="MoveAroundSocial1" value="130" />
+			<param name="MoveAroundSocial2" value="130" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6536" level="28" />
+			<skill name="Skill02_ID" id="6539" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356012" hpRegen="8.5" mp="23174" mpRegen="30" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="6536" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="23017" level="97" type="Monster" name="Punisher of Sins">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="130" />
+			<param name="MoveAroundSocial1" value="130" />
+			<param name="MoveAroundSocial2" value="130" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6513" level="28" />
+			<skill name="Skill02_ID" id="6516" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15685" hpRegen="8.5" mp="2280" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="6134" magical="1083" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="6513" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="23018" level="97" type="Monster" name="Judge of Sins">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6521" level="28" />
+			<skill name="Skill02_ID" id="6524" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="8.5" mp="34200" mpRegen="30" />
+			<speed>
+				<walk ground="45" />
+				<run ground="180" />
+			</speed>
+			<attack physical="42937" magical="15457" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="404" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="6521" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="32.5" />
+		</collision>
+	</npc><npc id="23019" level="97" type="Monster" name="Arbitrator of Sins">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="75" />
+			<param name="MoveAroundSocial1" value="75" />
+			<param name="MoveAroundSocial2" value="75" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="6515" level="28" />
+			<skill name="Skill02_ID" id="6518" level="28" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="8.5" mp="22800" mpRegen="30" />
+			<speed>
+				<walk ground="36" />
+				<run ground="190" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="6515" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="23020" level="21" type="Monster" name="Giant Wild Boar">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="935" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="364" hpRegen="3.5" mp="205" mpRegen="1.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="48" magical="33" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="90" magical="66" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="24" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="23021" level="23" type="Monster" name="Giant Venomous Spider">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<skill name="DeBuff" id="4035" level="2" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="1184" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="410" hpRegen="3.5" mp="231" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<attack physical="56" magical="38" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="96" magical="70" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="4035" level="1" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="32" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="23022" level="29" type="Monster" name="Skeleton Warrior" title="Enraged">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="1541" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="573" hpRegen="3.5" mp="315" mpRegen="1.5" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="86" magical="59" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="115" magical="84" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="5" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23023" level="31" type="Monster" name="Ruin Bat" title="Enraged">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<skill name="Skill01_ID" id="4001" level="2" />
+			<skill name="Skill02_ID" id="4002" level="2" />
+			<skill name="Skill03_ID" id="4038" level="3" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>MALE</sex>
+		<acquire exp="1732" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="635" hpRegen="4.5" mp="343" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="80" />
+			</speed>
+			<attack physical="99" magical="68" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="122" magical="89" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4276" level="1" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4001" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="10" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="23024" level="36" type="Monster" name="Weary Jaguar">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2325" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="809" hpRegen="4.5" mp="417" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="138" magical="94" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="141" magical="103" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>SCROPIO</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="12" />
+		</collision>
+	</npc><npc id="23025" level="37" type="Monster" name="Weary Jaguar Scout">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2468" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="847" hpRegen="4.5" mp="432" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="147" magical="100" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="144" magical="106" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4416" level="4" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>SCROPIO</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="16" />
+			<height normal="14" />
+		</collision>
+	</npc><npc id="23026" level="38" type="Monster" name="Sahara">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="2591" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="886" hpRegen="4.5" mp="447" mpRegen="1.8" />
+			<speed>
+				<walk ground="20" />
+				<run ground="120" />
+			</speed>
+			<attack physical="156" magical="107" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="148" magical="109" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="41" />
+			<height normal="30.5" />
+		</collision>
+	</npc><npc id="23027" level="93" type="Monster" name="Taklacan">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14237" level="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<mpReward value="82" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="312844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<attack physical="35460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="467" magical="263" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="4" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="37" />
+		</collision>
+	</npc><npc id="23028" level="93" type="Monster" name="Torumba">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14241" level="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<mpReward value="47" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="312844" hpRegen="8.5" mp="31986" mpRegen="30" />
+			<speed>
+				<walk ground="20" />
+				<run ground="180" />
+			</speed>
+			<attack physical="35460" magical="12766" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="373" magical="263" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="35" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="23029" level="93" type="Monster" name="Dopagen">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14239" level="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<mpReward value="97" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="312844" hpRegen="8.5" mp="21324" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="210" />
+			</speed>
+			<attack physical="35460" magical="6297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="467" magical="263" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4276" level="3" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="32" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="23030" level="98" type="Monster" name="Taklacan">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14237" level="1" />
+			<param name="Attack_BoostValue" value="151" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<mpReward value="86" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356012" hpRegen="8.5" mp="23174" mpRegen="30" />
+			<speed>
+				<walk ground="40" />
+				<run ground="150" />
+			</speed>
+			<attack physical="45027" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="515" magical="297" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="15" /> 
+			<skill id="4413" level="4" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="37" />
+		</collision>
+	</npc><npc id="23031" level="98" type="Monster" name="Torumba">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14241" level="1" />
+			<param name="Attack_BoostValue" value="151" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<mpReward value="48" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356012" hpRegen="8.5" mp="34761" mpRegen="30" />
+			<speed>
+				<walk ground="20" />
+				<run ground="180" />
+			</speed>
+			<attack physical="45027" magical="16210" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="412" magical="297" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="8" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4071" level="5" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="35" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="23032" level="98" type="Monster" name="Dopagen">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14239" level="1" />
+			<param name="Attack_BoostValue" value="151" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<mpReward value="102" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356012" hpRegen="8.5" mp="23174" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="210" />
+			</speed>
+			<attack physical="45027" magical="7933" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="515" magical="297" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="13" /> 
+			<skill id="4276" level="3" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="32" />
+			<height normal="42" />
+		</collision>
+	</npc><npc id="23033" level="88" type="Monster" name="Failed Creation">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="536713" sp="128" />
+		<mpReward value="37" type="DIFF" ticks="10" affects="SOLO" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13568" hpRegen="8.5" mp="1952" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="3992" magical="715" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="423" magical="232" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="7" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4408" level="8" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="600" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>ISTINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="33" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="23034" level="88" type="Monster" name="Failed Creation">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="568284" sp="136" />
+		<mpReward value="37" type="DIFF" ticks="10" affects="SOLO" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13568" hpRegen="8.5" mp="1952" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="3992" magical="715" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="423" magical="232" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4412" level="13" /> 
+			<skill id="4413" level="8" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4408" level="8" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="600" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>ISTINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="22" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="23035" level="88" type="Monster" name="Failed Creation">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14234" level="1" />
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="864568" sp="207" />
+		<mpReward value="43" type="DIFF" ticks="10" affects="SOLO" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13568" hpRegen="8.5" mp="1952" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="150" />
+			</speed>
+			<attack physical="3992" magical="715" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="423" magical="232" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4413" level="16" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4408" level="8" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="600" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>ISTINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="16" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="23036" level="88" type="Monster" name="Failed Creation">
+		
+		<parameters>
+			<skill name="Skill01_ID" id="14234" level="1" />
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="798998" sp="191" />
+		<mpReward value="41" type="DIFF" ticks="10" affects="SOLO" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13568" hpRegen="8.5" mp="1952" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="140" />
+			</speed>
+			<attack physical="3992" magical="715" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="423" magical="232" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4408" level="8" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="600" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>ISTINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="16" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="23037" level="88" type="Monster" name="Failed Creation">
+		
+		<parameters>
+			<skill name="Skill02_ID" id="14234" level="1" />
+			<param name="Attack_BoostValue" value="131" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<acquire exp="798998" sp="191" />
+		<mpReward value="41" type="DIFF" ticks="10" affects="SOLO" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13568" hpRegen="8.5" mp="1952" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="130" />
+			</speed>
+			<attack physical="3992" magical="715" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="423" magical="232" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4408" level="8" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="600" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>ISTINA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="16" />
+			<height normal="36" />
+		</collision>
+	</npc><npc id="23038" level="94" type="Monster" name="Angel Statue Keeper">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="120" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1351009" sp="324" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="313367" hpRegen="8.5" mp="21690" mpRegen="30" />
+			<speed>
+				<walk ground="48" />
+				<run ground="120" />
+			</speed>
+			<attack physical="37185" magical="6591" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="5" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="28" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="23039" level="94" type="Monster" name="Fountain Keeper">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="120" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1351009" sp="324" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="313367" hpRegen="8.5" mp="21690" mpRegen="30" />
+			<speed>
+				<walk ground="48" />
+				<run ground="120" />
+			</speed>
+			<attack physical="37185" magical="6591" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="5" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="28" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="23040" level="94" type="Monster" name="Goddess Statue Keeper">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="120" />
+			<param name="MoveAroundSocial1" value="120" />
+			<param name="MoveAroundSocial2" value="120" />
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>PLANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1351009" sp="324" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="313367" hpRegen="8.5" mp="21690" mpRegen="30" />
+			<speed>
+				<walk ground="48" />
+				<run ground="150" />
+			</speed>
+			<attack physical="37185" magical="6591" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="476" magical="269" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5465" level="1" /> 
+			<skill id="4416" level="5" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="28" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="23041" level="89" type="Monster" name="Pan Direm">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="71" />
+			<param name="MoveAroundSocial1" value="71" />
+			<param name="MoveAroundSocial2" value="71" />
+			<param name="IsAggressive" value="1" />
+			<param name="Attack_BoostValue" value="133" />
+		</parameters>
+		<race>FAIRY</race>
+		<sex>MALE</sex>
+		<acquire exp="964780" sp="231" />
+		<equipment rhand="304" /> 
+		<mpReward value="77" type="DIFF" ticks="10" affects="SOLO" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13812" hpRegen="8.5" mp="1988" mpRegen="3" />
+			<speed>
+				<walk ground="45" />
+				<run ground="120" />
+			</speed>
+			<attack physical="4186" magical="748" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="431" magical="238" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="13" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="12" /> 
+		</skillList>
+		<ai aggroRange="600" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="42" />
+			<height normal="73" />
+		</collision>
+	</npc><npc id="23044" level="56" type="Monster" name="Exhausted Vengeful Spirit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="40360" sp="9" />
+		<equipment rhand="73" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1724" hpRegen="6.5" mp="918" mpRegen="2.4" />
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<attack physical="406" magical="277" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="228" magical="167" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="27" grown="34" />
+		</collision>
+	</npc><npc id="23045" level="60" type="Monster" name="Wings of Viciousness">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="108" />
+			<param name="MoveAroundSocial1" value="108" />
+			<param name="MoveAroundSocial2" value="108" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="45036" sp="10" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1933" hpRegen="6.5" mp="1036" mpRegen="2.4" />
+			<speed>
+				<walk ground="70" />
+				<run ground="155" />
+			</speed>
+			<attack physical="481" magical="329" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="248" magical="181" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4410" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="17" />
+			<height normal="55" />
+		</collision>
+	</npc><npc id="23046" level="61" type="Monster" name="Byron's Knight">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="63274" sp="15" />
+		<equipment rhand="1472" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1985" hpRegen="7.5" mp="1066" mpRegen="2.7" />
+			<speed>
+				<walk ground="100" />
+				<run ground="170" />
+			</speed>
+			<attack physical="501" magical="342" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="252" magical="185" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="15" grown="25" />
+			<height normal="45" grown="52" />
+		</collision>
+	</npc><npc id="23047" level="59" type="Monster" name="Terestian">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="57074" sp="13" />
+		<equipment rhand="946" lhand="945" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1880" hpRegen="6.5" mp="1007" mpRegen="2.4" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<attack physical="462" magical="315" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="243" magical="178" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4411" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="23048" level="62" type="Monster" name="Drill Demon">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="63912" sp="15" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2037" hpRegen="7.5" mp="1097" mpRegen="2.7" />
+			<speed>
+				<walk ground="41" />
+				<run ground="190" />
+			</speed>
+			<attack physical="521" magical="356" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="257" magical="188" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="23049" level="57" type="Monster" name="Knight's Vengeful Spirit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="215" />
+			<param name="MoveAroundSocial1" value="215" />
+			<param name="MoveAroundSocial2" value="215" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="55423" sp="13" />
+		<equipment rhand="150" lhand="103" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1776" hpRegen="6.5" mp="948" mpRegen="2.4" />
+			<speed>
+				<walk ground="40" />
+				<run ground="160" />
+			</speed>
+			<attack physical="424" magical="290" critical="4" attackSpeed="278" range="80" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="233" magical="171" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="13" /> 
+			<skill id="4411" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23050" level="58" type="Monster" name="Escort Knight's Vengeful Spirit">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<acquire exp="42736" sp="10" />
+		<equipment rhand="946" lhand="945" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1828" hpRegen="6.5" mp="977" mpRegen="2.4" />
+			<speed>
+				<walk ground="80" />
+				<run ground="120" />
+			</speed>
+			<attack physical="443" magical="302" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="238" magical="174" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="28.5" />
+		</collision>
+	</npc><npc id="23051" level="62" type="Monster" name="Byron's Confidant">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="114" />
+			<param name="MoveAroundSocial1" value="114" />
+			<param name="MoveAroundSocial2" value="114" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="48938" sp="11" />
+		<equipment rhand="210" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2037" hpRegen="7.5" mp="1097" mpRegen="2.7" />
+			<speed>
+				<walk ground="70" />
+				<run ground="155" />
+			</speed>
+			<attack physical="521" magical="356" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="257" magical="188" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23052" level="59" type="Monster" name="Evil Shadow">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="44317" sp="10" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1880" hpRegen="6.5" mp="1007" mpRegen="2.4" />
+			<speed>
+				<walk ground="30" />
+				<run ground="170" />
+			</speed>
+			<attack physical="462" magical="315" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="243" magical="178" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="35.5" />
+		</collision>
+	</npc><npc id="23053" level="64" type="Monster" name="Brutal Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="75" />
+			<param name="MoveAroundSocial1" value="75" />
+			<param name="MoveAroundSocial2" value="75" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="67881" sp="16" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2141" hpRegen="7.5" mp="1158" mpRegen="2.7" />
+			<speed>
+				<walk ground="36" />
+				<run ground="190" />
+			</speed>
+			<attack physical="562" magical="384" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="267" magical="195" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4412" level="14" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4410" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="12" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23054" level="65" type="Monster" name="Demon Knight">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="89198" sp="21" />
+		<equipment rhand="5800" lhand="5799" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2193" hpRegen="7.5" mp="1188" mpRegen="2.7" />
+			<speed>
+				<walk ground="56" />
+				<run ground="180" />
+			</speed>
+			<attack physical="583" magical="398" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="272" magical="199" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4411" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="45" />
+		</collision>
+	</npc><npc id="23055" level="64" type="Monster" name="Demon Priest">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="68213" sp="16" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2141" hpRegen="7.5" mp="1158" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="140" />
+			</speed>
+			<attack physical="562" magical="384" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="267" magical="195" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4410" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="10" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="23056" level="62" type="Monster" name="Vampire Queen">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="60" />
+			<param name="MoveAroundSocial1" value="60" />
+			<param name="MoveAroundSocial2" value="60" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="48938" sp="11" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2037" hpRegen="7.5" mp="1097" mpRegen="2.7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="140" />
+			</speed>
+			<attack physical="521" magical="356" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="257" magical="188" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="23057" level="63" type="Monster" name="Bonehead Slave">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="50366" sp="12" />
+		<equipment rhand="3939" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2089" hpRegen="7.5" mp="1127" mpRegen="2.7" />
+			<speed>
+				<walk ground="80" />
+				<run ground="160" />
+			</speed>
+			<attack physical="541" magical="370" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="262" magical="192" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" />
+			<height normal="30" />
+		</collision>
+	</npc><npc id="23058" level="66" type="Monster" name="Platinum Tribe Soldier">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="57300" sp="13" />
+		<equipment rhand="242" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2244" hpRegen="7.5" mp="1219" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="604" magical="412" critical="8" attackSpeed="278" range="40" type="DAGGER" distance="80" width="120" random="5" accuracy="76" />
+			<defence physical="277" magical="202" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="7" /> 
+			<skill id="4411" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="23059" level="67" type="Monster" name="Platinum Tribe Archer">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="57894" sp="13" />
+		<equipment rhand="288" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2295" hpRegen="7.5" mp="1251" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="625" magical="427" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="282" magical="206" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="11" /> 
+			<skill id="4415" level="9" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="23060" level="68" type="Monster" name="Platinum Tribe Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="77755" sp="18" />
+		<equipment rhand="148" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2345" hpRegen="7.5" mp="1282" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="646" magical="441" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="286" magical="210" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" grown="15" />
+			<height normal="28" grown="34" />
+		</collision>
+	</npc><npc id="23061" level="69" type="Monster" name="Platinum Tribe Shaman">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="79055" sp="18" />
+		<equipment rhand="202" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2395" hpRegen="7.5" mp="1314" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="668" magical="456" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="291" magical="213" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4410" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23062" level="70" type="Monster" name="Platinum Tribe Prefect">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="104921" sp="25" />
+		<equipment rhand="147" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444" hpRegen="7.5" mp="1346" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="689" magical="470" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="296" magical="217" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" grown="17" />
+			<height normal="32" grown="39" />
+		</collision>
+	</npc><npc id="23063" level="71" type="Monster" name="Heaven's Palace Knight">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="50" />
+			<param name="MoveAroundSocial1" value="50" />
+			<param name="MoveAroundSocial2" value="50" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="86491" sp="20" />
+		<equipment rhand="148" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2492" hpRegen="8.5" mp="1377" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="170" />
+			</speed>
+			<attack physical="710" magical="485" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="301" magical="220" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4413" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13.5" grown="16" />
+			<height normal="36.5" grown="42.5" />
+		</collision>
+	</npc><npc id="23064" level="72" type="Monster" name="Heaven's Palace Fighter">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="98" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="108034" sp="25" />
+		<equipment rhand="97" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2540" hpRegen="8.5" mp="1410" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="732" magical="500" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="305" magical="223" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="11" /> 
+			<skill id="4413" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="37.5" />
+		</collision>
+	</npc><npc id="23065" level="73" type="Monster" name="Heaven's Palace Terminator">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="130" />
+			<param name="MoveAroundSocial1" value="130" />
+			<param name="MoveAroundSocial2" value="130" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>FEMALE</sex>
+		<acquire exp="89446" sp="21" />
+		<equipment rhand="6717" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2586" hpRegen="8.5" mp="1442" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="180" />
+			</speed>
+			<attack physical="753" magical="514" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="310" magical="227" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="4" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="8" grown="9" />
+			<height normal="30" grown="36.5" />
+		</collision>
+	</npc><npc id="23066" level="74" type="Monster" name="Heaven's Palace Priest">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="85" />
+			<param name="MoveAroundSocial1" value="85" />
+			<param name="MoveAroundSocial2" value="85" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="91520" sp="21" />
+		<equipment rhand="6718" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2632" hpRegen="8.5" mp="1475" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="165" />
+			</speed>
+			<attack physical="774" magical="528" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="315" magical="230" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="5" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="11" grown="13" />
+			<height normal="38.5" grown="46.5" />
+		</collision>
+	</npc><npc id="23067" level="75" type="Monster" name="Heaven's Palace Judge">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="122" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="120111" sp="28" />
+		<equipment rhand="8221" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676" hpRegen="8.5" mp="1507" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="220" />
+			</speed>
+			<attack physical="795" magical="543" critical="4" attackSpeed="278" range="80" type="POLE" distance="80" width="120" random="10" accuracy="76" />
+			<defence physical="319" magical="234" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="13" /> 
+			<skill id="4415" level="11" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="47" />
+		</collision>
+	</npc><npc id="23068" level="75" type="Monster" name="Heaven's Palace Sniper">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="122" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="94587" sp="22" />
+		<equipment rhand="15302" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676" hpRegen="8.5" mp="1507" mpRegen="3" />
+			<speed>
+				<walk ground="30" />
+				<run ground="220" />
+			</speed>
+			<attack physical="795" magical="543" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="319" magical="234" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="9" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="47" />
+		</collision>
+	</npc><npc id="23069" level="58" type="Monster" name="Vladimir's Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="77299" sp="18" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="1828" hpRegen="6.5" mp="977" mpRegen="2.4" />
+			<speed>
+				<walk ground="70" />
+				<run ground="190" />
+			</speed>
+			<attack physical="443" magical="302" critical="4" attackSpeed="278" range="40" type="DUAL" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="238" magical="174" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4415" level="19" /> 
+			<skill id="4413" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="25" grown="32" />
+			<height normal="37.5" grown="46.8" />
+		</collision>
+	</npc><npc id="23070" level="62" type="Monster" name="Lazearth' Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="89230" sp="21" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2037" hpRegen="7.5" mp="1097" mpRegen="2.7" />
+			<speed>
+				<walk ground="70" />
+				<run ground="190" />
+			</speed>
+			<attack physical="521" magical="356" critical="4" attackSpeed="278" range="40" type="DUAL" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="257" magical="188" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4414" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4415" level="19" /> 
+			<skill id="4413" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="25" grown="32" />
+			<height normal="37.5" grown="46.8" />
+		</collision>
+	</npc><npc id="23071" level="69" type="Monster" name="Beastian">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="110" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="81258" sp="19" />
+		<equipment rhand="148" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2395" hpRegen="7.5" mp="1314" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="668" magical="456" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="291" magical="213" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4413" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" grown="15" />
+			<height normal="28" grown="34" />
+		</collision>
+	</npc><npc id="23072" level="69" type="Monster" name="Birestian">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="79055" sp="18" />
+		<equipment rhand="202" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2395" hpRegen="7.5" mp="1314" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="668" magical="456" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="291" magical="213" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4411" level="14" /> 
+			<skill id="4414" level="3" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4412" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="23073" level="70" type="Monster" name="Kenneth Bastian">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="74" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="113548" sp="27" />
+		<equipment rhand="147" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2444" hpRegen="7.5" mp="1346" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="170" />
+			</speed>
+			<attack physical="689" magical="470" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="296" magical="217" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="13" grown="17" />
+			<height normal="32" grown="39" />
+		</collision>
+	</npc><npc id="23074" level="75" type="Monster" name="Heaven's Palace Noble Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="150" />
+			<param name="MoveAroundSocial1" value="150" />
+			<param name="MoveAroundSocial2" value="150" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="129326" sp="31" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676" hpRegen="8.5" mp="1507" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="795" magical="543" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="319" magical="234" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4413" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="33" />
+		</collision>
+	</npc><npc id="23075" level="75" type="Monster" name="Heaven's Palace Noble Knight">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="165" />
+			<param name="MoveAroundSocial1" value="165" />
+			<param name="MoveAroundSocial2" value="165" />
+			<param name="IsAggressive" value="1" />
+		</parameters>
+		<race>DIVINE</race>
+		<sex>MALE</sex>
+		<acquire exp="127504" sp="30" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="2676" hpRegen="8.5" mp="1507" mpRegen="3" />
+			<speed>
+				<walk ground="60" />
+				<run ground="200" />
+			</speed>
+			<attack physical="795" magical="543" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="319" magical="234" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="14" /> 
+			<skill id="4411" level="14" /> 
+			<skill id="4412" level="14" /> 
+			<skill id="4416" level="8" /> 
+			<skill id="4408" level="16" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4413" level="14" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>OMAN</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="30" />
+			<height normal="33" />
+		</collision>
+	</npc><npc id="23076" level="92" type="Monster" name="Restrained Soldier">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="Skill01_ID" id="14256" level="1" />
+			<skill name="Skill02_ID" id="14257" level="1" />
+			<param name="Attack_BoostValue" value="139" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="304477" hpRegen="8.5" mp="20960" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="33816" magical="6016" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="458" magical="256" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>FORTUNA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="28" />
+			<height normal="41.5" />
+		</collision>
+	</npc><npc id="23077" level="92" type="Monster" name="Nameless Lunacy">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="Skill02_ID" id="14259" level="1" />
+			<param name="Attack_BoostValue" value="139" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="13907" hpRegen="8.5" mp="2096" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="24154" magical="4297" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="458" magical="256" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="23078" level="93" type="Monster" name="Restrained Wizard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="Skill03_ID" id="14261" level="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="312844" hpRegen="8.5" mp="31986" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="35460" magical="12766" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="373" magical="263" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>FORTUNA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="39" />
+		</collision>
+	</npc><npc id="23079" level="93" type="Monster" name="Nameless Lunacy">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="Skill03_ID" id="14263" level="1" />
+			<param name="Attack_BoostValue" value="140" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="14298" hpRegen="8.5" mp="3198" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="12664" magical="4498" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="373" magical="263" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="23080" level="94" type="Monster" name="Corrupted Poison Cloud">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<param name="IsAggressive" value="1" />
+			<param name="Attack_BoostValue" value="142" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="10" hpRegen="8.5" mp="2169" mpRegen="3" />
+			<speed>
+				<walk ground="20" />
+				<run ground="90" />
+			</speed>
+			<attack physical="33864" magical="5925" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="393" magical="287" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="5" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>FORTUNA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="24" />
+			<height normal="48" />
+		</collision>
+	</npc><npc id="23081" level="95" type="Monster" name="Restrained Vampire" title="Absorber of Light">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="Skill03_ID" id="14261" level="1" />
+			<skill name="summonSkill" id="14265" level="1" />
+			<param name="Attack_BoostValue" value="144" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="15122" hpRegen="8.5" mp="2205" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="11149" magical="1974" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="486" magical="276" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="20" />
+			<height normal="39" />
+		</collision>
+	</npc><npc id="23082" level="96" type="Monster" name="Restrained Elite Soldier">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill01_ID" id="14256" level="2" />
+			<skill name="Skill02_ID" id="14257" level="2" />
+			<param name="Attack_BoostValue" value="146" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="322511" hpRegen="8.5" mp="33642" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="40919" magical="14731" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="396" magical="283" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>FORTUNA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="28" />
+			<height normal="41.5" />
+		</collision>
+	</npc><npc id="23083" level="96" type="Monster" name="Nameless Berserker">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill02_ID" id="14259" level="2" />
+			<param name="Attack_BoostValue" value="146" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="30948" hpRegen="8.5" mp="2242" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="29228" magical="5165" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="495" magical="283" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4410" level="14" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="12" />
+			<height normal="27" />
+		</collision>
+	</npc><npc id="23084" level="96" type="Monster" name="Restrained Elite Wizard">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill03_ID" id="14261" level="2" />
+			<param name="Attack_BoostValue" value="146" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="322511" hpRegen="8.5" mp="22428" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="40919" magical="7231" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="495" magical="283" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>FORTUNA</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="20" />
+			<height normal="39" />
+		</collision>
+	</npc><npc id="23085" level="96" type="Monster" name="Nameless Berserker">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill03_ID" id="14263" level="2" />
+			<param name="Attack_BoostValue" value="146" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="30948" hpRegen="8.5" mp="2242" mpRegen="3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="29228" magical="5165" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="495" magical="283" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5462" level="1" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="13" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="23086" level="99" type="Monster" name="Octavis' Gladiator">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<skill name="Skill01_ID" id="14034" level="1" />
+			<skill name="Fishnet_Skill" id="14245" level="1" />
+			<param name="Attack_BoostValue" value="155" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<mpReward value="163" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="18" />
+				<run ground="190" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="14" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="5549" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="35" />
+			<height normal="67" />
+		</collision>
+	</npc><npc id="23087" level="99" type="Monster" name="Beast of the Arena">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="Attack_BoostValue" value="155" />
+		</parameters>
+		<race>BEAST</race>
+		<sex>MALE</sex>
+		<mpReward value="65" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4416" level="3" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="40" />
+			<height normal="26" />
+		</collision>
+	</npc><npc id="23088" level="99" type="Monster" name="Octavis' Chief Curator">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="Skill02_ID" id="14010" level="3" />
+			<skill name="HealSkill" id="14035" level="1" />
+			<skill name="Skill06_ID" id="14011" level="3" />
+			<param name="Attack_BoostValue" value="155" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<mpReward value="93" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356248" hpRegen="8.5" mp="35325" mpRegen="30" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="94440" magical="33999" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="421" magical="305" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="5549" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="30" />
+			<height normal="36.5" />
+		</collision>
+	</npc><npc id="23089" level="99" type="Monster" name="Hero of the Arena" title="Cursed">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="0" />
+			<param name="MoveAroundSocial2" value="0" />
+			<param name="IsAggressive" value="1" />
+			<skill name="Skill02_ID" id="14039" level="1" />
+			<param name="Attack_BoostValue" value="155" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<mpReward value="65" type="DIFF" ticks="10" affects="PARTY" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="356248" hpRegen="8.5" mp="23550" mpRegen="30" />
+			<speed>
+				<walk ground="54" />
+				<run ground="180" />
+			</speed>
+			<attack physical="94440" magical="16610" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="526" magical="305" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5464" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="18" />
+			<height normal="46" />
+		</collision>
+	</npc><npc id="23090" level="97" type="Monster" name="Hall Manager">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="15967402" sp="3832" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="8.5" mp="22800" mpRegen="30" />
+			<speed>
+				<walk ground="56" />
+				<run ground="160" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4408" level="12" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="6513" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>GD_BONUS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="33" />
+			<height normal="58.5" />
+		</collision>
+	</npc><npc id="23091" level="97" type="Monster" name="Hall Guard Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="110" />
+			<param name="MoveAroundSocial1" value="110" />
+			<param name="MoveAroundSocial2" value="110" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>HUMANOID</race>
+		<sex>MALE</sex>
+		<acquire exp="5213131" sp="1251" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="8.5" mp="22800" mpRegen="30" />
+			<speed>
+				<walk ground="56" />
+				<run ground="160" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5463" level="1" /> 
+			<skill id="4416" level="6" /> 
+			<skill id="4415" level="5" /> 
+			<skill id="6513" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>GD_BONUS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="33" />
+			<height normal="58.5" />
+		</collision>
+	</npc><npc id="23092" level="97" type="Monster" name="Hall Guard Warrior">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="90" />
+			<param name="MoveAroundSocial1" value="90" />
+			<param name="MoveAroundSocial2" value="90" />
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>MALE</sex>
+		<acquire exp="5213131" sp="1251" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="8.5" mp="22800" mpRegen="30" />
+			<speed>
+				<walk ground="31" />
+				<run ground="150" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="6513" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>GD_BONUS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="21" grown="24" />
+			<height normal="50" grown="60" />
+		</collision>
+	</npc><npc id="23093" level="97" type="Monster" name="Hall Guard Healer">
+		
+		<parameters>
+			<param name="Attack_BoostValue" value="148" />
+		</parameters>
+		<race>DEMONIC</race>
+		<sex>FEMALE</sex>
+		<acquire exp="5213131" sp="1251" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="355923" hpRegen="8.5" mp="22800" mpRegen="30" />
+			<speed>
+				<walk ground="20" />
+				<run ground="180" />
+			</speed>
+			<attack physical="42937" magical="7579" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="505" magical="290" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="5467" level="1" /> 
+			<skill id="4416" level="9" /> 
+			<skill id="6525" level="1" /> 
+			<skill id="4415" level="3" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>GD_BONUS</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="14" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="23094" level="22" type="Monster" name="Poisonous Spider">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="80" />
+			<param name="MoveAroundSocial1" value="80" />
+			<param name="MoveAroundSocial2" value="80" />
+			<skill name="DeBuff" id="4035" level="2" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="1120" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="387" hpRegen="3.5" mp="218" mpRegen="1.5" />
+			<speed>
+				<walk ground="60" />
+				<run ground="140" />
+			</speed>
+			<attack physical="52" magical="35" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="93" magical="68" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="4035" level="1" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="27" />
+			<height normal="25.5" />
+		</collision>
+	</npc><npc id="23095" level="24" type="Monster" name="Arachnid Predator">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="DeBuff" id="4035" level="3" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="1275" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="435" hpRegen="3.5" mp="245" mpRegen="1.5" />
+			<speed>
+				<walk ground="105" />
+				<run ground="175" />
+			</speed>
+			<attack physical="60" magical="41" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="99" magical="72" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4416" level="12" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4035" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="35" grown="50" />
+			<height normal="25" grown="46" />
+		</collision>
+	</npc><npc id="23096" level="29" type="Monster" name="Tumran Bugbear">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="124" />
+			<param name="MoveAroundSocial1" value="124" />
+			<param name="MoveAroundSocial2" value="124" />
+		</parameters>
+		<race>GIANT</race>
+		<sex>MALE</sex>
+		<acquire exp="1523" sp="1" />
+		<equipment rhand="156" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="573" hpRegen="3.5" mp="315" mpRegen="1.5" />
+			<speed>
+				<walk ground="55" />
+				<run ground="130" />
+			</speed>
+			<attack physical="86" magical="59" critical="1" attackSpeed="278" range="40" type="BLUNT" distance="80" width="120" random="20" accuracy="115" />
+			<defence physical="115" magical="84" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="12" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4416" level="11" /> 
+			<skill id="4415" level="5" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>BUGBEAR</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="17" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="23097" level="36" type="Monster" name="Skeleton Marauder">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="0" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+		</parameters>
+		<race>UNDEAD</race>
+		<sex>FEMALE</sex>
+		<acquire exp="2336" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="809" hpRegen="4.5" mp="417" mpRegen="1.8" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="138" magical="94" critical="8" attackSpeed="278" range="1100" type="BOW" distance="10" width="0" random="5" accuracy="76" />
+			<defence physical="141" magical="103" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="12" /> 
+			<skill id="4411" level="12" /> 
+			<skill id="4412" level="10" /> 
+			<skill id="4413" level="10" /> 
+			<skill id="4274" level="1" /> 
+			<skill id="4416" level="1" /> 
+			<skill id="4415" level="9" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>SKELETON</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="7" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="23098" level="37" type="Monster" name="Granite Golem">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="116" />
+			<param name="MoveAroundSocial1" value="116" />
+			<param name="MoveAroundSocial2" value="116" />
+			<skill name="DDMagicSlow" id="4247" level="4" />
+		</parameters>
+		<race>CONSTRUCT</race>
+		<sex>MALE</sex>
+		<acquire exp="3225" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="847" hpRegen="4.5" mp="432" mpRegen="1.8" />
+			<speed>
+				<walk ground="23" />
+				<run ground="23" />
+			</speed>
+			<attack physical="147" magical="100" critical="4" attackSpeed="278" range="40" type="SWORD" distance="80" width="120" random="10" accuracy="5" />
+			<defence physical="144" magical="106" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4410" level="10" /> 
+			<skill id="4411" level="10" /> 
+			<skill id="4412" level="19" /> 
+			<skill id="4413" level="12" /> 
+			<skill id="4284" level="5" /> 
+			<skill id="4416" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4247" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300" />
+		<collision>
+			<radius normal="20" grown="25" />
+			<height normal="31" grown="37.5" />
+		</collision>
+	</npc><npc id="23099" level="38" type="Monster" name="Ant Soldier">
+		
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<skill name="DeBuff" id="4035" level="3" />
+		</parameters>
+		<race>BUG</race>
+		<sex>MALE</sex>
+		<acquire exp="5078" sp="1" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="886" hpRegen="4.5" mp="447" mpRegen="1.8" />
+			<speed>
+				<walk ground="80" />
+				<run ground="130" />
+			</speed>
+			<attack physical="156" magical="107" critical="4" attackSpeed="278" range="40" type="FIST" distance="80" width="120" random="5" accuracy="5" />
+			<defence physical="148" magical="109" />
+			<abnormalResist physical="10" magical="10" />
+		</stats>
+		<status attackable="false" undying="false" />
+		<skillList>
+			<skill id="4416" level="12" /> 
+			<skill id="4408" level="10" /> 
+			<skill id="4035" level="1" /> 
+			<skill id="4415" level="1" /> 
+		</skillList>
+		<ai aggroRange="450" isAggressive="false" clanHelpRange="300">
+			<clanList>
+				<clan>ANT</clan>
+			</clanList>
+		</ai>
+		<collision>
+			<radius normal="35" grown="42" />
+			<height normal="17" grown="21" />
+		</collision>
+	</npc></list>

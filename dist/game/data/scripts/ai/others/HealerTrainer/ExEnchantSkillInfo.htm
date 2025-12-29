@@ -1,0 +1,78 @@
+<HTML NOSCROLLBAR=yes>
+<title>Skill enchant</title>
+<body SCROLL=no><center>
+<br>
+<table width=282 border=0 cellspacing=0 cellpadding=0>
+<tr><td align=left height=16>
+Skill explanation
+</td></tr>
+<tr><td align=center height=82>
+	<table border=0 cellspacing=0 cellpadding=0 width=70 height=68 bgcolor=000000>
+	<tr><td align=center>
+		<table width=292 height=35 border=0 cellspacing=0 cellpadding=0>
+		<tr><td align=center >
+				<table width=282 height=35 border=0 cellspacing=0 cellpadding=0>
+				<tr>
+				<td align=center width=32>
+				<img width=32 height=32 src="%skill_icon%">
+				</td>
+				<td align=center width=250>
+				<table width=240 border=0 cellspacing=0 cellpadding=0>
+				<tr><td><br>%skill_name%</a></td></tr>
+				<tr><td><font color="b09979">+%skill_enchant_level% %skill_enchant_route_name%</font></td></tr>
+				</table>
+				</td>
+				</tr>
+				</table>
+				<br>
+		</td></tr>
+		<tr><td>&nbsp;<font color="a2a0a2">Success rate: </font><font color="b09979">%chance%%</font></td></tr>
+		</table>
+	</td></tr>
+	</table>
+</td></tr>
+<tr><td align=left height=16>
+Learning condition
+</td></tr>
+<tr><td align=center>
+	<table border=0 cellspacing=0 cellpadding=0 width=292 height=128 bgcolor=000000>
+	<tr><td align=center>
+		<table width=282 height=35 border=0 cellspacing=0 cellpadding=0>
+		<tr><td>
+			<table width=282 height=35 border=0 cellspacing=0 cellpadding=0>
+			<tr><td align=left width=72><tr><font color="a2a0a2">Required EXP: </font></td><td align=left width=210><font color="b09979">%required_exp%</font></td></tr>
+			<tr><td align=left width=72><tr><font color="a2a0a2">Required SP: </font></td><td align=left width=210><font color="b09979">%required_sp%</font></td></tr>
+			</table>
+		</td></tr>
+		<tr><td align=center>
+			<br>
+			%required_item%
+		</td></tr>
+		</table>
+	</td></tr>
+	</table>
+</td></tr>
+<tr><td align=center>
+<br><br>
+<table border=0 cellspacing=0 cellpadding=0 width=292 height=40 bgcolor=000000>
+	<tr><td align=right> 
+		<table width=140 height=38 border=0 cellspacing=0 cellpadding=0>
+			<tr><td align=right width=20>Exp:</td><td align=right><font color="b09979">%current_exp%</font></td><td align=right><td width=16>&nbsp;</td></tr>
+			<tr><td align=right width=20>SP:</td><td align=right><font color="b09979">%current_sp%</font></td><td width=16>&nbsp;</td></tr>
+		</table>
+	</td></tr>
+</table>
+<br><br>
+</td></tr>
+<tr><td align=center>
+<br><br>
+<table width=292 height=40  border=0 cellspacing=0 cellpadding=0>
+			<tr>
+				<td align=right><button value="Learn" action="bypass -h ExEnchantSkill %skill_id% %skill_level% %backPageNum%" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+				<td align=left><button value="List" action="bypass -h ExEnchantSkillList %backPageNum%" width=90 height=25 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></td>
+			</tr>
+</table>
+</td></tr>
+</table>
+</center></body>
+</HTML>

@@ -1,0 +1,2198 @@
+<?xml version='1.0' encoding='utf-8'?>
+<list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../xsd/npcs.xsd"><npc id="33900" level="99" type="Teleporter" name="Warp Gate">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="33901" level="99" type="Folk" name="Wormhole">
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="15841" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" showName="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="40" />
+			<height normal="40" />
+		</collision>
+	</npc><npc id="33902" level="99" type="Teleporter" name="Warp Gate">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="16" />
+			<height normal="31" />
+		</collision>
+	</npc><npc id="33903" level="99" type="Warehouse" name="Philline" title="Warehouse Manager">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33904" level="99" type="Folk" name="Neru" title="Grocer">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="56" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="33" />
+			<height normal="58.5" />
+		</collision>
+	</npc><npc id="33905" level="99" type="Folk" name="Acateo" title="Academy Guide">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="100" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33906" level="99" type="Folk" name="Master Yogi" title="Ex-hermit">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="16.7" />
+		</collision>
+	</npc><npc id="33907" level="99" type="Folk" name="Lionel Hunter" title="Eva's Knight">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="36" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33908" level="99" type="Folk" name="Synge the Cat" title="Event Manager">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="15280" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="33909" level="99" type="Folk" name="Real Tor" title="Territory Treasure Hunter">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="33910" level="99" type="Folk" name="Goldeen">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="27.5" />
+		</collision>
+	</npc><npc id="33911" level="99" type="Folk" name="Fiz Herman" title="Fishing Dock Manager">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="38155" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="4" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="28.3" />
+		</collision>
+	</npc><npc id="33912" level="99" type="Folk" name="Kravian" title="Apprentice Gatekeeper">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33913" level="99" type="Folk" name="Tommy" title="Warehouse Manager">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33914" level="99" type="Folk" name="Fauna" title="Fishing Dock Manager">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="4" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="28.3" />
+		</collision>
+	</npc><npc id="33915" level="99" type="Folk" name="Jaedin" title="Guide of Infinity">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="73" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="19" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="33916" level="99" type="Folk" name="Jaedin" title="Guide of Infinity">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="73" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="19" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="33917" level="99" type="Folk" name="Jaedin" title="Guide of Infinity">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="73" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="19" />
+			<height normal="44" />
+		</collision>
+	</npc><npc id="33918" level="99" type="Merchant" name="Aria Furstmater" title="Soul Tracker">
+		
+		<race>DARK_ELF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="236" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="16" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33919" level="99" type="Folk" name="Linea" title="Raid Herald">
+		
+		<race>ELF</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="13466" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="15" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="50" />
+			<height normal="21.2" />
+		</collision>
+	</npc><npc id="33920" level="99" type="Folk" name="Altar of Souls">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="90" />
+			<height normal="38.5" />
+		</collision>
+	</npc><npc id="33921" level="93" type="Folk" name="Allenos" title="Sergeant">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="13524" lhand="13525" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="6237" hpRegen="10.5" mp="2132" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="160" />
+			</speed>
+			<attack physical="1577" magical="1077" critical="4" attackSpeed="278" range="40" />
+			<defence physical="390" magical="285" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33922" level="99" type="Folk" name="Uldie" title="Event Manager">
+		
+		<race>HUMANOID</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="6" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc><npc id="33923" level="99" type="Folk" name="Belldandy" title="12th Anniversary Event!">
+		
+		<race>ANIMAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="20">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="16" />
+				<run ground="180" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="4" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="18" />
+			<height normal="32" />
+		</collision>
+	</npc><npc id="33924" level="99" type="Folk" name="Lara's Buff Test">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="20" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="5" />
+			<height normal="10.5" />
+		</collision>
+	</npc><npc id="33925" level="99" type="Folk" name="Chaotic Chronicle" title="Memory Fragment Manager">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="5" />
+			<height normal="6" />
+		</collision>
+	</npc><npc id="33926" level="99" type="Folk" name="Chaotic Throne" title="Squash Manager">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="5" />
+			<height normal="6" />
+		</collision>
+	</npc><npc id="33927" level="99" type="Folk" name="Goddess of Destruction" title="Yogi's Staff Manager">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="5" />
+			<height normal="6" />
+		</collision>
+	</npc><npc id="33928" level="99" type="Folk" name="Victory" title="Congratulations">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="33.5" />
+		</collision>
+	</npc><npc id="33929" level="99" type="Folk" name="Defeat" title="Close Call">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="33.5" />
+		</collision>
+	</npc><npc id="33930" level="99" type="Folk" name="Dandy" title="Assisted">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="21" />
+		</collision>
+	</npc><npc id="33931" level="99" type="Folk" name="Navari" title="Queen">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="20.5" />
+		</collision>
+	</npc><npc id="33932" level="99" type="Folk" name="Gereth" title="High Priest">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33933" level="99" type="Folk" name="Karla">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="35197" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33934" level="99" type="Merchant" name="Denya" title="Armor Merchant">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="19.5" />
+		</collision>
+	</npc><npc id="33935" level="99" type="Merchant" name="Evna" title="Weapon Merchant">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="19.5" />
+		</collision>
+	</npc><npc id="33936" level="99" type="Merchant" name="Pelu" title="Grocer">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33937" level="99" type="Merchant" name="Ceri" title="Accessory Merchant">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33938" level="99" type="Folk" name="Taoren" title="Priestess">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="33939" level="99" type="Folk" name="Zaoren" title="Priestess">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="33940" level="99" type="Folk" name="Vinath">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="33941" level="99" type="Folk" name="Senath">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="33942" level="99" type="Folk" name="Ayanthe" title="Magister">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17300" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="33943" level="99" type="Folk" name="Katalin" title="Master">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17328" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="20.4" />
+		</collision>
+	</npc><npc id="33944" level="99" type="Folk" name="Ayanthe" title="Magister">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17300" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="21.5" />
+		</collision>
+	</npc><npc id="33945" level="99" type="Folk" name="Katalin" title="Master">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="17328" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="20.4" />
+		</collision>
+	</npc><npc id="33946" level="99" type="Folk" name="Adventure Guildsman" title="PC Manager">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33947" level="99" type="Warehouse" name="Grakon" title="Warehouse Keeper">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="33948" level="99" type="Teleporter" name="Astiel" title="Gatekeeper">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33949" level="99" type="CommissionManager" name="Anita" title="Auction House Manager">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33950" level="99" type="Folk" name="Folk's Guide" title="Apprentice">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="38" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33951" level="99" type="Folk" name="Sivanthe" title="Forest Patrol">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="19.5" />
+		</collision>
+	</npc><npc id="33952" level="99" type="Folk" name="Leira" title="Forest Patrol">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33953" level="99" type="Folk" name="Milone" title="Forest Patrol">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="19.5" />
+		</collision>
+	</npc><npc id="33954" level="99" type="Folk" name="Dolkin" title="Maestro">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17" />
+		</collision>
+	</npc><npc id="33955" level="99" type="Folk" name="Liberatto" title="Bard">
+		
+		<race>ELF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="15" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="6" />
+			<height normal="24.5" />
+		</collision>
+	</npc><npc id="33956" level="99" type="Folk" name="Miso" title="Bard">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="40" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="16" />
+		</collision>
+	</npc><npc id="33957" level="99" type="Folk" name="Marmie" title="Bard">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="21.3" />
+		</collision>
+	</npc><npc id="33958" level="99" type="Folk" name="Tulesir" title="Bard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="22" />
+		</collision>
+	</npc><npc id="33959" level="50" type="Folk" name="Mahum's Spirit">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1421" hpRegen="5.5" mp="747" mpRegen="2.1" />
+			<speed>
+				<walk ground="70" />
+				<run ground="1" />
+			</speed>
+			<attack physical="306" magical="209" critical="4" attackSpeed="278" range="40" />
+			<defence physical="201" magical="147" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="15" />
+			<height normal="34" />
+		</collision>
+	</npc><npc id="33960" level="55" type="Folk" name="Barrier Enforcer">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1673" hpRegen="6.5" mp="889" mpRegen="2.4" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="388" magical="265" critical="4" attackSpeed="278" range="40" />
+			<defence physical="224" magical="164" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="35" />
+			<height normal="50" />
+		</collision>
+	</npc><npc id="33961" level="60" type="Folk" name="Magic Circle Control Device">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1933" hpRegen="6.5" mp="1036" mpRegen="2.4" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="482" magical="329" critical="4" attackSpeed="278" range="40" />
+			<defence physical="248" magical="182" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="21" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="33962" level="65" type="Folk" name="Life Energy Repository">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2193" hpRegen="7.5" mp="1188" mpRegen="2.7" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="583" magical="398" critical="4" attackSpeed="278" range="40" />
+			<defence physical="272" magical="199" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="21" />
+			<height normal="53" />
+		</collision>
+	</npc><npc id="33963" level="30" type="Folk" name="Pio" title="Researcher">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="604" hpRegen="3.5" mp="329" mpRegen="1.5" />
+			<speed>
+				<walk ground="20" />
+				<run ground="1" />
+			</speed>
+			<attack physical="93" magical="64" critical="4" attackSpeed="278" range="40" />
+			<defence physical="118" magical="87" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33964" level="35" type="Folk" name="Captured Tree Spirit">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="772" hpRegen="4.5" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="12" />
+				<run ground="1" />
+			</speed>
+			<attack physical="130" magical="89" critical="4" attackSpeed="278" range="40" />
+			<defence physical="137" magical="100" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc><npc id="33965" level="35" type="Folk" name="Captured Wind Spirit">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="772" hpRegen="4.5" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="130" magical="89" critical="4" attackSpeed="278" range="40" />
+			<defence physical="137" magical="100" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="33966" level="40" type="Folk" name="Vorbos" title="Smitten">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="45" />
+				<run ground="1" />
+			</speed>
+			<attack physical="176" magical="121" critical="4" attackSpeed="278" range="40" />
+			<defence physical="157" magical="115" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="14" />
+			<height normal="25" />
+		</collision>
+	</npc><npc id="33967" level="40" type="Folk" name="Sylph" title="Wind Spirit">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="966" hpRegen="4.5" mp="478" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="176" magical="121" critical="4" attackSpeed="278" range="40" />
+			<defence physical="157" magical="115" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="33968" level="35" type="Folk" name="Liberated Wind Spirit">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="772" hpRegen="4.5" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="60" />
+				<run ground="1" />
+			</speed>
+			<attack physical="130" magical="89" critical="4" attackSpeed="278" range="40" />
+			<defence physical="137" magical="100" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="11" />
+			<height normal="35" />
+		</collision>
+	</npc><npc id="33969" level="35" type="Folk" name="Liberated Tree Spirit">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="772" hpRegen="4.5" mp="402" mpRegen="1.8" />
+			<speed>
+				<walk ground="12" />
+				<run ground="1" />
+			</speed>
+			<attack physical="130" magical="89" critical="4" attackSpeed="278" range="40" />
+			<defence physical="137" magical="100" />
+		</stats>
+		<status attackable="false" talkable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="23" />
+			<height normal="90" />
+		</collision>
+	</npc><npc id="33970" level="84" type="Teleporter" name="Mercenary Captain">
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="76" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="9.5" mp="1812" mpRegen="3.3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1145" magical="782" critical="4" attackSpeed="278" range="40" />
+			<defence physical="358" magical="262" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33971" level="84" type="Teleporter" name="Mercenary">
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="94" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="9.5" mp="1812" mpRegen="3.3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1145" magical="782" critical="4" attackSpeed="278" range="40" />
+			<defence physical="358" magical="262" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="7" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="33972" level="84" type="Folk" name="Rakun">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="9.5" mp="1812" mpRegen="3.3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1145" magical="782" critical="4" attackSpeed="278" range="40" />
+			<defence physical="358" magical="262" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="19" />
+		</collision>
+	</npc><npc id="33973" level="84" type="Teleporter" name="Namo">
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="76" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="9.5" mp="1812" mpRegen="3.3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1145" magical="782" critical="4" attackSpeed="278" range="40" />
+			<defence physical="358" magical="262" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33974" level="99" type="Folk" name="Resed" title="Dimensional Warp Expeditioner">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="63" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="23.5" />
+		</collision>
+	</npc><npc id="33975" level="99" type="Folk" name="Einster" title="Dimensional Warp Expedition Lead">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="70" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="24" />
+		</collision>
+	</npc><npc id="33976" level="84" type="Folk" name="Chross">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4039" hpRegen="9.5" mp="1812" mpRegen="3.3" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1145" magical="782" critical="4" attackSpeed="278" range="40" />
+			<defence physical="358" magical="262" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33977" level="45" type="Folk" name="Veruti" title="Alchemist">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1183" hpRegen="5.5" mp="610" mpRegen="2.1" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="235" magical="161" critical="4" attackSpeed="278" range="40" />
+			<defence physical="178" magical="131" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="19.5" />
+		</collision>
+	</npc><npc id="33978" level="99" type="Folk" name="Zephyra" title="Alchemist">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="19.5" />
+		</collision>
+	</npc><npc id="33979" level="85" type="Folk" name="Kain van Halter">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="36218" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="278980" hpRegen="9.5" mp="18468" mpRegen="3.3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1189" magical="812" critical="4" attackSpeed="278" range="40" />
+			<defence physical="362" magical="265" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33980" level="99" type="Folk" name="Mysterious Wizard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="60" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="10" />
+			<height normal="23" />
+		</collision>
+	</npc><npc id="33981" level="99" type="Folk" name="Telesha">
+		
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33982" level="99" type="Guard" name="Tahlia" title="Guard">
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="148" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<attack physical="971" magical="663" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<speed>
+				<walk ground="64" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9.5" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33983" level="99" type="Guard" name="Lenoa" title="Guard">
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="288" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<attack physical="971" magical="663" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="341" magical="250" />
+			<speed>
+				<walk ground="64" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9.5" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33984" level="99" type="Guard" name="Nairu" title="Guard">
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="148" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<attack physical="971" magical="663" random="30" critical="4" accuracy="5" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="341" magical="250" />
+			<speed>
+				<walk ground="64" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9.5" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33985" level="99" type="Guard" name="Namee" title="Guard">
+		<race>ERTHEIA</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="288" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="356248" hpRegen="10.5" mp="23550" mpRegen="3.6" />
+			<attack physical="971" magical="663" random="10" critical="8" accuracy="76" attackSpeed="278" reuseDelay="1500" type="BOW" range="1100" distance="10" width="0" />
+			<defence physical="341" magical="250" />
+			<speed>
+				<walk ground="64" />
+				<run ground="160" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="26" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9.5" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33986" level="99" type="Folk" name="Tauresia" title="Bard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33987" level="99" type="Folk" name="Mortania" title="Bard">
+		
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="14" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="22.5" />
+		</collision>
+	</npc><npc id="33988" level="99" type="Folk" name="Severin" title="Bard">
+		
+		<race>ELEMENTAL</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="25" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="7" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="15" />
+		</collision>
+	</npc><npc id="33989" level="99" type="Folk" name="Remembrance Tower">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="190" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="20" />
+			<height normal="100" />
+		</collision>
+	</npc><npc id="33990" level="44" type="Folk" name="Hidden Crusher" title="Magic Device">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1138" hpRegen="5.5" mp="584" mpRegen="2.1" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="222" magical="152" critical="4" attackSpeed="278" range="40" />
+			<defence physical="174" magical="127" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="9" />
+			<height normal="33.5" />
+		</collision>
+	</npc><npc id="33991" level="45" type="Folk" name="Magic Owl">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1183" hpRegen="5.5" mp="610" mpRegen="2.1" />
+			<speed>
+				<walk ground="30" />
+				<run ground="1" />
+			</speed>
+			<attack physical="235" magical="161" critical="4" attackSpeed="278" range="40" />
+			<defence physical="178" magical="131" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="13" />
+			<height normal="19.5" />
+		</collision>
+	</npc><npc id="33992" level="50" type="Folk" name="Narsides" title="Cruma Tower Giant">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="1421" hpRegen="5.5" mp="747" mpRegen="2.1" />
+			<speed>
+				<walk ground="80" />
+				<run ground="1" />
+			</speed>
+			<attack physical="306" magical="209" critical="4" attackSpeed="278" range="40" />
+			<defence physical="201" magical="147" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="30" />
+			<height normal="66" />
+		</collision>
+	</npc><npc id="33993" level="85" type="FriendlyNpc" name="Kain van Halter" title="Mysterious Man">
+		<race>HUMAN</race>
+		<sex>MALE</sex>
+		<equipment rhand="36218" /> 
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="7.5" mp="1846" mpRegen="2.7" />
+			<attack physical="1489" magical="470" random="30" critical="4" accuracy="95" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="296" magical="217" />
+			<attribute>
+				<defence fire="150" water="150" wind="150" earth="150" holy="150" dark="150" default="150" />
+			</attribute>
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4410" level="11" /> 
+			<skill id="4411" level="11" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<ai aggroRange="500" clanHelpRange="300" />
+		<collision>
+			<radius normal="9" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33994" level="65" type="Folk" name="Suspicious Box">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="2193" hpRegen="7.5" mp="1188" mpRegen="2.7" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="583" magical="398" critical="4" attackSpeed="278" range="40" />
+			<defence physical="272" magical="199" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="9" />
+		</collision>
+	</npc><npc id="33995" level="99" type="Folk" name="Kiku's Cave">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="1" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="20" />
+		</collision>
+	</npc><npc id="33996" level="99" type="Folk" name="Grail">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="64" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="12.25" />
+		</collision>
+	</npc><npc id="33997" level="99" type="Folk" name="Athrea's Box">
+		
+		<race>ETC</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="50" />
+				<run ground="1" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="12" />
+			<height normal="9.5" />
+		</collision>
+	</npc><npc id="33998" level="99" type="Folk" name="Momet" title="Blacksmith">
+		
+		<race>DWARF</race>
+		<sex>FEMALE</sex>
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="8446" hpRegen="10.5" mp="2355" mpRegen="3.6" />
+			<speed>
+				<walk ground="20" />
+				<run ground="120" />
+			</speed>
+			<attack physical="1950" magical="1332" critical="4" attackSpeed="278" range="40" />
+			<defence physical="406" magical="297" />
+		</stats>
+		<status attackable="false" />
+		<skillList>
+			<skill id="4416" level="18" /> 
+			<skill id="4045" level="1" /> 
+		</skillList>
+		<collision>
+			<radius normal="8" />
+			<height normal="17.5" />
+		</collision>
+	</npc><npc id="33999" level="85" type="FriendlyNpc" name="Kain van Halter">
+		<parameters>
+			<param name="MoveAroundSocial" value="100" />
+			<param name="MoveAroundSocial1" value="100" />
+			<param name="MoveAroundSocial2" value="100" />
+			<param name="SoulShot" value="200" />
+			<param name="SoulShotRate" value="5" />
+			<param name="SpiritShot" value="100" />
+			<param name="SpiritShotRate" value="10" />
+			<skill name="Skill01_ID" id="16387" level="1" />
+		</parameters>
+		<race>HUMAN</race>
+		<sex>FEMALE</sex>
+		<equipment rhand="36218" />
+		<stats str="40" int="21" dex="30" wit="20" con="43" men="25">
+			<vitals hp="4234" hpRegen="9.5" mp="1846" mpRegen="3.3" />
+			<speed>
+				<walk ground="64" />
+				<run ground="190" />
+			</speed>
+			<attack physical="12289" magical="812" critical="4" attackSpeed="278" type="SWORD" range="40" distance="80" width="120" />
+			<defence physical="5362" magical="265" />
+		</stats>
+		<status attackable="false" talkable="false" canBeSown="true" />
+		<skillList>
+			<skill id="4045" level="1" /> 
+			<skill id="4412" level="11" /> 
+			<skill id="4413" level="11" /> 
+			<skill id="4414" level="2" /> 
+			<skill id="4415" level="3" /> 
+			<skill id="4416" level="14" /> 
+			<skill id="16387" level="1" /> 
+			<skill id="16388" level="1" /> 
+		</skillList>
+		<exCrtEffect>true</exCrtEffect>
+		<sNpcPropHpRate>4</sNpcPropHpRate>
+		<ai clanHelpRange="300" aggroRange="450" />
+		<collision>
+			<radius normal="9" />
+			<height normal="20" />
+		</collision>
+	</npc></list>

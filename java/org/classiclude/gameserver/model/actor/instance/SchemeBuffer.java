@@ -265,8 +265,10 @@ public class SchemeBuffer extends Npc
 		{
 			for (Entry<String, List<Integer>> scheme : schemes.entrySet())
 			{
+                final int count = scheme.getValue().size();
 				final int cost = getFee(scheme.getValue());
-				sb.append("<table><tr>");
+				final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
+								sb.append("<table><tr>");
                 				sb.append("<td fixwidth=2></td>");
                 				sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
                 				sb.append("<td fixwidth=3>|</td>");

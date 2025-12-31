@@ -19,6 +19,12 @@
 		<buff id="1242" level="1" price="0" desc="Increases critical attack." /> <!-- Death Whisper -->
 		<buff id="1243" level="1" price="0" desc="Increases shield defense rate." /> <!-- Bless Shield -->
 		<buff id="1259" level="1" price="0" desc="Increases resistance to stun attack." /> <!-- Resist Shock -->
+		<buff id="1044" level="1" price="0" desc="Regeneration" /> <!-- Regeneration -->
+		<buff id="1307" level="1" price="0" desc="Prayer" /> <!-- Prayer -->
+		<buff id="4699" level="1" price="0" desc="Blessing of Queen" /> <!-- Blessing of Queen -->
+		<buff id="4700" level="1" price="0" desc="Gift of Queen" /> <!-- Gift of Queen -->
+		<buff id="4702" level="1" price="0" desc="Blessing of Seraphim" /> <!-- Blessing of Seraphim -->
+		<buff id="4703" level="1" price="0" desc="Gift of Seraphim" /> <!-- Gift of Seraphim -->
 		<buff id="1268" level="1" price="0" desc="Restores HP using inflicted damage." /> <!-- Vampiric Rage -->
 		<buff id="1303" level="1" price="0" desc="Increases crit. rate of magic attacks." /> <!-- Wild Magic -->
 		<buff id="1304" level="1" price="0" desc="Increases shield defense power." /> <!-- Advanced Block -->

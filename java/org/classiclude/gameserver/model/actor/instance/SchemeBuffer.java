@@ -283,7 +283,6 @@ public class SchemeBuffer extends Npc
 				sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
 				sb.append("<td fixwidth=3>|</td>");
 				sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
-				sb.append("<td fixwidth=35></td>");
 				sb.append("</tr></table></td>");
 				sb.append("<td align=center>");
 				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");

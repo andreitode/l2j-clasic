@@ -27,22 +27,22 @@
 		<buff id="4703" level="1" price="0" desc="Reduce magic skill recovery time." /> <!-- Gift of Seraphim -->
 		<buff id="1232" level="1" price="0" desc="Blazing skin." /> <!-- Blazing skin -->
 		<buff id="1238" level="1" price="0" desc="Freezing skin." /> <!-- Freezing skin -->
-		<buff id="1460" level="1" price="0" desc="Mana Gain." /> <!-- Mana gain -->
-		<buff id="1416" level="1" price="0" desc="Pa'agrio's Fist." /> <!-- Pa'agrio's Fist -->
-		<buff id="1284" level="1" price="0" desc="Chant of Revenge." /> <!-- Chant of Revenge -->
-		<buff id="1032" level="1" price="0" desc="Invigor." /> <!-- Invigor -->
-		<buff id="1033" level="1" price="0" desc="Resist Poison." /> <!-- Resist Poison -->
-		<buff id="1548" level="1" price="0" desc="Resist Earth." /> <!-- Resist Earth -->
-		<buff id="1182" level="1" price="0" desc="Resist Aqua." /> <!-- Resist Aqua -->
-		<buff id="1189" level="1" price="0" desc="Resist Wind." /> <!-- Resist Wind -->
-		<buff id="1191" level="1" price="0" desc="Resist Fire." /> <!-- Resist Fire -->
-		<buff id="1392" level="1" price="0" desc="Holy Resistance." /> <!-- Holy Resistance -->
-		<buff id="1393" level="1" price="0" desc="Unholy Resistance." /> <!-- Unholy Resistance -->
+		<buff id="1460" level="1" price="0" desc="Increase recharge power." /> <!-- Mana gain -->
+		<buff id="1416" level="1" price="0" desc="Increase maximum CP." /> <!-- Pa'agrio's Fist -->
+		<buff id="1284" level="1" price="0" desc="Reflects damage received back upon enemy." /> <!-- Chant of Revenge -->
+		<buff id="1032" level="1" price="0" desc="Increase resistance to bleeding." /> <!-- Invigor -->
+		<buff id="1033" level="1" price="0" desc="Increase resistance to poison." /> <!-- Resist Poison -->
+		<buff id="1548" level="1" price="0" desc="Increase Earth Resistance." /> <!-- Resist Earth -->
+		<buff id="1182" level="1" price="0" desc="Increase Aqua Resistance." /> <!-- Resist Aqua -->
+		<buff id="1189" level="1" price="0" desc="Increase Wind Resistance." /> <!-- Resist Wind -->
+		<buff id="1191" level="1" price="0" desc="Increase Fire Resistance." /> <!-- Resist Fire -->
+		<buff id="1392" level="1" price="0" desc="Increase resistance to sacred attacks." /> <!-- Holy Resistance -->
+		<buff id="1393" level="1" price="0" desc="Increase resistance to dark attacks." /> <!-- Unholy Resistance -->
 		<buff id="4703" level="1" price="0" desc="Reduce magic skill recovery time." /> <!-- Gift of Seraphim -->
 		<buff id="1268" level="1" price="0" desc="Restores HP using inflicted damage." /> <!-- Vampiric Rage -->
 		<buff id="1303" level="1" price="0" desc="Increases crit. rate of magic attacks." /> <!-- Wild Magic -->
 		<buff id="1304" level="1" price="0" desc="Increases shield defense power." /> <!-- Advanced Block -->
-		<buff id="1352" level="1" price="0" desc="Increases resistance to atures." /> <!-- Elemental Protection -->
+		<buff id="1352" level="1" price="0" desc="Increases resistance to elemental attacks." /> <!-- Elemental Protection -->
 		<buff id="1353" level="1" price="0" desc="Increases resistance to dark attack." /> <!-- Divine Protection -->
 		<buff id="1354" level="1" price="0" desc="Increases resistance to de-buff attack." /> <!-- Arcane Protection -->
 		<buff id="1355" level="1" price="0" desc="Increases mage abilities." /> <!-- Prophecy of Water -->
@@ -69,7 +69,7 @@
 		<buff id="310" level="1" price="0" desc="Restores HP by inflicted damage." /> <!-- Dance of the Vampire -->
 		<buff id="311" level="1" price="0" desc="Increases resistance to terrain damage." /> <!-- Dance of Protection -->
 		<buff id="365" level="1" price="0" desc="Increases rate of magic crit. damage." /> <!-- Siren's Dance -->
-		<buff id="8549" level="1" price="0" desc="Dance of berserker." /> <!-- Dance of berserker -->
+		<buff id="8549" level="1" price="0" desc="Increase power and attack speed, reduce defense." /> <!-- Dance of berserker -->
 	</category>
 	<category type="Songs">
 		<buff id="264" level="1" price="0" desc="Increases P. Def." /> <!-- Song of Earth -->
@@ -88,6 +88,6 @@
 		<buff id="363" level="1" price="0" desc="Increases MP regeneration rate." /> <!-- Song of Meditation -->
 		<buff id="364" level="1" price="0" desc="Decreases re-use time of physical skills." /> <!-- Song of Champion -->
 		<buff id="914" level="1" price="0" desc="Song of Purification" /> <!-- Song of Purification -->
-		<buff id="764" level="1" price="0" desc="Windstorm Song" /> <!-- Windstorm Song -->
+		<buff id="764" level="1" price="0" desc="Increase bow and crossbow resistance" /> <!-- Windstorm Song -->
 	</category>
 </list>

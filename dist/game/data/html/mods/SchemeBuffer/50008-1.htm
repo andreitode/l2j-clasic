@@ -1,15 +1,14 @@
 <html><body>
 <font color="LEVEL">You can create up to %max_schemes% schemes.</font><br>
 You can create a new scheme filling this form, here!
-<center><table width=220>
+<center><table width=300>
 	<tr>
-		<td width="140"><edit var="name" width=140 height=15></td>
-		<td width="60"><button value="Create" action="bypass npc_%objectId%_createscheme $name" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></button></td>
+		<td width="200"><edit var="name" width=200 height=15></td>
+		<td width="100"><button value="Create" action="bypass npc_%objectId%_createscheme $name" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></button></td>
 	</tr>
 </table></center><br>
 Here are listed your schemes and their fee.<br>
-<center><br><img src="l2ui.squaregray" width="256" height="1" /></center><br>
+<center><img src="l2ui.squaregray" width="300" height="1" /></center><br>
 %schemes%<br>
-<center><br><img src="l2ui.squaregray" width="256" height="1" /></center><br>
 	<Button ALIGN=LEFT ICON="RETURN" action="bypass npc_%objectId%_menu">Back To main Menu</Button>
 </body></html>

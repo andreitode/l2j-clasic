@@ -269,7 +269,7 @@ public class SchemeBuffer extends Npc
 				final int cost = getFee(scheme.getValue());
 				final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
 
-				sb.append("<table width=280 cellpadding=0 cellspacing=0><img src=\"L2UI.SquareGray\" width=200 height=1>");
+				sb.append("<table width=280 cellpadding=0 cellspacing=0>");
 				sb.append("<tr><td height=10></td></tr>");
 				sb.append("<tr><td align=center>");
 				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");

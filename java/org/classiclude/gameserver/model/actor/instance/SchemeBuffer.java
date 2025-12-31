@@ -399,7 +399,7 @@ public class SchemeBuffer extends Npc
 
 			if (groupType.equalsIgnoreCase(type))
 			{
-				sb.append("<td width=65>" + type + "</td>");
+				sb.append("<td><button value=" + type + "  width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
 			}
 			else
 			{

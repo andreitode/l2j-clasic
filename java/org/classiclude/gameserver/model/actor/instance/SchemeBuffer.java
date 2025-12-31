@@ -270,7 +270,6 @@ public class SchemeBuffer extends Npc
 				final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
 
 				sb.append("<table width=280 cellpadding=0 cellspacing=0>");
-                sb.append("<img src=\"L2UI.SquareGray\" width=277 height=1>");
 				sb.append("<tr><td height=10></td></tr>");
 				sb.append("<tr><td align=center>");
 				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
@@ -291,7 +290,7 @@ public class SchemeBuffer extends Npc
 				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
 				sb.append("</td></tr>");
 				sb.append("<tr><td height=18></td></tr>");
-                sb.append("</table><img src=\"L2UI.SquareGray\" width=277 height=1>");
+				sb.append("</table>");
 //                 sb.append("" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "");
 //                 sb.append("<table>");
 //                 sb.append("<tr>");

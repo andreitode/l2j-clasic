@@ -268,7 +268,6 @@ public class SchemeBuffer extends Npc
 				final int cost = getFee(scheme.getValue());
                 sb.append("" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "");
                 sb.append("<table>");
-				sb.append("<tr><td colspan=\"4\"><font color=\"LEVEL\">" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "</font></td></tr><br1>");
                 sb.append("<tr>");
 				sb.append("<td><button value=\"Use on Me\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
 				sb.append("<td><button value=\"Use on Pet\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
@@ -276,7 +275,6 @@ public class SchemeBuffer extends Npc
 				sb.append("<td><button value=\"Delete\" action=\"bypass npc_%objectId%_deletescheme;" + scheme.getKey() + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
                 sb.append("</tr>");
                 sb.append("</table>");
-
 			}
 		}
 		

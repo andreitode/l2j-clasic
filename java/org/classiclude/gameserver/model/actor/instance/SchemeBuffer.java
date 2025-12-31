@@ -31,6 +31,7 @@ import java.util.StringTokenizer;
 import org.classiclude.Config;
 import org.classiclude.gameserver.data.SchemeBufferTable;
 import org.classiclude.gameserver.data.xml.SkillData;
+import org.classiclude.gameserver.model.actor.Creature;
 import org.classiclude.gameserver.model.actor.Npc;
 import org.classiclude.gameserver.model.actor.Player;
 import org.classiclude.gameserver.model.actor.Summon;
@@ -43,63 +44,60 @@ import org.classiclude.gameserver.util.Util;
 public class SchemeBuffer extends Npc
 {
 	private static final int PAGE_LIMIT = 6;
-	
+
 	public SchemeBuffer(NpcTemplate template)
 	{
 		super(template);
 	}
-	
+
+	@Override
+	public void showChatWindow(Player player)
+	{
+		showPrimeWindow(player);
+	}
+
 	@Override
 	public void onBypassFeedback(Player player, String commandValue)
 	{
 		// Simple hack to use createscheme bypass with a space.
 		final String command = commandValue.replace("createscheme ", "createscheme;");
-		
+
 		final StringTokenizer st = new StringTokenizer(command, ";");
 		final String currentCommand = st.nextToken();
 		if (currentCommand.startsWith("menu"))
 		{
-			final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
-			html.setFile(player, getHtmlPath(getId(), 0, player));
-			html.replace("%objectId%", getObjectId());
-			player.sendPacket(html);
+			showPrimeWindow(player);
 		}
 		else if (currentCommand.startsWith("cleanup"))
 		{
 			player.stopAllEffects();
-			
+
 			final Summon summon = player.getPet();
 			if (summon != null)
 			{
 				summon.stopAllEffects();
 			}
 			player.getServitors().values().forEach(servitor -> servitor.stopAllEffects());
-			
-			final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
-			html.setFile(player, getHtmlPath(getId(), 0, player));
-			html.replace("%objectId%", getObjectId());
-			player.sendPacket(html);
+
+			showPrimeWindow(player);
 		}
 		else if (currentCommand.startsWith("heal"))
 		{
 			player.setCurrentHpMp(player.getMaxHp(), player.getMaxMp());
 			player.setCurrentCp(player.getMaxCp());
-			
+
 			final Summon summon = player.getPet();
 			if (summon != null)
 			{
 				summon.setCurrentHpMp(summon.getMaxHp(), summon.getMaxMp());
 			}
 			player.getServitors().values().forEach(servitor -> servitor.setCurrentHpMp(servitor.getMaxHp(), servitor.getMaxMp()));
-			
-			final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
-			html.setFile(player, getHtmlPath(getId(), 0, player));
-			html.replace("%objectId%", getObjectId());
-			player.sendPacket(html);
+
+			showPrimeWindow(player);
 		}
 		else if (currentCommand.startsWith("support"))
 		{
-			showGiveBuffsWindow(player);
+			showPrimeWindow(player);
 		}
 		else if (currentCommand.startsWith("givebuffs"))
 		{
@@ -129,6 +127,7 @@ public class SchemeBuffer extends Npc
 					}
 				}
 			}
+			showPrimeWindow(player);
 		}
 		else if (currentCommand.startsWith("editschemes"))
 		{
@@ -171,7 +170,7 @@ public class SchemeBuffer extends Npc
 			{
 				skills.remove(Integer.valueOf(skillId));
 			}
-			
+
 			showEditSchemeWindow(player, groupType, schemeName, page);
 		}
 		else if (currentCommand.startsWith("createscheme"))
@@ -190,7 +189,7 @@ public class SchemeBuffer extends Npc
 					player.sendMessage("Please use plain alphanumeric characters.");
 					return;
 				}
-				
+
 				final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
 				if (schemes != null)
 				{
@@ -199,16 +198,16 @@ public class SchemeBuffer extends Npc
 						player.sendMessage("Maximum schemes amount is already reached.");
 						return;
 					}
-					
+
 					if (schemes.containsKey(schemeName))
 					{
 						player.sendMessage("The scheme name already exists.");
 						return;
 					}
 				}
-				
+
 				SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
-				showGiveBuffsWindow(player);
+				showPrimeWindow(player);
 			}
 			catch (Exception e)
 			{
@@ -230,10 +229,60 @@ public class SchemeBuffer extends Npc
 			{
 				player.sendMessage("This scheme name is invalid.");
 			}
-			showGiveBuffsWindow(player);
+			showPrimeWindow(player);
 		}
+		else if (currentCommand.startsWith("solobuffmenu"))
+		{
+			final String[] params = currentCommand.split(" ");
+			String page = params[1];
+			int p = Integer.valueOf(page);
+			NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
+			html.setFile(player, getHtmlPath(getId(), p, player));
+			html.replace("%objectId%", getObjectId());
+			player.sendPacket(html);
+		}
+		else if (currentCommand.startsWith("bbsadbuff"))
+		{
+			String[] parts = currentCommand.split(" ");
+
+			if (parts.length < 3)
+			{
+				player.sendMessage("Invalid buff request.");
+				return;
+			}
+
+			int p = Integer.parseInt(parts[2]);
+
+			String[] skillData = parts[1].split(",");
+			int skillId = Integer.parseInt(skillData[0]);
+			int skillLevel = Integer.parseInt(skillData[1]);
+
+			List<Creature> targets = new ArrayList<>();
+			targets.add(player);
+
+			if (player.getPet() != null)
+			{
+				targets.add(player.getPet());
+			}
+
+			player.getServitors().values().forEach(targets::add);
+			Skill skill = SkillData.getInstance().getSkill(skillId, skillLevel);
+			for (Creature target : targets)
+			{
+				if (skill.isSharedWithSummon() || target.isPlayer())
+				{
+					skill.applyEffects(player, target);
+				}
+			}
+
+			NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
+			html.setFile(player, getHtmlPath(getId(), p, player));
+			html.replace("%objectId%", getObjectId());
+			player.sendPacket(html);
+		}
+
 	}
-	
+
 	@Override
 	public String getHtmlPath(int npcId, int value, Player player)
 	{
@@ -248,15 +297,12 @@ public class SchemeBuffer extends Npc
 		}
 		return "data/html/mods/SchemeBuffer/" + filename + ".htm";
 	}
-	
-	/**
-	 * Sends an html packet to player with Give Buffs menu info for player and pet, depending on targetType parameter {player, pet}
-	 * @param player : The player to make checks on.
-	 */
-	private void showGiveBuffsWindow(Player player)
+
+	private void showPrimeWindow(Player player)
 	{
-		final StringBuilder sb = new StringBuilder(200);
 		final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+		final StringBuilder sb = new StringBuilder(200);
+
 		if ((schemes == null) || schemes.isEmpty())
 		{
 			sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
@@ -265,27 +311,44 @@ public class SchemeBuffer extends Npc
 		{
 			for (Entry<String, List<Integer>> scheme : schemes.entrySet())
 			{
+				final int count = scheme.getValue().size();
 				final int cost = getFee(scheme.getValue());
-                sb.append("" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "");
-                sb.append("<table>");
-                sb.append("<tr>");
-				sb.append("<td><button value=\"Use on Me\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
-				sb.append("<td><button value=\"Use on Pet\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
-				sb.append("<td><button value=\"Edit\" action=\"bypass npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
-				sb.append("<td><button value=\"Delete\" action=\"bypass npc_%objectId%_deletescheme;" + scheme.getKey() + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
-                sb.append("</tr>");
-                sb.append("</table><br>");
+				final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
+
+				sb.append("<table width=280 cellpadding=0 cellspacing=0 background=\"l2tartarus_protojah.bg2\">");
+				sb.append("<tr><td height=10></td></tr>");
+				sb.append("<tr><td align=center>");
+				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
+				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
+				sb.append("<table><tr>");
+				sb.append("<td fixwidth=2></td>");
+				sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
+				sb.append("<td fixwidth=3>|</td>");
+				sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
+				sb.append("<td fixwidth=3>|</td>");
+				sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
+				sb.append("<td fixwidth=3>|</td>");
+				sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
+				sb.append("<td fixwidth=35></td>");
+				sb.append("</tr></table></td>");
+				sb.append("<td align=center>");
+				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
+				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
+				sb.append("</td></tr>");
+				sb.append("<tr><td height=18></td></tr>");
+				sb.append("</table>");
 			}
 		}
-		
-		final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
-		html.setFile(player, getHtmlPath(getId(), 1, player));
+
+		NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
+		html.setFile(player, getHtmlPath(getId(), 0, player));
 		html.replace("%schemes%", sb.toString());
-		html.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
 		html.replace("%objectId%", getObjectId());
+		html.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
+
 		player.sendPacket(html);
 	}
-	
+
 	/**
 	 * This sends an html packet to player with Edit Scheme Menu info. This allows player to edit each created scheme (add/delete skills)
 	 * @param player : The player to make checks on.
@@ -299,13 +362,14 @@ public class SchemeBuffer extends Npc
 		final List<Integer> schemeSkills = SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName);
 		html.setFile(player, getHtmlPath(getId(), 2, player));
 		html.replace("%schemename%", schemeName);
-		html.replace("%count%", getCountOf(schemeSkills, false) + " / " + player.getStat().getMaxBuffCount() + " buffs, " + getCountOf(schemeSkills, true) + " / " + Config.DANCES_MAX_AMOUNT + " dances/songs");
+		html.replace("%countbuff%", getCountOf(schemeSkills, false) + " / " + (player.getStat().getMaxBuffCount() - 1));
+		html.replace("%countdance%", getCountOf(schemeSkills, true) + " / " + (Config.DANCES_MAX_AMOUNT - 1));
 		html.replace("%typesframe%", getTypesFrame(groupType, schemeName));
 		html.replace("%skilllistframe%", getGroupSkillList(player, groupType, schemeName, page));
 		html.replace("%objectId%", getObjectId());
 		player.sendPacket(html);
 	}
-	
+
 	/**
 	 * @param player : The player to make checks on.
 	 * @param groupType : The group of skills to select.
@@ -321,7 +385,7 @@ public class SchemeBuffer extends Npc
 		{
 			return "That group doesn't contain any skills.";
 		}
-		
+
 		// Calculate page number.
 		final int max = MathUtil.countPagesNumber(skills.size(), PAGE_LIMIT);
 		int page = pageValue;
@@ -329,56 +393,80 @@ public class SchemeBuffer extends Npc
 		{
 			page = max;
 		}
-		
+
 		// Cut skills list up to page number.
 		skills = skills.subList((page - 1) * PAGE_LIMIT, Math.min(page * PAGE_LIMIT, skills.size()));
-		
+
 		final List<Integer> schemeSkills = SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName);
 		final StringBuilder sb = new StringBuilder(skills.size() * 150);
-		int row = 0;
+		sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=6></td><td align=center>");
+		sb.append("<table width=284 cellpadding=0 cellspacing=0  background=\"l2tartarus_protojah.bg2\"><tr><td height=10></td></tr>");
+
 		for (int skillId : skills)
 		{
-			sb.append(((row % 2) == 0 ? "<table width=\"280\" bgcolor=\"000000\"><tr>" : "<table width=\"280\"><tr>"));
-			
 			final Skill skill = SkillData.getInstance().getSkill(skillId, 1);
+			final String icon = skill.getIcon();
+			final String name = skill.getName();
+			final String desc = SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription();
+
+			sb.append("<tr><td align=center>");
+			sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
+			sb.append("<table cellpadding=0 cellspacing=0>");
+			sb.append("<tr><td fixwidth=5></td>");
+			sb.append("<td fixwidth=38 align=center><img src=\"" + icon + "\" width=32 height=32></td>");
+			sb.append("</tr></table></td>");
+			sb.append("<td align=center>");
+			sb.append("<table cellpadding=0 cellspacing=0><tr><td height=13></td></tr></table>");
+			sb.append("<table cellpadding=0 cellspacing=0><tr>");
+			sb.append("<td fixwidth=220 align=left>" + name + "</td></tr></table>");
+			sb.append("<table cellpadding=0 cellspacing=0><tr>");
+			sb.append("<td fixwidth=220 align=left><font color=\"b3a382\">" + desc + "</font></td>");
+			sb.append("</tr></table></td>");
+			sb.append("<td align=center>");
+			sb.append("<table cellpadding=0 cellspacing=0><tr><td height=12></td></tr></table>");
+			sb.append("<table cellpadding=0 cellspacing=0>");
+			sb.append("<tr><td fixwidth=5></td>");
+
 			if (schemeSkills.contains(skillId))
 			{
-				sb.append("<td height=40 width=40><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass npc_%objectId%_skillunselect;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomout2\" fore=\"L2UI_CH3.mapbutton_zoomout1\"></td>");
+				// BOTÓN MENOS (ELIMINAR)
+				sb.append("<td fixwidth=32 align=center>" + "<button value=\" \" action=\"bypass npc_%objectId%_skillunselect;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=21 back=\"l2tartarus_protojah.BTN_Minus_down\" fore=\"l2tartarus_protojah.BTN_Minus\">" + "</td>");
 			}
 			else
 			{
-				sb.append("<td height=40 width=40><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass npc_%objectId%_skillselect;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomin2\" fore=\"L2UI_CH3.mapbutton_zoomin1\"></td>");
+				// BOTÓN MÁS (AÑADIR)
+				sb.append("<td fixwidth=32 align=center>" + "<button value=\" \" action=\"bypass npc_%objectId%_skillselect;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=21 back=\"l2tartarus_protojah.BTN_Plus_down\" fore=\"l2tartarus_protojah.BTN_Plus\">" + "</td>");
 			}
-			
-			sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=277 height=1>");
-			row++;
+			sb.append("</tr></table></td></tr><tr><td height=18></td></tr>");
 		}
-		
-		// Build page footer.
-		sb.append("<br><img src=\"L2UI.SquareGray\" width=277 height=1><table width=\"100%\" bgcolor=000000><tr>");
+		sb.append("</table></td></tr></table>");
+
+		// Build page footer. ---------
+		sb.append("<table cellpadding=0 cellspacing=0><tr><td height=20></td></tr></table>");
+		sb.append("<table cellpadding=0 cellspacing=0 width=290><tr><td fixwidth=10></td>");
 		if (page > 1)
 		{
-			sb.append("<td align=left width=70><a action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page - 1) + "\">Previous</a></td>");
+			sb.append("<td fixwidth=96 align=center><button value=\"Previous\" action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page - 1) + "\" width=70 height=23 back=\"l2tartarus_protojah.btn_down\" fore=\"l2tartarus_protojah.btn\"></td>>");
 		}
 		else
 		{
-			sb.append("<td align=left width=70>Previous</td>");
+			sb.append("<td fixwidth=96 align=center><button value=\"Previous\" action=\"#\" width=70 height=23 back=\"l2tartarus_protojah.btn_down\" fore=\"l2tartarus_protojah.btn\"></td>");
 		}
-		
-		sb.append("<td align=center width=100>Page " + page + "</td>");
+
+		sb.append("<td fixwidth=96 align=center>Page " + page + "</td>");
 		if (page < max)
 		{
-			sb.append("<td align=right width=70><a action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page + 1) + "\">Next</a></td>");
+			sb.append("<td fixwidth=96 align=center><button value=\"Next\" action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page + 1) + "\"width=70 height=23 back=\"l2tartarus_protojah.btn_down\" fore=\"l2tartarus_protojah.btn\"></td>");
 		}
 		else
 		{
-			sb.append("<td align=right width=70>Next</td>");
+			sb.append("<td fixwidth=96 align=center><button value=\"Next\" action=\"#\" width=70 height=23 back=\"l2tartarus_protojah.btn_down\" fore=\"l2tartarus_protojah.btn\"></td>");
 		}
-		
-		sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=277 height=1>");
+		sb.append("<td fixwidth=96 align=center><button value=\"Back\" action=\"bypass npc_" + getObjectId() + "_support;\" width=70 height=23 back=\"l2tartarus_protojah.btn_down\" fore=\"l2tartarus_protojah.btn\"></td>");
+		sb.append("</tr></table>");
 		return sb.toString();
 	}
-	
+
 	/**
 	 * @param groupType : The group of skills to select.
 	 * @param schemeName : The scheme to make check.
@@ -386,40 +474,30 @@ public class SchemeBuffer extends Npc
 	 */
 	private static String getTypesFrame(String groupType, String schemeName)
 	{
-		final StringBuilder sb = new StringBuilder(500);
-		sb.append("<table>");
-		
-		int count = 0;
-		for (String type : SchemeBufferTable.getInstance().getSkillTypes())
+		final String[] types = new String[]
 		{
-			if (count == 0)
+			"Buffs",
+			"Resist",
+			"Dances",
+			"Songs"
+		};
+		final StringBuilder sb = new StringBuilder(500);
+		sb.append("<table cellpadding=0 cellspacing=0 width=290><tr>");
+		sb.append("<td fixwidth=10></td>");
+
+		for (String t : types)
+		{
+			if (t.equalsIgnoreCase(groupType))
 			{
-				sb.append("<tr>");
-			}
-			
-			if (groupType.equalsIgnoreCase(type))
-			{
-				sb.append("<td width=65>" + type + "</td>");
+				sb.append("<td fixwidth=96 align=center><button value=\"" + t + "\" action=\"#\" width=70 height=23 back=\"l2tartarus_protojah.btn_down\" fore=\"l2tartarus_protojah.btn_over\"></td>");
 			}
 			else
 			{
-				sb.append("<td width=65><a action=\"bypass npc_%objectId%_editschemes;" + type + ";" + schemeName + ";1\">" + type + "</a></td>");
-			}
-			
-			count++;
-			if (count == 4)
-			{
-				sb.append("</tr>");
-				count = 0;
+				sb.append("<td fixwidth=96 align=center><button value=\"" + t + "\" action=\"bypass -h npc_%objectId%_editschemes;" + t + ";" + schemeName + ";1\" width=70 height=23 back=\"l2tartarus_protojah.btn_down\" fore=\"l2tartarus_protojah.btn\"></td>");
 			}
 		}
-		
-		if (!sb.toString().endsWith("</tr>"))
-		{
-			sb.append("</tr>");
-		}
-		
-		sb.append("</table>");
+
+		sb.append("</tr></table>");
 		
 		return sb.toString();
 	}

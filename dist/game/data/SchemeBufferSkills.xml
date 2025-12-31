@@ -21,7 +21,7 @@
 		<buff id="1259" level="1" price="0" desc="Increases resistance to stun attack." /> <!-- Resist Shock -->
 		<buff id="1044" level="1" price="0" desc="Increase HP recovery" /> <!-- Regeneration -->
 		<buff id="1307" level="1" price="0" desc="Increase effectiveness of HP recovery." /> <!-- Prayer -->
-		<buff id="4699" level="1" price="0" desc="Increase critical damage amount rate and power." /> <!-- Blessing of Queen -->
+		<buff id="4699" level="1" price="0" desc="Increase ctr. dmg amount rate and power." /> <!-- Blessing of Queen -->
 		<buff id="4700" level="1" price="0" desc="Increase P. Atk and Accuracy. " /> <!-- Gift of Queen -->
 		<buff id="4702" level="1" price="0" desc="Increase MP regeneration." /> <!-- Blessing of Seraphim -->
 		<buff id="4703" level="1" price="0" desc="Reduce magic skill recovery time." /> <!-- Gift of Seraphim -->

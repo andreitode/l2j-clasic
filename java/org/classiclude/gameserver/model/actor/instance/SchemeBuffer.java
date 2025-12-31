@@ -290,7 +290,6 @@ public class SchemeBuffer extends Npc
 				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
 				sb.append("</td></tr>");
 				sb.append("<tr><td height=18></td></tr>");
-                sb.append("<tr><td><center><br><img src=\"l2ui.squaregray\" width=\"256\" height=\"1\" /></center><br></td></tr>");
 				sb.append("</table>");
 //                 sb.append("" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "");
 //                 sb.append("<table>");

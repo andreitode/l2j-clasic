@@ -265,16 +265,24 @@ public class SchemeBuffer extends Npc
 		{
 			for (Entry<String, List<Integer>> scheme : schemes.entrySet())
 			{
+// 				final int cost = getFee(scheme.getValue());
+//                 sb.append("" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "");
+//                 sb.append("<table>");
+//                 sb.append("<tr>");
+// 				sb.append("<td><button value=\"Use on Me\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
+// 				sb.append("<td><button value=\"Use on Pet\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
+// 				sb.append("<td><button value=\"Edit\" action=\"bypass npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
+// 				sb.append("<td><button value=\"Delete\" action=\"bypass npc_%objectId%_deletescheme;" + scheme.getKey() + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
+//                 sb.append("</tr>");
+//                 sb.append("</table>");
+{
 				final int cost = getFee(scheme.getValue());
-                sb.append("" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "");
-                sb.append("<table>");
-                sb.append("<tr>");
-				sb.append("<td><button value=\"Use on Me\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
-				sb.append("<td><button value=\"Use on Pet\" action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
-				sb.append("<td><button value=\"Edit\" action=\"bypass npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
-				sb.append("<td><button value=\"Delete\" action=\"bypass npc_%objectId%_deletescheme;" + scheme.getKey() + "\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>&nbsp;|&nbsp;");
-                sb.append("</tr>");
-                sb.append("</table>");
+				sb.append("<font color=\"LEVEL\">" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "</font><br1>");
+				sb.append("<a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\">Use on Me</a>&nbsp;|&nbsp;");
+				sb.append("<a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\">Use on Pet</a>&nbsp;|&nbsp;");
+				sb.append("<a action=\"bypass npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\">Edit</a>&nbsp;|&nbsp;");
+				sb.append("<a action=\"bypass npc_%objectId%_deletescheme;" + scheme.getKey() + "\">Delete</a><br>");
+			}
 			}
 		}
 		

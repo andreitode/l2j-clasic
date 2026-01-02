@@ -55,7 +55,6 @@ import org.classiclude.gameserver.network.serverpackets.BuyList;
 import org.classiclude.gameserver.network.serverpackets.ExBuySellList;
 import org.classiclude.gameserver.network.serverpackets.MagicSkillUse;
 import org.classiclude.gameserver.network.serverpackets.ShowBoard;
-import org.classiclude.gameserver.community.util.CommunityBoard;
 
 /**
  * Home board.
@@ -101,6 +100,74 @@ public class HomeBoard implements IParseBoardHandler
 	
 	private static final Predicate<Player> KARMA_CHECK = player -> Config.COMMUNITYBOARD_KARMA_DISABLED && (player.getReputation() < 0);
 
+	public static String getMenu(Player player)
+    {
+    	final String navigation = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/navigation.html");
+    	ArrayList<String> buttons = new ArrayList<>();
+    	String links = "";
+    	String links_template = "<tr>" + "<td><button value=\"%text%\" action=\"%action%\" width=200 height=30 back=\"%iconBack%\" fore=\"%iconFore%\"></td>" + "</tr>";
+
+    	String btn = links_template;
+
+    	if (Config.COMMUNITYBOARD_ENABLE_BUFFS)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Buffer");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Level_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Level");
+    	    btn = btn.replace("%action%", "bypass _bbstop;buffer/main.html");
+    		buttons.add(btn);
+    	}
+
+    	if (Config.COMMUNITYBOARD_ENABLE_MULTISELLS)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Merchant");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_BuyEquip_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_BuyEquip");
+    	    btn = btn.replace("%action%", "bypass _bbstop;merchant/main.html");
+    		buttons.add(btn);
+    	}
+
+    	if (Config.COMMUNITYBOARD_ENABLE_TELEPORTS)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Gatekeeper");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Campaign_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Campaign");
+    	    btn = btn.replace("%action%", "bypass _bbstop;gatekeeper/main.html");
+    		buttons.add(btn);
+    	}
+
+    	btn = links_template;
+
+    	btn = btn.replace("%text%", "Drop Search");
+    	btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Area_Down");
+    	btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Area");
+    	btn = btn.replace("%action%", "bypass _bbstop;dropsearch/main.html");
+    	buttons.add(btn);
+
+    	if (Config.COMMUNITYBOARD_ENABLE_VOTE)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Vote");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_Reward_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_Reward");
+//     	    btn = btn.replace("%action%", "bypass _bbstop;vote/main.html"); //leave it for later on, idk
+    	    btn = btn.replace("%action%", "bypass _bbsvote");
+    		buttons.add(btn);
+    	}
+    	for (String button : buttons)
+    	{
+    		links += button;
+    	}
+    	return navigation.replace("%navLinks%", links);
+    }
+
 	@Override
 	public String[] getCommunityBoardCommands()
 	{
@@ -133,7 +200,7 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		
 		String returnHtml = null;
-		final String navigation = org.classiclude.gameserver.community.util.CommunityBoard.getMenu(player);
+		final String navigation = this.getMenu(player);
 		if (command.equals("_bbshome") || command.equals("_bbstop"))
 		{
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";

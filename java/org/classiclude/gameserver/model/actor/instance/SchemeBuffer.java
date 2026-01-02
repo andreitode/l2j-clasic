@@ -219,6 +219,7 @@ public class SchemeBuffer extends Npc
 		}
 		else if (currentCommand.startsWith("deletescheme"))
 		{
+            player.setAdminConfirmCmd(fullCommand);
             final ConfirmDlg dlg = new ConfirmDlg(SystemMessageId.S1_3);
             dlg.getSystemMessage().addString("Are you sure you want delete the scheme?");
 			try

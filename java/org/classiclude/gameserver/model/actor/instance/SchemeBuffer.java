@@ -38,6 +38,7 @@ import org.classiclude.gameserver.model.actor.templates.NpcTemplate;
 import org.classiclude.gameserver.model.skill.Skill;
 import org.classiclude.gameserver.network.serverpackets.NpcHtmlMessage;
 import org.classiclude.gameserver.network.SystemMessageId;
+import org.classiclude.gameserver.network.serverpackets.ConfirmDlg;
 import org.classiclude.gameserver.util.MathUtil;
 import org.classiclude.gameserver.util.Util;
 

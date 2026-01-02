@@ -157,7 +157,8 @@ public class HomeBoard implements IParseBoardHandler
     		btn = btn.replace("%text%", "Vote");
     		btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_Reward_Down");
     		btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_Reward");
-    	    btn = btn.replace("%action%", "bypass _bbstop;vote/main.html");
+//     	    btn = btn.replace("%action%", "bypass _bbstop;vote/main.html"); //leave it for later on, idk
+    	    btn = btn.replace("%action%", "bypass _bbsvote");
     		buttons.add(btn);
     	}
     	for (String button : buttons)

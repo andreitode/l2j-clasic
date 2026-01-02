@@ -116,7 +116,7 @@ public class HomeBoard implements IParseBoardHandler
     		btn = btn.replace("%text%", "Buffer");
     		btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Level_Down");
     		btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Level");
-    	btn = btn.replace("%action%", "bypass _bbstop;buffer/main.html");
+    	    btn = btn.replace("%action%", "bypass _bbstop;buffer/main.html");
     		buttons.add(btn);
     	}
 
@@ -127,7 +127,7 @@ public class HomeBoard implements IParseBoardHandler
     		btn = btn.replace("%text%", "Merchant");
     		btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_BuyEquip_Down");
     		btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_BuyEquip");
-    	btn = btn.replace("%action%", "bypass _bbstop;merchant/main.html");
+    	    btn = btn.replace("%action%", "bypass _bbstop;merchant/main.html");
     		buttons.add(btn);
     	}
 
@@ -138,7 +138,7 @@ public class HomeBoard implements IParseBoardHandler
     		btn = btn.replace("%text%", "Gatekeeper");
     		btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Campaign_Down");
     		btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Campaign");
-    	btn = btn.replace("%action%", "bypass _bbstop;gatekeeper/main.html");
+    	    btn = btn.replace("%action%", "bypass _bbstop;gatekeeper/main.html");
     		buttons.add(btn);
     	}
 

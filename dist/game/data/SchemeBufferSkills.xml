@@ -69,7 +69,7 @@
 		<buff id="310" level="1" price="0" desc="Restores HP by inflicted damage." /> <!-- Dance of the Vampire -->
 		<buff id="311" level="1" price="0" desc="Increases resistance to terrain damage." /> <!-- Dance of Protection -->
 		<buff id="365" level="1" price="0" desc="Increases rate of magic crit. damage." /> <!-- Siren's Dance -->
-		<buff id="8549" level="1" price="0" desc="Increase power and attack speed, reduce defense." /> <!-- Dance of berserker -->
+		<buff id="8549" level="1" price="0" desc="Increase power and attack speed, reduce defense." /> <!-- Dance of berserk -->
 	</category>
 	<category type="Songs">
 		<buff id="264" level="1" price="0" desc="Increases P. Def." /> <!-- Song of Earth -->

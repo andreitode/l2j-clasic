@@ -55,6 +55,7 @@ import org.classiclude.gameserver.network.serverpackets.BuyList;
 import org.classiclude.gameserver.network.serverpackets.ExBuySellList;
 import org.classiclude.gameserver.network.serverpackets.MagicSkillUse;
 import org.classiclude.gameserver.network.serverpackets.ShowBoard;
+import org.classiclude.gameserver.community.util.CommunityBoard;
 
 /**
  * Home board.

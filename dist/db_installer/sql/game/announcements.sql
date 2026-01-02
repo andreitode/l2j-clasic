@@ -11,5 +11,5 @@ CREATE TABLE IF NOT EXISTS `announcements` (
 ) DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 INSERT INTO announcements (`type`, `author`, `content`) VALUES 
-(0, 'classiclude', 'Thanks for using ClassicLude!'),
-(0, 'classiclude', '[=http://www.classic-lude.org/=]');
+(0, 'l2xbt', 'Thanks for using L2XBT!'),
+(0, 'l2xbt', '[=http://www.l2xbt.com/=]');

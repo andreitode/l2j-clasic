@@ -99,7 +99,74 @@ public class HomeBoard implements IParseBoardHandler
 	};
 	
 	private static final Predicate<Player> KARMA_CHECK = player -> Config.COMMUNITYBOARD_KARMA_DISABLED && (player.getReputation() < 0);
-	
+
+	public static String getMenu(Player player)
+    {
+    	final String navigation = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/navigation.html");
+    	ArrayList<String> buttons = new ArrayList<>();
+    	String links = "";
+    	String links_template = "<tr>" + "<td><button value=\"%text%\" action=\"%action%\" width=200 height=30 back=\"%iconBack%\" fore=\"%iconFore%\"></td>" + "</tr>";
+
+    	String btn = links_template;
+
+    	if (Config.COMMUNITYBOARD_ENABLE_BUFFS)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Buffer");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Level_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Level");
+    		btn = btn.replace("%action%", "bypass _bbsbuffer");
+    		buttons.add(btn);
+    	}
+
+    	if (Config.COMMUNITYBOARD_ENABLE_MULTISELLS)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Merchant");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_BuyEquip_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_BuyEquip");
+    		btn = btn.replace("%action%", "bypass _bbsshop");
+    		buttons.add(btn);
+    	}
+
+    	if (Config.COMMUNITYBOARD_ENABLE_TELEPORTS)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Gatekeeper");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Campaign_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Campaign");
+    		btn = btn.replace("%action%", "bypass _bbsteleport");
+    		buttons.add(btn);
+    	}
+
+    	btn = links_template;
+
+    	btn = btn.replace("%text%", "Drop Search");
+    	btn = btn.replace("%iconBack%", "L2UI_CT1.HtmlWnd_DF_Area_Down");
+    	btn = btn.replace("%iconFore%", "L2UI_CT1.HtmlWnd_DF_Area");
+    	btn = btn.replace("%action%", "bypass _bbstop;dropsearch/main.html");
+    	buttons.add(btn);
+
+    	if (Config.COMMUNITYBOARD_ENABLE_VOTE)
+    	{
+    		btn = links_template;
+
+    		btn = btn.replace("%text%", "Vote");
+    		btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_Reward_Down");
+    		btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_Reward");
+    		btn = btn.replace("%action%", "bypass _bbsvote");
+    		buttons.add(btn);
+    	}
+    	for (String button : buttons)
+    	{
+    		links += button;
+    	}
+    	return navigation.replace("%navLinks%", links);
+    }
+
 	@Override
 	public String[] getCommunityBoardCommands()
 	{
@@ -132,7 +199,7 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		
 		String returnHtml = null;
-		final String navigation = HtmCache.getInstance().getHtm(player, NAVIGATION_PATH);
+		final String navigation = this.getMenu(player);
 		if (command.equals("_bbshome") || command.equals("_bbstop"))
 		{
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";

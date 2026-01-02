@@ -55,6 +55,7 @@ import org.classiclude.gameserver.network.serverpackets.BuyList;
 import org.classiclude.gameserver.network.serverpackets.ExBuySellList;
 import org.classiclude.gameserver.network.serverpackets.MagicSkillUse;
 import org.classiclude.gameserver.network.serverpackets.ShowBoard;
+import org.classiclude.gameserver.utils.CommunityBoard;
 
 /**
  * Home board.
@@ -200,7 +201,7 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		
 		String returnHtml = null;
-		final String navigation = this.getMenu(player);
+		final String navigation = CommunityBoard.getMenu(player);
 		if (command.equals("_bbshome") || command.equals("_bbstop"))
 		{
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";

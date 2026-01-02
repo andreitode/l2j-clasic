@@ -217,6 +217,7 @@ public class SchemeBuffer extends Npc
 		}
 		else if (currentCommand.startsWith("deletescheme"))
 		{
+            dlg.getSystemMessage().addString("Are you sure you want delete the scheme?");
 			try
 			{
 				final String schemeName = st.nextToken();

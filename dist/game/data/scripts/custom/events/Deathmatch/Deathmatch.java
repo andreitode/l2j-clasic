@@ -113,9 +113,9 @@ public class Deathmatch extends Event
 	private static final int WAIT_TIME = 20; // Seconds
 	private static final int FIGHT_TIME = 3; // Minutes
 	private static final int INACTIVITY_TIME = 2; // Minutes
-	private static final int MINIMUM_PARTICIPANT_LEVEL = 85;
+	private static final int MINIMUM_PARTICIPANT_LEVEL = 80;
 	private static final int MAXIMUM_PARTICIPANT_LEVEL = 200;
-	private static final int MINIMUM_PARTICIPANT_COUNT = 4;
+	private static final int MINIMUM_PARTICIPANT_COUNT = 2;
 	private static final int MAXIMUM_PARTICIPANT_COUNT = 24; // Scoreboard has 25 slots
 	private static final List<ItemHolder> REWARDS = List.of(new ItemHolder(57, 1000000), // Adena
 		new ItemHolder(4037, 10), // Scroll of Enchant Weapon (D)

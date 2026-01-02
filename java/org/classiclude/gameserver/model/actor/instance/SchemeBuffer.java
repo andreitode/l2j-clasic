@@ -37,8 +37,6 @@ import org.classiclude.gameserver.model.actor.Summon;
 import org.classiclude.gameserver.model.actor.templates.NpcTemplate;
 import org.classiclude.gameserver.model.skill.Skill;
 import org.classiclude.gameserver.network.serverpackets.NpcHtmlMessage;
-import org.classiclude.gameserver.network.SystemMessageId;
-import org.classiclude.gameserver.network.serverpackets.ConfirmDlg;
 import org.classiclude.gameserver.util.MathUtil;
 import org.classiclude.gameserver.util.Util;
 
@@ -219,9 +217,6 @@ public class SchemeBuffer extends Npc
 		}
 		else if (currentCommand.startsWith("deletescheme"))
 		{
-            player.setAdminConfirmCmd(null);
-            final ConfirmDlg dlg = new ConfirmDlg(SystemMessageId.S1_3);
-            dlg.getSystemMessage().addString("Are you sure you want delete the scheme?");
 			try
 			{
 				final String schemeName = st.nextToken();

@@ -203,11 +203,35 @@ public class HomeBoard implements IParseBoardHandler
 				ThreadPool.schedule(player::enableAllSkills, 3000);
 			}
 		}
+
 		else if (command.startsWith("_bbsbuffscheme"))
 		{
 
-		    final StringBuilder sb = new StringBuilder(200);
-            		final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+        final StringBuilder sb = new StringBuilder(200);
+
+        		final Map<String, ArrayList<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+        		if ((schemes == null) || schemes.isEmpty())
+        		{
+        			sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
+        		}
+        		else
+        		{
+        			for (Map.Entry<String, ArrayList<Integer>> scheme : schemes.entrySet())
+        			{
+        				final int cost = getFee(scheme.getValue());
+        				sb.append("<font color=\"LEVEL\">" + scheme.getKey() + " [" + scheme.getValue().size() + " skill(s)]" + ((cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "") + "</font><br1>");
+        				sb.append("<a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\">Use on Me</a>&nbsp;|&nbsp;");
+        				sb.append("<a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\">Use on Pet</a>&nbsp;|&nbsp;");
+        				sb.append("<a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\">Edit</a>&nbsp;|&nbsp;");
+        				sb.append("<a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\">Delete</a><br>");
+        			}
+        		}
+        		final String returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/main.html");
+        		returnHtml = returnHtml.replace("%schemes%", sb.toString());
+        		returnHtml = html.replace("%max_schemes%", Integer.toString(Config.BUFFER_MAX_SCHEMES));
+        		CommunityBoardHandler.separateAndSend(html, player);
+// 		    final StringBuilder sb = new StringBuilder(200);
+//             		final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
 //             		if ((schemes == null) || schemes.isEmpty())
 //             		{
 //             			sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
@@ -245,52 +269,52 @@ public class HomeBoard implements IParseBoardHandler
 //                             sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
 //             			}
 //             		}
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
+// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
 //             returnHtml.replace("%schemes%", sb.toString());
 //             returnHtml.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
         }
-        else if (command.startsWith('_bbsbuffcreatescheme')
-        {
-            try
-			{
-				final StringTokenizer st = new StringTokenizer(command, ";");
-				final String schemeName = st.nextToken().trim();
-				if (schemeName.length() > 14)
-				{
-					player.sendMessage("Scheme's name must contain up to 14 chars.");
-					return;
-				}
-				// Simple hack to use spaces, dots, commas, minus, plus, exclamations or question marks.
-				if (!Util.isAlphaNumeric(schemeName.replace(" ", "").replace(".", "").replace(",", "").replace("-", "").replace("+", "").replace("!", "").replace("?", "")))
-				{
-					player.sendMessage("Please use plain alphanumeric characters.");
-					return;
-				}
-
-				final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
-				if (schemes != null)
-				{
-					if (schemes.size() == Config.BUFFER_MAX_SCHEMES)
-					{
-						player.sendMessage("Maximum schemes amount is already reached.");
-						return;
-					}
-
-					if (schemes.containsKey(schemeName))
-					{
-						player.sendMessage("The scheme name already exists.");
-						return;
-					}
-				}
-
-				SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
-				showSchemeBuffsWindow(player);
-			}
-			catch (Exception e)
-			{
-				player.sendMessage("Scheme's name must contain up to 14 chars.");
-			}
-        }
+//         else if (command.startsWith('_bbsbuffcreatescheme')
+//         {
+//             try
+// 			{
+// 					final StringTokenizer st = new StringTokenizer(command, ";");
+// 				final String schemeName = st.nextToken().trim();
+// 				if (schemeName.length() > 14)
+// 				{
+// 					player.sendMessage("Scheme's name must contain up to 14 chars.");
+// 					return;
+// 				}
+// 				// Simple hack to use spaces, dots, commas, minus, plus, exclamations or question marks.
+// 				if (!Util.isAlphaNumeric(schemeName.replace(" ", "").replace(".", "").replace(",", "").replace("-", "").replace("+", "").replace("!", "").replace("?", "")))
+// 				{
+// 					player.sendMessage("Please use plain alphanumeric characters.");
+// 					return;
+// 				}
+//
+// 				final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+// 				if (schemes != null)
+// 				{
+// 					if (schemes.size() == Config.BUFFER_MAX_SCHEMES)
+// 					{
+// 						player.sendMessage("Maximum schemes amount is already reached.");
+// 						return;
+// 					}
+//
+// 					if (schemes.containsKey(schemeName))
+// 					{
+// 						player.sendMessage("The scheme name already exists.");
+// 						return;
+// 					}
+// 				}
+//
+// 				SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
+// 				showSchemeBuffsWindow(player);
+// 			}
+// 			catch (Exception e)
+// 			{
+// 				player.sendMessage("Scheme's name must contain up to 14 chars.");
+// 			}
+//         }
 		else if (command.startsWith("_bbsheal"))
 		{
 			final String page = command.replace("_bbsheal;", "");

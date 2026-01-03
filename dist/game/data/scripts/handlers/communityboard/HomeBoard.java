@@ -251,6 +251,10 @@ public class HomeBoard implements IParseBoardHandler
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
         }
+        else if (command.startsWith("_bbsbuffschemecreate"))
+        {
+            player.sendMessage("should work");
+        }
 		else if (command.startsWith("_bbsheal"))
 		{
 			final String page = command.replace("_bbsheal;", "");

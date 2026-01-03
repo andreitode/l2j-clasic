@@ -18,7 +18,7 @@ set :keep_releases, 2
 # set :app_config_path, 'config/'
 # set :format_options, log_file: "storage/logs/capistrano.log"
 
-#before 'deploy', 'deploy:confirm:confirmCommits'
+before 'deploy', 'deploy:confirm:confirmCommits'
 
 namespace :deploy do
     task "migrate" do

@@ -58,6 +58,8 @@ import org.classiclude.gameserver.network.serverpackets.ShowBoard;
 
 
 import org.classiclude.gameserver.data.SchemeBufferTable;
+import java.text.NumberFormat;
+import java.util.Locale;
 
 /**
  * Home board.
@@ -353,7 +355,7 @@ public class HomeBoard implements IParseBoardHandler
     			for (Entry<String, List<Integer>> scheme : schemes.entrySet())
     			{
                     final int count = scheme.getValue().size();
-    				final int cost = getFee(scheme.getValue());
+    				final int cost = org.classiclude.gameserver.model.actor.instance.SchemeBuffer.getFee(scheme.getValue());
     				final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
 
     				sb.append("<table width=280 cellpadding=0 cellspacing=0>");
@@ -382,12 +384,14 @@ public class HomeBoard implements IParseBoardHandler
     			}
     		}
 
-    		final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
-    		html.setFile(player, getHtmlPath(getId(), 1, player));
-    		html.replace("%schemes%", sb.toString());
-    		html.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
-    		html.replace("%objectId%", getObjectId());
-    		player.sendPacket(html);
+			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/scheme.html");
+
+//     		final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
+//     		html.setFile(player, getHtmlPath(getId(), 1, player));
+//     		html.replace("%schemes%", sb.toString());
+//     		html.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
+//     		html.replace("%objectId%", getObjectId());
+//     		player.sendPacket(html);
     	}
 
 

@@ -242,7 +242,7 @@ public class HomeBoard implements IParseBoardHandler
 // 				}
 // 			}
 			
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
 		}
 		else if (command.startsWith("_bbsheal"))
 		{

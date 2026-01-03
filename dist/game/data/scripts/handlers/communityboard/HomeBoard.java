@@ -154,6 +154,10 @@ public class HomeBoard implements IParseBoardHandler
 				returnHtml = returnHtml.replace("%clan_count%", Integer.toString(ClanTable.getInstance().getClanCount()));
 			}
 		}
+        else if (command.startsWith("_bbsbuffschemecreate"))
+        {
+            player.sendMessage("should work");
+        }
 		else if (command.startsWith("_bbstop;"))
 		{
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
@@ -252,10 +256,6 @@ public class HomeBoard implements IParseBoardHandler
             returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
-        }
-        else if (command.startsWith("_bbsbuffschemecreate"))
-        {
-            player.sendMessage("should work");
         }
 		else if (command.startsWith("_bbsheal"))
 		{

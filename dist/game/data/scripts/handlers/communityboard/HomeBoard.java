@@ -208,43 +208,43 @@ public class HomeBoard implements IParseBoardHandler
 
 		    final StringBuilder sb = new StringBuilder(200);
             final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
-            if ((schemes == null) || schemes.isEmpty())
-            {
-            	sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
-            }
-            else
-            {
-            	for (Entry<String, List<Integer>> scheme : schemes.entrySet())
-            	{
-                    final int count = scheme.getValue().size();
-            		final int cost = getFee(scheme.getValue());
-            		final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
-
-            		sb.append("<table width=280 cellpadding=0 cellspacing=0>");
-            		sb.append("<tr><td height=10></td></tr>");
-            		sb.append("<tr><td align=center>");
-            		sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
-            		sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
-            		sb.append("<table><tr>");
-            		sb.append("<td fixwidth=2></td>");
-            		sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
-            		sb.append("<td fixwidth=3>|</td>");
-            		sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
-            		sb.append("<td fixwidth=3>|</td>");
-            		sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
-            		sb.append("<td fixwidth=3>|</td>");
-            		sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
-            		sb.append("<td fixwidth=35></td>");
-            		sb.append("</tr></table></td>");
-            		sb.append("<td align=center>");
-            		sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
-            		sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
-            		sb.append("</td></tr>");
-            		sb.append("<tr><td height=18></td></tr>");
-            		sb.append("</table>");
-                    sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
-            	}
-            }
+//             		if ((schemes == null) || schemes.isEmpty())
+//             		{
+//             			sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
+//             		}
+//             		else
+//             		{
+//             			for (Entry<String, List<Integer>> scheme : schemes.entrySet())
+//             			{
+//                             final int count = scheme.getValue().size();
+//             				final int cost = getFee(scheme.getValue());
+//             				final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
+//
+//             				sb.append("<table width=280 cellpadding=0 cellspacing=0>");
+//             				sb.append("<tr><td height=10></td></tr>");
+//             				sb.append("<tr><td align=center>");
+//             				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
+//             				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
+//             				sb.append("<table><tr>");
+//             				sb.append("<td fixwidth=2></td>");
+//             				sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
+//             				sb.append("<td fixwidth=3>|</td>");
+//             				sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
+//             				sb.append("<td fixwidth=3>|</td>");
+//             				sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
+//             				sb.append("<td fixwidth=3>|</td>");
+//             				sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
+//             				sb.append("<td fixwidth=35></td>");
+//             				sb.append("</tr></table></td>");
+//             				sb.append("<td align=center>");
+//             				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
+//             				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
+//             				sb.append("</td></tr>");
+//             				sb.append("<tr><td height=18></td></tr>");
+//             				sb.append("</table>");
+//                             sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
+//             			}
+//             		}
 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
             returnHtml.replace("%schemes%", sb.toString());
             returnHtml.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
@@ -324,7 +324,7 @@ public class HomeBoard implements IParseBoardHandler
 				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/premium/thankyou.html");
 			}
 		}
-		
+
 		if (returnHtml != null)
 		{
 			if (Config.CUSTOM_CB_ENABLED)

@@ -249,7 +249,7 @@ public class HomeBoard implements IParseBoardHandler
 //             returnHtml.replace("%schemes%", sb.toString());
             returnHtml = returnHtml.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
 
-            CommunityBoardHandler.separateAndSend(returnHtml, player);
+//             CommunityBoardHandler.separateAndSend(returnHtml, player);
         }
 		else if (command.startsWith("_bbsheal"))
 		{

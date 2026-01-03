@@ -119,8 +119,8 @@ public class HomeBoard implements IParseBoardHandler
 	@Override
 	public boolean parseCommunityBoardCommand(String command, Player player)
 	{
-        player.sendMessage(command);
-        player.sendMessage(command.startsWith("_bbsbuffschemecreate");
+	    player.sendMessage(command);
+	    player.sendMessage(String.valueOf(command.startsWith("_bbsbuffschemecreate")));
 		// Old custom conditions check move to here
 		if (Config.COMMUNITYBOARD_COMBAT_DISABLED && COMBAT_CHECK.test(command, player))
 		{

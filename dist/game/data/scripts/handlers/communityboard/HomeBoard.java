@@ -254,23 +254,6 @@ public class HomeBoard implements IParseBoardHandler
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
         }
-        else if (command.startsWith("_bbsbuffschemecreate"))
-        {
-            // Simple hack to use _bbscreatescheme bypass with a space.
-
-            try
-            {
-                        command = command.replace("_bbsbuffschemecreate ", "");
-
-            }
-            catch (Exception e)
-            {
-				player.sendMessage(e.getMessage());
-                player.sendMessage("Scheme's name must contain up to 14 chars.");
-            }
-
-            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/main.html");
-        }
 		else if (command.startsWith("_bbsheal"))
 		{
 			final String page = command.replace("_bbsheal;", "");

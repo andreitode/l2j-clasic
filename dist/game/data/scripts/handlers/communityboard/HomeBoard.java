@@ -251,6 +251,52 @@ public class HomeBoard implements IParseBoardHandler
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
         }
+        else if (command.startsWith("_bbsbuffschemecreate"))
+        {
+            // Simple hack to use _bbscreatescheme bypass with a space.
+            command = command.replace("_bbsbuffschemecreate ", "");
+
+            try
+            {
+                final String schemeName = command.trim();
+                if (schemeName.length() > 14)
+                {
+                    player.sendMessage("Scheme's name must contain up to 14 chars.");
+                    return;
+                }
+                // Simple hack to use spaces, dots, commas, minus, plus, exclamations or question marks.
+                if (!Util.isAlphaNumeric(schemeName.replace(" ", "").replace(".", "").replace(",", "").replace("-", "").replace("+", "").replace("!", "").replace("?", "")))
+                {
+                    player.sendMessage("Please use plain alphanumeric characters.");
+                    return;
+                }
+
+                final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+                if (schemes != null)
+                {
+                    if (schemes.size() == Config.BUFFER_MAX_SCHEMES)
+                    {
+                        player.sendMessage("Maximum schemes amount is already reached.");
+                        return;
+                    }
+
+                    if (schemes.containsKey(schemeName))
+                    {
+                        player.sendMessage("The scheme name already exists.");
+                        return;
+                    }
+                }
+
+                SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
+                showSchemeBuffsWindow(player);
+            }
+            catch (Exception e)
+            {
+                player.sendMessage("Scheme's name must contain up to 14 chars.");
+            }
+
+            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/main.html");
+        }
 		else if (command.startsWith("_bbsheal"))
 		{
 			final String page = command.replace("_bbsheal;", "");

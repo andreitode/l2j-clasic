@@ -105,6 +105,54 @@ public class SchemeBuffer extends Npc
         {
  		    showIndividualBuffsWindow(player);
         }
+        else if (currentCommand.startsWith("giveindividual"))
+        {
+            final String fullBypass = command.replace("giveindividual;", "");
+            final String[] buypassOptions = fullBypass.split(";");
+            final int buffCount = buypassOptions.length - 1;
+//             final String page = buypassOptions[buffCount];
+            if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_BUFF_PRICE * buffCount))
+            {
+            	player.sendMessage("Not enough currency!");
+            }
+            else
+            {
+            	player.destroyItemByItemId("CB_Buff", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_BUFF_PRICE * buffCount, player, true);
+            	final Pet pet = player.getPet();
+            	final List<Creature> targets = new ArrayList<>(4);
+            	targets.add(player);
+            	if (pet != null)
+            	{
+            		targets.add(pet);
+            	}
+
+            	player.getServitors().values().forEach(targets::add);
+
+            	for (int i = 0; i < buffCount; i++)
+            	{
+            		final Skill skill = SkillData.getInstance().getSkill(Integer.parseInt(buypassOptions[i].split(",")[0]), Integer.parseInt(buypassOptions[i].split(",")[1]));
+            		if (!Config.COMMUNITY_AVAILABLE_BUFFS.contains(skill.getId()))
+            		{
+            			continue;
+            		}
+            		for (Creature target : targets)
+            		{
+            			if (skill.isSharedWithSummon() || target.isPlayer())
+            			{
+            				skill.applyEffects(player, target);
+            				if (Config.COMMUNITYBOARD_CAST_ANIMATIONS)
+            				{
+            					player.sendPacket(new MagicSkillUse(player, target, skill.getId(), skill.getLevel(), skill.getHitTime(), skill.getReuseDelay()));
+            					// not recommend broadcast
+            					// player.broadcastPacket(new MagicSkillUse(player, target, skill.getId(), skill.getLevel(), skill.getHitTime(), skill.getReuseDelay()));
+            				}
+            			}
+            		}
+            	}
+            }
+
+            showIndividualBuffsWindow(player);
+        }
 		else if (currentCommand.startsWith("givebuffs"))
 		{
 			final String schemeName = st.nextToken();

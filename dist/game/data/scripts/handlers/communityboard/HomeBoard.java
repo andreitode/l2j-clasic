@@ -56,11 +56,6 @@ import org.classiclude.gameserver.network.serverpackets.ExBuySellList;
 import org.classiclude.gameserver.network.serverpackets.MagicSkillUse;
 import org.classiclude.gameserver.network.serverpackets.ShowBoard;
 
-
-import org.classiclude.gameserver.data.SchemeBufferTable;
-import java.text.NumberFormat;
-import java.util.Locale;
-
 /**
  * Home board.
  * @author Zoey76, Mobius
@@ -203,7 +198,6 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.startsWith("_bbsbuff"))
 		{
-		    showSchemeBuffsWindow(player);
 // 			final String fullBypass = command.replace("_bbsbuff;", "");
 // 			final String[] buypassOptions = fullBypass.split(";");
 // 			final int buffCount = buypassOptions.length - 1;
@@ -248,7 +242,7 @@ public class HomeBoard implements IParseBoardHandler
 // 				}
 // 			}
 			
-// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
 		}
 		else if (command.startsWith("_bbsheal"))
 		{
@@ -336,67 +330,6 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		return false;
 	}
-	/** scheme buffer part here */
-
-	/**
-    	 * Sends an html packet to player with Give Buffs menu info for player and pet, depending on targetType parameter {player, pet}
-    	 * @param player : The player to make checks on.
-    	 */
-    	private void showSchemeBuffsWindow(Player player)
-    	{
-//     		final StringBuilder sb = new StringBuilder(200);
-//     		final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
-//     		if ((schemes == null) || schemes.isEmpty())
-//     		{
-//     			sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
-//     		}
-//     		else
-//     		{
-//     			for (Entry<String, List<Integer>> scheme : schemes.entrySet())
-//     			{
-//                     final int count = scheme.getValue().size();
-//     				final int cost = org.classiclude.gameserver.model.actor.instance.SchemeBuffer.getFee(scheme.getValue());
-//     				final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
-//
-//     				sb.append("<table width=280 cellpadding=0 cellspacing=0>");
-//     				sb.append("<tr><td height=10></td></tr>");
-//     				sb.append("<tr><td align=center>");
-//     				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
-//     				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
-//     				sb.append("<table><tr>");
-//     				sb.append("<td fixwidth=2></td>");
-//     				sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
-//     				sb.append("<td fixwidth=3>|</td>");
-//     				sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
-//     				sb.append("<td fixwidth=3>|</td>");
-//     				sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
-//     				sb.append("<td fixwidth=3>|</td>");
-//     				sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
-//     				sb.append("<td fixwidth=35></td>");
-//     				sb.append("</tr></table></td>");
-//     				sb.append("<td align=center>");
-//     				sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
-//     				sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
-//     				sb.append("</td></tr>");
-//     				sb.append("<tr><td height=18></td></tr>");
-//     				sb.append("</table>");
-//                     sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
-//     			}
-//     		}
-
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
-
-//     		final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
-//     		html.setFile(player, getHtmlPath(getId(), 1, player));
-//     		html.replace("%schemes%", sb.toString());
-//     		html.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
-//     		html.replace("%objectId%", getObjectId());
-//     		player.sendPacket(html);
-    	}
-
-
-
-
 
 	/**
 	 * Gets the Favorite links for the given player.

@@ -99,8 +99,12 @@ public class SchemeBuffer extends Npc
 		}
 		else if (currentCommand.startsWith("support"))
 		{
-			showGiveBuffsWindow(player);
+			showSchemeBuffsWindow(player);
 		}
+        else if (currentCommand.startsWith("invidualbuffs")
+        {
+ 		    showIndividualBuffsWindow(player);
+        }
 		else if (currentCommand.startsWith("givebuffs"))
 		{
 			final String schemeName = st.nextToken();
@@ -134,6 +138,7 @@ public class SchemeBuffer extends Npc
 		{
 			showEditSchemeWindow(player, st.nextToken(), st.nextToken(), Integer.parseInt(st.nextToken()));
 		}
+
 		else if (currentCommand.startsWith("skill"))
 		{
 			final String groupType = st.nextToken();
@@ -208,7 +213,7 @@ public class SchemeBuffer extends Npc
 				}
 
 				SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
-				showGiveBuffsWindow(player);
+				showSchemeBuffsWindow(player);
 			}
 			catch (Exception e)
 			{
@@ -230,7 +235,7 @@ public class SchemeBuffer extends Npc
 			{
 				player.sendMessage("This scheme name is invalid.");
 			}
-			showGiveBuffsWindow(player);
+			showSchemeBuffsWindow(player);
 		}
 	}
 
@@ -249,11 +254,22 @@ public class SchemeBuffer extends Npc
 		return "data/html/mods/SchemeBuffer/" + filename + ".htm";
 	}
 
+    private void showIndividualBuffsWindow(Player player)
+    {
+        final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
+    	html.setFile(player, getHtmlPath(getId(), 3, player));
+//     	html.replace("%schemes%", sb.toString());
+//    		html.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
+//    		html.replace("%objectId%", getObjectId());
+   		player.sendPacket(html);
+    }
+
+
 	/**
 	 * Sends an html packet to player with Give Buffs menu info for player and pet, depending on targetType parameter {player, pet}
 	 * @param player : The player to make checks on.
 	 */
-	private void showGiveBuffsWindow(Player player)
+	private void showSchemeBuffsWindow(Player player)
 	{
 		final StringBuilder sb = new StringBuilder(200);
 		final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());

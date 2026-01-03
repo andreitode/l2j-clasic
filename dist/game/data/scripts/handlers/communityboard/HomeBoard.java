@@ -63,6 +63,9 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.StringTokenizer;
+import org.l2jmobius.gameserver.util.Util;
+
+
 /**
  * Home board.
  * @author Zoey76, Mobius
@@ -292,6 +295,7 @@ public class HomeBoard implements IParseBoardHandler
             }
             catch (Exception e)
             {
+                player.sendMessage(e);
                 player.sendMessage("Scheme's name must contain up to 14 chars.");
             }
 

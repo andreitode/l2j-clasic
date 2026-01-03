@@ -207,7 +207,7 @@ public class HomeBoard implements IParseBoardHandler
 		{
 
 		    final StringBuilder sb = new StringBuilder(200);
-            final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+            		final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
 //             		if ((schemes == null) || schemes.isEmpty())
 //             		{
 //             			sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
@@ -246,8 +246,8 @@ public class HomeBoard implements IParseBoardHandler
 //             			}
 //             		}
 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
-            returnHtml.replace("%schemes%", sb.toString());
-            returnHtml.replace("%max_schemes%", 4);
+//             returnHtml.replace("%schemes%", sb.toString());
+//             returnHtml.replace("%max_schemes%", Config.BUFFER_MAX_SCHEMES);
         }
 		else if (command.startsWith("_bbsheal"))
 		{

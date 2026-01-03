@@ -101,7 +101,7 @@ public class SchemeBuffer extends Npc
 		{
 			showSchemeBuffsWindow(player);
 		}
-        else if (currentCommand.startsWith("invidualbuffs")
+        else if (currentCommand.startsWith("invidualbuffs"))
         {
  		    showIndividualBuffsWindow(player);
         }

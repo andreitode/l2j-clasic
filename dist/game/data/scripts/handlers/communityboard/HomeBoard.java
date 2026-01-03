@@ -384,7 +384,7 @@ public class HomeBoard implements IParseBoardHandler
 //     			}
 //     		}
 
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/scheme.html");
+			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
 
 //     		final NpcHtmlMessage html = new NpcHtmlMessage(getObjectId());
 //     		html.setFile(player, getHtmlPath(getId(), 1, player));

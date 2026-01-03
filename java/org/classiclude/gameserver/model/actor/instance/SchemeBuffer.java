@@ -31,6 +31,7 @@ import java.util.StringTokenizer;
 import org.classiclude.Config;
 import org.classiclude.gameserver.data.SchemeBufferTable;
 import org.classiclude.gameserver.data.xml.SkillData;
+import org.classiclude.gameserver.model.actor.Creature;
 import org.classiclude.gameserver.model.actor.Npc;
 import org.classiclude.gameserver.model.actor.Player;
 import org.classiclude.gameserver.model.actor.Summon;

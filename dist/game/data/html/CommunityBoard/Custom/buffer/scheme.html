@@ -1,0 +1,33 @@
+<html>
+<body>
+<table border=0 cellpadding=0 cellspacing=0 width=300 height=75>
+    <tr>
+        <td height=25></td>
+    </tr>
+    <tr>
+        <td height=25 align="center"><font name="hs12" color="CDB67F">Buffer</font></td>
+    </tr>
+    <tr>
+        <td height=25></td>
+    </tr>
+    <tr>
+        <td>
+            <center><img src="L2UI.SquareGray" width=300 height=1></center>
+        </td>
+    </tr>
+</table>
+<br>
+<font color="LEVEL">You can create up to %max_schemes% schemes.</font><br>
+You can create a new scheme filling this form, here!
+<center><table width=300>
+    <tr>
+        <td width="200"><edit var="name" width=200 height=15></td>
+        <td width="100"><button value="Create" action="bypass npc_%objectId%_createscheme $name" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></button></td>
+    </tr>
+</table></center><br>
+Here are listed your schemes and their fee.<br>
+<center><img src="l2ui.squaregray" width="300" height="1" /></center><br>
+%schemes%<br>
+<Button ALIGN=LEFT ICON="RETURN" action="bypass npc_%objectId%_menu">Back To main Menu</Button>
+</body>
+</html>

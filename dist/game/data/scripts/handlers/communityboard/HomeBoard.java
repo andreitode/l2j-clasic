@@ -88,7 +88,6 @@ public class HomeBoard implements IParseBoardHandler
 		Config.COMMUNITYBOARD_ENABLE_TELEPORTS ? "_bbsteleport" : null,
 		Config.COMMUNITYBOARD_ENABLE_BUFFS ? "_bbsbuff" : null,
 		Config.COMMUNITYBOARD_ENABLE_HEAL ? "_bbsheal" : null,
-		Config.COMMUNITYBOARD_ENABLE_DELEVEL ? "_bbsdelevel" : null
 	};
 	
 	private static final BiPredicate<String, Player> COMBAT_CHECK = (command, player) ->
@@ -151,9 +150,9 @@ public class HomeBoard implements IParseBoardHandler
 		String returnHtml = null;
 		final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
 
-		if (command.equals("_bbshome") || command.equals("_bbstop"))
+        if (baseCommand.equals("_bbshome") || baseCommand.equals("_bbstop"))
 		{
-			player.sendMessage("line 156");
+			player.sendMessage("aici intra in primul if, makes sense");
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
 			CommunityBoardHandler.getInstance().addBypass(player, "Home", command);
 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/" + customPath + "home.html");
@@ -163,209 +162,253 @@ public class HomeBoard implements IParseBoardHandler
 				returnHtml = returnHtml.replace("%region_count%", Integer.toString(getRegionCount(player)));
 				returnHtml = returnHtml.replace("%clan_count%", Integer.toString(ClanTable.getInstance().getClanCount()));
 			}
-		}
-        else if (command.startsWith("_bbsbuffschemecreate"))
-        {
-        	player.sendMessage("line 169");
+		} else if (baseCommand.equals("_bbstop") {
+            player.sendMessage("aici intra in if-ul de la bbstop ca sa schimbe navigatia");
+            final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
+            final String path = command.replace("_bbstop;", "");
 
-            player.sendMessage("should work");
-        }
-		else if (command.startsWith("_bbstop;"))
-		{
-		        			    player.sendMessage("line 175");
-			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
-			final String path = command.replace("_bbstop;", "");
-			if ((path.length() > 0) && path.endsWith(".html"))
-			{
-				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/" + customPath + path);
-			}
-		}
-		else if (command.startsWith("_bbsmultisell"))
-		{
-            player.sendMessage("line 185");
-
-			final String fullBypass = command.replace("_bbsmultisell;", "");
-			final String[] buypassOptions = fullBypass.split(",");
-			final int multisellId = Integer.parseInt(buypassOptions[0]);
-			final String page = buypassOptions[1];
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
-			MultisellData.getInstance().separateAndSend(multisellId, player, null, false);
-		}
-		else if (command.startsWith("_bbsexcmultisell"))
-		{
-            player.sendMessage("line 196");
-			final String fullBypass = command.replace("_bbsexcmultisell;", "");
-			final String[] buypassOptions = fullBypass.split(",");
-			final int multisellId = Integer.parseInt(buypassOptions[0]);
-			final String page = buypassOptions[1];
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
-			MultisellData.getInstance().separateAndSend(multisellId, player, null, true);
-		}
-		else if (command.startsWith("_bbssell"))
-		{
-            player.sendMessage("line 206");
-
-			final String page = command.replace("_bbssell;", "");
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
-			player.sendPacket(new BuyList(BuyListData.getInstance().getBuyList(423), player, 0));
-			player.sendPacket(new ExBuySellList(player, false));
-		}
-		else if (command.startsWith("_bbsteleport"))
-		{
-            player.sendMessage("line 215");
-
-			final String teleBuypass = command.replace("_bbsteleport;", "");
-			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < Config.COMMUNITYBOARD_TELEPORT_PRICE)
-			{
-				player.sendMessage("Not enough currency!");
-			}
-			else if (Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass) != null)
-			{
-				player.disableAllSkills();
-				player.sendPacket(new ShowBoard());
-				player.destroyItemByItemId("CB_Teleport", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_TELEPORT_PRICE, player, true);
-				player.setInstanceById(0);
-				player.teleToLocation(Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass), 0);
-				ThreadPool.schedule(player::enableAllSkills, 3000);
-			}
-		}
-		else if (command.startsWith("_bbsbuffscheme"))
-		{
-            player.sendMessage("line 234");
-
-		    final StringBuilder sb = new StringBuilder(200);
-            final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
-            if ((schemes == null) || schemes.isEmpty())
+            if ((path.length() > 0) && path.endsWith(".html"))
             {
-                sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
+                returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/" + customPath + path);
             }
-            else
-            {
-            player.sendMessage("line 244");
+		} else if (baseCommand.equals("_bbsmultisell") {
+            player.sendMessage("aici intra in multisell, asta e practic merchant-ul");
 
-                for (Entry<String, List<Integer>> scheme : schemes.entrySet())
-                {
-                    final int count = scheme.getValue().size();
-                    final int cost = getFee(scheme.getValue());
-                    final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
+            final String fullBypass = command.replace("_bbsmultisell;", "");
+            final String[] buypassOptions = fullBypass.split(",");
+            final int multisellId = Integer.parseInt(buypassOptions[0]);
+            final String page = buypassOptions[1];
+            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+            MultisellData.getInstance().separateAndSend(multisellId, player, null, false);
+		} else if (baseCommand.equals("_bbssell") {
+            player.sendMessage("aici intra in sell, tab-ul de sell de la merchant");
 
-                    sb.append("<table width=280 cellpadding=0 cellspacing=0>");
-                    sb.append("<tr><td height=10></td></tr>");
-                    sb.append("<tr><td align=center>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
-                    sb.append("<table><tr>");
-                    sb.append("<td fixwidth=2></td>");
-                    sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
-                    sb.append("<td fixwidth=3>|</td>");
-                    sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
-                    sb.append("<td fixwidth=3>|</td>");
-                    sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
-                    sb.append("<td fixwidth=3>|</td>");
-                    sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
-                    sb.append("<td fixwidth=35></td>");
-                    sb.append("</tr></table></td>");
-                    sb.append("<td align=center>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
-                    sb.append("</td></tr>");
-                    sb.append("<tr><td height=18></td></tr>");
-                    sb.append("</table>");
-                    sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
-                }
-            }
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
-            returnHtml = returnHtml.replace("%schemes%", sb.toString());
-            returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
-
-            CommunityBoardHandler.separateAndSend(returnHtml, player);
-        }
-		else if (command.startsWith("_bbsheal"))
-		{
-            player.sendMessage("line 285");
-
-			final String page = command.replace("_bbsheal;", "");
-			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))
-			{
-            player.sendMessage("line 290");
-
-				player.sendMessage("Not enough currency!");
-			}
-			else
-			{
-            player.sendMessage("line 296");
-				player.destroyItemByItemId("CB_Heal", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_HEAL_PRICE, player, true);
-				player.setCurrentHp(player.getMaxHp());
-				player.setCurrentMp(player.getMaxMp());
-				player.setCurrentCp(player.getMaxCp());
-				if (player.hasPet())
-				{
-            player.sendMessage("line 303");
-
-					player.getPet().setCurrentHp(player.getPet().getMaxHp());
-					player.getPet().setCurrentMp(player.getPet().getMaxMp());
-					player.getPet().setCurrentCp(player.getPet().getMaxCp());
-				}
-				for (Summon summon : player.getServitors().values())
-				{
-					summon.setCurrentHp(summon.getMaxHp());
-					summon.setCurrentMp(summon.getMaxMp());
-					summon.setCurrentCp(summon.getMaxCp());
-				}
-				player.updateUserInfo();
-				player.sendMessage("You used heal!");
-			}
-			
-			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+            final String page = command.replace("_bbssell;", "");
+            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+            player.sendPacket(new BuyList(BuyListData.getInstance().getBuyList(423), player, 0));
+            player.sendPacket(new ExBuySellList(player, false));
 		}
-		else if (command.equals("_bbsdelevel"))
-		{
-            player.sendMessage("line 323");
 
-			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < Config.COMMUNITYBOARD_DELEVEL_PRICE)
-			{
-				player.sendMessage("Not enough currency!");
-			}
-			else if (player.getLevel() == 1)
-			{
-				player.sendMessage("You are at minimum level!");
-			}
-			else
-			{
-				player.destroyItemByItemId("CB_Delevel", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_DELEVEL_PRICE, player, true);
-				final int newLevel = player.getLevel() - 1;
-				player.setExp(ExperienceData.getInstance().getExpForLevel(newLevel));
-				player.getStat().setLevel((byte) newLevel);
-				player.setCurrentHpMp(player.getMaxHp(), player.getMaxMp());
-				player.setCurrentCp(player.getMaxCp());
-				player.broadcastUserInfo();
-				player.checkPlayerSkills(); // Adjust skills according to new level.
-				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/delevel/complete.html");
-			}
-		}
-		else if (command.startsWith("_bbspremium"))
-		{
-            player.sendMessage("line 348");
 
-			final String fullBypass = command.replace("_bbspremium;", "");
-			final String[] buypassOptions = fullBypass.split(",");
-			final int premiumDays = Integer.parseInt(buypassOptions[0]);
-			if ((premiumDays < 1) || (premiumDays > 30) || (player.getInventory().getInventoryItemCount(Config.COMMUNITY_PREMIUM_COIN_ID, -1) < (Config.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays)))
-			{
-				player.sendMessage("Not enough currency!");
-			}
-			else
-			{
-				player.destroyItemByItemId("CB_Premium", Config.COMMUNITY_PREMIUM_COIN_ID, Config.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays, player, true);
-				PremiumManager.getInstance().addPremiumTime(player.getAccountName(), premiumDays, TimeUnit.DAYS);
-				player.sendMessage("Your account will now have premium status until " + new SimpleDateFormat("dd.MM.yyyy HH:mm").format(PremiumManager.getInstance().getPremiumExpiration(player.getAccountName())) + ".");
-				if (Config.PC_CAFE_RETAIL_LIKE)
-				{
-					PcCafePointsManager.getInstance().run(player);
-				}
-				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/premium/thankyou.html");
-			}
-		}
+
+
+//  aici las asa sa am referinta, incerc sa scriu totul mau frumos
+//      cred ca trebuie scoasa partea de _bbsexcmultisell
+// 		if (command.equals("_bbshome") || command.equals("_bbstop"))
+// 		{
+// 			player.sendMessage("line 156");
+// 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
+// 			CommunityBoardHandler.getInstance().addBypass(player, "Home", command);
+// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/" + customPath + "home.html");
+// 			if (!Config.CUSTOM_CB_ENABLED)
+// 			{
+// 				returnHtml = returnHtml.replace("%fav_count%", Integer.toString(getFavoriteCount(player)));
+// 				returnHtml = returnHtml.replace("%region_count%", Integer.toString(getRegionCount(player)));
+// 				returnHtml = returnHtml.replace("%clan_count%", Integer.toString(ClanTable.getInstance().getClanCount()));
+// 			}
+// 		}
+//         else if (command.startsWith("_bbsbuffschemecreate"))
+//         {
+//         	player.sendMessage("line 169");
+//
+//             player.sendMessage("should work");
+//         }
+// 		else if (command.startsWith("_bbstop;"))
+// 		{
+// 		    player.sendMessage("line 175");
+// 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
+// 			final String path = command.replace("_bbstop;", "");
+// 			if ((path.length() > 0) && path.endsWith(".html"))
+// 			{
+// 				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/" + customPath + path);
+// 			}
+// 		}
+// 		else if (command.startsWith("_bbsmultisell"))
+// 		{
+//             player.sendMessage("line 185");
+//
+// 			final String fullBypass = command.replace("_bbsmultisell;", "");
+// 			final String[] buypassOptions = fullBypass.split(",");
+// 			final int multisellId = Integer.parseInt(buypassOptions[0]);
+// 			final String page = buypassOptions[1];
+// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+// 			MultisellData.getInstance().separateAndSend(multisellId, player, null, false);
+// 		}
+// 		else if (command.startsWith("_bbsexcmultisell"))
+// 		{
+//             player.sendMessage("line 196");
+// 			final String fullBypass = command.replace("_bbsexcmultisell;", "");
+// 			final String[] buypassOptions = fullBypass.split(",");
+// 			final int multisellId = Integer.parseInt(buypassOptions[0]);
+// 			final String page = buypassOptions[1];
+// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+// 			MultisellData.getInstance().separateAndSend(multisellId, player, null, true);
+// 		}
+// 		else if (command.startsWith("_bbssell"))
+// 		{
+//             player.sendMessage("line 206");
+//
+// 			final String page = command.replace("_bbssell;", "");
+// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+// 			player.sendPacket(new BuyList(BuyListData.getInstance().getBuyList(423), player, 0));
+// 			player.sendPacket(new ExBuySellList(player, false));
+// 		}
+// 		else if (command.startsWith("_bbsteleport"))
+// 		{
+//             player.sendMessage("line 215");
+//
+// 			final String teleBuypass = command.replace("_bbsteleport;", "");
+// 			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < Config.COMMUNITYBOARD_TELEPORT_PRICE)
+// 			{
+// 				player.sendMessage("Not enough currency!");
+// 			}
+// 			else if (Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass) != null)
+// 			{
+// 				player.disableAllSkills();
+// 				player.sendPacket(new ShowBoard());
+// 				player.destroyItemByItemId("CB_Teleport", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_TELEPORT_PRICE, player, true);
+// 				player.setInstanceById(0);
+// 				player.teleToLocation(Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass), 0);
+// 				ThreadPool.schedule(player::enableAllSkills, 3000);
+// 			}
+// 		}
+// 		else if (command.startsWith("_bbsbuffscheme"))
+// 		{
+//             player.sendMessage("line 234");
+//
+// 		    final StringBuilder sb = new StringBuilder(200);
+//             final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+//             if ((schemes == null) || schemes.isEmpty())
+//             {
+//                 sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
+//             }
+//             else
+//             {
+//             player.sendMessage("line 244");
+//
+//                 for (Entry<String, List<Integer>> scheme : schemes.entrySet())
+//                 {
+//                     final int count = scheme.getValue().size();
+//                     final int cost = getFee(scheme.getValue());
+//                     final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
+//
+//                     sb.append("<table width=280 cellpadding=0 cellspacing=0>");
+//                     sb.append("<tr><td height=10></td></tr>");
+//                     sb.append("<tr><td align=center>");
+//                     sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
+//                     sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
+//                     sb.append("<table><tr>");
+//                     sb.append("<td fixwidth=2></td>");
+//                     sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
+//                     sb.append("<td fixwidth=3>|</td>");
+//                     sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
+//                     sb.append("<td fixwidth=3>|</td>");
+//                     sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
+//                     sb.append("<td fixwidth=3>|</td>");
+//                     sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
+//                     sb.append("<td fixwidth=35></td>");
+//                     sb.append("</tr></table></td>");
+//                     sb.append("<td align=center>");
+//                     sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
+//                     sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
+//                     sb.append("</td></tr>");
+//                     sb.append("<tr><td height=18></td></tr>");
+//                     sb.append("</table>");
+//                     sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
+//                 }
+//             }
+// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
+//             returnHtml = returnHtml.replace("%schemes%", sb.toString());
+//             returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
+//
+//             CommunityBoardHandler.separateAndSend(returnHtml, player);
+//         }
+// 		else if (command.startsWith("_bbsheal"))
+// 		{
+//             player.sendMessage("line 285");
+//
+// 			final String page = command.replace("_bbsheal;", "");
+// 			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))
+// 			{
+//             player.sendMessage("line 290");
+//
+// 				player.sendMessage("Not enough currency!");
+// 			}
+// 			else
+// 			{
+//             player.sendMessage("line 296");
+// 				player.destroyItemByItemId("CB_Heal", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_HEAL_PRICE, player, true);
+// 				player.setCurrentHp(player.getMaxHp());
+// 				player.setCurrentMp(player.getMaxMp());
+// 				player.setCurrentCp(player.getMaxCp());
+// 				if (player.hasPet())
+// 				{
+//             player.sendMessage("line 303");
+//
+// 					player.getPet().setCurrentHp(player.getPet().getMaxHp());
+// 					player.getPet().setCurrentMp(player.getPet().getMaxMp());
+// 					player.getPet().setCurrentCp(player.getPet().getMaxCp());
+// 				}
+// 				for (Summon summon : player.getServitors().values())
+// 				{
+// 					summon.setCurrentHp(summon.getMaxHp());
+// 					summon.setCurrentMp(summon.getMaxMp());
+// 					summon.setCurrentCp(summon.getMaxCp());
+// 				}
+// 				player.updateUserInfo();
+// 				player.sendMessage("You used heal!");
+// 			}
+//
+// 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+// 		}
+// 		else if (command.equals("_bbsdelevel"))
+// 		{
+//             player.sendMessage("line 323");
+//
+// 			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < Config.COMMUNITYBOARD_DELEVEL_PRICE)
+// 			{
+// 				player.sendMessage("Not enough currency!");
+// 			}
+// 			else if (player.getLevel() == 1)
+// 			{
+// 				player.sendMessage("You are at minimum level!");
+// 			}
+// 			else
+// 			{
+// 				player.destroyItemByItemId("CB_Delevel", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_DELEVEL_PRICE, player, true);
+// 				final int newLevel = player.getLevel() - 1;
+// 				player.setExp(ExperienceData.getInstance().getExpForLevel(newLevel));
+// 				player.getStat().setLevel((byte) newLevel);
+// 				player.setCurrentHpMp(player.getMaxHp(), player.getMaxMp());
+// 				player.setCurrentCp(player.getMaxCp());
+// 				player.broadcastUserInfo();
+// 				player.checkPlayerSkills(); // Adjust skills according to new level.
+// 				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/delevel/complete.html");
+// 			}
+// 		}
+// 		else if (command.startsWith("_bbspremium"))
+// 		{
+//             player.sendMessage("line 348");
+//
+// 			final String fullBypass = command.replace("_bbspremium;", "");
+// 			final String[] buypassOptions = fullBypass.split(",");
+// 			final int premiumDays = Integer.parseInt(buypassOptions[0]);
+// 			if ((premiumDays < 1) || (premiumDays > 30) || (player.getInventory().getInventoryItemCount(Config.COMMUNITY_PREMIUM_COIN_ID, -1) < (Config.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays)))
+// 			{
+// 				player.sendMessage("Not enough currency!");
+// 			}
+// 			else
+// 			{
+// 				player.destroyItemByItemId("CB_Premium", Config.COMMUNITY_PREMIUM_COIN_ID, Config.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays, player, true);
+// 				PremiumManager.getInstance().addPremiumTime(player.getAccountName(), premiumDays, TimeUnit.DAYS);
+// 				player.sendMessage("Your account will now have premium status until " + new SimpleDateFormat("dd.MM.yyyy HH:mm").format(PremiumManager.getInstance().getPremiumExpiration(player.getAccountName())) + ".");
+// 				if (Config.PC_CAFE_RETAIL_LIKE)
+// 				{
+// 					PcCafePointsManager.getInstance().run(player);
+// 				}
+// 				returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/premium/thankyou.html");
+// 			}
+// 		}
 
 		if (returnHtml != null)
 		{

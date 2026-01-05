@@ -556,50 +556,138 @@ public class HomeBoard implements IParseBoardHandler
     }
 
 
+
+
     /**
-    	 * @param groupType : The group of skills to select.
-    	 * @param schemeName : The scheme to make check.
-    	 * @return a string representing all groupTypes available. The group currently on selection isn't linkable.
-    	 */
-    	private static String getTypesFrame(String groupType, String schemeName)
-    	{
-    		final StringBuilder sb = new StringBuilder(500);
-    		sb.append("<table>");
+     * @param player : The player to make checks on.
+     * @param groupType : The group of skills to select.
+     * @param schemeName : The scheme to make check.
+     * @param pageValue The page.
+     * @return a String representing skills available to selection for a given groupType.
+     */
+    private String getGroupSkillList(Player player, String groupType, String schemeName, int pageValue)
+    {
+        // Retrieve the entire skills list based on group type.
+        List<Integer> skills = SchemeBufferTable.getInstance().getSkillsIdsByType(groupType);
+        if (skills.isEmpty())
+        {
+            return "That group doesn't contain any skills.";
+        }
 
-    		int count = 0;
-    		for (String type : SchemeBufferTable.getInstance().getSkillTypes())
-    		{
-    			if (count == 0)
-    			{
-    				sb.append("<tr>");
-    			}
+        // Calculate page number.
+        final int max = MathUtil.countPagesNumber(skills.size(), PAGE_LIMIT);
+        int page = pageValue;
+        if (page > max)
+        {
+            page = max;
+        }
 
-    			if (groupType.equalsIgnoreCase(type))
-    			{
-    				sb.append("<td><button value=" + type + "  width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
-    			}
-    			else
-    			{
-                    sb.append("<td><button value=" + type + " action=\"bypass npc_%objectId%_editschemes;" + type + ";" + schemeName + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
-    			}
+        // Cut skills list up to page number.
+        skills = skills.subList((page - 1) * PAGE_LIMIT, Math.min(page * PAGE_LIMIT, skills.size()));
 
-    			count++;
-    			if (count == 4)
-    			{
-    				sb.append("</tr>");
-    				count = 0;
-    			}
-    		}
+        final List<Integer> schemeSkills = SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName);
+        final StringBuilder sb = new StringBuilder(skills.size() * 150);
+        int row = 0;
+        for (int skillId : skills)
+        {
+            sb.append(((row % 2) == 0 ? "<table width=\"280\" bgcolor=\"000000\"><tr>" : "<table width=\"280\"><tr>"));
 
-    		if (!sb.toString().endsWith("</tr>"))
-    		{
-    			sb.append("</tr>");
-    		}
+            final Skill skill = SkillData.getInstance().getSkill(skillId, 1);
+            if (schemeSkills.contains(skillId))
+            {
+                sb.append("<td height=40 width=40><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass npc_%objectId%_skillunselect;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomout2\" fore=\"L2UI_CH3.mapbutton_zoomout1\"></td>");
+            }
+            else
+            {
+                sb.append("<td height=40 width=40><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass npc_%objectId%_skillselect;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomin2\" fore=\"L2UI_CH3.mapbutton_zoomin1\"></td>");
+            }
 
-    		sb.append("</table>");
+            sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=277 height=1>");
+            row++;
+        }
 
-    		return sb.toString();
-    	}
+        // Build page footer.
+        sb.append("<br><img src=\"L2UI.SquareGray\" width=277 height=1><table width=\"100%\" bgcolor=000000><tr>");
+        if (page > 1)
+        {
+            sb.append("<td align=left width=70><a action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page - 1) + "\"><font color=\"b3a382\">Previous</font></a></td>");
+        }
+        else
+        {
+            sb.append("<td align=left width=70>Previous</td>");
+        }
+
+        sb.append("<td align=center width=100>Page " + page + "</td>");
+        if (page < max)
+        {
+            sb.append("<td align=right width=70><a action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page + 1) + "\"><font color=\"b3a382\">Next</font></a></td>");
+        }
+        else
+        {
+            sb.append("<td align=right width=70>Next</td>");
+        }
+
+        sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=277 height=1>");
+        return sb.toString();
+    }
+
+    /**
+     * @param groupType : The group of skills to select.
+     * @param schemeName : The scheme to make check.
+     * @return a string representing all groupTypes available. The group currently on selection isn't linkable.
+     */
+    private static String getTypesFrame(String groupType, String schemeName)
+    {
+        final StringBuilder sb = new StringBuilder(500);
+        sb.append("<table>");
+
+        int count = 0;
+        for (String type : SchemeBufferTable.getInstance().getSkillTypes())
+        {
+            if (count == 0)
+            {
+                sb.append("<tr>");
+            }
+
+            if (groupType.equalsIgnoreCase(type))
+            {
+                sb.append("<td><button value=" + type + "  width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
+            }
+            else
+            {
+                sb.append("<td><button value=" + type + " action=\"bypass npc_%objectId%_editschemes;" + type + ";" + schemeName + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
+            }
+
+            count++;
+            if (count == 4)
+            {
+                sb.append("</tr>");
+                count = 0;
+            }
+        }
+
+        if (!sb.toString().endsWith("</tr>"))
+        {
+            sb.append("</tr>");
+        }
+
+        sb.append("</table>");
+
+        return sb.toString();
+    }
+
+    private static int getCountOf(List<Integer> skills, boolean dances)
+	{
+		int count = 0;
+		for (int skillId : skills)
+		{
+			if (SkillData.getInstance().getSkill(skillId, 1).isDance() == dances)
+			{
+				count++;
+			}
+		}
+		return count;
+	}
 
     private static String handleCleanup(Player player)
     {

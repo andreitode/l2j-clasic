@@ -528,6 +528,7 @@ public class HomeBoard implements IParseBoardHandler
 
     private static String handleCleanup(Player player)
     {
+        String returnHtml = null;
         player.stopAllEffects();
 
         final Summon summon = player.getPet();

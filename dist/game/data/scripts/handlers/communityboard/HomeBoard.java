@@ -251,7 +251,7 @@ public class HomeBoard implements IParseBoardHandler
             returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
-        } else if (baseCommand.equals("_bbsbuffschemecreate") {
+        } else if (baseCommand.equals("_bbsbuffschemecreate")) {
             try
             {
                 final String schemeName = st.nextToken().trim();
@@ -290,7 +290,7 @@ public class HomeBoard implements IParseBoardHandler
             {
                 player.sendMessage("Scheme's name must contain up to 14 chars.");
             }
-        } else if (baseCommand.equals("_bbsbuffschemedelete") {
+        } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
                 final String schemeName = st.nextToken();

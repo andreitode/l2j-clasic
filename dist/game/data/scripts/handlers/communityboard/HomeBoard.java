@@ -329,7 +329,12 @@ public class HomeBoard implements IParseBoardHandler
 
             player.sendMessage("here comes edit button");
 			final String[] params = sentParams.split(";");
-            CommunityBoardHandler.separateAndSend(handleBuffsGive(player, String.valueOf(params[0]), Integer.parseInt(params[1]) String.valueOf(params[2])), player);
+            CommunityBoardHandler.separateAndSend(
+            handleBuffsGive(player,
+            String.valueOf(params[0]),
+            Integer.parseInt(params[1])
+            String.valueOf(params[2])
+            ), player);
         } else if (baseCommand.equals("_bbsbuffsclean")) {
             CommunityBoardHandler.separateAndSend(handleCleanup(player), player);
         }
@@ -609,7 +614,7 @@ public class HomeBoard implements IParseBoardHandler
                 sb.append("<td fixwidth=2></td>");
                 sb.append("<td fixwidth=22 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";" + cost + ";none\"><font color=\"b3a382\">Use</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
-                sb.append("<td fixwidth=57 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";" + cost + ";pet"><font color=\"b3a382\">Use on Pet</font></a></td>");
+                sb.append("<td fixwidth=57 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
                 sb.append("<td fixwidth=23 align=left><a action=\"bypass _bbsbuffsedit;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");

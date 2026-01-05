@@ -162,7 +162,7 @@ public class HomeBoard implements IParseBoardHandler
 				returnHtml = returnHtml.replace("%region_count%", Integer.toString(getRegionCount(player)));
 				returnHtml = returnHtml.replace("%clan_count%", Integer.toString(ClanTable.getInstance().getClanCount()));
 			}
-		} else if (baseCommand.equals("_bbstop") {
+		} else if (baseCommand.equals("_bbstop")) {
             player.sendMessage("aici intra in if-ul de la bbstop ca sa schimbe navigatia");
             final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
             final String path = command.replace("_bbstop;", "");
@@ -171,7 +171,7 @@ public class HomeBoard implements IParseBoardHandler
             {
                 returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/" + customPath + path);
             }
-		} else if (baseCommand.equals("_bbsmultisell") {
+		} else if (baseCommand.equals("_bbsmultisell")) {
             player.sendMessage("aici intra in multisell, asta e practic merchant-ul");
 
             final String fullBypass = command.replace("_bbsmultisell;", "");
@@ -180,7 +180,7 @@ public class HomeBoard implements IParseBoardHandler
             final String page = buypassOptions[1];
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
             MultisellData.getInstance().separateAndSend(multisellId, player, null, false);
-		} else if (baseCommand.equals("_bbssell") {
+		} else if (baseCommand.equals("_bbssell")) {
             player.sendMessage("aici intra in sell, tab-ul de sell de la merchant");
 
             final String page = command.replace("_bbssell;", "");

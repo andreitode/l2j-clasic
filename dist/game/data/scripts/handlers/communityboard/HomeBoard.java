@@ -273,12 +273,15 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage(String.valueOf(params[1]));
             player.sendMessage(String.valueOf(params[2]));
 
+// handleEditScheme(Player player, String direction, String groupType, int skillId, String schemeName, int page)
+
+// bypass _bbsbuffskilledit;remove;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\"
             CommunityBoardHandler.separateAndSend(
             handleEditScheme(player,
             String.valueOf(params[0]),
             String.valueOf(params[1]),
-            Integer.parseInt(params[2]),
-            String.valueOf(params[3]),
+            Integer.parseInt(params[3]),
+            String.valueOf(params[2]),
             Integer.parseInt(params[4])
             ),
             player);

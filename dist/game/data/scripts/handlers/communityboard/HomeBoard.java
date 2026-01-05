@@ -129,7 +129,6 @@ public class HomeBoard implements IParseBoardHandler
         }
 	    player.sendMessage(command);
         player.sendMessage(baseCommand);
-	    player.sendMessage(String.valueOf(command.startsWith("_bbsbuffschemecreate")));
 		// Old custom conditions check move to here
 		if (Config.COMMUNITYBOARD_COMBAT_DISABLED && COMBAT_CHECK.test(command, player))
 		{
@@ -154,6 +153,7 @@ public class HomeBoard implements IParseBoardHandler
 
 		if (command.equals("_bbshome") || command.equals("_bbstop"))
 		{
+			    player.sendMessage('line 156');
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
 			CommunityBoardHandler.getInstance().addBypass(player, "Home", command);
 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/" + customPath + "home.html");
@@ -166,10 +166,13 @@ public class HomeBoard implements IParseBoardHandler
 		}
         else if (command.startsWith("_bbsbuffschemecreate"))
         {
+        			    player.sendMessage('line 169');
+
             player.sendMessage("should work");
         }
 		else if (command.startsWith("_bbstop;"))
 		{
+		        			    player.sendMessage('line 175');
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";
 			final String path = command.replace("_bbstop;", "");
 			if ((path.length() > 0) && path.endsWith(".html"))
@@ -179,6 +182,8 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.startsWith("_bbsmultisell"))
 		{
+            player.sendMessage('line 185');
+
 			final String fullBypass = command.replace("_bbsmultisell;", "");
 			final String[] buypassOptions = fullBypass.split(",");
 			final int multisellId = Integer.parseInt(buypassOptions[0]);
@@ -188,6 +193,7 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.startsWith("_bbsexcmultisell"))
 		{
+            player.sendMessage('line 196');
 			final String fullBypass = command.replace("_bbsexcmultisell;", "");
 			final String[] buypassOptions = fullBypass.split(",");
 			final int multisellId = Integer.parseInt(buypassOptions[0]);
@@ -197,6 +203,8 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.startsWith("_bbssell"))
 		{
+            player.sendMessage('line 206');
+
 			final String page = command.replace("_bbssell;", "");
 			returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
 			player.sendPacket(new BuyList(BuyListData.getInstance().getBuyList(423), player, 0));
@@ -204,6 +212,8 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.startsWith("_bbsteleport"))
 		{
+            player.sendMessage('line 215');
+
 			final String teleBuypass = command.replace("_bbsteleport;", "");
 			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < Config.COMMUNITYBOARD_TELEPORT_PRICE)
 			{
@@ -221,6 +231,7 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.startsWith("_bbsbuffscheme"))
 		{
+            player.sendMessage('line 234');
 
 		    final StringBuilder sb = new StringBuilder(200);
             final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
@@ -230,6 +241,8 @@ public class HomeBoard implements IParseBoardHandler
             }
             else
             {
+            player.sendMessage('line 244');
+
                 for (Entry<String, List<Integer>> scheme : schemes.entrySet())
                 {
                     final int count = scheme.getValue().size();
@@ -269,19 +282,26 @@ public class HomeBoard implements IParseBoardHandler
         }
 		else if (command.startsWith("_bbsheal"))
 		{
+            player.sendMessage('line 285');
+
 			final String page = command.replace("_bbsheal;", "");
 			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))
 			{
+            player.sendMessage('line 290');
+
 				player.sendMessage("Not enough currency!");
 			}
 			else
 			{
+            player.sendMessage('line 296');
 				player.destroyItemByItemId("CB_Heal", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_HEAL_PRICE, player, true);
 				player.setCurrentHp(player.getMaxHp());
 				player.setCurrentMp(player.getMaxMp());
 				player.setCurrentCp(player.getMaxCp());
 				if (player.hasPet())
 				{
+            player.sendMessage('line 303');
+
 					player.getPet().setCurrentHp(player.getPet().getMaxHp());
 					player.getPet().setCurrentMp(player.getPet().getMaxMp());
 					player.getPet().setCurrentCp(player.getPet().getMaxCp());
@@ -300,6 +320,8 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.equals("_bbsdelevel"))
 		{
+            player.sendMessage('line 323');
+
 			if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < Config.COMMUNITYBOARD_DELEVEL_PRICE)
 			{
 				player.sendMessage("Not enough currency!");
@@ -323,6 +345,8 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		else if (command.startsWith("_bbspremium"))
 		{
+            player.sendMessage('line 348');
+
 			final String fullBypass = command.replace("_bbspremium;", "");
 			final String[] buypassOptions = fullBypass.split(",");
 			final int premiumDays = Integer.parseInt(buypassOptions[0]);

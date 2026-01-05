@@ -379,7 +379,7 @@ public class HomeBoard implements IParseBoardHandler
         else if (
         (cost == 0) ||
         ((Config.BUFFER_ITEM_ID == 57) &&
-         player.reduceAdena("Community Board Buffer", cost, this, true)) ||
+         player.reduceAdena("Community Board Buffer", cost, player, true)) ||
          ((Config.BUFFER_ITEM_ID != 57) &&
          player.destroyItemByItemId("Community Board Buffer", Config.BUFFER_ITEM_ID, cost, player, true)))
         {

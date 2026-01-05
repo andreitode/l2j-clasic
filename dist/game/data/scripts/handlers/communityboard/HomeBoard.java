@@ -253,8 +253,10 @@ public class HomeBoard implements IParseBoardHandler
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
         } else if (baseCommand.equals("_bbsbuffschemecreate")) {
-            try
-            {
+
+            player.sendMessage("line 257 a intrat aici")
+//             try
+//             {
                 final String schemeName = command.replace("_bbsbuffschemecreate ", "");
                 if (schemeName.length() > 14)
                 {
@@ -267,6 +269,8 @@ public class HomeBoard implements IParseBoardHandler
                     player.sendMessage("Please use plain alphanumeric characters.");
 //                     return;
                 }
+
+            player.sendMessage("line 272 a intrat aici")
 
                 final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
                 if (schemes != null)
@@ -286,11 +290,11 @@ public class HomeBoard implements IParseBoardHandler
 
                 SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
 //                 showSchemeBuffsWindow(player);
-            }
-            catch (Exception e)
-            {
-                player.sendMessage("Scheme's name must contain up to 14 chars.");
-            }
+//             }
+//             catch (Exception e)
+//             {
+//                 player.sendMessage("Scheme's name must contain up to 14 chars.");
+//             }
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {

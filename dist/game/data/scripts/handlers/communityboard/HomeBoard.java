@@ -385,38 +385,33 @@ public class HomeBoard implements IParseBoardHandler
          ((Config.BUFFER_ITEM_ID != 57) &&
          player.destroyItemByItemId("Community Board Buffer", Config.BUFFER_ITEM_ID, cost, player, true)))
         {
-            final List<Creature> targets = new ArrayList<>(4);
-            final Summon pet = player.getPet();
-            targets.add(player);
-            if (pet != null)
-            {
-                targets.add(pet);
-            }
+//             final List<Creature> targets = new ArrayList<>(4);
+//             final Summon pet = player.getPet();
+//             targets.add(player);
+//             if (pet != null)
+//             {
+//                 targets.add(pet);
+//             }
             for (int skillId : SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName))
             {
                 final Skill skill = SkillData.getInstance().getSkill(skillId, SchemeBufferTable.getInstance().getAvailableBuff(skillId).getLevel());
-//                 if (buffSummons.equals("pet"))
-//                 {
-//                     if (player.getPet() != null)
-//                     {
-//                         skill.applyEffects(player, player.getPet());
-//                     }
-//                     player.getServitors().values().forEach(servitor -> skill.applyEffects(new SchemeBuffer(), servitor));
-//                 }
-//                 else
-//                 {
-//                     skill.applyEffects(new SchemeBuffer(), player);
-//                 }
+                if (buffSummons.equals("pet"))
+                {
+                    if (player.getPet() != null)
+                    {
+                        skill.applyEffects(player, player.getPet());
+                    }
+                    player.getServitors().values().forEach(servitor -> skill.applyEffects(player, servitor));
+                }
+                else
+                {
+                    skill.applyEffects(player, target);
+                }
 
-                for (Creature target : targets)
-					{
-						skill.applyEffects(player, target);
-// 						if (Config.COMMUNITYBOARD_CAST_ANIMATIONS)
-// 						{
-// 							player.sendPacket(new MagicSkillUse(player, target, skill.getId(), skill.getLevel(), skill.getHitTime(), skill.getReuseDelay()));
-// 						}
-					}
-
+//                 for (Creature target : targets)
+//                 {
+//                     skill.applyEffects(player, target);
+//                 }
             }
         }
 

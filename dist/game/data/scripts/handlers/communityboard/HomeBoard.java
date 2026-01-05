@@ -525,8 +525,9 @@ public class HomeBoard implements IParseBoardHandler
 	}
 
 
-    private static int getBuffsSchemes(Player player)
+    private static String getBuffsSchemes(Player player)
     {
+    	String returnHtml = null;
         final StringBuilder sb = new StringBuilder(200);
         final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
         if ((schemes == null) || schemes.isEmpty())

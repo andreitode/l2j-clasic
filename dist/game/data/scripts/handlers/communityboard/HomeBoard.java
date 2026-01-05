@@ -378,21 +378,37 @@ public class HomeBoard implements IParseBoardHandler
         }
         else if ((cost == 0) || ((Config.BUFFER_ITEM_ID == 57) && player.reduceAdena("Community Board Buffer", cost, this, true)) || ((Config.BUFFER_ITEM_ID != 57) && player.destroyItemByItemId("Community Board Buffer", Config.BUFFER_ITEM_ID, cost, player, true)))
         {
+            final List<Creature> targets = new ArrayList<>(4);
+            final Summon pet = player.getSummon();
+            if (pet != null)
+            {
+                targets.add(pet);
+            }
             for (int skillId : SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName))
             {
                 final Skill skill = SkillData.getInstance().getSkill(skillId, SchemeBufferTable.getInstance().getAvailableBuff(skillId).getLevel());
-                if (buffSummons.equals("pet")
-                {
-                    if (player.getPet() != null)
-                    {
-                        skill.applyEffects(new SchemeBuffer(), player.getPet());
-                    }
-                    player.getServitors().values().forEach(servitor -> skill.applyEffects(new SchemeBuffer(), servitor));
-                }
-                else
-                {
-                    skill.applyEffects(new SchemeBuffer(), player);
-                }
+//                 if (buffSummons.equals("pet"))
+//                 {
+//                     if (player.getPet() != null)
+//                     {
+//                         skill.applyEffects(player, player.getPet());
+//                     }
+//                     player.getServitors().values().forEach(servitor -> skill.applyEffects(new SchemeBuffer(), servitor));
+//                 }
+//                 else
+//                 {
+//                     skill.applyEffects(new SchemeBuffer(), player);
+//                 }
+
+                for (Creature target : targets)
+					{
+						skill.applyEffects(player, target);
+						if (CommunityBoardConfig.COMMUNITYBOARD_CAST_ANIMATIONS)
+						{
+							player.sendPacket(new MagicSkillUse(player, target, skill.getId(), skill.getLevel(), skill.getHitTime(), skill.getReuseDelay()));
+						}
+					}
+
             }
         }
 

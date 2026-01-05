@@ -273,7 +273,15 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage(String.valueOf(params[1]));
             player.sendMessage(String.valueOf(params[2]));
 
-            CommunityBoardHandler.separateAndSend(handleEditScheme(player, String.valueOf(params[0]), String.valueOf(params[1]), String.valueOf(params[2]), Integer.parseInt(params[3]), Integer.parseInt(params[4])), player);
+            CommunityBoardHandler.separateAndSend(
+            handleEditScheme(player,
+            String.valueOf(params[0]),
+            String.valueOf(params[1]),
+            String.valueOf(params[2]),
+            Integer.parseInt(params[3]),
+            Integer.parseInt(params[4])
+            ),
+            player);
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {

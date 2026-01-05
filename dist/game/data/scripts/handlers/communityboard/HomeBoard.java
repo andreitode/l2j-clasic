@@ -277,8 +277,8 @@ public class HomeBoard implements IParseBoardHandler
             handleEditScheme(player,
             String.valueOf(params[0]),
             String.valueOf(params[1]),
-            String.valueOf(params[2]),
-            Integer.parseInt(params[3]),
+            Integer.parseInt(params[2]),
+            String.valueOf(params[3]),
             Integer.parseInt(params[4])
             ),
             player);

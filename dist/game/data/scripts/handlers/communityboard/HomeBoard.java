@@ -255,8 +255,8 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsbuffschemecreate")) {
 
             player.sendMessage("line 257 a intrat aici");
-//             try
-//             {
+            try
+            {
                 final String schemeName = command.replace("_bbsbuffschemecreate; ", "");
                 if (schemeName.length() > 14)
                 {
@@ -267,10 +267,8 @@ public class HomeBoard implements IParseBoardHandler
                 if (!Util.isAlphaNumeric(schemeName.replace(" ", "").replace(".", "").replace(",", "").replace("-", "").replace("+", "").replace("!", "").replace("?", "")))
                 {
                     player.sendMessage("Please use plain alphanumeric characters.");
-//                     return;
+                    return false;
                 }
-
-            player.sendMessage("line 272 a intrat aici");
 
                 final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
                 if (schemes != null)
@@ -289,12 +287,12 @@ public class HomeBoard implements IParseBoardHandler
                 }
 
                 SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
-//                 showSchemeBuffsWindow(player);
-//             }
-//             catch (Exception e)
-//             {
-//                 player.sendMessage("Scheme's name must contain up to 14 chars.");
-//             }
+            }
+            catch (Exception e)
+            {
+                player.sendMessage("Scheme's name must contain up to 14 chars.");
+            }
+            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
@@ -304,12 +302,13 @@ public class HomeBoard implements IParseBoardHandler
                 {
                     schemes.remove(schemeName);
                 }
+
             }
             catch (Exception e)
             {
                 player.sendMessage("This scheme name is invalid.");
             }
-//             showSchemeBuffsWindow(player);
+            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
         } else if (baseCommand.equals("_bbsheal")) {
             if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))
             {
@@ -336,8 +335,6 @@ public class HomeBoard implements IParseBoardHandler
                 player.updateUserInfo();
                 player.sendMessage("You used heal!");
             }
-
-//             showSchemeBuffsWindow(player);
         }
 
 

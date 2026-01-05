@@ -185,18 +185,8 @@ public class HomeBoard implements IParseBoardHandler
 
             final String page = command.replace("_bbssell;", "");
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
-            player.sendPacket(new BuyList(BuyListData.getInstance().getBuyList(423), player, 0));
-            player.sendPacket(new ExBuySellList(player, false));
-		} else if (command.startsWith("_bbsexcmultisell"))
-        {
-              player.sendMessage("line 196");
-            final String fullBypass = command.replace("_bbsexcmultisell;", "");
-            final String[] buypassOptions = fullBypass.split(",");
-            final int multisellId = Integer.parseInt(buypassOptions[0]);
-            final String page = buypassOptions[1];
-            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
-            MultisellData.getInstance().separateAndSend(multisellId, player, null, true);
-        }
+            player.sendPacket(new SellList(player));
+		}
 
 
 

@@ -542,6 +542,8 @@ public class HomeBoard implements IParseBoardHandler
         {
             skills.remove(Integer.valueOf(skillId));
         }
+
+        return handleEdit(player, groupType, schemeName, page);
     }
 
     private static String getBuffsSchemes(Player player)

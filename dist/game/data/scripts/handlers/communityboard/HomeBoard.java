@@ -549,6 +549,7 @@ public class HomeBoard implements IParseBoardHandler
     	String returnHtml = null;
         final StringBuilder sb = new StringBuilder(200);
         final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+        final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
         if ((schemes == null) || schemes.isEmpty())
         {
             sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
@@ -591,7 +592,7 @@ public class HomeBoard implements IParseBoardHandler
         returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
         returnHtml = returnHtml.replace("%schemes%", sb.toString());
         returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
-
+        returnHtml = returnHtml.replace("%navigation%", navigation);
         return returnHtml;
     }
 	/**

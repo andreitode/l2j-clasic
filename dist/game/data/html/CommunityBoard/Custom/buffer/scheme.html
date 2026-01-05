@@ -1,33 +1,104 @@
-<html>
+<html noscrollbar>
 <body>
-<table border=0 cellpadding=0 cellspacing=0 width=300 height=75>
+<table width=700>
     <tr>
-        <td height=25></td>
+        <td height=10></td>
     </tr>
-    <tr>
-        <td height=25 align="center"><font name="hs12" color="CDB67F">Buffer test</font></td>
-    </tr>
-    <tr>
-        <td height=25></td>
-    </tr>
+</table>
+<table width=20>
     <tr>
         <td>
-            <center><img src="L2UI.SquareGray" width=300 height=1></center>
+            %navigation%
+        </td>
+        <td>
+            <center>
+                <table border=0 cellpadding=0 cellspacing=0 width=555 height=455 background="L2UI_CT1.Windows_DF_TooltipBG">
+                    <tr>
+                        <td height=25></td>
+                    </tr>
+                    <tr>
+                        <td height=25 align="center"><font name="hs12" color="CDB67F">Buffer</font></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center><img src="L2UI.SquareGray" width=200 height=1></center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=20></td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <br>
+                            Good day sir!
+                            <br1>
+                                Would you like to try some of those buffs?
+                                <br1>
+                                    Go on, don't be shy...
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=25></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center><img src="L2UI.SquareGray" width=500 height=1></center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=25></td>
+                    </tr>
+                    <!--							<td align=center width=40><button value=" " action="bypass _bbsbuff;1182,3;buffer/main" width=32 height=32 back="icon.skill1182" fore="icon.skill1182"></td>-->
+
+                    <tr>
+                        <td align="center">
+
+                            <table>
+                                <tr>
+                                    <td height=25></td>
+                                </tr>
+                                <font color="LEVEL">You can create up to %max_schemes% schemes.</font><br>
+                                You can create a new scheme filling this form, here!
+                                <center><table width=300>
+                                    <tr>
+                                        <td width="200"><edit var="name" width=200 height=15></td>
+                                        <td width="100"><button value="Create" action="bypass _bbsbuffschemecreate; $name" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></button></td>
+                                    </tr>
+                                </table></center><br>
+                                Here are listed your schemes and their fee.<br>
+                                <center><img src="l2ui.squaregray" width="300" height="1" /></center><br>
+                                %schemes%<br>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <center><img src="L2UI_CH3.herotower_deco" width=256 height=32></center>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height=150></td>
+                    </tr>
+                </table>
+                <table border=0 cellpadding=0 cellspacing=0 width=555>
+                    <tr>
+                        <td height=10></td>
+                    </tr>
+                </table>
+                <table border=0 cellpadding=0 cellspacing=0 width=555 background="L2UI_CT1.Windows_DF_TooltipBG">
+                    <tr>
+                        <td height=17></td>
+                    </tr>
+                    <tr>
+                        <td align=center><font color=696969>LINEAGE II - COMMUNITY BOARD</font></td>
+                    </tr>
+                    <tr>
+                        <td height=15></td>
+                    </tr>
+                </table>
+            </center>
         </td>
     </tr>
 </table>
-<br>
-<font color="LEVEL">You can create up to %max_schemes% schemes.</font><br>
-You can create a new scheme filling this form, here!
-<center><table width=300>
-    <tr>
-        <td width="200"><edit var="name" width=200 height=15></td>
-        <td width="100"><button value="Create" action="bypass _bbsbuffschemecreate; $name" width=65 height=21 back="L2UI_CT1.Button_DF_Down" fore="L2UI_CT1.Button_DF"></button></td>
-    </tr>
-</table></center><br>
-Here are listed your schemes and their fee.<br>
-<center><img src="l2ui.squaregray" width="300" height="1" /></center><br>
-%schemes%<br>
-<Button ALIGN=LEFT ICON="RETURN" action="bypass npc_%objectId%_menu">Back To main Menu</Button>
 </body>
 </html>

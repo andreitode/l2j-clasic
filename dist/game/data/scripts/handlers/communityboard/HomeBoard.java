@@ -325,6 +325,7 @@ public class HomeBoard implements IParseBoardHandler
                 player.sendMessage("You used heal!");
             }
         } else if (baseCommand.equals("_bbsbuffsgive")) {
+            player.sendMessage(String.valueOf(command));
             final String sentParams = command.replace("_bbsbuffsgive;", "");
 
             player.sendMessage("here comes edit button");

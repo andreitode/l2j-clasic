@@ -268,14 +268,11 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage("here comes edit skill");
         	final String[] params = sentParams.split(";");
 
-        	 //am 0 directia, 1 type, 2 name, 3 skill id, 4 page
         	player.sendMessage(String.valueOf(params[0]));
             player.sendMessage(String.valueOf(params[1]));
             player.sendMessage(String.valueOf(params[2]));
 
-// handleEditScheme(Player player, String direction, String groupType, int skillId, String schemeName, int page)
 
-// bypass _bbsbuffskilledit;remove;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\"
             CommunityBoardHandler.separateAndSend(
             handleEditScheme(player,
             String.valueOf(params[0]),
@@ -327,6 +324,13 @@ public class HomeBoard implements IParseBoardHandler
                 player.updateUserInfo();
                 player.sendMessage("You used heal!");
             }
+        } else if (baseCommand.equals("_bbsbuffsgive") {
+            final String sentParams = command.replace("_bbsbuffsgive;", "");
+
+            player.sendMessage("here comes edit button");
+			final String[] params = sentParams.split(";");
+            CommunityBoardHandler.separateAndSend(handleBuffsGive(player), String.valueOf(params[0]), String.valueOf(params[1])), player);
+
         } else if (baseCommand.equals("_bbsbuffsclean")) {
             CommunityBoardHandler.separateAndSend(handleCleanup(player), player);
         }
@@ -362,6 +366,35 @@ public class HomeBoard implements IParseBoardHandler
 
 
 
+    private static String handleBuffsGive(Player player, String schemeName, String buffSummons)
+    {
+        final int cost = getFee(scheme.getValue());
+        if (buffSummons.equals("pet") && (player.getPet() == null) && !player.hasServitors())
+        {
+            player.sendMessage("You don't have a pet.");
+        }
+        else if ((cost == 0) || ((Config.BUFFER_ITEM_ID == 57) && player.reduceAdena("Community Board Buffer", cost, this, true)) || ((Config.BUFFER_ITEM_ID != 57) && player.destroyItemByItemId("Community Board Buffer", Config.BUFFER_ITEM_ID, cost, player, true)))
+        {
+            for (int skillId : SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName))
+            {
+                final Skill skill = SkillData.getInstance().getSkill(skillId, SchemeBufferTable.getInstance().getAvailableBuff(skillId).getLevel());
+                if (buffSummons)
+                {
+                    if (player.getPet() != null)
+                    {
+                        skill.applyEffects(this, player.getPet());
+                    }
+                    player.getServitors().values().forEach(servitor -> skill.applyEffects(this, servitor));
+                }
+                else
+                {
+                    skill.applyEffects(this, player);
+                }
+            }
+        }
+
+        return getBuffsSchemes(player);
+    }
 
     /**
      * @param player : The player to make checks on.
@@ -400,11 +433,11 @@ public class HomeBoard implements IParseBoardHandler
             final Skill skill = SkillData.getInstance().getSkill(skillId, 1);
             if (schemeSkills.contains(skillId))
             {
-                sb.append("<td height=40 width=40><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass _bbsbuffskilledit;remove;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomout2\" fore=\"L2UI_CH3.mapbutton_zoomout1\"></td>");
+                sb.append("<td height=40 width=60><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass _bbsbuffskilledit;remove;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomout2\" fore=\"L2UI_CH3.mapbutton_zoomout1\"></td>");
             }
             else
             {
-                sb.append("<td height=40 width=40><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass _bbsbuffskilledit;add;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomin2\" fore=\"L2UI_CH3.mapbutton_zoomin1\"></td>");
+                sb.append("<td height=40 width=60><img src=\"" + skill.getIcon() + "\" width=32 height=32></td><td width=190>" + skill.getName() + "<br1><font color=\"B09878\">" + SchemeBufferTable.getInstance().getAvailableBuff(skillId).getDescription() + "</font></td><td><button value=\" \" action=\"bypass _bbsbuffskilledit;add;" + groupType + ";" + schemeName + ";" + skillId + ";" + page + "\" width=32 height=32 back=\"L2UI_CH3.mapbutton_zoomin2\" fore=\"L2UI_CH3.mapbutton_zoomin1\"></td>");
             }
 
             sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=277 height=1>");
@@ -412,7 +445,7 @@ public class HomeBoard implements IParseBoardHandler
         }
 
         // Build page footer.
-        sb.append("<br><img src=\"L2UI.SquareGray\" width=277 height=1><table width=\"100%\" bgcolor=000000><tr>");
+        sb.append("<br><img src=\"L2UI.SquareGray\" width=400 height=1><table width=\"100%\" bgcolor=000000><tr>");
         if (page > 1)
         {
             sb.append("<td align=left width=70><a action=\"bypass _bbsbuffsedit;" + groupType + ";" + schemeName + ";" + (page - 1) + "\"><font color=\"b3a382\">Previous</font></a></td>");
@@ -432,7 +465,7 @@ public class HomeBoard implements IParseBoardHandler
             sb.append("<td align=right width=70>Next</td>");
         }
 
-        sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=277 height=1>");
+        sb.append("</tr></table><img src=\"L2UI.SquareGray\" width=400 height=1>");
         return sb.toString();
     }
 
@@ -576,9 +609,9 @@ public class HomeBoard implements IParseBoardHandler
                 sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
                 sb.append("<table><tr>");
                 sb.append("<td fixwidth=2></td>");
-                sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
+                sb.append("<td fixwidth=22 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";none\"><font color=\"b3a382\">Use</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
-                sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
+                sb.append("<td fixwidth=57 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
                 sb.append("<td fixwidth=23 align=left><a action=\"bypass _bbsbuffsedit;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");

@@ -460,7 +460,7 @@ public class HomeBoard implements IParseBoardHandler
             }
             else
             {
-                sb.append("<td><button value=" + type + " action=\"bypass npc_%objectId%_editschemes;" + type + ";" + schemeName + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
+                sb.append("<td><button value=" + type + " action=\"bypass _bbsbuffsedit;" + type + ";" + schemeName + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
             }
 
             count++;

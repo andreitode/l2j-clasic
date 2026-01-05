@@ -64,6 +64,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.StringTokenizer;
 import org.classiclude.gameserver.util.Util;
+import org.classiclude.gameserver.util.MathUtil;
 
 /**
  * Home board.
@@ -91,7 +92,10 @@ public class HomeBoard implements IParseBoardHandler
 		Config.COMMUNITYBOARD_ENABLE_BUFFS ? "_bbsbuff" : null,
 		Config.COMMUNITYBOARD_ENABLE_HEAL ? "_bbsheal" : null,
 	};
-	
+
+	private static final int PAGE_LIMIT = 6;
+
+
 	private static final BiPredicate<String, Player> COMBAT_CHECK = (command, player) ->
 	{
 		boolean commandCheck = false;
@@ -258,7 +262,7 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage(String.valueOf(params[1]));
             player.sendMessage(String.valueOf(params[2]));
 
-            CommunityBoardHandler.separateAndSend(handleEdit(player, String.valueOf(params[0]), String.valueOf(params[1]), String.valueOf(params[2])), player);
+            CommunityBoardHandler.separateAndSend(handleEdit(player, String.valueOf(params[0]), String.valueOf(params[1]), Integer.parseInt(params[2])), player);
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
@@ -610,7 +614,7 @@ public class HomeBoard implements IParseBoardHandler
         sb.append("<br><img src=\"L2UI.SquareGray\" width=277 height=1><table width=\"100%\" bgcolor=000000><tr>");
         if (page > 1)
         {
-            sb.append("<td align=left width=70><a action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page - 1) + "\"><font color=\"b3a382\">Previous</font></a></td>");
+            sb.append("<td align=left width=70><a action=\"bypass npc_toreplacehere_editschemes;" + groupType + ";" + schemeName + ";" + (page - 1) + "\"><font color=\"b3a382\">Previous</font></a></td>");
         }
         else
         {
@@ -620,7 +624,7 @@ public class HomeBoard implements IParseBoardHandler
         sb.append("<td align=center width=100>Page " + page + "</td>");
         if (page < max)
         {
-            sb.append("<td align=right width=70><a action=\"bypass npc_" + getObjectId() + "_editschemes;" + groupType + ";" + schemeName + ";" + (page + 1) + "\"><font color=\"b3a382\">Next</font></a></td>");
+            sb.append("<td align=right width=70><a action=\"bypass npc_toreplacehere_editschemes;" + groupType + ";" + schemeName + ";" + (page + 1) + "\"><font color=\"b3a382\">Next</font></a></td>");
         }
         else
         {

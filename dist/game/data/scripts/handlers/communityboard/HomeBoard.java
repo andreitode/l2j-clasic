@@ -119,6 +119,8 @@ public class HomeBoard implements IParseBoardHandler
 	@Override
 	public boolean parseCommunityBoardCommand(String command, Player player)
 	{
+    	String[] args = null;
+
         // Split commands that use parameters (;)
         if (command.contains(";")) {
             args = command.split(";");

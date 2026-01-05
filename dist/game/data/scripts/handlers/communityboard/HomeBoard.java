@@ -254,7 +254,7 @@ public class HomeBoard implements IParseBoardHandler
             CommunityBoardHandler.separateAndSend(returnHtml, player);
         } else if (baseCommand.equals("_bbsbuffschemecreate")) {
 
-            player.sendMessage("line 257 a intrat aici")
+            player.sendMessage("line 257 a intrat aici");
 //             try
 //             {
                 final String schemeName = command.replace("_bbsbuffschemecreate ", "");
@@ -270,7 +270,7 @@ public class HomeBoard implements IParseBoardHandler
 //                     return;
                 }
 
-            player.sendMessage("line 272 a intrat aici")
+            player.sendMessage("line 272 a intrat aici");
 
                 final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
                 if (schemes != null)

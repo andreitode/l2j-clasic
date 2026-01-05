@@ -254,7 +254,7 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsbuffschemecreate")) {
             try
             {
-                final String schemeName = st.nextToken().trim();
+                final String schemeName = command.replace("_bbsbuffschemecreate ", "");
                 if (schemeName.length() > 14)
                 {
                     player.sendMessage("Scheme's name must contain up to 14 chars.");

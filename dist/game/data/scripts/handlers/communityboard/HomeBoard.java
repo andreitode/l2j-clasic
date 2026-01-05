@@ -186,10 +186,26 @@ public class HomeBoard implements IParseBoardHandler
 
             final String page = command.replace("_bbssell;", "");
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
-//             player.sendPacket(new SellList(player));
+			player.sendPacket(new ExBuySellList(player, false));
+		} else if (baseCommand.equals("_bbsteleport"))
+        {
+              player.sendMessage("intra in gatekeeper");
 
-            player.getSellList();
-		}
+            final String teleBuypass = command.replace("_bbsteleport;", "");
+            if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < Config.COMMUNITYBOARD_TELEPORT_PRICE)
+            {
+                player.sendMessage("Not enough currency!");
+            }
+            else if (Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass) != null)
+            {
+                player.disableAllSkills();
+                player.sendPacket(new ShowBoard());
+                player.destroyItemByItemId("CB_Teleport", Config.COMMUNITYBOARD_CURRENCY, Config.COMMUNITYBOARD_TELEPORT_PRICE, player, true);
+                player.setInstanceById(0);
+                player.teleToLocation(Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass), 0);
+                ThreadPool.schedule(player::enableAllSkills, 3000);
+            }
+        }
 
 
 

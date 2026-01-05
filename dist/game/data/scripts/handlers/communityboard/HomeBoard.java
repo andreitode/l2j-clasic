@@ -249,7 +249,14 @@ public class HomeBoard implements IParseBoardHandler
             }
             CommunityBoardHandler.separateAndSend(getBuffsSchemes(player), player);
         } else if (baseCommand.equals("_bbsbuffsedit")) {
+            final String sentParams = command.replace("_bbsbuffschemedelete;", "");
+
             player.sendMessage("here comes edit button");
+			final String[] params = sentParams.split(";");
+
+            player.sendMessage(String.valueOf(sentParams[0]);
+            player.sendMessage(String.valueOf(sentParams[1]);
+            player.sendMessage(String.valueOf(sentParams[2]);
 
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
@@ -529,9 +536,70 @@ public class HomeBoard implements IParseBoardHandler
 		return false;
 	}
 
+//     private static String handleEdit(Player player, String groupType, String schemeName, int page)
+//     {
+//         String returnHtml = null;
+//         final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
+// 		final List<Integer> schemeSkills = SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName);
+// 		returnHtml = returnHtml.replace("%schemename%", schemeName);
+// 		returnHtml = returnHtml.replace("%count%", getCountOf(schemeSkills, false) + " / " + player.getStat().getMaxBuffCount() + " buffs, " + getCountOf(schemeSkills, true) + " / " + Config.DANCES_MAX_AMOUNT + " dances/songs");
+// 		returnHtml = returnHtml.replace("%skilllistframe%", getGroupSkillList(player, groupType, schemeName, page));
+//         returnHtml = returnHtml.replace("%typesframe%", getTypesFrame(groupType, schemeName));
+//
+//         returnHtml = returnHtml.replace("%navigation%", navigation);
+//         CommunityBoardHandler.separateAndSend(returnHtml, player);
+//     }
+
+
+    /**
+    	 * @param groupType : The group of skills to select.
+    	 * @param schemeName : The scheme to make check.
+    	 * @return a string representing all groupTypes available. The group currently on selection isn't linkable.
+    	 */
+    	private static String getTypesFrame(String groupType, String schemeName)
+    	{
+    		final StringBuilder sb = new StringBuilder(500);
+    		sb.append("<table>");
+
+    		int count = 0;
+    		for (String type : SchemeBufferTable.getInstance().getSkillTypes())
+    		{
+    			if (count == 0)
+    			{
+    				sb.append("<tr>");
+    			}
+
+    			if (groupType.equalsIgnoreCase(type))
+    			{
+    				sb.append("<td><button value=" + type + "  width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
+    			}
+    			else
+    			{
+                    sb.append("<td><button value=" + type + " action=\"bypass npc_%objectId%_editschemes;" + type + ";" + schemeName + ";1\" width=65 height=21 back=\"L2UI_CT1.Button_DF_Down\" fore=\"L2UI_CT1.Button_DF\"></td>");
+    			}
+
+    			count++;
+    			if (count == 4)
+    			{
+    				sb.append("</tr>");
+    				count = 0;
+    			}
+    		}
+
+    		if (!sb.toString().endsWith("</tr>"))
+    		{
+    			sb.append("</tr>");
+    		}
+
+    		sb.append("</table>");
+
+    		return sb.toString();
+    	}
+
     private static String handleCleanup(Player player)
     {
         String returnHtml = null;
+        final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
         player.stopAllEffects();
 
         final Summon summon = player.getPet();
@@ -541,7 +609,9 @@ public class HomeBoard implements IParseBoardHandler
         }
         player.getServitors().values().forEach(servitor -> servitor.stopAllEffects());
 
-        return returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/main.html");
+        returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/main.html");
+        returnHtml = returnHtml.replace("%navigation%", navigation);
+        return returnHtml;
     }
 
     private static String getBuffsSchemes(Player player)

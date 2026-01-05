@@ -373,7 +373,7 @@ public class HomeBoard implements IParseBoardHandler
     private static String handleBuffsGive(Player player, String schemeName, int cost, String buffSummons)
     {
         player.sendMessage(schemeName);
-        player.sendMessage(buffSummons)
+        player.sendMessage(buffSummons);
         if (buffSummons.equals("pet") && (player.getPet() == null) && !player.hasServitors())
         {
             player.sendMessage("You don't have a pet.");

@@ -372,6 +372,8 @@ public class HomeBoard implements IParseBoardHandler
 
     private static String handleBuffsGive(Player player, String schemeName, int cost, String buffSummons)
     {
+        player.sendMessage(schemeName);
+        player.sendMessage(buffSummons)
         if (buffSummons.equals("pet") && (player.getPet() == null) && !player.hasServitors())
         {
             player.sendMessage("You don't have a pet.");
@@ -385,6 +387,7 @@ public class HomeBoard implements IParseBoardHandler
         {
             final List<Creature> targets = new ArrayList<>(4);
             final Summon pet = player.getPet();
+            targets.add(player);
             if (pet != null)
             {
                 targets.add(pet);
@@ -408,10 +411,10 @@ public class HomeBoard implements IParseBoardHandler
                 for (Creature target : targets)
 					{
 						skill.applyEffects(player, target);
-						if (Config.COMMUNITYBOARD_CAST_ANIMATIONS)
-						{
-							player.sendPacket(new MagicSkillUse(player, target, skill.getId(), skill.getLevel(), skill.getHitTime(), skill.getReuseDelay()));
-						}
+// 						if (Config.COMMUNITYBOARD_CAST_ANIMATIONS)
+// 						{
+// 							player.sendPacket(new MagicSkillUse(player, target, skill.getId(), skill.getLevel(), skill.getHitTime(), skill.getReuseDelay()));
+// 						}
 					}
 
             }

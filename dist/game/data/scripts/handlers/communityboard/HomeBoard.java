@@ -205,7 +205,7 @@ public class HomeBoard implements IParseBoardHandler
                 player.teleToLocation(Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass), 0);
                 ThreadPool.schedule(player::enableAllSkills, 3000);
             }
-        } else if (command.startsWith("_bbsbuffscheme"))
+        } else if (baseCommand.equals("_bbsbuffscheme"))
         {
             final StringBuilder sb = new StringBuilder(200);
             final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
@@ -253,7 +253,7 @@ public class HomeBoard implements IParseBoardHandler
             returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
-        } else if (command.startsWith("_bbsheal"))
+        } else if (baseCommand.equals("_bbsheal"))
         {
             final String page = command.replace("_bbsheal;", "");
             if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))

@@ -376,6 +376,7 @@ public class HomeBoard implements IParseBoardHandler
 
     private static String handleBuffsGive(Player player, String schemeName, int cost, String buffSummons)
     {
+        player.sendMessage("line 379 logs")
         player.sendMessage(schemeName);
         player.sendMessage(buffSummons);
         if (buffSummons.equals("pet") && (player.getPet() == null) && !player.hasServitors())
@@ -405,7 +406,7 @@ public class HomeBoard implements IParseBoardHandler
                     {
                         skill.applyEffects(player, player.getPet());
                     }
-//                     player.getServitors().values().forEach(servitor -> skill.applyEffects(player, servitor));
+                    player.getServitors().values().forEach(servitor -> skill.applyEffects(player, servitor));
                 }
                 else
                 {

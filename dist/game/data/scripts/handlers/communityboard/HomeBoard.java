@@ -187,8 +187,7 @@ public class HomeBoard implements IParseBoardHandler
             final String page = command.replace("_bbssell;", "");
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
 			player.sendPacket(new ExBuySellList(player, false));
-		} else if (baseCommand.equals("_bbsteleport"))
-        {
+		} else if (baseCommand.equals("_bbsteleport")) {
               player.sendMessage("intra in gatekeeper");
 
             final String teleBuypass = command.replace("_bbsteleport;", "");
@@ -205,8 +204,7 @@ public class HomeBoard implements IParseBoardHandler
                 player.teleToLocation(Config.COMMUNITY_AVAILABLE_TELEPORTS.get(teleBuypass), 0);
                 ThreadPool.schedule(player::enableAllSkills, 3000);
             }
-        } else if (baseCommand.equals("_bbsbuffscheme"))
-        {
+        } else if (baseCommand.equals("_bbsbuffscheme")) {
             final StringBuilder sb = new StringBuilder(200);
             final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
             if ((schemes == null) || schemes.isEmpty())
@@ -236,7 +234,7 @@ public class HomeBoard implements IParseBoardHandler
                     sb.append("<td fixwidth=3>|</td>");
                     sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
                     sb.append("<td fixwidth=3>|</td>");
-                    sb.append("<td fixwidth=34 align=left><a action=\"bypass -h npc_%objectId%_deletescheme;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
+                    sb.append("<td fixwidth=34 align=left><a action=\"bypass _bbsbuffschemedelete;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
                     sb.append("<td fixwidth=35></td>");
                     sb.append("</tr></table></td>");
                     sb.append("<td align=center>");
@@ -253,9 +251,61 @@ public class HomeBoard implements IParseBoardHandler
             returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
-        } else if (baseCommand.equals("_bbsheal"))
-        {
-            final String page = command.replace("_bbsheal;", "");
+        } else if (baseCommand.equals("_bbsbuffschemecreate") {
+            try
+            {
+                final String schemeName = st.nextToken().trim();
+                if (schemeName.length() > 14)
+                {
+                    player.sendMessage("Scheme's name must contain up to 14 chars.");
+                    return;
+                }
+                // Simple hack to use spaces, dots, commas, minus, plus, exclamations or question marks.
+                if (!Util.isAlphaNumeric(schemeName.replace(" ", "").replace(".", "").replace(",", "").replace("-", "").replace("+", "").replace("!", "").replace("?", "")))
+                {
+                    player.sendMessage("Please use plain alphanumeric characters.");
+                    return;
+                }
+
+                final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+                if (schemes != null)
+                {
+                    if (schemes.size() == Config.BUFFER_MAX_SCHEMES)
+                    {
+                        player.sendMessage("Maximum schemes amount is already reached.");
+                        return;
+                    }
+
+                    if (schemes.containsKey(schemeName))
+                    {
+                        player.sendMessage("The scheme name already exists.");
+                        return;
+                    }
+                }
+
+                SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
+                showSchemeBuffsWindow(player);
+            }
+            catch (Exception e)
+            {
+                player.sendMessage("Scheme's name must contain up to 14 chars.");
+            }
+        } else if (baseCommand.equals("_bbsbuffschemedelete") {
+            try
+            {
+                final String schemeName = st.nextToken();
+                final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+                if ((schemes != null) && schemes.containsKey(schemeName))
+                {
+                    schemes.remove(schemeName);
+                }
+            }
+            catch (Exception e)
+            {
+                player.sendMessage("This scheme name is invalid.");
+            }
+            showSchemeBuffsWindow(player);
+        } else if (baseCommand.equals("_bbsheal")) {
             if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))
             {
                 player.sendMessage("Not enough currency!");
@@ -282,7 +332,7 @@ public class HomeBoard implements IParseBoardHandler
                 player.sendMessage("You used heal!");
             }
 
-            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
+            showSchemeBuffsWindow(player);
         }
 
 

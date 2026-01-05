@@ -341,7 +341,7 @@ public class HomeBoard implements IParseBoardHandler
             ), player);
         } else if (baseCommand.equals("_bbsbuffsclean")) {
             CommunityBoardHandler.separateAndSend(handleCleanup(player), player);
-        } else if (baseCommand.equals("_bbspremium") {
+        } else if (baseCommand.equals("_bbspremium")) {
             final String fullBypass = command.replace("_bbspremium;", "");
             final String[] buypassOptions = fullBypass.split(",");
             final int premiumDays = Integer.parseInt(buypassOptions[0]);

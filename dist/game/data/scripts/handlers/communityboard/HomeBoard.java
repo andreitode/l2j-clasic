@@ -341,6 +341,25 @@ public class HomeBoard implements IParseBoardHandler
             ), player);
         } else if (baseCommand.equals("_bbsbuffsclean")) {
             CommunityBoardHandler.separateAndSend(handleCleanup(player), player);
+        } else if (baseCommand.equals("_bbspremium") {
+            final String fullBypass = command.replace("_bbspremium;", "");
+            final String[] buypassOptions = fullBypass.split(",");
+            final int premiumDays = Integer.parseInt(buypassOptions[0]);
+            if ((premiumDays < 1) || (premiumDays > 30) || (player.getInventory().getInventoryItemCount(Config.COMMUNITY_PREMIUM_COIN_ID, -1) < (Config.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays)))
+            {
+                player.sendMessage("Not enough currency!");
+            }
+            else
+            {
+                player.destroyItemByItemId("CB_Premium", Config.COMMUNITY_PREMIUM_COIN_ID, Config.COMMUNITY_PREMIUM_PRICE_PER_DAY * premiumDays, player, true);
+                PremiumManager.getInstance().addPremiumTime(player.getAccountName(), premiumDays, TimeUnit.DAYS);
+                player.sendMessage("Your account will now have premium status until " + new SimpleDateFormat("dd.MM.yyyy HH:mm").format(PremiumManager.getInstance().getPremiumExpiration(player.getAccountName())) + ".");
+                if (Config.PC_CAFE_RETAIL_LIKE)
+                {
+                    PcCafePointsManager.getInstance().run(player);
+                }
+                returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/premium/thankyou.html");
+            }
         }
 
 		if (returnHtml != null)
@@ -390,13 +409,6 @@ public class HomeBoard implements IParseBoardHandler
          ((Config.BUFFER_ITEM_ID != 57) &&
          player.destroyItemByItemId("Community Board Buffer", Config.BUFFER_ITEM_ID, cost, player, true)))
         {
-//             final List<Creature> targets = new ArrayList<>(4);
-//             final Summon pet = player.getPet();
-//             targets.add(player);
-//             if (pet != null)
-//             {
-//                 targets.add(pet);
-//             }
             for (int skillId : SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName))
             {
                 final Skill skill = SkillData.getInstance().getSkill(skillId, SchemeBufferTable.getInstance().getAvailableBuff(skillId).getLevel());
@@ -412,11 +424,6 @@ public class HomeBoard implements IParseBoardHandler
                 {
                     skill.applyEffects(player, player);
                 }
-
-//                 for (Creature target : targets)
-//                 {
-//                     skill.applyEffects(player, target);
-//                 }
             }
         }
 

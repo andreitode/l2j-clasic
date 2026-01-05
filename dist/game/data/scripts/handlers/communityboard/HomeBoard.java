@@ -206,52 +206,7 @@ public class HomeBoard implements IParseBoardHandler
                 ThreadPool.schedule(player::enableAllSkills, 3000);
             }
         } else if (baseCommand.equals("_bbsbuffscheme")) {
-            final StringBuilder sb = new StringBuilder(200);
-            final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
-            if ((schemes == null) || schemes.isEmpty())
-            {
-                sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
-            }
-            else
-            {
-                player.sendMessage("line 244");
-
-                for (Entry<String, List<Integer>> scheme : schemes.entrySet())
-                {
-                    final int count = scheme.getValue().size();
-                    final int cost = getFee(scheme.getValue());
-                    final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
-
-                    sb.append("<table width=280 cellpadding=0 cellspacing=0>");
-                    sb.append("<tr><td height=10></td></tr>");
-                    sb.append("<tr><td align=center>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
-                    sb.append("<table><tr>");
-                    sb.append("<td fixwidth=2></td>");
-                    sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
-                    sb.append("<td fixwidth=3>|</td>");
-                    sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
-                    sb.append("<td fixwidth=3>|</td>");
-                    sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
-                    sb.append("<td fixwidth=3>|</td>");
-                    sb.append("<td fixwidth=34 align=left><a action=\"bypass _bbsbuffschemedelete;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
-                    sb.append("<td fixwidth=35></td>");
-                    sb.append("</tr></table></td>");
-                    sb.append("<td align=center>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
-                    sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
-                    sb.append("</td></tr>");
-                    sb.append("<tr><td height=18></td></tr>");
-                    sb.append("</table>");
-                    sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
-                }
-            }
-            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
-            returnHtml = returnHtml.replace("%schemes%", sb.toString());
-            returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
-
-            CommunityBoardHandler.separateAndSend(returnHtml, player);
+            CommunityBoardHandler.separateAndSend(getBuffsSchemes(player), player);
         } else if (baseCommand.equals("_bbsbuffschemecreate")) {
 
             player.sendMessage("line 257 a intrat aici");
@@ -292,7 +247,7 @@ public class HomeBoard implements IParseBoardHandler
             {
                 player.sendMessage("Scheme's name must contain up to 14 chars.");
             }
-            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
+            CommunityBoardHandler.separateAndSend(getBuffsSchemes(player), player);
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
@@ -308,7 +263,7 @@ public class HomeBoard implements IParseBoardHandler
             {
                 player.sendMessage("This scheme name is invalid.");
             }
-            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
+            CommunityBoardHandler.separateAndSend(getBuffsSchemes(player), player);
         } else if (baseCommand.equals("_bbsheal")) {
             if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))
             {
@@ -569,6 +524,56 @@ public class HomeBoard implements IParseBoardHandler
 		return false;
 	}
 
+
+    private static int getBuffsSchemes(Player player)
+    {
+        final StringBuilder sb = new StringBuilder(200);
+        final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
+        if ((schemes == null) || schemes.isEmpty())
+        {
+            sb.append("<font color=\"LEVEL\">You haven't defined any scheme.</font>");
+        }
+        else
+        {
+            player.sendMessage("line 244");
+
+            for (Entry<String, List<Integer>> scheme : schemes.entrySet())
+            {
+                final int count = scheme.getValue().size();
+                final int cost = getFee(scheme.getValue());
+                final String costText = (cost > 0) ? " - cost: " + NumberFormat.getInstance(Locale.ENGLISH).format(cost) : "";
+
+                sb.append("<table width=280 cellpadding=0 cellspacing=0>");
+                sb.append("<tr><td height=10></td></tr>");
+                sb.append("<tr><td align=center>");
+                sb.append("<table cellpadding=0 cellspacing=0><tr><td height=8></td></tr></table>");
+                sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
+                sb.append("<table><tr>");
+                sb.append("<td fixwidth=2></td>");
+                sb.append("<td fixwidth=22 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + "\"><font color=\"b3a382\">Use</font></a></td>");
+                sb.append("<td fixwidth=3>|</td>");
+                sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
+                sb.append("<td fixwidth=3>|</td>");
+                sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
+                sb.append("<td fixwidth=3>|</td>");
+                sb.append("<td fixwidth=34 align=left><a action=\"bypass _bbsbuffschemedelete;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
+                sb.append("<td fixwidth=35></td>");
+                sb.append("</tr></table></td>");
+                sb.append("<td align=center>");
+                sb.append("<table cellpadding=0 cellspacing=0><tr><td height=17></td></tr></table>");
+                sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=60 align=center>" + count + " <font color=\"LEVEL\">Skill(s)</font></td></tr></table>");
+                sb.append("</td></tr>");
+                sb.append("<tr><td height=18></td></tr>");
+                sb.append("</table>");
+                sb.append("<center><br><img src=\"l2ui.squaregray\" width=\"300\" height=\"1\" /></center><br>");
+            }
+        }
+        returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/scheme.html");
+        returnHtml = returnHtml.replace("%schemes%", sb.toString());
+        returnHtml = returnHtml.replace("%max_schemes%", String.valueOf(Config.BUFFER_MAX_SCHEMES));
+
+        return returnHtml;
+    }
 	/**
 	 * Gets the Favorite links for the given player.
 	 * @param player the player

@@ -376,10 +376,15 @@ public class HomeBoard implements IParseBoardHandler
         {
             player.sendMessage("You don't have a pet.");
         }
-        else if ((cost == 0) || ((Config.BUFFER_ITEM_ID == 57) && player.reduceAdena("Community Board Buffer", cost, this, true)) || ((Config.BUFFER_ITEM_ID != 57) && player.destroyItemByItemId("Community Board Buffer", Config.BUFFER_ITEM_ID, cost, player, true)))
+        else if (
+        (cost == 0) ||
+        ((Config.BUFFER_ITEM_ID == 57) &&
+         player.reduceAdena("Community Board Buffer", cost, this, true)) ||
+         ((Config.BUFFER_ITEM_ID != 57) &&
+         player.destroyItemByItemId("Community Board Buffer", Config.BUFFER_ITEM_ID, cost, player, true)))
         {
             final List<Creature> targets = new ArrayList<>(4);
-            final Summon pet = player.getSummon();
+            final Summon pet = player.getPet();
             if (pet != null)
             {
                 targets.add(pet);
@@ -403,7 +408,7 @@ public class HomeBoard implements IParseBoardHandler
                 for (Creature target : targets)
 					{
 						skill.applyEffects(player, target);
-						if (CommunityBoardConfig.COMMUNITYBOARD_CAST_ANIMATIONS)
+						if (Config.COMMUNITYBOARD_CAST_ANIMATIONS)
 						{
 							player.sendPacket(new MagicSkillUse(player, target, skill.getId(), skill.getLevel(), skill.getHitTime(), skill.getReuseDelay()));
 						}

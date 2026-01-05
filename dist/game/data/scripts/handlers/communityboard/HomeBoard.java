@@ -63,6 +63,7 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.StringTokenizer;
+import org.classiclude.gameserver.util.Util;
 
 /**
  * Home board.
@@ -264,7 +265,7 @@ public class HomeBoard implements IParseBoardHandler
                 if (!Util.isAlphaNumeric(schemeName.replace(" ", "").replace(".", "").replace(",", "").replace("-", "").replace("+", "").replace("!", "").replace("?", "")))
                 {
                     player.sendMessage("Please use plain alphanumeric characters.");
-                    return;
+//                     return;
                 }
 
                 final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
@@ -273,13 +274,13 @@ public class HomeBoard implements IParseBoardHandler
                     if (schemes.size() == Config.BUFFER_MAX_SCHEMES)
                     {
                         player.sendMessage("Maximum schemes amount is already reached.");
-                        return;
+//                         return;
                     }
 
                     if (schemes.containsKey(schemeName))
                     {
                         player.sendMessage("The scheme name already exists.");
-                        return;
+//                         return;
                     }
                 }
 

@@ -376,7 +376,7 @@ public class HomeBoard implements IParseBoardHandler
 
     private static String handleBuffsGive(Player player, String schemeName, int cost, String buffSummons)
     {
-        player.sendMessage("line 379 logs")
+        player.sendMessage("line 379 logs");
         player.sendMessage(schemeName);
         player.sendMessage(buffSummons);
         if (buffSummons.equals("pet") && (player.getPet() == null) && !player.hasServitors())

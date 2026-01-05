@@ -249,7 +249,7 @@ public class HomeBoard implements IParseBoardHandler
             }
             CommunityBoardHandler.separateAndSend(getBuffsSchemes(player), player);
         } else if (baseCommand.equals("_bbsbuffsedit")) {
-            final String sentParams = command.replace("_bbsbuffschemedelete;", "");
+            final String sentParams = command.replace("_bbsbuffsedit;", "");
 
             player.sendMessage("here comes edit button");
 			final String[] params = sentParams.split(";");
@@ -258,6 +258,7 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage(String.valueOf(params[1]));
             player.sendMessage(String.valueOf(params[2]));
 
+            CommunityBoardHandler.separateAndSend(handleEdit(player, String.valueOf(params[0]), String.valueOf(params[1]), String.valueOf(params[2])), player);
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
@@ -536,19 +537,23 @@ public class HomeBoard implements IParseBoardHandler
 		return false;
 	}
 
-//     private static String handleEdit(Player player, String groupType, String schemeName, int page)
-//     {
-//         String returnHtml = null;
-//         final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
-// 		final List<Integer> schemeSkills = SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName);
-// 		returnHtml = returnHtml.replace("%schemename%", schemeName);
-// 		returnHtml = returnHtml.replace("%count%", getCountOf(schemeSkills, false) + " / " + player.getStat().getMaxBuffCount() + " buffs, " + getCountOf(schemeSkills, true) + " / " + Config.DANCES_MAX_AMOUNT + " dances/songs");
-// 		returnHtml = returnHtml.replace("%skilllistframe%", getGroupSkillList(player, groupType, schemeName, page));
-//         returnHtml = returnHtml.replace("%typesframe%", getTypesFrame(groupType, schemeName));
-//
-//         returnHtml = returnHtml.replace("%navigation%", navigation);
-//         CommunityBoardHandler.separateAndSend(returnHtml, player);
-//     }
+    private static String handleEdit(Player player, String groupType, String schemeName, int page)
+    {
+        String returnHtml = null;
+        final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
+		final List<Integer> schemeSkills = SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName);
+
+
+        returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/edit.html");
+		returnHtml = returnHtml.replace("%schemename%", schemeName);
+		returnHtml = returnHtml.replace("%count%", getCountOf(schemeSkills, false) + " / " + player.getStat().getMaxBuffCount() + " buffs, " + getCountOf(schemeSkills, true) + " / " + Config.DANCES_MAX_AMOUNT + " dances/songs");
+		returnHtml = returnHtml.replace("%skilllistframe%", getGroupSkillList(player, groupType, schemeName, page));
+        returnHtml = returnHtml.replace("%typesframe%", getTypesFrame(groupType, schemeName));
+
+        returnHtml = returnHtml.replace("%navigation%", navigation);
+
+        return returnHtml;
+    }
 
 
     /**

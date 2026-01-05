@@ -65,7 +65,7 @@ import java.util.Map.Entry;
 import java.util.StringTokenizer;
 import org.classiclude.gameserver.util.Util;
 import org.classiclude.gameserver.util.MathUtil;
-
+import org.classiclude.gameserver.model.actor.instance.SchemeBuffer;
 /**
  * Home board.
  * @author Zoey76, Mobius
@@ -332,7 +332,7 @@ public class HomeBoard implements IParseBoardHandler
             CommunityBoardHandler.separateAndSend(
             handleBuffsGive(player,
             String.valueOf(params[0]),
-            Integer.parseInt(params[1])
+            Integer.parseInt(params[1]),
             String.valueOf(params[2])
             ), player);
         } else if (baseCommand.equals("_bbsbuffsclean")) {
@@ -381,17 +381,17 @@ public class HomeBoard implements IParseBoardHandler
             for (int skillId : SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName))
             {
                 final Skill skill = SkillData.getInstance().getSkill(skillId, SchemeBufferTable.getInstance().getAvailableBuff(skillId).getLevel());
-                if (buffSummons)
+                if (buffSummons.equals("pet")
                 {
                     if (player.getPet() != null)
                     {
-                        skill.applyEffects(this, player.getPet());
+                        skill.applyEffects(new SchemeBuffer(), player.getPet());
                     }
-                    player.getServitors().values().forEach(servitor -> skill.applyEffects(this, servitor));
+                    player.getServitors().values().forEach(servitor -> skill.applyEffects(new SchemeBuffer(), servitor));
                 }
                 else
                 {
-                    skill.applyEffects(this, player);
+                    skill.applyEffects(new SchemeBuffer(), player);
                 }
             }
         }

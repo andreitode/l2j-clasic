@@ -293,7 +293,7 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
-                final String schemeName = st.nextToken();
+                final String schemeName = command.replace("_bbsbuffschemedelete;", "")
                 final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
                 if ((schemes != null) && schemes.containsKey(schemeName))
                 {

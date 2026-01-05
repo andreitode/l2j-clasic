@@ -401,11 +401,11 @@ public class HomeBoard implements IParseBoardHandler
                     {
                         skill.applyEffects(player, player.getPet());
                     }
-                    player.getServitors().values().forEach(servitor -> skill.applyEffects(player, servitor));
+//                     player.getServitors().values().forEach(servitor -> skill.applyEffects(player, servitor));
                 }
                 else
                 {
-                    skill.applyEffects(player, target);
+                    skill.applyEffects(player, player);
                 }
 
 //                 for (Creature target : targets)

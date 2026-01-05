@@ -324,13 +324,12 @@ public class HomeBoard implements IParseBoardHandler
                 player.updateUserInfo();
                 player.sendMessage("You used heal!");
             }
-        } else if (baseCommand.equals("_bbsbuffsgive") {
+        } else if (baseCommand.equals("_bbsbuffsgive")) {
             final String sentParams = command.replace("_bbsbuffsgive;", "");
 
             player.sendMessage("here comes edit button");
 			final String[] params = sentParams.split(";");
-            CommunityBoardHandler.separateAndSend(handleBuffsGive(player), String.valueOf(params[0]), String.valueOf(params[1])), player);
-
+            CommunityBoardHandler.separateAndSend(handleBuffsGive(player, String.valueOf(params[0]), Integer.parseInt(params[1]) String.valueOf(params[2])), player);
         } else if (baseCommand.equals("_bbsbuffsclean")) {
             CommunityBoardHandler.separateAndSend(handleCleanup(player), player);
         }
@@ -366,9 +365,8 @@ public class HomeBoard implements IParseBoardHandler
 
 
 
-    private static String handleBuffsGive(Player player, String schemeName, String buffSummons)
+    private static String handleBuffsGive(Player player, String schemeName, int cost, String buffSummons)
     {
-        final int cost = getFee(scheme.getValue());
         if (buffSummons.equals("pet") && (player.getPet() == null) && !player.hasServitors())
         {
             player.sendMessage("You don't have a pet.");
@@ -609,9 +607,9 @@ public class HomeBoard implements IParseBoardHandler
                 sb.append("<table cellpadding=0 cellspacing=0><tr><td fixwidth=202 align=left><font color=\"e5d0a5\">" + scheme.getKey() + costText + "</font></td></tr></table>");
                 sb.append("<table><tr>");
                 sb.append("<td fixwidth=2></td>");
-                sb.append("<td fixwidth=22 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";none\"><font color=\"b3a382\">Use</font></a></td>");
+                sb.append("<td fixwidth=22 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";" + cost + ";none\"><font color=\"b3a382\">Use</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
-                sb.append("<td fixwidth=57 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
+                sb.append("<td fixwidth=57 align=left><a action=\"bypass _bbsbuffsgive;" + scheme.getKey() + ";" + cost + ";pet"><font color=\"b3a382\">Use on Pet</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
                 sb.append("<td fixwidth=23 align=left><a action=\"bypass _bbsbuffsedit;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");

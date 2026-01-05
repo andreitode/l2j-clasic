@@ -290,6 +290,8 @@ public class HomeBoard implements IParseBoardHandler
                 player.updateUserInfo();
                 player.sendMessage("You used heal!");
             }
+        } else if (baseCommand.equals("_bbscleanup")) {
+            CommunityBoardHandler.separateAndSend(handleCleanup(player), player);
         }
 
 
@@ -524,6 +526,19 @@ public class HomeBoard implements IParseBoardHandler
 		return false;
 	}
 
+    private static String handleCleanup(Player player)
+    {
+        player.stopAllEffects();
+
+        final Summon summon = player.getPet();
+        if (summon != null)
+        {
+            summon.stopAllEffects();
+        }
+        player.getServitors().values().forEach(servitor -> servitor.stopAllEffects());
+
+        return returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/buffer/main.html");
+    }
 
     private static String getBuffsSchemes(Player player)
     {

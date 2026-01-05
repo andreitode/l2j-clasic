@@ -63,7 +63,6 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.StringTokenizer;
-import org.l2jmobius.gameserver.network.serverpackets.SellList;
 
 /**
  * Home board.
@@ -187,7 +186,9 @@ public class HomeBoard implements IParseBoardHandler
 
             final String page = command.replace("_bbssell;", "");
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/" + page + ".html");
-            player.sendPacket(new SellList(player));
+//             player.sendPacket(new SellList(player));
+
+            player.getSellList();
 		}
 
 

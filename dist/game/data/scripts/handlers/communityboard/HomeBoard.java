@@ -248,6 +248,9 @@ public class HomeBoard implements IParseBoardHandler
                 player.sendMessage("Scheme's name must contain up to 14 chars.");
             }
             CommunityBoardHandler.separateAndSend(getBuffsSchemes(player), player);
+        } else if (baseCommand.equals("_bbsbuffsedit")) {
+            player.sendMessage("here comes edit button");
+
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
@@ -290,7 +293,7 @@ public class HomeBoard implements IParseBoardHandler
                 player.updateUserInfo();
                 player.sendMessage("You used heal!");
             }
-        } else if (baseCommand.equals("_bbscleanup")) {
+        } else if (baseCommand.equals("_bbsbuffsclean")) {
             CommunityBoardHandler.separateAndSend(handleCleanup(player), player);
         }
 
@@ -571,7 +574,7 @@ public class HomeBoard implements IParseBoardHandler
                 sb.append("<td fixwidth=3>|</td>");
                 sb.append("<td fixwidth=57 align=left><a action=\"bypass -h npc_%objectId%_givebuffs;" + scheme.getKey() + ";" + cost + ";pet\"><font color=\"b3a382\">Use on Pet</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
-                sb.append("<td fixwidth=23 align=left><a action=\"bypass -h npc_%objectId%_editschemes;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
+                sb.append("<td fixwidth=23 align=left><a action=\"bypass _bbsbuffsedit;Buffs;" + scheme.getKey() + ";1\"><font color=\"b3a382\">Edit</font></a></td>");
                 sb.append("<td fixwidth=3>|</td>");
                 sb.append("<td fixwidth=34 align=left><a action=\"bypass _bbsbuffschemedelete;" + scheme.getKey() + "\"><font color=\"b3a382\">Delete</font></a></td>");
                 sb.append("<td fixwidth=35></td>");

@@ -150,7 +150,7 @@ public class HomeBoard implements IParseBoardHandler
 		String returnHtml = null;
 		final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
 
-        if (baseCommand.equals("_bbshome") || baseCommand.equals("_bbstop"))
+        if (baseCommand.equals("_bbshome"))
 		{
 			player.sendMessage("aici intra in primul if, makes sense");
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";

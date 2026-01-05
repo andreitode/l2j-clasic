@@ -119,7 +119,13 @@ public class HomeBoard implements IParseBoardHandler
 	@Override
 	public boolean parseCommunityBoardCommand(String command, Player player)
 	{
+        // Split commands that use parameters (;)
+        if (command.contains(";")) {
+            args = command.split(";");
+            baseCommand = args[0];
+        }
 	    player.sendMessage(command);
+        player.sendMessage(baseCommand);
 	    player.sendMessage(String.valueOf(command.startsWith("_bbsbuffschemecreate")));
 		// Old custom conditions check move to here
 		if (Config.COMMUNITYBOARD_COMBAT_DISABLED && COMBAT_CHECK.test(command, player))
@@ -142,6 +148,7 @@ public class HomeBoard implements IParseBoardHandler
 		
 		String returnHtml = null;
 		final String navigation = org.classiclude.gameserver.community.utils.CommunityBoard.getMenu(player);
+
 		if (command.equals("_bbshome") || command.equals("_bbstop"))
 		{
 			final String customPath = Config.CUSTOM_CB_ENABLED ? "Custom/" : "";

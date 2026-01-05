@@ -254,9 +254,9 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage("here comes edit button");
 			final String[] params = sentParams.split(";");
 
-            player.sendMessage(String.valueOf(params[0]);
-            player.sendMessage(String.valueOf(params[1]);
-            player.sendMessage(String.valueOf(params[2]);
+            player.sendMessage(String.valueOf(params[0]));
+            player.sendMessage(String.valueOf(params[1]));
+            player.sendMessage(String.valueOf(params[2]));
 
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try

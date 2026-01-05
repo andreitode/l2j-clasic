@@ -113,6 +113,39 @@
 		<npc id="30833" x="104870" y="113221" z="-3184" heading="4096" respawnTime="60sec" /> 
 		<npc id="31582" x="104840" y="113260" z="-3184" heading="0" respawnTime="60sec" /> 
 		<npc id="30834" x="105792" y="114290" z="-3136" heading="49000" respawnTime="60sec" /> 
-		<npc id="30832" x="105745" y="114255" z="-3136" heading="49152" respawnTime="60sec" /> 
+		<npc id="30832" x="105745" y="114255" z="-3136" heading="49152" respawnTime="60sec" />
+
+<!--		Custom spawns here
+-->
+
+		<npc id="50008" x="83047" y="147812" z="-3471" heading="20540" respawnTime="60sec" /> <!-- Rosalia - Scheme Buffer -->
+		<npc id="31757" x="82233" y="148606" z="-3464" respawnTime="60sec" /> <!-- Seller - GM shop -->
+		<npc id="50008" x="83193" y="147910" z="-3368" heading="38057" respawnTime="60sec" /> <!-- Buffer - Scheme Buffer -->
+		<npc id="50008" x="83188" y="148399" z="-3368" heading="27931" respawnTime="60sec" /> <!-- Buffer - Scheme Buffer -->
+		<npc id="50008" x="83183" y="148839" z="-3368" heading="45796" respawnTime="60sec" /> <!-- Buffer - Scheme Buffer -->
+		<npc id="50008" x="83186" y="149322" z="-3368" heading="40959" respawnTime="60sec" /> <!-- Buffer - Scheme Buffer -->
+
+<!--		here are skill enchanters and augmenter-->
+
+		<npc id="30691" x="81595" y="148607" z="-3464" heading="65227" respawnTime="60sec" /> <!-- Aren Athebaldt - Master -->
+		<npc id="30850" x="81470" y="148803" z="-3464" heading="23421" respawnTime="60sec" /> <!-- Aiken - Master -->
+		<npc id="30852" x="81554" y="148886" z="-3464" heading="8129" respawnTime="60sec" /> <!-- Sinden - Master -->
+		<npc id="30188" x="81628" y="148969" z="-3464" heading="28799" respawnTime="60sec" /> <!-- Vadin - Priest -->
+		<npc id="30680" x="81673" y="149021" z="-3467" heading="55128" respawnTime="60sec" /> <!-- Egnos - Priest -->
+		<npc id="30715" x="81748" y="149061" z="-3464" heading="1154" respawnTime="60sec" /> <!-- Marina - Magister -->
+		<npc id="30718" x="81894" y="149059" z="-3464" heading="2142" respawnTime="60sec" /> <!-- Joan - Magister -->
+		<npc id="30721" x="82026" y="149058" z="-3464" heading="63902" respawnTime="60sec" /> <!-- Ladd - Magister -->
+		<npc id="31580" x="82138" y="149033" z="-3464" heading="63245" respawnTime="60sec" /> <!-- Galadrid - Master -->
+		<npc id="31581" x="82219" y="148957" z="-3464" heading="45796" respawnTime="60sec" /> <!-- Anastia - Magister -->
+		<npc id="31582" x="82294" y="148869" z="-3464" heading="53202" respawnTime="60sec" /> <!-- Mordred - Dark Knight -->
+		<npc id="30835" x="82364" y="148794" z="-3464" heading="50874" respawnTime="60sec" /> <!-- Icarus - Lich King -->
+		<npc id="30691" x="82380" y="148680" z="-3464" heading="47475" respawnTime="60sec" /> <!-- Aren Athebaldt - Master -->
+		<npc id="30692" x="82373" y="148585" z="-3464" heading="52590" respawnTime="60sec" /> <!-- Stedmiel - Master -->
+		<npc id="31327" x="82378" y="148490" z="-3464" heading="49700" respawnTime="60sec" /> <!-- Tazki - Prefect -->
+		<npc id="31337" x="82352" y="148392" z="-3464" heading="46447" respawnTime="60sec" /> <!-- Mekara - Seer -->
+		<npc id="31316" x="82272" y="148309" z="-3464" heading="41151" respawnTime="60sec" /> <!-- Vincenz - Blacksmith -->
+		<npc id="31311" x="82201" y="148230" z="-3464" heading="41515" respawnTime="60sec" /> <!-- Hugin - Warehouse Keeper -->
+		<npc id="31312" x="82118" y="148160" z="-3464" heading="40075" respawnTime="60sec" /> <!-- Durin - Warehouse Keeper -->
+		<npc id="31313" x="82037" y="148151" z="-3464" heading="47518" respawnTime="60sec" /> <!-- Lunin - Warehouse Keeper -->
 	</spawn>
 </list>

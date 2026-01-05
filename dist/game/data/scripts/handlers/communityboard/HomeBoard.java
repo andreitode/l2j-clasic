@@ -259,7 +259,7 @@ public class HomeBoard implements IParseBoardHandler
                 if (schemeName.length() > 14)
                 {
                     player.sendMessage("Scheme's name must contain up to 14 chars.");
-                    return;
+                    return false;
                 }
                 // Simple hack to use spaces, dots, commas, minus, plus, exclamations or question marks.
                 if (!Util.isAlphaNumeric(schemeName.replace(" ", "").replace(".", "").replace(",", "").replace("-", "").replace("+", "").replace("!", "").replace("?", "")))
@@ -274,13 +274,13 @@ public class HomeBoard implements IParseBoardHandler
                     if (schemes.size() == Config.BUFFER_MAX_SCHEMES)
                     {
                         player.sendMessage("Maximum schemes amount is already reached.");
-//                         return;
+                        return false;
                     }
 
                     if (schemes.containsKey(schemeName))
                     {
                         player.sendMessage("The scheme name already exists.");
-//                         return;
+                        return false;
                     }
                 }
 
@@ -294,7 +294,7 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
-                final String schemeName = command.replace("_bbsbuffschemedelete;", "")
+                final String schemeName = command.replace("_bbsbuffschemedelete;", "");
                 final Map<String, List<Integer>> schemes = SchemeBufferTable.getInstance().getPlayerSchemes(player.getObjectId());
                 if ((schemes != null) && schemes.containsKey(schemeName))
                 {

@@ -569,7 +569,7 @@ public class HomeBoard implements IParseBoardHandler
      * @param pageValue The page.
      * @return a String representing skills available to selection for a given groupType.
      */
-    private String getGroupSkillList(Player player, String groupType, String schemeName, int pageValue)
+    private static String getGroupSkillList(Player player, String groupType, String schemeName, int pageValue)
     {
         // Retrieve the entire skills list based on group type.
         List<Integer> skills = SchemeBufferTable.getInstance().getSkillsIdsByType(groupType);

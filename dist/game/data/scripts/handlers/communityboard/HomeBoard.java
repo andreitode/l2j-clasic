@@ -263,7 +263,7 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage(String.valueOf(params[2]));
 
             CommunityBoardHandler.separateAndSend(handleEdit(player, String.valueOf(params[0]), String.valueOf(params[1]), Integer.parseInt(params[2])), player);
-        } else if (baseCommand.equals("_bbsbuffskilledit") {
+        } else if (baseCommand.equals("_bbsbuffskilledit")) {
             final String sentParams = command.replace("_bbsbuffskilledit;", "");
             player.sendMessage("here comes edit skill");
         	final String[] params = sentParams.split(";");
@@ -273,7 +273,7 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage(String.valueOf(params[1]));
             player.sendMessage(String.valueOf(params[2]));
 
-            CommunityBoardHandler.separateAndSend(handleEditScheme(player, String.valueOf(params[0]), String.valueOf(params[1]), String.valueOf(params[2]), Integer.parseInt(params[3]), Integer.parseInt(params[4]))), player);
+            CommunityBoardHandler.separateAndSend(handleEditScheme(player, String.valueOf(params[0]), String.valueOf(params[1]), String.valueOf(params[2]), Integer.parseInt(params[3]), Integer.parseInt(params[4])), player);
         } else if (baseCommand.equals("_bbsbuffschemedelete")) {
             try
             {
@@ -503,7 +503,6 @@ public class HomeBoard implements IParseBoardHandler
 
     private static String handleEditScheme(Player player, String direction, String groupType, int skillId, String schemeName, int page)
     {
-        final int skillId = Integer.parseInt(st.nextToken());
         final List<Integer> skills = SchemeBufferTable.getInstance().getScheme(player.getObjectId(), schemeName);
         if (direction.equals("add") && !schemeName.equalsIgnoreCase("none"))
         {

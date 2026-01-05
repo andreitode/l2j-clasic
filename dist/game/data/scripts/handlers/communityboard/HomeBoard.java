@@ -284,7 +284,7 @@ public class HomeBoard implements IParseBoardHandler
                 }
 
                 SchemeBufferTable.getInstance().setScheme(player.getObjectId(), schemeName.trim(), new ArrayList<>());
-                showSchemeBuffsWindow(player);
+//                 showSchemeBuffsWindow(player);
             }
             catch (Exception e)
             {
@@ -304,7 +304,7 @@ public class HomeBoard implements IParseBoardHandler
             {
                 player.sendMessage("This scheme name is invalid.");
             }
-            showSchemeBuffsWindow(player);
+//             showSchemeBuffsWindow(player);
         } else if (baseCommand.equals("_bbsheal")) {
             if (player.getInventory().getInventoryItemCount(Config.COMMUNITYBOARD_CURRENCY, -1) < (Config.COMMUNITYBOARD_HEAL_PRICE))
             {
@@ -332,7 +332,7 @@ public class HomeBoard implements IParseBoardHandler
                 player.sendMessage("You used heal!");
             }
 
-            showSchemeBuffsWindow(player);
+//             showSchemeBuffsWindow(player);
         }
 
 

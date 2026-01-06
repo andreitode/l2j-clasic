@@ -92,8 +92,8 @@ public final class CommunityBoard
                 btn = links_template;
 
                 btn = btn.replace("%text%", "Augment");
-                btn = btn.replace("%iconBack%", "L2UI_CT1.ItemEnchant_DF_Effect_Loading_21");
-                btn = btn.replace("%iconFore%", "L2UI_CT1.ItemEnchant_DF_Effect_Loading_21");
+                btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_Reward_Down");
+                btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_Reward");
                 btn = btn.replace("%action%", "bypass _bbsaugment");
                 buttons.add(btn);
             }

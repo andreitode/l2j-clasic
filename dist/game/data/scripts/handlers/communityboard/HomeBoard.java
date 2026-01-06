@@ -361,6 +361,10 @@ public class HomeBoard implements IParseBoardHandler
                 }
                 returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/premium/thankyou.html");
             }
+        } else if (baseCommand.equals("_bbsaugment") {
+            player.sendMessage("augment page");
+
+            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/augment/main.html");
         }
 
 		if (returnHtml != null)

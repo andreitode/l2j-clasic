@@ -371,9 +371,9 @@ public class HomeBoard implements IParseBoardHandler
             final String option = command.replace("_bbsaugment;", "");
             player.sendMessage(String.valueOf(option));
 
-            if (option.equals("1")) {
+            if (option.equals("add")) {
                 player.sendPacket(ExShowVariationMakeWindow.STATIC_PACKET);
-            } else {
+            } else if (option.equals("remove")) {
                 player.sendPacket(ExShowVariationCancelWindow.STATIC_PACKET);
             }
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/augment/main.html");

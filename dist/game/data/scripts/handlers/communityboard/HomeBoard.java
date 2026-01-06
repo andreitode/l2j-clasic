@@ -370,22 +370,12 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage("augment page");
             final String option = command.replace("_bbsaugment;", "");
             player.sendMessage(String.valueOf(option));
-//             try
-//             {
-                switch (Integer.parseInt(option.trim()))
-                {
-                    case 1:
-                    {
-                        player.sendPacket(ExShowVariationMakeWindow.STATIC_PACKET);
-//                         return true;
-                    }
-                    case 2:
-                    {
-                        player.sendPacket(ExShowVariationCancelWindow.STATIC_PACKET);
-//                         return true;
-                    }
-                }
-//             }
+
+            if (option.equals("1")) {
+                player.sendPacket(ExShowVariationMakeWindow.STATIC_PACKET);
+            } else {
+                player.sendPacket(ExShowVariationCancelWindow.STATIC_PACKET);
+            }
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/augment/main.html");
         }
 

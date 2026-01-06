@@ -66,6 +66,10 @@ import java.util.StringTokenizer;
 import org.classiclude.gameserver.util.Util;
 import org.classiclude.gameserver.util.MathUtil;
 import org.classiclude.gameserver.model.actor.instance.SchemeBuffer;
+
+import org.classiclude.gameserver.network.serverpackets.ExShowVariationCancelWindow;
+import org.classiclude.gameserver.network.serverpackets.ExShowVariationMakeWindow;
+
 /**
  * Home board.
  * @author Zoey76, Mobius
@@ -366,8 +370,8 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage("augment page");
             final String option = command.replace("_bbsaugment;", "");
             player.sendMessage(String.valueOf(option));
-            try
-            {
+//             try
+//             {
                 switch (Integer.parseInt(option.trim()))
                 {
                     case 1:
@@ -381,7 +385,7 @@ public class HomeBoard implements IParseBoardHandler
 //                         return true;
                     }
                 }
-            }
+//             }
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/augment/main.html");
         }
 

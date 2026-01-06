@@ -91,6 +91,7 @@ public class HomeBoard implements IParseBoardHandler
 		Config.COMMUNITYBOARD_ENABLE_TELEPORTS ? "_bbsteleport" : null,
 		Config.COMMUNITYBOARD_ENABLE_BUFFS ? "_bbsbuff" : null,
 		Config.COMMUNITYBOARD_ENABLE_HEAL ? "_bbsheal" : null,
+		Config.COMMUNITYBOARD_ENABLE_AUGMENT ? "_bbsaugment" : null,
 	};
 
 	private static final int PAGE_LIMIT = 6;

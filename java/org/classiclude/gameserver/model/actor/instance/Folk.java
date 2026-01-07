@@ -127,7 +127,7 @@ public class Folk extends Npc
 	 * This method displays EnchantSkillList to the player.
 	 * @param player The player who requested the method.
 	 */
-	public void showEnchantSkillList(Player player)
+	public static void showEnchantSkillList(Player player)
 	{
 		if (!player.isInCategory(CategoryType.FOURTH_CLASS_GROUP))
 		{

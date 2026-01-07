@@ -387,7 +387,8 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage("enchant skill page after click on it");
 
             final ExEnchantSkillList esl = new ExEnchantSkillList(player, 0);
-            esl.showHtmlWithNoNpc(player);
+            returnHtml = esl.showHtmlWithNoNpc(player);
+            CommunityBoardHandler.separateAndSend(returnHtml, player);
         }
 
 

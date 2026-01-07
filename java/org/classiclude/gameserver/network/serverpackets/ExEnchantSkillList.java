@@ -76,7 +76,7 @@ public class ExEnchantSkillList
 		player.sendPacket(html);
 	}
 
-	public void showHtmlWithNoNpc(Player player)
+	public String showHtmlWithNoNpc(Player player)
 	{
         String returnHtml = null;
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/main.html");
@@ -84,8 +84,7 @@ public class ExEnchantSkillList
         returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtml(player));
 //         returnHtml = returnHtml.replace("%paging%", getPagingHtml(player, npc));
 
-        player.sendPacket(returnHtml);
-
+       return returnHtml;
 	}
 	
 	private static class SkillEnchantEntry

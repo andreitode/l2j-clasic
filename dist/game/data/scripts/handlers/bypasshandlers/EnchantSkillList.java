@@ -212,17 +212,17 @@ public class EnchantSkillList implements IBypassHandler
         String returnHtml = null;
 
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_details.html");
-        returnHtml = returnHtml.replace("%skillId%", skillId);
-        returnHtml = returnHtml.replace("%skillIcon%", skill.getIcon());
-        returnHtml = returnHtml.replace("%skillName%", skill.getName());
-        returnHtml = returnHtml.replace("%enchantLevel%", enchantLevel);
-        returnHtml = returnHtml.replace("%routeName%", routeName);
-        returnHtml = returnHtml.replace("%currentExp%", currentEXP);
-        returnHtml = returnHtml.replace("%currentSp%", currentSP);
-        returnHtml = returnHtml.replace("%chance%", chance);
-        returnHtml = returnHtml.replace("%requiredExp%", requiredEXP);
-        returnHtml = returnHtml.replace("%requiredSp%", requiredSP);
-        returnHtml = returnHtml.replace("%skillenchantdescription%", routeDescription);
+        returnHtml = returnHtml.replace("%skillId%", String.valueOf(skillId);
+        returnHtml = returnHtml.replace("%skillIcon%", String.valueOf(skill.getIcon()));
+        returnHtml = returnHtml.replace("%skillName%", String.valueOf(skill.getName()));
+        returnHtml = returnHtml.replace("%enchantLevel%", String.valueOf(enchantLevel));
+        returnHtml = returnHtml.replace("%routeName%", String.valueOf(routeName));
+        returnHtml = returnHtml.replace("%currentExp%", String.valueOf(currentEXP));
+        returnHtml = returnHtml.replace("%currentSp%", String.valueOf(currentSP));
+        returnHtml = returnHtml.replace("%chance%", String.valueOf(chance));
+        returnHtml = returnHtml.replace("%requiredExp%", String.valueOf(requiredEXP));
+        returnHtml = returnHtml.replace("%requiredSp%", String.valueOf(requiredSP));
+        returnHtml = returnHtml.replace("%skillenchantdescription%", String.valueOf(routeDescription));
 
         if (subLevel == 0)
         {

@@ -21,6 +21,8 @@ import org.classiclude.gameserver.network.serverpackets.ExEnchantSkillResult;
 import org.classiclude.gameserver.network.serverpackets.NpcHtmlMessage;
 import org.classiclude.gameserver.network.serverpackets.SystemMessage;
 
+import org.classiclude.gameserver.cache.HtmCache;
+
 /**
  * @author Naker
  */

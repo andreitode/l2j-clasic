@@ -389,7 +389,7 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsskillmain")) {
             final String pageStr = command.replace("_bbsskillmain;", "");
             final int page = Integer.parseInt(pageStr);
-            final ExEnchantSkillList exsl = new ExEnchantSkillList(player, Integer.parseInt(page));
+            final ExEnchantSkillList exsl = new ExEnchantSkillList(player, page));
             returnHtml = exsl.showHtmlWithNoNpc(player);
         } else if (baseCommand.equals("_bbsskilldetails")) {
 

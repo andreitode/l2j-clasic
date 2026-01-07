@@ -386,7 +386,7 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsskillenchant")) {
             player.sendMessage("enchant skill page after click on it");
 
-            showEnchantSkillList(player);
+            org.classiclude.gameserver.model.actor.instance.Folk.showEnchantSkillList(player);
         }
 
 		if (returnHtml != null)

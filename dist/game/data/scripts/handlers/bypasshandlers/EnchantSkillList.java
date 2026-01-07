@@ -207,6 +207,7 @@ public class EnchantSkillList implements IBypassHandler
         long requiredEXP = enchantSkillHolder.getRequiredExp(SkillEnchantType.NORMAL);
         long requiredSP = enchantSkillHolder.getSp(SkillEnchantType.NORMAL);
 
+        String returnHtml = null;
 
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_details.html");
         returnHtml = returnHtml.setFile(player, "data/html/trainer/EnchantSkillDetails.htm");

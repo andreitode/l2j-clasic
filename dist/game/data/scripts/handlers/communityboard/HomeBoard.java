@@ -70,7 +70,7 @@ import org.classiclude.gameserver.model.actor.instance.SchemeBuffer;
 import org.classiclude.gameserver.network.serverpackets.ExShowVariationCancelWindow;
 import org.classiclude.gameserver.network.serverpackets.ExShowVariationMakeWindow;
 
-import org.classiclude.gameserver.model.actor.instance.Folk;
+import org.classiclude.gameserver.network.serverpackets.ExEnchantSkillList;
 /**
  * Home board.
  * @author Zoey76, Mobius
@@ -386,9 +386,14 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsskillenchant")) {
             player.sendMessage("enchant skill page after click on it");
 
-            org.classiclude.gameserver.model.actor.instance.Folk.showEnchantSkillList(player);
+		final ExEnchantSkillList esl = new ExEnchantSkillList(player, 0);
+        esl.showHtml(player, 30691);
         }
 
+
+
+
+//         default thing
 		if (returnHtml != null)
 		{
 			if (Config.CUSTOM_CB_ENABLED)

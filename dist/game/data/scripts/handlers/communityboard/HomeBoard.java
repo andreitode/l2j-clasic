@@ -387,7 +387,7 @@ public class HomeBoard implements IParseBoardHandler
 
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/main.html");
         } else if (baseCommand.equals("_bbsskillmain")) {
-            page = command.replace("_bbsskillmain;", "");
+            final int page = command.replace("_bbsskillmain;", "");
             final ExEnchantSkillList exsl = new ExEnchantSkillList(player, page ?? 0);
             returnHtml = exsl.showHtmlWithNoNpc(player);
         } else if (baseCommand.equals("_bbsskilldetails")) {

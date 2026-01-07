@@ -82,7 +82,7 @@ public class ExEnchantSkillList
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_list.html");
 // 	    returnHtml = returnHtml.replace("%objectId%", npc.getObjectId());
         returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtmlWithNoNpc(player));
-        returnHtml = returnHtml.replace("%paging%", getPagingHtmlWNoNpc(player));
+        returnHtml = returnHtml.replace("%paging%", getPagingHtmlWithNoNpc(player));
 
        return returnHtml;
 	}

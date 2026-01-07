@@ -76,7 +76,7 @@ public class ExEnchantSkillList
 		player.sendPacket(html);
 	}
 
-	public void showHtmlWithNoNpc(player player)
+	public void showHtmlWithNoNpc(Player player)
 	{
         String returnHtml = null;
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/main.html");

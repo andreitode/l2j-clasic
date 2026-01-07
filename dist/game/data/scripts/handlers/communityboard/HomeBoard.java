@@ -386,18 +386,23 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage("enchant skill page");
 
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/main.html");
-        } else if (baseCommand.equals("_bbsskillenchant")) {
+        } else if (baseCommand.equals("_bbsskillmain")) {
             player.sendMessage("enchant skill page after click on it");
 
             final ExEnchantSkillList exsl = new ExEnchantSkillList(player, 0);
             returnHtml = exsl.showHtmlWithNoNpc(player);
-        } else if (baseCommand.equals("_bbsskillenchantspecific")) {
+        } else if (baseCommand.equals("_bbsskilldetails")) {
             player.sendMessage("enchant page specific");
             player.sendMessage(command);
             final EnchantSkillList esl = new EnchantSkillList();
             returnHtml = esl.showSkillDetailsWithNoNpc(player, command);
 
             CommunityBoardHandler.separateAndSend(returnHtml, player);
+        } else if (baseCommand.equals("_bbsskillenchant")) {
+            player.sendMessage(command);
+
+            final EnchantSkillList esl = new EnchantSkillList();
+            esl.enchantSkillWithNoNpc(player, command);
         }
 
 

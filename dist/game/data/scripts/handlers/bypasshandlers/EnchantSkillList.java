@@ -403,7 +403,154 @@ public class EnchantSkillList implements IBypassHandler
 		player.updateShortCuts(skill.getId(), skill.getLevel(), skill.getSubLevel());
 		((Folk) npc).showEnchantSkillList(player);
 	}
-	
+
+	public void enchantSkillWithNoNpc(Player player, String command)
+    {
+        player.sendMessage("linia 409");
+        player.sendMessage(command);
+        if (!player.isAllowedToEnchantSkills())
+        {
+            return;
+        }
+
+        if (player.isSellingBuffs())
+        {
+            return;
+        }
+
+        if (player.isInOlympiadMode())
+        {
+            return;
+        }
+
+        if (player.isInStoreMode())
+        {
+            return;
+        }
+
+        String[] args = command.split(" ");
+        int skillId = Integer.parseInt(args[1]);
+        String routeName = args[2];
+
+        Skill skill = player.getKnownSkill(skillId);
+        if (skill == null)
+        {
+            return;
+        }
+
+        int subLevel = skill.getSubLevel();
+        int routeId = SkillRoutes.getInstance().getRouteId(skillId, routeName);
+
+        SkillEnchantType type = SkillEnchantType.NORMAL;
+
+        EnchantSkillHolder enchantSkillHolder = EnchantSkillGroupsData.getInstance().getEnchantSkillHolder(getSubLevel(subLevel) % 1000);
+        if (enchantSkillHolder == null)
+        {
+            return;
+        }
+
+        for (ItemHolder holder : enchantSkillHolder.getRequiredItems(type))
+        {
+            if (skill.getSubLevel() <= 1001)
+            {
+                if (player.getInventory().getInventoryItemCount(holder.getId(), 0) < holder.getCount())
+                {
+                    player.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_ALL_OF_THE_ITEMS_NEEDED_TO_ENCHANT_THAT_SKILL);
+                    return;
+                }
+            }
+        }
+
+        long requiredExp = enchantSkillHolder.getRequiredExp(type);
+        if (player.getExp() < requiredExp)
+        {
+            player.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_ENOUGH_XP_TO_ENCHANT_THAT_SKILL);
+            return;
+        }
+
+        long remainingExp = player.getExp() - requiredExp;
+
+        if (remainingExp < player.getStat().getExpForLevel(player.getLevel()))
+        {
+            player.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_ENOUGH_XP_TO_ENCHANT_THAT_SKILL);
+            return;
+        }
+
+        long requiredSp = enchantSkillHolder.getSp(type);
+        if (player.getSp() < requiredSp)
+        {
+            player.sendPacket(SystemMessageId.YOU_DO_NOT_HAVE_ENOUGH_SP_TO_ENCHANT_THAT_SKILL);
+            return;
+        }
+
+        if ((skill.getSubLevel() + 1) >= 1002)
+        {
+            for (ItemHolder holder : enchantSkillHolder.getRequiredItems(type))
+            {
+                if (!player.destroyItemByItemId("Skill enchanting", 57, holder.getCount(), player, true))
+                {
+                    return;
+                }
+            }
+        }
+        else
+        {
+            for (ItemHolder holder : enchantSkillHolder.getRequiredItems(type))
+            {
+                if (!player.destroyItemByItemId("Skill enchanting", holder.getId(), holder.getCount(), player, true))
+                {
+                    return;
+                }
+            }
+        }
+
+        player.getStat().removeExpAndSp(requiredExp, requiredSp, false);
+
+        int successChance = enchantSkillHolder.getLevelChance(type, player.getLevel());
+
+        if (successChance <= 0)
+        {
+            return;
+        }
+
+        if (Rnd.get(100) <= successChance)
+        {
+            int newSubLevel = (subLevel == 0) ? (routeId == 1001 ? 1001 : 2001) : (subLevel + 1);
+
+            Skill enchantedSkill = SkillData.getInstance().getSkill(skillId, skill.getLevel(), newSubLevel);
+            final long reuse = player.getSkillRemainingReuseTime(skill.getReuseHashCode());
+            if (reuse > 0)
+            {
+                player.addTimeStamp(enchantedSkill, reuse);
+            }
+
+            player.addSkill(enchantedSkill, true);
+
+            player.sendPacket(new SystemMessage(SystemMessageId.SKILL_ENCHANT_WAS_SUCCESSFUL_S1_HAS_BEEN_ENCHANTED).addSkillName(skillId));
+            player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_TRUE);
+        }
+        else
+        {
+            final int newSubLevel = 0;
+            Skill enchantedSkill = SkillData.getInstance().getSkill(skillId, skill.getLevel(), newSubLevel);
+            player.addSkill(enchantedSkill, true);
+
+            player.sendPacket(SystemMessageId.SKILL_ENCHANT_FAILED_THE_SKILL_WILL_BE_INITIALIZED);
+            player.sendPacket(ExEnchantSkillResult.STATIC_PACKET_FALSE);
+        }
+
+        player.broadcastUserInfo();
+        player.sendSkillList();
+
+        skill = player.getKnownSkill(skillId);
+        // player.sendPacket(new ExEnchantSkillInfo(skill.getId(), skill.getLevel(), skill.getSubLevel(), skill.getSubLevel()));
+        player.sendPacket(new ExEnchantSkillInfoDetail(SkillEnchantType.NORMAL, skill.getId(), skill.getLevel(), Math.min(skill.getSubLevel() + 1, EnchantSkillGroupsData.MAX_ENCHANT_LEVEL), player));
+        player.updateShortCuts(skill.getId(), skill.getLevel(), skill.getSubLevel());
+
+
+    }
+
+
 	@Override
 	public String[] getBypassList()
 	{

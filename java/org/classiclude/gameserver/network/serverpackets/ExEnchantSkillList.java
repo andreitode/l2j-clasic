@@ -213,12 +213,12 @@ public class ExEnchantSkillList
     				SkillEnchantEntry entry = _skills.get(i);
     				sb.append("<tr>");
     				sb.append("<td align=center>");
-    				sb.append("<a action=\"bypass _bbsskillenchantspecific;").append(entry.getSkillId()).append(";").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+    				sb.append("<a action=\"bypass _bbsskilldetails;").append(entry.getSkillId()).append(";").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
     				sb.append("<img src=\"").append(entry.getSkillIcon(player)).append("\" width=32 height=32 style=\"border: 1px solid white;\">");
     				sb.append("</a>");
     				sb.append("</td>");
     				sb.append("<td width=200>");
-    				sb.append("<a action=\"bypass _bbsskillenchantspecific;").append(entry.getSkillId()).append(";").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+    				sb.append("<a action=\"bypass _bbsskilldetails;").append(entry.getSkillId()).append(";").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
     				sb.append(entry.getSkillName(player));
     				sb.append("<br1><font color=\"b09979\">").append(entry.getEnchantlvl(player)).append("</font>&nbsp;");
     				sb.append("<font color=\"b09979\">").append(entry.getEnchantRouteName(player)).append("</font>");

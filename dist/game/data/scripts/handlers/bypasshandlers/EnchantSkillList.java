@@ -428,7 +428,7 @@ public class EnchantSkillList implements IBypassHandler
             return;
         }
 
-        String[] args = command.split(" ");
+        String[] args = command.split(";");
         int skillId = Integer.parseInt(args[1]);
         String routeName = args[2];
 

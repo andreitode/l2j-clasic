@@ -70,6 +70,7 @@ import org.classiclude.gameserver.model.actor.instance.SchemeBuffer;
 import org.classiclude.gameserver.network.serverpackets.ExShowVariationCancelWindow;
 import org.classiclude.gameserver.network.serverpackets.ExShowVariationMakeWindow;
 
+import org.classiclude.gameserver.network.serverpackets.SkillEnchantEntry;
 /**
  * Home board.
  * @author Zoey76, Mobius
@@ -389,7 +390,6 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsskillenchant")) {
             player.sendMessage("enchant skill page after click on it");
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/trainer/ExEnchantSkillList.htm");
-            returnHtml = returnHtml.replace("%objectId%", npc.getObjectId());
             returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtml(player));
             returnHtml = returnHtml.replace("%paging%", getPagingHtml(player));
         }
@@ -453,7 +453,7 @@ public class HomeBoard implements IParseBoardHandler
             {
                 String bypassCommand = "bypass -h EnchantSkillList showEnchantPage " + i;
 
-                if (i == _page)
+                if (i == _skillsPage)
                 {
                     sb.append("<td align=center width=30><font color=\"LEVEL\">[").append(i + 1).append("]</font></td>");
                 }

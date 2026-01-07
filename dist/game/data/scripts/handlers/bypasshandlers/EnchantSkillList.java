@@ -210,7 +210,6 @@ public class EnchantSkillList implements IBypassHandler
         String returnHtml = null;
 
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_details.html");
-        returnHtml = returnHtml.setFile(player, "data/html/trainer/EnchantSkillDetails.htm");
         returnHtml = returnHtml.replace("%skillId%", skillId);
         returnHtml = returnHtml.replace("%skillIcon%", skill.getIcon());
         returnHtml = returnHtml.replace("%skillName%", skill.getName());

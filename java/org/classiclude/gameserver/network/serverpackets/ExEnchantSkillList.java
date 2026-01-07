@@ -80,7 +80,6 @@ public class ExEnchantSkillList
 	{
         String returnHtml = null;
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_list.html");
-// 	    returnHtml = returnHtml.replace("%objectId%", npc.getObjectId());
         returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtmlWithNoNpc(player));
         returnHtml = returnHtml.replace("%paging%", getPagingHtmlWithNoNpc(player));
 
@@ -267,7 +266,7 @@ public class ExEnchantSkillList
     			sb.append("<center><table><tr>");
     			for (int i = 0; i < totalPages; i++)
     			{
-    				String bypassCommand = "bypass -h EnchantSkillList showEnchantPage " + i;
+    				String bypassCommand = "bypass _bbsskillmain;" + i;
 
     				if (i == _page)
     				{

@@ -547,7 +547,8 @@ public class EnchantSkillList implements IBypassHandler
         player.sendPacket(new ExEnchantSkillInfoDetail(SkillEnchantType.NORMAL, skill.getId(), skill.getLevel(), Math.min(skill.getSubLevel() + 1, EnchantSkillGroupsData.MAX_ENCHANT_LEVEL), player));
         player.updateShortCuts(skill.getId(), skill.getLevel(), skill.getSubLevel());
 
-
+        final ExEnchantSkillList exsl = new ExEnchantSkillList(player, 0);
+        exsl.showHtmlWithNoNpc(player);
     }
 
 

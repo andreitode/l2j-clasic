@@ -395,7 +395,7 @@ public class HomeBoard implements IParseBoardHandler
             player.sendMessage("enchant page specific");
             player.sendMessage(command);
             final EnchantSkillList esl = new EnchantSkillList();
-            returnHtml = esl.showSkillDetailsWithNoNpc(player, 19, 1001 );
+            returnHtml = esl.showSkillDetailsWithNoNpc(player, command);
         }
 
 

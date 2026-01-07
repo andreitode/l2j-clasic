@@ -388,7 +388,6 @@ public class HomeBoard implements IParseBoardHandler
 
             final ExEnchantSkillList esl = new ExEnchantSkillList(player, 0);
             returnHtml = esl.showHtmlWithNoNpc(player);
-            CommunityBoardHandler.separateAndSend(returnHtml, player);
         }
 
 

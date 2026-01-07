@@ -169,6 +169,70 @@ public class EnchantSkillList implements IBypassHandler
 		}
 		player.sendPacket(html);
 	}
+
+	public String showSkillDetailsWithNoNpc(Player player, int skillId, int routeId)
+    {
+//         player.sendMessage(command);
+//         String[] args = command.split(" ");
+//         int skillId = Integer.parseInt(args[1]);
+//         int routeId = Integer.parseInt(args[2]);
+
+        Skill skill = player.getKnownSkill(skillId);
+        if (skill == null)
+        {
+            player.sendMessage("Error");
+            return;
+        }
+
+        int subLevel = skill.getSubLevel();
+        String enchantLevel = getEnchantLevel(subLevel);
+
+        EnchantSkillHolder enchantSkillHolder = EnchantSkillGroupsData.getInstance().getEnchantSkillHolder(getSubLevel(subLevel) % 1000);
+        if (enchantSkillHolder == null)
+        {
+            player.sendMessage("No info found for this skill");
+            return;
+        }
+
+        String routeName = getRouteName(skillId, routeId);
+        String routeDescription = getRouteDescription(skillId, routeId);
+
+        String requiredItem = "<td align=left><img width=32 height=32 src=\"icon.etc_codex_of_giant_i00\"></td><td align=left>&nbsp;Secret Book of Giants X 1</td>";
+
+        long currentSP = player.getSp();
+        long remainingExp = player.getExp();
+        long requiredExp = player.getStat().getExpForLevel(player.getLevel());
+        long currentEXP = (remainingExp - requiredExp);
+        long chance = enchantSkillHolder.getLevelChance(SkillEnchantType.NORMAL, player.getLevel());
+        long requiredEXP = enchantSkillHolder.getRequiredExp(SkillEnchantType.NORMAL);
+        long requiredSP = enchantSkillHolder.getSp(SkillEnchantType.NORMAL);
+
+
+	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_details.html");
+        returnHtml = returnHtml.setFile(player, "data/html/trainer/EnchantSkillDetails.htm");
+        returnHtml = returnHtml.replace("%skillId%", skillId);
+        returnHtml = returnHtml.replace("%skillIcon%", skill.getIcon());
+        returnHtml = returnHtml.replace("%skillName%", skill.getName());
+        returnHtml = returnHtml.replace("%enchantLevel%", enchantLevel);
+        returnHtml = returnHtml.replace("%routeName%", routeName);
+        returnHtml = returnHtml.replace("%currentExp%", currentEXP);
+        returnHtml = returnHtml.replace("%currentSp%", currentSP);
+        returnHtml = returnHtml.replace("%chance%", chance);
+        returnHtml = returnHtml.replace("%requiredExp%", requiredEXP);
+        returnHtml = returnHtml.replace("%requiredSp%", requiredSP);
+        returnHtml = returnHtml.replace("%skillenchantdescription%", routeDescription);
+        if (subLevel == 0)
+        {
+
+            returnHtml.replace("%requiredItem%", requiredItem);
+        }
+        else
+        {
+            returnHtml.replace("%requiredItem%", " ");
+        }
+
+        return returnHtml;
+    }
 	
 	private String getEnchantLevel(int subLevel)
 	{

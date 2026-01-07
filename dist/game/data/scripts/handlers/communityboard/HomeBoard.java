@@ -71,6 +71,9 @@ import org.classiclude.gameserver.network.serverpackets.ExShowVariationCancelWin
 import org.classiclude.gameserver.network.serverpackets.ExShowVariationMakeWindow;
 
 import org.classiclude.gameserver.network.serverpackets.ExEnchantSkillList;
+import handlers.bypasshandlers.EnchantSkillList;
+
+
 /**
  * Home board.
  * @author Zoey76, Mobius
@@ -386,8 +389,13 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsskillenchant")) {
             player.sendMessage("enchant skill page after click on it");
 
-            final ExEnchantSkillList esl = new ExEnchantSkillList(player, 0);
-            returnHtml = esl.showHtmlWithNoNpc(player);
+            final ExEnchantSkillList exsl = new ExEnchantSkillList(player, 0);
+            returnHtml = exsl.showHtmlWithNoNpc(player);
+        } else if (baseCommand.equals("_bbsskillenchantspecific")) {
+            player.sendMessage("enchant page specific");
+            player.sendMessage(command);
+            final EnchantSkillList esl = new EnchantSkillList();
+            returnHtml = esl.showSkillDetailsWithNoNpc(player, 19, 1001 );
         }
 
 

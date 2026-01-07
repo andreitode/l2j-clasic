@@ -181,7 +181,7 @@ public class EnchantSkillList implements IBypassHandler
         if (skill == null)
         {
             player.sendMessage("Error");
-            return;
+            return null;
         }
 
         int subLevel = skill.getSubLevel();
@@ -191,7 +191,7 @@ public class EnchantSkillList implements IBypassHandler
         if (enchantSkillHolder == null)
         {
             player.sendMessage("No info found for this skill");
-            return;
+            return null;
         }
 
         String routeName = getRouteName(skillId, routeId);
@@ -222,6 +222,7 @@ public class EnchantSkillList implements IBypassHandler
         returnHtml = returnHtml.replace("%requiredExp%", requiredEXP);
         returnHtml = returnHtml.replace("%requiredSp%", requiredSP);
         returnHtml = returnHtml.replace("%skillenchantdescription%", routeDescription);
+
         if (subLevel == 0)
         {
 

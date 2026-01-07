@@ -79,10 +79,10 @@ public class ExEnchantSkillList
 	public String showHtmlWithNoNpc(Player player)
 	{
         String returnHtml = null;
-	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill.html");
+	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_list.html");
 // 	    returnHtml = returnHtml.replace("%objectId%", npc.getObjectId());
         returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtml(player));
-//         returnHtml = returnHtml.replace("%paging%", getPagingHtml(player, npc));
+        returnHtml = returnHtml.replace("%paging%", getPagingHtmlNoNpc(player, npc));
 
        return returnHtml;
 	}
@@ -220,4 +220,30 @@ public class ExEnchantSkillList
 		}
 		return sb.toString();
 	}
+
+	private String getPagingHtmlWithNoNpc(Player player)
+    	{
+    		StringBuilder sb = new StringBuilder();
+    		int totalPages = (_skills.size() / SKILLS_PER_PAGE) + ((_skills.size() % SKILLS_PER_PAGE) > 0 ? 1 : 0);
+
+    		if (totalPages > 1)
+    		{
+    			sb.append("<center><table><tr>");
+    			for (int i = 0; i < totalPages; i++)
+    			{
+    				String bypassCommand = "bypass -h EnchantSkillList showEnchantPage " + i;
+
+    				if (i == _page)
+    				{
+    					sb.append("<td align=center width=30><font color=\"LEVEL\">[").append(i + 1).append("]</font></td>");
+    				}
+    				else
+    				{
+    					sb.append("<td align=center width=30><a action=\"").append(bypassCommand).append("\">[").append(i + 1).append("]</a></td>");
+    				}
+    			}
+    			sb.append("</tr></table></center>");
+    		}
+    		return sb.toString();
+    	}
 }

@@ -96,7 +96,7 @@ public class HomeBoard implements IParseBoardHandler
 		Config.COMMUNITYBOARD_ENABLE_BUFFS ? "_bbsbuff" : null,
 		Config.COMMUNITYBOARD_ENABLE_HEAL ? "_bbsheal" : null,
 		Config.COMMUNITYBOARD_ENABLE_AUGMENT ? "_bbsaugment" : null,
-		Config.COMMUNITYBOARD_ENABLE_SKILL_ENCHANT ? "_bbsskillenchant" : null,
+		Config.COMMUNITYBOARD_ENABLE_SKILL_ENCHANT ? "_bbsskill" : null,
 	};
 
 	private static final int PAGE_LIMIT = 6;
@@ -378,10 +378,14 @@ public class HomeBoard implements IParseBoardHandler
                 player.sendPacket(ExShowVariationCancelWindow.STATIC_PACKET);
             }
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/augment/main.html");
-        } else if (baseCommand.equals("_bbsskillenchant")) {
+        } else if (baseCommand.equals("_bbsskill")) {
             player.sendMessage("enchant skill page");
 
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/main.html");
+        } else if (baseCommand.equals("_bbsskillenchant")) {
+            player.sendMessage("enchant skill page after click on it");
+
+            returnHtml = HtmCache.getInstance().getHtm(player, "data/html/trainer/ExEnchantSkillList.htm");
         }
 
 		if (returnHtml != null)

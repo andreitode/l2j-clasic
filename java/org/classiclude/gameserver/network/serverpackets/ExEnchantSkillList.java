@@ -10,6 +10,8 @@ import org.classiclude.gameserver.model.actor.Npc;
 import org.classiclude.gameserver.model.actor.Player;
 import org.classiclude.gameserver.model.skill.Skill;
 
+import org.classiclude.gameserver.cache.HtmCache;
+
 /**
  * @author Naker
  */
@@ -72,6 +74,18 @@ public class ExEnchantSkillList
 		html.replace("%skill_enchant_list%", getSkillEnchantListHtml(player));
 		html.replace("%paging%", getPagingHtml(player, npc));
 		player.sendPacket(html);
+	}
+
+	public void showHtmlWithNoNpc(player player)
+	{
+        String returnHtml = null;
+	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/main.html");
+	    returnHtml = returnHtml.replace("%objectId%", npc.getObjectId());
+        returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtml(player));
+        returnHtml = returnHtml.replace("%paging%", getPagingHtml(player, npc));
+
+        player.sendPacket(returnHtml);
+
 	}
 	
 	private static class SkillEnchantEntry

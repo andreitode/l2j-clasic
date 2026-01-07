@@ -386,8 +386,8 @@ public class HomeBoard implements IParseBoardHandler
         } else if (baseCommand.equals("_bbsskillenchant")) {
             player.sendMessage("enchant skill page after click on it");
 
-		final ExEnchantSkillList esl = new ExEnchantSkillList(player, 0);
-        esl.showHtml(player, 30691);
+            final ExEnchantSkillList esl = new ExEnchantSkillList(player, 0);
+            esl.showHtmlWithNoNpc(player);
         }
 
 

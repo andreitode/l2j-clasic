@@ -105,7 +105,7 @@ public final class CommunityBoard
             btn = btn.replace("%text%", "Skill Enchant");
             btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_Reward_Down");
             btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_Reward");
-            btn = btn.replace("%action%", "bypass _bbsskillenchant");
+            btn = btn.replace("%action%", "bypass _bbsskill");
 
             buttons.add(btn);
         }

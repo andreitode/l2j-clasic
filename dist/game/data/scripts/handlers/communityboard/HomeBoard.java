@@ -79,7 +79,11 @@ public class HomeBoard implements IParseBoardHandler
 	// SQL Queries
 	private static final String COUNT_FAVORITES = "SELECT COUNT(*) AS favorites FROM `bbs_favorites` WHERE `playerId`=?";
 	private static final String NAVIGATION_PATH = "data/html/CommunityBoard/Custom/navigation.html";
-	
+
+	private static final int SKILLS_PER_PAGE = 10;
+    private final int _skillsPage;
+    private final List<SkillEnchantEntry> _skills = new ArrayList<>();
+
 	private static final String[] COMMANDS =
 	{
 		"_bbshome",
@@ -384,8 +388,10 @@ public class HomeBoard implements IParseBoardHandler
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/main.html");
         } else if (baseCommand.equals("_bbsskillenchant")) {
             player.sendMessage("enchant skill page after click on it");
-
             returnHtml = HtmCache.getInstance().getHtm(player, "data/html/trainer/ExEnchantSkillList.htm");
+            returnHtml = returnHtml.replace("%objectId%", npc.getObjectId());
+            returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtml(player));
+            returnHtml = returnHtml.replace("%paging%", getPagingHtml(player));
         }
 
 		if (returnHtml != null)
@@ -398,6 +404,69 @@ public class HomeBoard implements IParseBoardHandler
 		}
 		return false;
 	}
+
+    private static String getSkillEnchantListHtml(Player player)
+    {
+        StringBuilder sb = new StringBuilder();
+        int startIndex = _skillsPage * SKILLS_PER_PAGE;
+        int endIndex = Math.min(startIndex + SKILLS_PER_PAGE, _skills.size());
+
+        if (_skills.isEmpty())
+        {
+            sb.append("<tr><td>There are no skills to enchant.</td></tr>");
+        }
+        else
+        {
+            sb.append("<table border=0 cellspacing=0 cellpadding=0 width=292 height=316>");
+            for (int i = startIndex; i < endIndex; i++)
+            {
+                SkillEnchantEntry entry = _skills.get(i);
+                sb.append("<tr>");
+                sb.append("<td align=center>");
+                sb.append("<a action=\"bypass -h npc_").append(player.getTargetId()).append("_showSkillDetails ").append(entry.getSkillId()).append(" ").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+                sb.append("<img src=\"").append(entry.getSkillIcon(player)).append("\" width=32 height=32 style=\"border: 1px solid white;\">");
+                sb.append("</a>");
+                sb.append("</td>");
+                sb.append("<td width=200>");
+                sb.append("<a action=\"bypass -h npc_").append(player.getTargetId()).append("_showSkillDetails ").append(entry.getSkillId()).append(" ").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+                sb.append(entry.getSkillName(player));
+                sb.append("<br1><font color=\"b09979\">").append(entry.getEnchantlvl(player)).append("</font>&nbsp;");
+                sb.append("<font color=\"b09979\">").append(entry.getEnchantRouteName(player)).append("</font>");
+                sb.append("</a>");
+                sb.append("</td>");
+                sb.append("</tr>");
+            }
+            sb.append("</table>");
+        }
+        return sb.toString();
+    }
+
+    private String getPagingHtml(Player player)
+    {
+        StringBuilder sb = new StringBuilder();
+        int totalPages = (_skills.size() / SKILLS_PER_PAGE) + ((_skills.size() % SKILLS_PER_PAGE) > 0 ? 1 : 0);
+
+        if (totalPages > 1)
+        {
+            sb.append("<center><table><tr>");
+            for (int i = 0; i < totalPages; i++)
+            {
+                String bypassCommand = "bypass -h EnchantSkillList showEnchantPage " + i;
+
+                if (i == _page)
+                {
+                    sb.append("<td align=center width=30><font color=\"LEVEL\">[").append(i + 1).append("]</font></td>");
+                }
+                else
+                {
+                    sb.append("<td align=center width=30><a action=\"").append(bypassCommand).append("\">[").append(i + 1).append("]</a></td>");
+                }
+            }
+            sb.append("</tr></table></center>");
+        }
+        return sb.toString();
+    }
+
 
     private static String handleEdit(Player player, String groupType, String schemeName, int page)
     {

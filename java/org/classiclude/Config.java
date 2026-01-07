@@ -1308,6 +1308,7 @@ public class Config
 	public static boolean COMMUNITYBOARD_ENABLE_BUFFS;
 	public static boolean COMMUNITYBOARD_ENABLE_HEAL;
 	public static boolean COMMUNITYBOARD_ENABLE_AUGMENT;
+	public static boolean COMMUNITYBOARD_ENABLE_SKILL_ENCHANT;
 	public static int COMMUNITYBOARD_TELEPORT_PRICE;
 	public static int COMMUNITYBOARD_BUFF_PRICE;
 	public static int COMMUNITYBOARD_HEAL_PRICE;
@@ -3346,6 +3347,7 @@ public class Config
 			COMMUNITYBOARD_ENABLE_BUFFS = communityBoardConfig.getBoolean("CommunityEnableBuffs", true);
 			COMMUNITYBOARD_ENABLE_HEAL = communityBoardConfig.getBoolean("CommunityEnableHeal", true);
 			COMMUNITYBOARD_ENABLE_AUGMENT = communityBoardConfig.getBoolean("CommunityEnableAugment", true);
+			COMMUNITYBOARD_ENABLE_SKILL_ENCHANT = communityBoardConfig.getBoolean("CommunityEnableSkillEnchant", true);
 			COMMUNITYBOARD_TELEPORT_PRICE = communityBoardConfig.getInt("CommunityTeleportPrice", 0);
 			COMMUNITYBOARD_BUFF_PRICE = communityBoardConfig.getInt("CommunityBuffPrice", 0);
 			COMMUNITYBOARD_HEAL_PRICE = communityBoardConfig.getInt("CommunityHealPrice", 0);

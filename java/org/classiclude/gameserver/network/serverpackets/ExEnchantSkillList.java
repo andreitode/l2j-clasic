@@ -81,8 +81,8 @@ public class ExEnchantSkillList
         String returnHtml = null;
 	    returnHtml = HtmCache.getInstance().getHtm(player, "data/html/CommunityBoard/Custom/skillenchant/skill_list.html");
 // 	    returnHtml = returnHtml.replace("%objectId%", npc.getObjectId());
-        returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtml(player));
-        returnHtml = returnHtml.replace("%paging%", getPagingHtmlWithNoNpc(player));
+        returnHtml = returnHtml.replace("%skill_enchant_list%", getSkillEnchantListHtmlWithNoNpc(player));
+        returnHtml = returnHtml.replace("%paging%", getPagingHtmlWNoNpc(player));
 
        return returnHtml;
 	}
@@ -177,12 +177,12 @@ public class ExEnchantSkillList
 				SkillEnchantEntry entry = _skills.get(i);
 				sb.append("<tr>");
 				sb.append("<td align=center>");
-				sb.append("<a action=\"bypass _bbsskillenchantspecific ").append(entry.getSkillId()).append(" ").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+				sb.append("<a action=\"bypass -h npc_").append(player.getTargetId()).append("_showSkillDetails ").append(entry.getSkillId()).append(" ").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
 				sb.append("<img src=\"").append(entry.getSkillIcon(player)).append("\" width=32 height=32 style=\"border: 1px solid white;\">");
 				sb.append("</a>");
 				sb.append("</td>");
 				sb.append("<td width=200>");
-				sb.append("<a action=\"bypass _bbsskillenchantspecific ").append(entry.getSkillId()).append(" ").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+				sb.append("<a action=\"bypass -h npc_").append(player.getTargetId()).append("_showSkillDetails ").append(entry.getSkillId()).append(" ").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
 				sb.append(entry.getSkillName(player));
 				sb.append("<br1><font color=\"b09979\">").append(entry.getEnchantlvl(player)).append("</font>&nbsp;");
 				sb.append("<font color=\"b09979\">").append(entry.getEnchantRouteName(player)).append("</font>");
@@ -194,7 +194,43 @@ public class ExEnchantSkillList
 		}
 		return sb.toString();
 	}
-	
+
+	private String getSkillEnchantListHtmlWithNoNpc(Player player)
+    	{
+    		StringBuilder sb = new StringBuilder();
+    		int startIndex = _page * SKILLS_PER_PAGE;
+    		int endIndex = Math.min(startIndex + SKILLS_PER_PAGE, _skills.size());
+
+    		if (_skills.isEmpty())
+    		{
+    			sb.append("<tr><td>No tienes habilidades encantables.</td></tr>");
+    		}
+    		else
+    		{
+    			sb.append("<table border=0 cellspacing=0 cellpadding=0 width=292 height=316>");
+    			for (int i = startIndex; i < endIndex; i++)
+    			{
+    				SkillEnchantEntry entry = _skills.get(i);
+    				sb.append("<tr>");
+    				sb.append("<td align=center>");
+    				sb.append("<a action=\"bypass _bbsskillenchantspecific;").append(entry.getSkillId()).append(";").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+    				sb.append("<img src=\"").append(entry.getSkillIcon(player)).append("\" width=32 height=32 style=\"border: 1px solid white;\">");
+    				sb.append("</a>");
+    				sb.append("</td>");
+    				sb.append("<td width=200>");
+    				sb.append("<a action=\"bypass _bbsskillenchantspecific;").append(entry.getSkillId()).append(";").append(entry.getRouteId()).append("\">"); // Incluir routeId en el bypass
+    				sb.append(entry.getSkillName(player));
+    				sb.append("<br1><font color=\"b09979\">").append(entry.getEnchantlvl(player)).append("</font>&nbsp;");
+    				sb.append("<font color=\"b09979\">").append(entry.getEnchantRouteName(player)).append("</font>");
+    				sb.append("</a>");
+    				sb.append("</td>");
+    				sb.append("</tr>");
+    			}
+    			sb.append("</table>");
+    		}
+    		return sb.toString();
+    	}
+
 	private String getPagingHtml(Player player, Npc npc)
 	{
 		StringBuilder sb = new StringBuilder();

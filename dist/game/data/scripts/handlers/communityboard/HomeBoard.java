@@ -401,8 +401,6 @@ public class HomeBoard implements IParseBoardHandler
         }
 
 
-
-
 //         default thing
 		if (returnHtml != null)
 		{

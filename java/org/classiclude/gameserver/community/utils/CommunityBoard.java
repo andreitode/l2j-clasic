@@ -76,25 +76,26 @@ public final class CommunityBoard
         btn = btn.replace("%action%", "bypass _bbstop;dropsearch/main.html");
         buttons.add(btn);
 
-        if (Config.COMMUNITYBOARD_ENABLE_SKILL_ENCHANT)
+        if (Config.COMMUNITYBOARD_ENABLE_VOTE)
         {
         	btn = links_template;
 
-        	btn = btn.replace("%text%", "Skill Enchant");
+        	btn = btn.replace("%text%", "Vote");
         	btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_Reward_Down");
         	btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_Reward");
-            btn = btn.replace("%action%", "bypass _bbsskillenchant");
+            btn = btn.replace("%action%", "bypass _bbsvote");
         	buttons.add(btn);
         }
 
-        if (Config.Com)
+        if (Config.COMMUNITYBOARD_ENABLE_SKILL_ENCHANT)
         {
             btn = links_template;
 
-            btn = btn.replace("%text%", "Augment");
+            btn = btn.replace("%text%", "Skill Enchant");
             btn = btn.replace("%iconBack%", "L2UI_CT1.OlympiadWnd_DF_Reward_Down");
             btn = btn.replace("%iconFore%", "L2UI_CT1.OlympiadWnd_DF_Reward");
-            btn = btn.replace("%action%", "bypass _bbsaugment");
+            btn = btn.replace("%action%", "bypass _bbsskillenchant");
+
             buttons.add(btn);
         }
 		for (String button : buttons)

@@ -178,7 +178,7 @@ public class EnchantSkillList implements IBypassHandler
         int skillId = Integer.parseInt(args[1]);
         int routeId = Integer.parseInt(args[2]);
 
-        player.sendMessage('line 181 in showSkillDetailsWithNoNpc');
+        player.sendMessage("line 181 in showSkillDetailsWithNoNpc");
         player.sendMessage(String.valueOf(skillId));
         player.sendMessage(String.valueOf(routeId));
         Skill skill = player.getKnownSkill(skillId);
